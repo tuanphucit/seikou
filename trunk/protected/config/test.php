@@ -1,0 +1,28 @@
+<?php
+
+return CMap::mergeArray(
+	require(dirname(__FILE__).'/main.php'),
+	array(
+		// preloading 'log' component
+		'preload'=>array('log'),
+		'components'=>array(
+			'fixture'=>array(
+				'class'=>'system.test.CDbFixtureManager',
+			),
+			'log'=>array(
+				'class'=>'CLogRouter',
+				'routes'=>array(
+					//テストのためブラウザでひょうじする
+					array(
+						'class'=>'ext.yii-debug-toolbar.YiiDebugToolbarRoute',
+					),
+				),
+			),
+			/* uncomment the following to provide test database connection
+			'db'=>array(
+				'connectionString'=>'DSN for test database',
+			),
+			*/
+		),
+	)
+);
