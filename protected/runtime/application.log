@@ -1,0 +1,37 @@
+2012/03/09 12:23:13 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:23:13 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:23:13 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:23:14 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\rent\protected\views\layouts\column1.php (1)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (32)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:23:14 [trace] [system.CModule] Loading "user" application component
+in D:\xampp\htdocs\rent\protected\views\layouts\main.php (34)
+in D:\xampp\htdocs\rent\protected\views\layouts\column1.php (5)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (32)
+2012/03/09 12:23:14 [trace] [system.CModule] Loading "session" application component
+in D:\xampp\htdocs\rent\protected\views\layouts\main.php (34)
+in D:\xampp\htdocs\rent\protected\views\layouts\column1.php (5)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (32)
+2012/03/09 12:23:15 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\rent\protected\views\layouts\main.php (52)
+in D:\xampp\htdocs\rent\protected\views\layouts\column1.php (5)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (32)
+2012/03/09 12:23:15 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (32)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:24:30 [trace] [system.CModule] Loading "log" application component
+2012/03/09 12:24:30 [trace] [system.CModule] Loading "request" application component
+2012/03/09 12:24:30 [trace] [system.CModule] Loading "viewRenderer" application component
+2012/03/09 12:24:30 [trace] [system.CModule] Loading "db" application component
+2012/03/09 12:24:31 [trace] [system.db.CDbConnection] Opening DB connection
+2012/03/09 12:24:32 [trace] [system.CModule] Loading "clientScript" application component
+2012/03/09 12:24:32 [trace] [system.CModule] Loading "assetManager" application component
+2012/03/09 12:24:32 [trace] [system.CModule] Loading "urlManager" application component
+2012/03/09 12:24:32 [trace] [system.CModule] Loading "widgetFactory" application component
+2012/03/09 12:24:32 [trace] [system.CModule] Loading "user" application component
+2012/03/09 12:24:32 [trace] [system.CModule] Loading "session" application component
+2012/03/09 12:24:32 [trace] [system.CModule] Loading "coreMessages" application component
