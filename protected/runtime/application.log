@@ -35,3 +35,2816 @@ in D:\xampp\htdocs\rent\index.php (13)
 2012/03/09 12:24:32 [trace] [system.CModule] Loading "user" application component
 2012/03/09 12:24:32 [trace] [system.CModule] Loading "session" application component
 2012/03/09 12:24:32 [trace] [system.CModule] Loading "coreMessages" application component
+2012/03/09 12:48:31 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:48:31 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:48:31 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:48:31 [trace] [system.base.CModule] Loading "gii" module
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:48:32 [trace] [system.CModule] Loading "user" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:48:32 [trace] [system.CModule] Loading "session" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:48:32 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:48:32 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:48:32 [trace] [system.CModule] Loading "assetManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:48:32 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:48:37 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:48:37 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:48:37 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:48:37 [trace] [system.base.CModule] Loading "gii" module
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:48:37 [trace] [system.CModule] Loading "user" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:48:37 [trace] [system.CModule] Loading "session" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:48:38 [trace] [system.CModule] Loading "db" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:48:38 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:48:38 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:48:38 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:48:38 [trace] [system.db.CDbCommand] Querying SQL: SHOW TABLES
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:48:39 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `user`
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:48:41 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `user`
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:48:41 [trace] [system.CModule] Loading "assetManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:48:41 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:48:46 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:48:46 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:48:46 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:48:46 [trace] [system.base.CModule] Loading "gii" module
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:48:46 [trace] [system.CModule] Loading "user" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:48:46 [trace] [system.CModule] Loading "session" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:48:46 [trace] [system.CModule] Loading "db" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:48:46 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:48:46 [trace] [system.db.CDbCommand] Querying SQL: SHOW TABLES
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:48:46 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `user`
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:48:46 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `user`
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:48:47 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:48:47 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:48:47 [trace] [system.CModule] Loading "assetManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:48:47 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:48:48 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:48:48 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:48:48 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:48:48 [trace] [system.base.CModule] Loading "gii" module
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:48:48 [trace] [system.CModule] Loading "user" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:48:48 [trace] [system.CModule] Loading "session" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:48:48 [trace] [system.CModule] Loading "db" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:48:48 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:48:48 [trace] [system.db.CDbCommand] Querying SQL: SHOW TABLES
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:48:48 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `user`
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:48:48 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `user`
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:48:48 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:48:48 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:48:48 [trace] [system.CModule] Loading "assetManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:48:48 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:51:46 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:51:46 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:51:46 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:51:46 [trace] [system.CModule] Loading "user" application component
+in D:\xampp\htdocs\rent\protected\views\site\contact.php (10)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (66)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:51:46 [trace] [system.CModule] Loading "session" application component
+in D:\xampp\htdocs\rent\protected\views\site\contact.php (10)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (66)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:51:46 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\rent\protected\views\site\contact.php (30)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (66)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:51:46 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\rent\protected\views\site\contact.php (34)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (66)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:51:46 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\rent\protected\views\site\contact.php (64)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (66)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:51:46 [trace] [system.CModule] Loading "assetManager" application component
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (66)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:51:46 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:51:47 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:51:47 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:51:47 [trace] [system.CModule] Loading "session" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:51:48 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:51:48 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:51:48 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:51:48 [trace] [system.CModule] Loading "messages" application component
+in D:\xampp\htdocs\rent\protected\views\site\login.php (6)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:51:48 [error] [php] include(Html.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (D:\xampp\htdocs\framework\YiiBase.php:418)
+Stack trace:
+#0 D:\xampp\htdocs\rent\protected\views\site\login.php(11): spl_autoload_call()
+#1 D:\xampp\htdocs\framework\web\CBaseController.php(127): require()
+#2 D:\xampp\htdocs\framework\web\CBaseController.php(96): SiteController->renderInternal()
+#3 D:\xampp\htdocs\framework\web\CController.php(870): SiteController->renderFile()
+#4 D:\xampp\htdocs\framework\web\CController.php(783): SiteController->renderPartial()
+#5 D:\xampp\htdocs\rent\protected\controllers\SiteController.php(92): SiteController->render()
+#6 D:\xampp\htdocs\framework\web\actions\CInlineAction.php(50): SiteController->actionLogin()
+#7 D:\xampp\htdocs\framework\web\CController.php(309): CInlineAction->runWithParams()
+#8 D:\xampp\htdocs\framework\web\CController.php(287): SiteController->runAction()
+#9 D:\xampp\htdocs\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#10 D:\xampp\htdocs\framework\web\CWebApplication.php(276): SiteController->run()
+#11 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#12 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#13 D:\xampp\htdocs\rent\index.php(13): CWebApplication->run()
+REQUEST_URI=/rent/site/login
+in D:\xampp\htdocs\rent\protected\views\site\login.php (11)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:51:48 [trace] [system.CModule] Loading "errorHandler" application component
+in D:\xampp\htdocs\rent\protected\views\site\login.php (11)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:51:48 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\rent\protected\views\site\login.php (11)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:52:27 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:52:27 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:52:27 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:52:27 [trace] [system.CModule] Loading "messages" application component
+in D:\xampp\htdocs\rent\protected\views\site\login.php (6)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:52:27 [error] [php] include(Html.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (D:\xampp\htdocs\framework\YiiBase.php:418)
+Stack trace:
+#0 D:\xampp\htdocs\rent\protected\views\site\login.php(11): spl_autoload_call()
+#1 D:\xampp\htdocs\framework\web\CBaseController.php(127): require()
+#2 D:\xampp\htdocs\framework\web\CBaseController.php(96): SiteController->renderInternal()
+#3 D:\xampp\htdocs\framework\web\CController.php(870): SiteController->renderFile()
+#4 D:\xampp\htdocs\framework\web\CController.php(783): SiteController->renderPartial()
+#5 D:\xampp\htdocs\rent\protected\controllers\SiteController.php(92): SiteController->render()
+#6 D:\xampp\htdocs\framework\web\actions\CInlineAction.php(50): SiteController->actionLogin()
+#7 D:\xampp\htdocs\framework\web\CController.php(309): CInlineAction->runWithParams()
+#8 D:\xampp\htdocs\framework\web\CController.php(287): SiteController->runAction()
+#9 D:\xampp\htdocs\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#10 D:\xampp\htdocs\framework\web\CWebApplication.php(276): SiteController->run()
+#11 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#12 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#13 D:\xampp\htdocs\rent\index.php(13): CWebApplication->run()
+REQUEST_URI=/rent/site/login
+in D:\xampp\htdocs\rent\protected\views\site\login.php (11)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:52:27 [trace] [system.CModule] Loading "errorHandler" application component
+in D:\xampp\htdocs\rent\protected\views\site\login.php (11)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:52:27 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\rent\protected\views\site\login.php (11)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:52:29 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:52:29 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:52:29 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:52:29 [trace] [system.CModule] Loading "messages" application component
+in D:\xampp\htdocs\rent\protected\views\site\login.php (6)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:52:29 [error] [php] include(Html.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (D:\xampp\htdocs\framework\YiiBase.php:418)
+Stack trace:
+#0 D:\xampp\htdocs\rent\protected\views\site\login.php(11): spl_autoload_call()
+#1 D:\xampp\htdocs\framework\web\CBaseController.php(127): require()
+#2 D:\xampp\htdocs\framework\web\CBaseController.php(96): SiteController->renderInternal()
+#3 D:\xampp\htdocs\framework\web\CController.php(870): SiteController->renderFile()
+#4 D:\xampp\htdocs\framework\web\CController.php(783): SiteController->renderPartial()
+#5 D:\xampp\htdocs\rent\protected\controllers\SiteController.php(92): SiteController->render()
+#6 D:\xampp\htdocs\framework\web\actions\CInlineAction.php(50): SiteController->actionLogin()
+#7 D:\xampp\htdocs\framework\web\CController.php(309): CInlineAction->runWithParams()
+#8 D:\xampp\htdocs\framework\web\CController.php(287): SiteController->runAction()
+#9 D:\xampp\htdocs\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#10 D:\xampp\htdocs\framework\web\CWebApplication.php(276): SiteController->run()
+#11 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#12 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#13 D:\xampp\htdocs\rent\index.php(13): CWebApplication->run()
+REQUEST_URI=/rent/site/login
+in D:\xampp\htdocs\rent\protected\views\site\login.php (11)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:52:29 [trace] [system.CModule] Loading "errorHandler" application component
+in D:\xampp\htdocs\rent\protected\views\site\login.php (11)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:52:29 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\rent\protected\views\site\login.php (11)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:52:30 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:52:30 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:52:30 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:52:30 [trace] [system.CModule] Loading "messages" application component
+in D:\xampp\htdocs\rent\protected\views\site\login.php (6)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:52:30 [error] [php] include(Html.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (D:\xampp\htdocs\framework\YiiBase.php:418)
+Stack trace:
+#0 D:\xampp\htdocs\rent\protected\views\site\login.php(11): spl_autoload_call()
+#1 D:\xampp\htdocs\framework\web\CBaseController.php(127): require()
+#2 D:\xampp\htdocs\framework\web\CBaseController.php(96): SiteController->renderInternal()
+#3 D:\xampp\htdocs\framework\web\CController.php(870): SiteController->renderFile()
+#4 D:\xampp\htdocs\framework\web\CController.php(783): SiteController->renderPartial()
+#5 D:\xampp\htdocs\rent\protected\controllers\SiteController.php(92): SiteController->render()
+#6 D:\xampp\htdocs\framework\web\actions\CInlineAction.php(50): SiteController->actionLogin()
+#7 D:\xampp\htdocs\framework\web\CController.php(309): CInlineAction->runWithParams()
+#8 D:\xampp\htdocs\framework\web\CController.php(287): SiteController->runAction()
+#9 D:\xampp\htdocs\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#10 D:\xampp\htdocs\framework\web\CWebApplication.php(276): SiteController->run()
+#11 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#12 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#13 D:\xampp\htdocs\rent\index.php(13): CWebApplication->run()
+REQUEST_URI=/rent/site/login
+in D:\xampp\htdocs\rent\protected\views\site\login.php (11)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:52:30 [trace] [system.CModule] Loading "errorHandler" application component
+in D:\xampp\htdocs\rent\protected\views\site\login.php (11)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:52:30 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\rent\protected\views\site\login.php (11)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:52:32 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:52:32 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:52:32 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:52:32 [trace] [system.CModule] Loading "messages" application component
+in D:\xampp\htdocs\rent\protected\views\site\login.php (6)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:52:32 [error] [php] include(Html.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (D:\xampp\htdocs\framework\YiiBase.php:418)
+Stack trace:
+#0 D:\xampp\htdocs\rent\protected\views\site\login.php(11): spl_autoload_call()
+#1 D:\xampp\htdocs\framework\web\CBaseController.php(127): require()
+#2 D:\xampp\htdocs\framework\web\CBaseController.php(96): SiteController->renderInternal()
+#3 D:\xampp\htdocs\framework\web\CController.php(870): SiteController->renderFile()
+#4 D:\xampp\htdocs\framework\web\CController.php(783): SiteController->renderPartial()
+#5 D:\xampp\htdocs\rent\protected\controllers\SiteController.php(92): SiteController->render()
+#6 D:\xampp\htdocs\framework\web\actions\CInlineAction.php(50): SiteController->actionLogin()
+#7 D:\xampp\htdocs\framework\web\CController.php(309): CInlineAction->runWithParams()
+#8 D:\xampp\htdocs\framework\web\CController.php(287): SiteController->runAction()
+#9 D:\xampp\htdocs\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#10 D:\xampp\htdocs\framework\web\CWebApplication.php(276): SiteController->run()
+#11 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#12 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#13 D:\xampp\htdocs\rent\index.php(13): CWebApplication->run()
+REQUEST_URI=/rent/site/login
+in D:\xampp\htdocs\rent\protected\views\site\login.php (11)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:52:32 [trace] [system.CModule] Loading "errorHandler" application component
+in D:\xampp\htdocs\rent\protected\views\site\login.php (11)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:52:32 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\rent\protected\views\site\login.php (11)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:52:33 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:52:33 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:52:33 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:52:33 [trace] [system.CModule] Loading "messages" application component
+in D:\xampp\htdocs\rent\protected\views\site\login.php (6)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:52:33 [error] [php] include(Html.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (D:\xampp\htdocs\framework\YiiBase.php:418)
+Stack trace:
+#0 D:\xampp\htdocs\rent\protected\views\site\login.php(11): spl_autoload_call()
+#1 D:\xampp\htdocs\framework\web\CBaseController.php(127): require()
+#2 D:\xampp\htdocs\framework\web\CBaseController.php(96): SiteController->renderInternal()
+#3 D:\xampp\htdocs\framework\web\CController.php(870): SiteController->renderFile()
+#4 D:\xampp\htdocs\framework\web\CController.php(783): SiteController->renderPartial()
+#5 D:\xampp\htdocs\rent\protected\controllers\SiteController.php(92): SiteController->render()
+#6 D:\xampp\htdocs\framework\web\actions\CInlineAction.php(50): SiteController->actionLogin()
+#7 D:\xampp\htdocs\framework\web\CController.php(309): CInlineAction->runWithParams()
+#8 D:\xampp\htdocs\framework\web\CController.php(287): SiteController->runAction()
+#9 D:\xampp\htdocs\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#10 D:\xampp\htdocs\framework\web\CWebApplication.php(276): SiteController->run()
+#11 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#12 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#13 D:\xampp\htdocs\rent\index.php(13): CWebApplication->run()
+REQUEST_URI=/rent/site/login
+in D:\xampp\htdocs\rent\protected\views\site\login.php (11)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:52:33 [trace] [system.CModule] Loading "errorHandler" application component
+in D:\xampp\htdocs\rent\protected\views\site\login.php (11)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:52:33 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\rent\protected\views\site\login.php (11)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:52:39 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:52:39 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:52:39 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:52:39 [trace] [system.CModule] Loading "messages" application component
+in D:\xampp\htdocs\rent\protected\views\site\login.php (6)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:52:39 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\rent\protected\views\site\login.php (36)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:52:39 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\rent\protected\views\site\login.php (65)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:52:39 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\rent\protected\views\site\login.php (77)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:52:39 [trace] [system.CModule] Loading "user" application component
+in D:\xampp\htdocs\rent\protected\views\layouts\main.php (34)
+in D:\xampp\htdocs\rent\protected\views\layouts\column1.php (5)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+2012/03/09 12:52:39 [trace] [system.CModule] Loading "session" application component
+in D:\xampp\htdocs\rent\protected\views\layouts\main.php (34)
+in D:\xampp\htdocs\rent\protected\views\layouts\column1.php (5)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+2012/03/09 12:52:39 [trace] [system.CModule] Loading "assetManager" application component
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:52:39 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:52:39 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:52:39 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:52:39 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:52:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/admin/style.css".' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('css/admin/style...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\rent\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/rent/css/admin/style.css
+HTTP_REFERER=http://localhost/rent/site/login
+---
+2012/03/09 12:52:39 [trace] [system.CModule] Loading "errorHandler" application component
+2012/03/09 12:52:39 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\rent\protected\views\layouts\column1.php (1)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:52:39 [trace] [system.CModule] Loading "user" application component
+in D:\xampp\htdocs\rent\protected\views\layouts\main.php (34)
+in D:\xampp\htdocs\rent\protected\views\layouts\column1.php (5)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:52:39 [trace] [system.CModule] Loading "session" application component
+in D:\xampp\htdocs\rent\protected\views\layouts\main.php (34)
+in D:\xampp\htdocs\rent\protected\views\layouts\column1.php (5)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:52:39 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:52:39 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:52:39 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:52:39 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:52:39 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:52:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/admin/reset.css".' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('css/admin/reset...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\rent\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/rent/css/admin/reset.css
+HTTP_REFERER=http://localhost/rent/site/login
+---
+2012/03/09 12:52:39 [trace] [system.CModule] Loading "errorHandler" application component
+2012/03/09 12:52:39 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\rent\protected\views\layouts\column1.php (1)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:52:39 [trace] [system.CModule] Loading "user" application component
+in D:\xampp\htdocs\rent\protected\views\layouts\main.php (34)
+in D:\xampp\htdocs\rent\protected\views\layouts\column1.php (5)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:52:39 [trace] [system.CModule] Loading "session" application component
+in D:\xampp\htdocs\rent\protected\views\layouts\main.php (34)
+in D:\xampp\htdocs\rent\protected\views\layouts\column1.php (5)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:52:39 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:52:39 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:52:39 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:52:39 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:52:39 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:52:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/admin/invalid.css".' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('css/admin/inval...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\rent\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/rent/css/admin/invalid.css
+HTTP_REFERER=http://localhost/rent/site/login
+---
+2012/03/09 12:52:39 [trace] [system.CModule] Loading "errorHandler" application component
+2012/03/09 12:52:39 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\rent\protected\views\layouts\column1.php (1)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:52:39 [trace] [system.CModule] Loading "user" application component
+in D:\xampp\htdocs\rent\protected\views\layouts\main.php (34)
+in D:\xampp\htdocs\rent\protected\views\layouts\column1.php (5)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:52:39 [trace] [system.CModule] Loading "session" application component
+in D:\xampp\htdocs\rent\protected\views\layouts\main.php (34)
+in D:\xampp\htdocs\rent\protected\views\layouts\column1.php (5)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:52:39 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:52:39 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:52:39 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:52:39 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:52:39 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:52:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/admin/logo.png".' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('images/admin/lo...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\rent\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/rent/images/admin/logo.png
+HTTP_REFERER=http://localhost/rent/site/login
+---
+2012/03/09 12:52:39 [trace] [system.CModule] Loading "errorHandler" application component
+2012/03/09 12:52:39 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\rent\protected\views\layouts\column1.php (1)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:52:39 [trace] [system.CModule] Loading "user" application component
+in D:\xampp\htdocs\rent\protected\views\layouts\main.php (34)
+in D:\xampp\htdocs\rent\protected\views\layouts\column1.php (5)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:52:39 [trace] [system.CModule] Loading "session" application component
+in D:\xampp\htdocs\rent\protected\views\layouts\main.php (34)
+in D:\xampp\htdocs\rent\protected\views\layouts\column1.php (5)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:52:39 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:54:43 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:54:43 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:54:43 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:54:43 [trace] [system.CModule] Loading "messages" application component
+in D:\xampp\htdocs\rent\protected\views\site\login.php (6)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:54:43 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\rent\protected\views\site\login.php (36)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:54:43 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\rent\protected\views\site\login.php (65)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:54:43 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\rent\protected\views\site\login.php (77)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:54:43 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:54:43 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:54:43 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:54:43 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:54:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/admin/reset.css".' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('css/admin/reset...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\rent\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/rent/css/admin/reset.css
+HTTP_REFERER=http://localhost/rent/site/login
+---
+2012/03/09 12:54:43 [trace] [system.CModule] Loading "errorHandler" application component
+2012/03/09 12:54:43 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\rent\protected\views\layouts\column1.php (1)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:54:43 [trace] [system.CModule] Loading "user" application component
+in D:\xampp\htdocs\rent\protected\views\layouts\main.php (34)
+in D:\xampp\htdocs\rent\protected\views\layouts\column1.php (5)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:54:43 [trace] [system.CModule] Loading "session" application component
+in D:\xampp\htdocs\rent\protected\views\layouts\main.php (34)
+in D:\xampp\htdocs\rent\protected\views\layouts\column1.php (5)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:54:43 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:54:43 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:54:43 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:54:43 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:54:43 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:54:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/admin/invalid.css".' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('css/admin/inval...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\rent\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/rent/css/admin/invalid.css
+HTTP_REFERER=http://localhost/rent/site/login
+---
+2012/03/09 12:54:43 [trace] [system.CModule] Loading "errorHandler" application component
+2012/03/09 12:54:43 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\rent\protected\views\layouts\column1.php (1)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:54:43 [trace] [system.CModule] Loading "user" application component
+in D:\xampp\htdocs\rent\protected\views\layouts\main.php (34)
+in D:\xampp\htdocs\rent\protected\views\layouts\column1.php (5)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:54:43 [trace] [system.CModule] Loading "session" application component
+in D:\xampp\htdocs\rent\protected\views\layouts\main.php (34)
+in D:\xampp\htdocs\rent\protected\views\layouts\column1.php (5)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:54:44 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:54:43 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:54:43 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:54:43 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:54:43 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:54:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/admin/style.css".' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('css/admin/style...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\rent\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/rent/css/admin/style.css
+HTTP_REFERER=http://localhost/rent/site/login
+---
+2012/03/09 12:54:43 [trace] [system.CModule] Loading "errorHandler" application component
+2012/03/09 12:54:43 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\rent\protected\views\layouts\column1.php (1)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:54:43 [trace] [system.CModule] Loading "user" application component
+in D:\xampp\htdocs\rent\protected\views\layouts\main.php (34)
+in D:\xampp\htdocs\rent\protected\views\layouts\column1.php (5)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:54:43 [trace] [system.CModule] Loading "session" application component
+in D:\xampp\htdocs\rent\protected\views\layouts\main.php (34)
+in D:\xampp\htdocs\rent\protected\views\layouts\column1.php (5)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:54:44 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:54:43 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:54:43 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:54:43 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:54:43 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:54:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/admin/logo.png".' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('images/admin/lo...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\rent\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/rent/images/admin/logo.png
+HTTP_REFERER=http://localhost/rent/site/login
+---
+2012/03/09 12:54:43 [trace] [system.CModule] Loading "errorHandler" application component
+2012/03/09 12:54:44 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\rent\protected\views\layouts\column1.php (1)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:54:44 [trace] [system.CModule] Loading "user" application component
+in D:\xampp\htdocs\rent\protected\views\layouts\main.php (34)
+in D:\xampp\htdocs\rent\protected\views\layouts\column1.php (5)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:54:44 [trace] [system.CModule] Loading "session" application component
+in D:\xampp\htdocs\rent\protected\views\layouts\main.php (34)
+in D:\xampp\htdocs\rent\protected\views\layouts\column1.php (5)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:54:44 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:55:55 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:55:55 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:55:55 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:55:55 [trace] [system.CModule] Loading "messages" application component
+in D:\xampp\htdocs\rent\protected\views\site\login.php (6)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:55:55 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\rent\protected\views\site\login.php (36)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:55:55 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\rent\protected\views\site\login.php (65)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:55:55 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\rent\protected\views\site\login.php (77)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:55:56 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:55:56 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:55:56 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:55:56 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:55:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/admin/style.css".' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('css/admin/style...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\rent\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/rent/css/admin/style.css
+HTTP_REFERER=http://localhost/rent/site/login
+---
+2012/03/09 12:55:56 [trace] [system.CModule] Loading "errorHandler" application component
+2012/03/09 12:55:56 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\rent\protected\views\layouts\column1.php (1)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:55:56 [trace] [system.CModule] Loading "user" application component
+in D:\xampp\htdocs\rent\protected\views\layouts\main.php (34)
+in D:\xampp\htdocs\rent\protected\views\layouts\column1.php (5)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:55:56 [trace] [system.CModule] Loading "session" application component
+in D:\xampp\htdocs\rent\protected\views\layouts\main.php (34)
+in D:\xampp\htdocs\rent\protected\views\layouts\column1.php (5)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:55:56 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:55:56 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:55:56 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:55:56 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:55:56 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:55:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/admin/reset.css".' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('css/admin/reset...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\rent\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/rent/css/admin/reset.css
+HTTP_REFERER=http://localhost/rent/site/login
+---
+2012/03/09 12:55:56 [trace] [system.CModule] Loading "errorHandler" application component
+2012/03/09 12:55:56 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\rent\protected\views\layouts\column1.php (1)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:55:56 [trace] [system.CModule] Loading "user" application component
+in D:\xampp\htdocs\rent\protected\views\layouts\main.php (34)
+in D:\xampp\htdocs\rent\protected\views\layouts\column1.php (5)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:55:56 [trace] [system.CModule] Loading "session" application component
+in D:\xampp\htdocs\rent\protected\views\layouts\main.php (34)
+in D:\xampp\htdocs\rent\protected\views\layouts\column1.php (5)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:55:56 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:55:56 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:55:56 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:55:56 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:55:56 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:55:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/admin/invalid.css".' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('css/admin/inval...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\rent\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/rent/css/admin/invalid.css
+HTTP_REFERER=http://localhost/rent/site/login
+---
+2012/03/09 12:55:56 [trace] [system.CModule] Loading "errorHandler" application component
+2012/03/09 12:55:56 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\rent\protected\views\layouts\column1.php (1)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:55:56 [trace] [system.CModule] Loading "user" application component
+in D:\xampp\htdocs\rent\protected\views\layouts\main.php (34)
+in D:\xampp\htdocs\rent\protected\views\layouts\column1.php (5)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:55:56 [trace] [system.CModule] Loading "session" application component
+in D:\xampp\htdocs\rent\protected\views\layouts\main.php (34)
+in D:\xampp\htdocs\rent\protected\views\layouts\column1.php (5)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:55:56 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:55:56 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:55:56 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:55:56 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:55:56 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:55:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/admin/logo.png".' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('images/admin/lo...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\rent\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/rent/images/admin/logo.png
+HTTP_REFERER=http://localhost/rent/site/login
+---
+2012/03/09 12:55:56 [trace] [system.CModule] Loading "errorHandler" application component
+2012/03/09 12:55:56 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\rent\protected\views\layouts\column1.php (1)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:55:56 [trace] [system.CModule] Loading "user" application component
+in D:\xampp\htdocs\rent\protected\views\layouts\main.php (34)
+in D:\xampp\htdocs\rent\protected\views\layouts\column1.php (5)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:55:56 [trace] [system.CModule] Loading "session" application component
+in D:\xampp\htdocs\rent\protected\views\layouts\main.php (34)
+in D:\xampp\htdocs\rent\protected\views\layouts\column1.php (5)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:55:56 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:55:57 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:55:57 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:55:57 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:55:57 [trace] [system.CModule] Loading "messages" application component
+in D:\xampp\htdocs\rent\protected\views\site\login.php (6)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:55:57 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\rent\protected\views\site\login.php (36)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:55:57 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\rent\protected\views\site\login.php (65)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:55:57 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\rent\protected\views\site\login.php (77)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:55:57 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:55:57 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:55:57 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:55:57 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:55:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/admin/invalid.css".' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('css/admin/inval...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\rent\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/rent/css/admin/invalid.css
+HTTP_REFERER=http://localhost/rent/site/login
+---
+2012/03/09 12:55:57 [trace] [system.CModule] Loading "errorHandler" application component
+2012/03/09 12:55:57 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\rent\protected\views\layouts\column1.php (1)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:55:57 [trace] [system.CModule] Loading "user" application component
+in D:\xampp\htdocs\rent\protected\views\layouts\main.php (34)
+in D:\xampp\htdocs\rent\protected\views\layouts\column1.php (5)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:55:57 [trace] [system.CModule] Loading "session" application component
+in D:\xampp\htdocs\rent\protected\views\layouts\main.php (34)
+in D:\xampp\htdocs\rent\protected\views\layouts\column1.php (5)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:55:57 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:55:57 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:55:57 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:55:57 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:55:57 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:55:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/admin/reset.css".' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('css/admin/reset...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\rent\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/rent/css/admin/reset.css
+HTTP_REFERER=http://localhost/rent/site/login
+---
+2012/03/09 12:55:57 [trace] [system.CModule] Loading "errorHandler" application component
+2012/03/09 12:55:57 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\rent\protected\views\layouts\column1.php (1)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:55:57 [trace] [system.CModule] Loading "user" application component
+in D:\xampp\htdocs\rent\protected\views\layouts\main.php (34)
+in D:\xampp\htdocs\rent\protected\views\layouts\column1.php (5)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:55:57 [trace] [system.CModule] Loading "session" application component
+in D:\xampp\htdocs\rent\protected\views\layouts\main.php (34)
+in D:\xampp\htdocs\rent\protected\views\layouts\column1.php (5)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:55:57 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:55:57 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:55:57 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:55:57 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:55:57 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:55:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/admin/logo.png".' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('images/admin/lo...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\rent\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/rent/images/admin/logo.png
+HTTP_REFERER=http://localhost/rent/site/login
+---
+2012/03/09 12:55:57 [trace] [system.CModule] Loading "errorHandler" application component
+2012/03/09 12:55:57 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\rent\protected\views\layouts\column1.php (1)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:55:57 [trace] [system.CModule] Loading "user" application component
+in D:\xampp\htdocs\rent\protected\views\layouts\main.php (34)
+in D:\xampp\htdocs\rent\protected\views\layouts\column1.php (5)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:55:57 [trace] [system.CModule] Loading "session" application component
+in D:\xampp\htdocs\rent\protected\views\layouts\main.php (34)
+in D:\xampp\htdocs\rent\protected\views\layouts\column1.php (5)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:55:57 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:55:57 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:55:57 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:55:57 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:55:57 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:55:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/admin/style.css".' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('css/admin/style...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\rent\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/rent/css/admin/style.css
+HTTP_REFERER=http://localhost/rent/site/login
+---
+2012/03/09 12:55:57 [trace] [system.CModule] Loading "errorHandler" application component
+2012/03/09 12:55:57 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\rent\protected\views\layouts\column1.php (1)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:55:57 [trace] [system.CModule] Loading "user" application component
+in D:\xampp\htdocs\rent\protected\views\layouts\main.php (34)
+in D:\xampp\htdocs\rent\protected\views\layouts\column1.php (5)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:55:57 [trace] [system.CModule] Loading "session" application component
+in D:\xampp\htdocs\rent\protected\views\layouts\main.php (34)
+in D:\xampp\htdocs\rent\protected\views\layouts\column1.php (5)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:55:57 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:55:57 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:55:57 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:55:57 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:55:57 [trace] [system.CModule] Loading "messages" application component
+in D:\xampp\htdocs\rent\protected\views\site\login.php (6)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:55:57 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\rent\protected\views\site\login.php (36)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:55:57 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\rent\protected\views\site\login.php (65)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:55:57 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\rent\protected\views\site\login.php (77)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:55:57 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:55:57 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:55:57 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:55:57 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:55:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/admin/invalid.css".' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('css/admin/inval...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\rent\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/rent/css/admin/invalid.css
+HTTP_REFERER=http://localhost/rent/site/login
+---
+2012/03/09 12:55:57 [trace] [system.CModule] Loading "errorHandler" application component
+2012/03/09 12:55:57 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\rent\protected\views\layouts\column1.php (1)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:55:57 [trace] [system.CModule] Loading "user" application component
+in D:\xampp\htdocs\rent\protected\views\layouts\main.php (34)
+in D:\xampp\htdocs\rent\protected\views\layouts\column1.php (5)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:55:57 [trace] [system.CModule] Loading "session" application component
+in D:\xampp\htdocs\rent\protected\views\layouts\main.php (34)
+in D:\xampp\htdocs\rent\protected\views\layouts\column1.php (5)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:55:57 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:55:57 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:55:57 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:55:57 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:55:57 [trace] [system.CModule] Loading "messages" application component
+in D:\xampp\htdocs\rent\protected\views\site\login.php (6)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:55:57 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\rent\protected\views\site\login.php (36)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:55:57 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\rent\protected\views\site\login.php (65)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:55:57 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\rent\protected\views\site\login.php (77)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:55:57 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:55:57 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:55:57 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:55:57 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:55:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/admin/reset.css".' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('css/admin/reset...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\rent\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/rent/css/admin/reset.css
+HTTP_REFERER=http://localhost/rent/site/login
+---
+2012/03/09 12:55:57 [trace] [system.CModule] Loading "errorHandler" application component
+2012/03/09 12:55:57 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\rent\protected\views\layouts\column1.php (1)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:55:57 [trace] [system.CModule] Loading "user" application component
+in D:\xampp\htdocs\rent\protected\views\layouts\main.php (34)
+in D:\xampp\htdocs\rent\protected\views\layouts\column1.php (5)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:55:57 [trace] [system.CModule] Loading "session" application component
+in D:\xampp\htdocs\rent\protected\views\layouts\main.php (34)
+in D:\xampp\htdocs\rent\protected\views\layouts\column1.php (5)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:55:57 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:55:57 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:55:57 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:55:57 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:55:57 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:55:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/admin/style.css".' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('css/admin/style...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\rent\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/rent/css/admin/style.css
+HTTP_REFERER=http://localhost/rent/site/login
+---
+2012/03/09 12:55:57 [trace] [system.CModule] Loading "errorHandler" application component
+2012/03/09 12:55:57 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\rent\protected\views\layouts\column1.php (1)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:55:57 [trace] [system.CModule] Loading "user" application component
+in D:\xampp\htdocs\rent\protected\views\layouts\main.php (34)
+in D:\xampp\htdocs\rent\protected\views\layouts\column1.php (5)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:55:57 [trace] [system.CModule] Loading "session" application component
+in D:\xampp\htdocs\rent\protected\views\layouts\main.php (34)
+in D:\xampp\htdocs\rent\protected\views\layouts\column1.php (5)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:55:58 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:55:58 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:55:58 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:55:58 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:55:58 [trace] [system.CModule] Loading "messages" application component
+in D:\xampp\htdocs\rent\protected\views\site\login.php (6)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:55:58 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\rent\protected\views\site\login.php (36)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:55:58 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\rent\protected\views\site\login.php (65)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:55:58 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\rent\protected\views\site\login.php (77)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:55:57 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:55:57 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:55:57 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:55:57 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:55:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/admin/logo.png".' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('images/admin/lo...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\rent\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/rent/images/admin/logo.png
+HTTP_REFERER=http://localhost/rent/site/login
+---
+2012/03/09 12:55:57 [trace] [system.CModule] Loading "errorHandler" application component
+2012/03/09 12:55:57 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\rent\protected\views\layouts\column1.php (1)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:55:57 [trace] [system.CModule] Loading "user" application component
+in D:\xampp\htdocs\rent\protected\views\layouts\main.php (34)
+in D:\xampp\htdocs\rent\protected\views\layouts\column1.php (5)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:55:57 [trace] [system.CModule] Loading "session" application component
+in D:\xampp\htdocs\rent\protected\views\layouts\main.php (34)
+in D:\xampp\htdocs\rent\protected\views\layouts\column1.php (5)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:55:58 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:55:58 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:55:58 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:55:58 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:55:58 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:55:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/admin/reset.css".' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('css/admin/reset...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\rent\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/rent/css/admin/reset.css
+HTTP_REFERER=http://localhost/rent/site/login
+---
+2012/03/09 12:55:58 [trace] [system.CModule] Loading "errorHandler" application component
+2012/03/09 12:55:58 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\rent\protected\views\layouts\column1.php (1)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:55:58 [trace] [system.CModule] Loading "user" application component
+in D:\xampp\htdocs\rent\protected\views\layouts\main.php (34)
+in D:\xampp\htdocs\rent\protected\views\layouts\column1.php (5)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:55:58 [trace] [system.CModule] Loading "session" application component
+in D:\xampp\htdocs\rent\protected\views\layouts\main.php (34)
+in D:\xampp\htdocs\rent\protected\views\layouts\column1.php (5)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:55:58 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:55:58 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:55:58 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:55:58 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:55:58 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:55:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/admin/invalid.css".' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('css/admin/inval...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\rent\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/rent/css/admin/invalid.css
+HTTP_REFERER=http://localhost/rent/site/login
+---
+2012/03/09 12:55:58 [trace] [system.CModule] Loading "errorHandler" application component
+2012/03/09 12:55:58 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\rent\protected\views\layouts\column1.php (1)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:55:58 [trace] [system.CModule] Loading "user" application component
+in D:\xampp\htdocs\rent\protected\views\layouts\main.php (34)
+in D:\xampp\htdocs\rent\protected\views\layouts\column1.php (5)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:55:58 [trace] [system.CModule] Loading "session" application component
+in D:\xampp\htdocs\rent\protected\views\layouts\main.php (34)
+in D:\xampp\htdocs\rent\protected\views\layouts\column1.php (5)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:55:58 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:55:58 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:55:58 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:55:58 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:55:58 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:55:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/admin/style.css".' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('css/admin/style...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\rent\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/rent/css/admin/style.css
+HTTP_REFERER=http://localhost/rent/site/login
+---
+2012/03/09 12:55:58 [trace] [system.CModule] Loading "errorHandler" application component
+2012/03/09 12:55:58 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\rent\protected\views\layouts\column1.php (1)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:55:58 [trace] [system.CModule] Loading "user" application component
+in D:\xampp\htdocs\rent\protected\views\layouts\main.php (34)
+in D:\xampp\htdocs\rent\protected\views\layouts\column1.php (5)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:55:58 [trace] [system.CModule] Loading "session" application component
+in D:\xampp\htdocs\rent\protected\views\layouts\main.php (34)
+in D:\xampp\htdocs\rent\protected\views\layouts\column1.php (5)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:55:58 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:55:58 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:55:58 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:55:58 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:55:58 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:55:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/admin/logo.png".' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('images/admin/lo...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\rent\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/rent/images/admin/logo.png
+HTTP_REFERER=http://localhost/rent/site/login
+---
+2012/03/09 12:55:58 [trace] [system.CModule] Loading "errorHandler" application component
+2012/03/09 12:55:58 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\rent\protected\views\layouts\column1.php (1)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:55:58 [trace] [system.CModule] Loading "user" application component
+in D:\xampp\htdocs\rent\protected\views\layouts\main.php (34)
+in D:\xampp\htdocs\rent\protected\views\layouts\column1.php (5)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:55:58 [trace] [system.CModule] Loading "session" application component
+in D:\xampp\htdocs\rent\protected\views\layouts\main.php (34)
+in D:\xampp\htdocs\rent\protected\views\layouts\column1.php (5)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:55:58 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:55:58 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:55:58 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:55:58 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:55:58 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:55:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/admin/reset.css".' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('css/admin/reset...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\rent\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/rent/css/admin/reset.css
+HTTP_REFERER=http://localhost/rent/site/login
+---
+2012/03/09 12:55:58 [trace] [system.CModule] Loading "errorHandler" application component
+2012/03/09 12:55:58 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\rent\protected\views\layouts\column1.php (1)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:55:58 [trace] [system.CModule] Loading "user" application component
+in D:\xampp\htdocs\rent\protected\views\layouts\main.php (34)
+in D:\xampp\htdocs\rent\protected\views\layouts\column1.php (5)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:55:58 [trace] [system.CModule] Loading "session" application component
+in D:\xampp\htdocs\rent\protected\views\layouts\main.php (34)
+in D:\xampp\htdocs\rent\protected\views\layouts\column1.php (5)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:55:58 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:55:58 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:55:58 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:55:58 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:55:58 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:55:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/admin/invalid.css".' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('css/admin/inval...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\rent\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/rent/css/admin/invalid.css
+HTTP_REFERER=http://localhost/rent/site/login
+---
+2012/03/09 12:55:58 [trace] [system.CModule] Loading "errorHandler" application component
+2012/03/09 12:55:58 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\rent\protected\views\layouts\column1.php (1)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:55:58 [trace] [system.CModule] Loading "user" application component
+in D:\xampp\htdocs\rent\protected\views\layouts\main.php (34)
+in D:\xampp\htdocs\rent\protected\views\layouts\column1.php (5)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:55:58 [trace] [system.CModule] Loading "session" application component
+in D:\xampp\htdocs\rent\protected\views\layouts\main.php (34)
+in D:\xampp\htdocs\rent\protected\views\layouts\column1.php (5)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:55:59 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:55:58 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:55:58 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:55:58 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:55:58 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:55:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/admin/style.css".' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('css/admin/style...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\rent\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/rent/css/admin/style.css
+HTTP_REFERER=http://localhost/rent/site/login
+---
+2012/03/09 12:55:58 [trace] [system.CModule] Loading "errorHandler" application component
+2012/03/09 12:55:58 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\rent\protected\views\layouts\column1.php (1)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:55:58 [trace] [system.CModule] Loading "user" application component
+in D:\xampp\htdocs\rent\protected\views\layouts\main.php (34)
+in D:\xampp\htdocs\rent\protected\views\layouts\column1.php (5)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:55:58 [trace] [system.CModule] Loading "session" application component
+in D:\xampp\htdocs\rent\protected\views\layouts\main.php (34)
+in D:\xampp\htdocs\rent\protected\views\layouts\column1.php (5)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:55:59 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:55:58 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:55:58 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:55:58 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:55:58 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:55:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/admin/logo.png".' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('images/admin/lo...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\rent\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/rent/images/admin/logo.png
+HTTP_REFERER=http://localhost/rent/site/login
+---
+2012/03/09 12:55:58 [trace] [system.CModule] Loading "errorHandler" application component
+2012/03/09 12:55:58 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\rent\protected\views\layouts\column1.php (1)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:55:58 [trace] [system.CModule] Loading "user" application component
+in D:\xampp\htdocs\rent\protected\views\layouts\main.php (34)
+in D:\xampp\htdocs\rent\protected\views\layouts\column1.php (5)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:55:58 [trace] [system.CModule] Loading "session" application component
+in D:\xampp\htdocs\rent\protected\views\layouts\main.php (34)
+in D:\xampp\htdocs\rent\protected\views\layouts\column1.php (5)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:55:59 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:56:04 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:56:04 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:56:04 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:56:04 [trace] [system.CModule] Loading "messages" application component
+in D:\xampp\htdocs\rent\protected\views\site\login.php (6)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:56:04 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\rent\protected\views\site\login.php (36)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:56:04 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\rent\protected\views\site\login.php (65)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:56:04 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\rent\protected\views\site\login.php (77)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:56:05 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:56:05 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:56:05 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:56:05 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:56:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/admin/invalid.css".' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('css/admin/inval...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\rent\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/rent/css/admin/invalid.css
+HTTP_REFERER=http://localhost/rent/site/login
+---
+2012/03/09 12:56:05 [trace] [system.CModule] Loading "errorHandler" application component
+2012/03/09 12:56:05 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\rent\protected\views\layouts\column1.php (1)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:56:05 [trace] [system.CModule] Loading "user" application component
+in D:\xampp\htdocs\rent\protected\views\layouts\main.php (34)
+in D:\xampp\htdocs\rent\protected\views\layouts\column1.php (5)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:56:05 [trace] [system.CModule] Loading "session" application component
+in D:\xampp\htdocs\rent\protected\views\layouts\main.php (34)
+in D:\xampp\htdocs\rent\protected\views\layouts\column1.php (5)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:56:05 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:56:05 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:56:05 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:56:05 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:56:05 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:56:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/admin/reset.css".' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('css/admin/reset...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\rent\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/rent/css/admin/reset.css
+HTTP_REFERER=http://localhost/rent/site/login
+---
+2012/03/09 12:56:05 [trace] [system.CModule] Loading "errorHandler" application component
+2012/03/09 12:56:05 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\rent\protected\views\layouts\column1.php (1)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:56:05 [trace] [system.CModule] Loading "user" application component
+in D:\xampp\htdocs\rent\protected\views\layouts\main.php (34)
+in D:\xampp\htdocs\rent\protected\views\layouts\column1.php (5)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:56:05 [trace] [system.CModule] Loading "session" application component
+in D:\xampp\htdocs\rent\protected\views\layouts\main.php (34)
+in D:\xampp\htdocs\rent\protected\views\layouts\column1.php (5)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:56:05 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:56:05 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:56:05 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:56:05 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:56:05 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:56:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/admin/style.css".' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('css/admin/style...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\rent\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/rent/css/admin/style.css
+HTTP_REFERER=http://localhost/rent/site/login
+---
+2012/03/09 12:56:05 [trace] [system.CModule] Loading "errorHandler" application component
+2012/03/09 12:56:05 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\rent\protected\views\layouts\column1.php (1)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:56:05 [trace] [system.CModule] Loading "user" application component
+in D:\xampp\htdocs\rent\protected\views\layouts\main.php (34)
+in D:\xampp\htdocs\rent\protected\views\layouts\column1.php (5)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:56:05 [trace] [system.CModule] Loading "session" application component
+in D:\xampp\htdocs\rent\protected\views\layouts\main.php (34)
+in D:\xampp\htdocs\rent\protected\views\layouts\column1.php (5)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:56:05 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:56:05 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:56:05 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:56:05 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:56:05 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:56:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/admin/logo.png".' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('images/admin/lo...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\rent\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/rent/images/admin/logo.png
+HTTP_REFERER=http://localhost/rent/site/login
+---
+2012/03/09 12:56:05 [trace] [system.CModule] Loading "errorHandler" application component
+2012/03/09 12:56:05 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\rent\protected\views\layouts\column1.php (1)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:56:05 [trace] [system.CModule] Loading "user" application component
+in D:\xampp\htdocs\rent\protected\views\layouts\main.php (34)
+in D:\xampp\htdocs\rent\protected\views\layouts\column1.php (5)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:56:05 [trace] [system.CModule] Loading "session" application component
+in D:\xampp\htdocs\rent\protected\views\layouts\main.php (34)
+in D:\xampp\htdocs\rent\protected\views\layouts\column1.php (5)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:56:05 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:57:03 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:57:03 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:57:03 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:57:03 [trace] [system.CModule] Loading "messages" application component
+in D:\xampp\htdocs\rent\protected\views\site\login.php (6)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:57:03 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\rent\protected\views\site\login.php (36)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:57:03 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\rent\protected\views\site\login.php (65)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:57:03 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\rent\protected\views\site\login.php (77)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:57:03 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:57:03 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:57:03 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:57:03 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:57:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/admin/logo.png".' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('images/admin/lo...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\rent\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/rent/images/admin/logo.png
+HTTP_REFERER=http://localhost/rent/site/login
+---
+2012/03/09 12:57:03 [trace] [system.CModule] Loading "errorHandler" application component
+2012/03/09 12:57:03 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\rent\protected\views\layouts\column1.php (1)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:57:03 [trace] [system.CModule] Loading "user" application component
+in D:\xampp\htdocs\rent\protected\views\layouts\main.php (34)
+in D:\xampp\htdocs\rent\protected\views\layouts\column1.php (5)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:57:03 [trace] [system.CModule] Loading "session" application component
+in D:\xampp\htdocs\rent\protected\views\layouts\main.php (34)
+in D:\xampp\htdocs\rent\protected\views\layouts\column1.php (5)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:57:03 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/09 12:57:30 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:57:30 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:57:30 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:57:30 [trace] [system.CModule] Loading "messages" application component
+in D:\xampp\htdocs\rent\protected\views\site\login.php (6)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:57:30 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\rent\protected\views\site\login.php (36)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:57:30 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\rent\protected\views\site\login.php (65)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:57:30 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\rent\protected\views\site\login.php (77)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:58:34 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:58:34 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:58:34 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:58:34 [trace] [system.CModule] Loading "messages" application component
+in D:\xampp\htdocs\rent\protected\views\site\login.php (6)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:58:34 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\rent\protected\views\site\login.php (36)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:58:34 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\rent\protected\views\site\login.php (65)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:58:34 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\rent\protected\views\site\login.php (77)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:59:54 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:59:54 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:59:54 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:59:54 [trace] [system.CModule] Loading "messages" application component
+in D:\xampp\htdocs\rent\protected\views\site\login.php (6)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:59:54 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\rent\protected\views\site\login.php (36)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:59:54 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\rent\protected\views\site\login.php (65)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 12:59:54 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\rent\protected\views\site\login.php (77)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:00:17 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:00:17 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:00:17 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:00:17 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (88)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:00:17 [trace] [system.CModule] Loading "messages" application component
+in D:\xampp\htdocs\rent\protected\views\site\login.php (6)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:00:17 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\rent\protected\views\site\login.php (36)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:00:17 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\rent\protected\views\site\login.php (77)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:00:20 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:00:20 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:00:20 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:00:20 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (88)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:00:20 [trace] [system.CModule] Loading "messages" application component
+in D:\xampp\htdocs\rent\protected\views\site\login.php (6)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:00:20 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\rent\protected\views\site\login.php (36)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:00:20 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\rent\protected\views\site\login.php (77)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:03:42 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:03:42 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:03:42 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:03:42 [trace] [system.CModule] Loading "messages" application component
+in D:\xampp\htdocs\rent\protected\views\site\login.php (6)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:03:42 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\rent\protected\views\site\login.php (36)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:03:42 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\rent\protected\views\site\login.php (77)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:03:48 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:03:48 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:03:48 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:03:48 [trace] [system.CModule] Loading "messages" application component
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (25)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (86)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:03:48 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\rent\protected\views\site\login.php (36)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:03:48 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\rent\protected\views\site\login.php (77)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:03:56 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:03:56 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:03:56 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:03:56 [trace] [system.CModule] Loading "messages" application component
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (25)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (86)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:03:56 [trace] [system.CModule] Loading "db" application component
+in D:\xampp\htdocs\rent\protected\models\User.php (31)
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (21)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (54)
+2012/03/09 13:03:56 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\xampp\htdocs\rent\protected\models\User.php (31)
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (21)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (54)
+2012/03/09 13:03:56 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `user`
+in D:\xampp\htdocs\rent\protected\models\User.php (31)
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (21)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (54)
+2012/03/09 13:03:56 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `user`
+in D:\xampp\htdocs\rent\protected\models\User.php (31)
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (21)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (54)
+2012/03/09 13:03:56 [trace] [system.db.ar.CActiveRecord] User.findByAttributes()
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (21)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (54)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (88)
+2012/03/09 13:03:56 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `user` `t` WHERE `t`.`username`=:yp0 LIMIT 1
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (21)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (54)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (88)
+2012/03/09 13:03:57 [trace] [system.db.ar.CActiveRecord] User.update()
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (29)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (54)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (88)
+2012/03/09 13:03:57 [trace] [system.db.ar.CActiveRecord] User.updateByPk()
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (29)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (54)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (88)
+2012/03/09 13:03:57 [trace] [system.db.CDbCommand] Executing SQL: UPDATE `user` SET `id`=:yp0, `username`=:yp1, `password`=:yp2, `role`=:yp3, `name`=:yp4, `birthday`=:yp5, `idcard`=:yp6, `address1`=:yp7, `address2`=:yp8, `email`=:yp9, `tel`=:yp10, `yahoo`=:yp11, `skype`=:yp12, `last_login`=NOW() WHERE `user`.`id`='US101'
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (29)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (54)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (88)
+2012/03/09 13:03:57 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\rent\protected\views\site\login.php (36)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:03:57 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\rent\protected\views\site\login.php (77)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:04:17 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:04:17 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:04:17 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:04:17 [trace] [system.CModule] Loading "messages" application component
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (25)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (86)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:04:17 [trace] [system.CModule] Loading "db" application component
+in D:\xampp\htdocs\rent\protected\models\User.php (31)
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (21)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (54)
+2012/03/09 13:04:17 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\xampp\htdocs\rent\protected\models\User.php (31)
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (21)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (54)
+2012/03/09 13:04:17 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `user`
+in D:\xampp\htdocs\rent\protected\models\User.php (31)
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (21)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (54)
+2012/03/09 13:04:17 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `user`
+in D:\xampp\htdocs\rent\protected\models\User.php (31)
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (21)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (54)
+2012/03/09 13:04:17 [trace] [system.db.ar.CActiveRecord] User.findByAttributes()
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (21)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (54)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (88)
+2012/03/09 13:04:17 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `user` `t` WHERE `t`.`username`=:yp0 LIMIT 1
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (21)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (54)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (88)
+2012/03/09 13:04:17 [trace] [system.db.ar.CActiveRecord] User.update()
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (29)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (54)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (88)
+2012/03/09 13:04:17 [trace] [system.db.ar.CActiveRecord] User.updateByPk()
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (29)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (54)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (88)
+2012/03/09 13:04:17 [trace] [system.db.CDbCommand] Executing SQL: UPDATE `user` SET `id`=:yp0, `username`=:yp1, `password`=:yp2, `role`=:yp3, `name`=:yp4, `birthday`=:yp5, `idcard`=:yp6, `address1`=:yp7, `address2`=:yp8, `email`=:yp9, `tel`=:yp10, `yahoo`=:yp11, `skype`=:yp12, `last_login`=NOW() WHERE `user`.`id`='US101'
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (29)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (54)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (88)
+2012/03/09 13:04:17 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\rent\protected\views\site\login.php (36)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:04:17 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\rent\protected\views\site\login.php (77)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:04:21 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:04:21 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:04:21 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:04:21 [trace] [system.CModule] Loading "messages" application component
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (25)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (86)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:04:21 [trace] [system.CModule] Loading "db" application component
+in D:\xampp\htdocs\rent\protected\models\User.php (31)
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (21)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (54)
+2012/03/09 13:04:21 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\xampp\htdocs\rent\protected\models\User.php (31)
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (21)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (54)
+2012/03/09 13:04:21 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `user`
+in D:\xampp\htdocs\rent\protected\models\User.php (31)
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (21)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (54)
+2012/03/09 13:04:22 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `user`
+in D:\xampp\htdocs\rent\protected\models\User.php (31)
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (21)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (54)
+2012/03/09 13:04:22 [trace] [system.db.ar.CActiveRecord] User.findByAttributes()
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (21)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (54)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (88)
+2012/03/09 13:04:22 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `user` `t` WHERE `t`.`username`=:yp0 LIMIT 1
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (21)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (54)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (88)
+2012/03/09 13:04:22 [trace] [system.db.ar.CActiveRecord] User.update()
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (29)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (54)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (88)
+2012/03/09 13:04:22 [trace] [system.db.ar.CActiveRecord] User.updateByPk()
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (29)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (54)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (88)
+2012/03/09 13:04:22 [trace] [system.db.CDbCommand] Executing SQL: UPDATE `user` SET `id`=:yp0, `username`=:yp1, `password`=:yp2, `role`=:yp3, `name`=:yp4, `birthday`=:yp5, `idcard`=:yp6, `address1`=:yp7, `address2`=:yp8, `email`=:yp9, `tel`=:yp10, `yahoo`=:yp11, `skype`=:yp12, `last_login`=NOW() WHERE `user`.`id`='US101'
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (29)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (54)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (88)
+2012/03/09 13:04:22 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\rent\protected\views\site\login.php (36)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:04:22 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\rent\protected\views\site\login.php (77)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:30:36 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:30:36 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:30:36 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:30:36 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\rent\protected\views\layouts\column1.php (1)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (32)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:30:36 [trace] [system.CModule] Loading "user" application component
+in D:\xampp\htdocs\rent\protected\views\layouts\main.php (34)
+in D:\xampp\htdocs\rent\protected\views\layouts\column1.php (5)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (32)
+2012/03/09 13:30:36 [trace] [system.CModule] Loading "session" application component
+in D:\xampp\htdocs\rent\protected\views\layouts\main.php (34)
+in D:\xampp\htdocs\rent\protected\views\layouts\column1.php (5)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (32)
+2012/03/09 13:30:36 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\rent\protected\views\layouts\main.php (52)
+in D:\xampp\htdocs\rent\protected\views\layouts\column1.php (5)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (32)
+2012/03/09 13:30:36 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (32)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:30:37 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:30:37 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:30:37 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:30:37 [trace] [system.CModule] Loading "messages" application component
+in D:\xampp\htdocs\rent\protected\views\site\login.php (6)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:30:37 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\rent\protected\views\site\login.php (36)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:30:37 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\rent\protected\views\site\login.php (77)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:30:39 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:30:39 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:30:39 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:30:39 [trace] [system.CModule] Loading "messages" application component
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (25)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (86)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:30:39 [trace] [system.CModule] Loading "db" application component
+in D:\xampp\htdocs\rent\protected\models\User.php (31)
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (21)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (54)
+2012/03/09 13:30:39 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\xampp\htdocs\rent\protected\models\User.php (31)
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (21)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (54)
+2012/03/09 13:30:39 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `user`
+in D:\xampp\htdocs\rent\protected\models\User.php (31)
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (21)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (54)
+2012/03/09 13:30:39 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `user`
+in D:\xampp\htdocs\rent\protected\models\User.php (31)
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (21)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (54)
+2012/03/09 13:30:39 [trace] [system.db.ar.CActiveRecord] User.findByAttributes()
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (21)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (54)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (88)
+2012/03/09 13:30:39 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `user` `t` WHERE `t`.`username`=:yp0 LIMIT 1
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (21)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (54)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (88)
+2012/03/09 13:30:40 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\rent\protected\views\site\login.php (36)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:30:40 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\rent\protected\views\site\login.php (77)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:30:46 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:30:46 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:30:46 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:30:46 [trace] [system.CModule] Loading "messages" application component
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (25)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (86)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:30:46 [trace] [system.CModule] Loading "db" application component
+in D:\xampp\htdocs\rent\protected\models\User.php (31)
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (21)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (54)
+2012/03/09 13:30:46 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\xampp\htdocs\rent\protected\models\User.php (31)
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (21)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (54)
+2012/03/09 13:30:46 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `user`
+in D:\xampp\htdocs\rent\protected\models\User.php (31)
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (21)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (54)
+2012/03/09 13:30:46 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `user`
+in D:\xampp\htdocs\rent\protected\models\User.php (31)
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (21)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (54)
+2012/03/09 13:30:46 [trace] [system.db.ar.CActiveRecord] User.findByAttributes()
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (21)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (54)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (88)
+2012/03/09 13:30:46 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `user` `t` WHERE `t`.`username`=:yp0 LIMIT 1
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (21)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (54)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (88)
+2012/03/09 13:30:46 [trace] [system.db.ar.CActiveRecord] User.update()
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (29)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (54)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (88)
+2012/03/09 13:30:46 [trace] [system.db.ar.CActiveRecord] User.updateByPk()
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (29)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (54)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (88)
+2012/03/09 13:30:46 [trace] [system.db.CDbCommand] Executing SQL: UPDATE `user` SET `id`=:yp0, `username`=:yp1, `password`=:yp2, `role`=:yp3, `name`=:yp4, `birthday`=:yp5, `idcard`=:yp6, `address1`=:yp7, `address2`=:yp8, `email`=:yp9, `tel`=:yp10, `yahoo`=:yp11, `skype`=:yp12, `last_login`=NOW() WHERE `user`.`id`='US101'
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (29)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (54)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (88)
+2012/03/09 13:30:46 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\rent\protected\views\site\login.php (36)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:30:46 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\rent\protected\views\site\login.php (77)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:31:48 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:31:48 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:31:48 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:31:48 [trace] [system.CModule] Loading "messages" application component
+in D:\xampp\htdocs\rent\protected\views\site\login.php (6)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:31:48 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\rent\protected\views\site\login.php (36)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:31:48 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\rent\protected\views\site\login.php (77)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:31:52 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:31:52 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:31:52 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:31:52 [trace] [system.CModule] Loading "messages" application component
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (25)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (86)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:31:52 [trace] [system.CModule] Loading "db" application component
+in D:\xampp\htdocs\rent\protected\models\User.php (31)
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (21)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (54)
+2012/03/09 13:31:52 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\xampp\htdocs\rent\protected\models\User.php (31)
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (21)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (54)
+2012/03/09 13:31:52 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `user`
+in D:\xampp\htdocs\rent\protected\models\User.php (31)
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (21)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (54)
+2012/03/09 13:31:52 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `user`
+in D:\xampp\htdocs\rent\protected\models\User.php (31)
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (21)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (54)
+2012/03/09 13:31:52 [trace] [system.db.ar.CActiveRecord] User.findByAttributes()
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (21)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (54)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (88)
+2012/03/09 13:31:52 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `user` `t` WHERE `t`.`username`=:yp0 LIMIT 1
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (21)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (54)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (88)
+2012/03/09 13:31:52 [trace] [system.db.ar.CActiveRecord] User.update()
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (29)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (54)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (88)
+2012/03/09 13:31:52 [trace] [system.db.ar.CActiveRecord] User.updateByPk()
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (29)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (54)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (88)
+2012/03/09 13:31:52 [trace] [system.db.CDbCommand] Executing SQL: UPDATE `user` SET `id`=:yp0, `username`=:yp1, `password`=:yp2, `role`=:yp3, `name`=:yp4, `birthday`=:yp5, `idcard`=:yp6, `address1`=:yp7, `address2`=:yp8, `email`=:yp9, `tel`=:yp10, `yahoo`=:yp11, `skype`=:yp12, `last_login`=NOW() WHERE `user`.`id`='US101'
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (29)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (54)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (88)
+2012/03/09 13:31:52 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\rent\protected\views\site\login.php (36)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:31:52 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\rent\protected\views\site\login.php (77)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:33:51 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:33:51 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:33:51 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:33:51 [trace] [system.CModule] Loading "messages" application component
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (25)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (86)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:33:51 [trace] [system.CModule] Loading "db" application component
+in D:\xampp\htdocs\rent\protected\models\User.php (31)
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (21)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (54)
+2012/03/09 13:33:51 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\xampp\htdocs\rent\protected\models\User.php (31)
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (21)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (54)
+2012/03/09 13:33:51 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `user`
+in D:\xampp\htdocs\rent\protected\models\User.php (31)
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (21)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (54)
+2012/03/09 13:33:51 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `user`
+in D:\xampp\htdocs\rent\protected\models\User.php (31)
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (21)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (54)
+2012/03/09 13:33:51 [trace] [system.db.ar.CActiveRecord] User.findByAttributes()
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (21)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (54)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (88)
+2012/03/09 13:33:51 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `user` `t` WHERE `t`.`username`=:yp0 LIMIT 1
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (21)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (54)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (88)
+2012/03/09 13:33:51 [trace] [system.db.ar.CActiveRecord] User.update()
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (29)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (54)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (88)
+2012/03/09 13:33:51 [trace] [system.db.ar.CActiveRecord] User.updateByPk()
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (29)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (54)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (88)
+2012/03/09 13:33:51 [trace] [system.db.CDbCommand] Executing SQL: UPDATE `user` SET `id`=:yp0, `username`=:yp1, `password`=:yp2, `role`=:yp3, `name`=:yp4, `birthday`=:yp5, `idcard`=:yp6, `address1`=:yp7, `address2`=:yp8, `email`=:yp9, `tel`=:yp10, `yahoo`=:yp11, `skype`=:yp12, `last_login`=NOW() WHERE `user`.`id`='US101'
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (29)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (54)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (88)
+2012/03/09 13:35:09 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:35:09 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:35:09 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:35:09 [trace] [system.CModule] Loading "messages" application component
+in D:\xampp\htdocs\rent\protected\views\site\login.php (6)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:35:09 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\rent\protected\views\site\login.php (36)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:35:09 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\rent\protected\views\site\login.php (77)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:35:14 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:35:14 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:35:14 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:35:14 [trace] [system.CModule] Loading "messages" application component
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (25)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (86)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:35:14 [trace] [system.CModule] Loading "db" application component
+in D:\xampp\htdocs\rent\protected\models\User.php (31)
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (21)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (54)
+2012/03/09 13:35:14 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\xampp\htdocs\rent\protected\models\User.php (31)
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (21)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (54)
+2012/03/09 13:35:14 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `user`
+in D:\xampp\htdocs\rent\protected\models\User.php (31)
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (21)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (54)
+2012/03/09 13:35:14 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `user`
+in D:\xampp\htdocs\rent\protected\models\User.php (31)
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (21)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (54)
+2012/03/09 13:35:14 [trace] [system.db.ar.CActiveRecord] User.findByAttributes()
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (21)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (54)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (88)
+2012/03/09 13:35:14 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `user` `t` WHERE `t`.`username`=:yp0 LIMIT 1
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (21)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (54)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (88)
+2012/03/09 13:35:14 [trace] [system.db.ar.CActiveRecord] User.update()
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (29)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (54)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (88)
+2012/03/09 13:35:14 [trace] [system.db.ar.CActiveRecord] User.updateByPk()
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (29)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (54)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (88)
+2012/03/09 13:35:14 [trace] [system.db.CDbCommand] Executing SQL: UPDATE `user` SET `id`=:yp0, `username`=:yp1, `password`=:yp2, `role`=:yp3, `name`=:yp4, `birthday`=:yp5, `idcard`=:yp6, `address1`=:yp7, `address2`=:yp8, `email`=:yp9, `tel`=:yp10, `yahoo`=:yp11, `skype`=:yp12, `last_login`=NOW() WHERE `user`.`id`='US101'
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (29)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (54)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (88)
+2012/03/09 13:37:42 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:37:42 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:37:42 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:37:42 [trace] [system.CModule] Loading "messages" application component
+in D:\xampp\htdocs\rent\protected\views\site\login.php (6)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:37:42 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\rent\protected\views\site\login.php (36)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:37:42 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\rent\protected\views\site\login.php (77)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:37:45 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:37:45 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:37:45 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:37:45 [trace] [system.CModule] Loading "messages" application component
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (25)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (86)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:37:45 [trace] [system.CModule] Loading "db" application component
+in D:\xampp\htdocs\rent\protected\models\User.php (31)
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (21)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (54)
+2012/03/09 13:37:45 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\xampp\htdocs\rent\protected\models\User.php (31)
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (21)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (54)
+2012/03/09 13:37:45 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `user`
+in D:\xampp\htdocs\rent\protected\models\User.php (31)
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (21)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (54)
+2012/03/09 13:37:45 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `user`
+in D:\xampp\htdocs\rent\protected\models\User.php (31)
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (21)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (54)
+2012/03/09 13:37:45 [trace] [system.db.ar.CActiveRecord] User.findByAttributes()
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (21)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (54)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (88)
+2012/03/09 13:37:45 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `user` `t` WHERE `t`.`username`=:yp0 LIMIT 1
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (21)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (54)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (88)
+2012/03/09 13:37:46 [trace] [system.db.ar.CActiveRecord] User.update()
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (29)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (54)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (88)
+2012/03/09 13:37:46 [trace] [system.db.ar.CActiveRecord] User.updateByPk()
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (29)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (54)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (88)
+2012/03/09 13:37:46 [trace] [system.db.CDbCommand] Executing SQL: UPDATE `user` SET `id`=:yp0, `username`=:yp1, `password`=:yp2, `role`=:yp3, `name`=:yp4, `birthday`=:yp5, `idcard`=:yp6, `address1`=:yp7, `address2`=:yp8, `email`=:yp9, `tel`=:yp10, `yahoo`=:yp11, `skype`=:yp12, `last_login`=NOW() WHERE `user`.`id`='US101'
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (29)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (54)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (88)
+2012/03/09 13:37:46 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\rent\protected\views\site\login.php (36)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:37:46 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\rent\protected\views\site\login.php (77)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:41:26 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:41:26 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:41:26 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:41:26 [trace] [system.CModule] Loading "messages" application component
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (25)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (86)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:41:26 [trace] [system.CModule] Loading "db" application component
+in D:\xampp\htdocs\rent\protected\models\User.php (31)
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (21)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (54)
+2012/03/09 13:41:26 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\xampp\htdocs\rent\protected\models\User.php (31)
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (21)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (54)
+2012/03/09 13:41:26 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `user`
+in D:\xampp\htdocs\rent\protected\models\User.php (31)
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (21)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (54)
+2012/03/09 13:41:26 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `user`
+in D:\xampp\htdocs\rent\protected\models\User.php (31)
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (21)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (54)
+2012/03/09 13:41:26 [trace] [system.db.ar.CActiveRecord] User.findByAttributes()
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (21)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (54)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (88)
+2012/03/09 13:41:26 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `user` `t` WHERE `t`.`username`=:yp0 LIMIT 1
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (21)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (54)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (88)
+2012/03/09 13:41:26 [trace] [system.db.ar.CActiveRecord] User.update()
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (29)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (54)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (88)
+2012/03/09 13:41:26 [trace] [system.db.ar.CActiveRecord] User.updateByPk()
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (29)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (54)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (88)
+2012/03/09 13:41:26 [trace] [system.db.CDbCommand] Executing SQL: UPDATE `user` SET `id`=:yp0, `username`=:yp1, `password`=:yp2, `role`=:yp3, `name`=:yp4, `birthday`=:yp5, `idcard`=:yp6, `address1`=:yp7, `address2`=:yp8, `email`=:yp9, `tel`=:yp10, `yahoo`=:yp11, `skype`=:yp12, `last_login`=NOW() WHERE `user`.`id`='US101'
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (29)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (54)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (88)
+2012/03/09 13:41:26 [trace] [system.CModule] Loading "user" application component
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (73)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (88)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:41:26 [trace] [system.CModule] Loading "session" application component
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (73)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (88)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:41:26 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:41:26 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:41:26 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:41:26 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\rent\protected\views\layouts\column1.php (1)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (32)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:41:26 [trace] [system.CModule] Loading "user" application component
+in D:\xampp\htdocs\rent\protected\views\layouts\main.php (34)
+in D:\xampp\htdocs\rent\protected\views\layouts\column1.php (5)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (32)
+2012/03/09 13:41:26 [trace] [system.CModule] Loading "session" application component
+in D:\xampp\htdocs\rent\protected\views\layouts\main.php (34)
+in D:\xampp\htdocs\rent\protected\views\layouts\column1.php (5)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (32)
+2012/03/09 13:41:26 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\rent\protected\views\layouts\main.php (52)
+in D:\xampp\htdocs\rent\protected\views\layouts\column1.php (5)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (32)
+2012/03/09 13:41:26 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (32)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:41:52 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:41:52 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:41:52 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:41:52 [trace] [system.CModule] Loading "user" application component
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (100)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:41:52 [trace] [system.CModule] Loading "session" application component
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (100)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:41:52 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:41:52 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:41:52 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:41:52 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\rent\protected\views\layouts\column1.php (1)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (32)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:41:52 [trace] [system.CModule] Loading "user" application component
+in D:\xampp\htdocs\rent\protected\views\layouts\main.php (34)
+in D:\xampp\htdocs\rent\protected\views\layouts\column1.php (5)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (32)
+2012/03/09 13:41:52 [trace] [system.CModule] Loading "session" application component
+in D:\xampp\htdocs\rent\protected\views\layouts\main.php (34)
+in D:\xampp\htdocs\rent\protected\views\layouts\column1.php (5)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (32)
+2012/03/09 13:41:52 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\rent\protected\views\layouts\main.php (52)
+in D:\xampp\htdocs\rent\protected\views\layouts\column1.php (5)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (32)
+2012/03/09 13:41:52 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (32)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:41:54 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:41:54 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:41:54 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:41:54 [trace] [system.CModule] Loading "messages" application component
+in D:\xampp\htdocs\rent\protected\views\site\login.php (6)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:41:54 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\rent\protected\views\site\login.php (36)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:41:54 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\rent\protected\views\site\login.php (77)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:41:57 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:41:57 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:41:57 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:41:57 [trace] [system.CModule] Loading "messages" application component
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (25)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (86)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:41:57 [trace] [system.CModule] Loading "db" application component
+in D:\xampp\htdocs\rent\protected\models\User.php (31)
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (21)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (54)
+2012/03/09 13:41:57 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\xampp\htdocs\rent\protected\models\User.php (31)
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (21)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (54)
+2012/03/09 13:41:57 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `user`
+in D:\xampp\htdocs\rent\protected\models\User.php (31)
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (21)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (54)
+2012/03/09 13:41:57 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `user`
+in D:\xampp\htdocs\rent\protected\models\User.php (31)
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (21)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (54)
+2012/03/09 13:41:57 [trace] [system.db.ar.CActiveRecord] User.findByAttributes()
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (21)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (54)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (88)
+2012/03/09 13:41:57 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `user` `t` WHERE `t`.`username`=:yp0 LIMIT 1
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (21)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (54)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (88)
+2012/03/09 13:41:57 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\rent\protected\views\site\login.php (36)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:41:57 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\rent\protected\views\site\login.php (77)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:42:12 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:42:12 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:42:12 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:42:12 [trace] [system.CModule] Loading "messages" application component
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (25)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (86)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:42:12 [trace] [system.CModule] Loading "db" application component
+in D:\xampp\htdocs\rent\protected\models\User.php (31)
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (21)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (54)
+2012/03/09 13:42:12 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\xampp\htdocs\rent\protected\models\User.php (31)
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (21)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (54)
+2012/03/09 13:42:12 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `user`
+in D:\xampp\htdocs\rent\protected\models\User.php (31)
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (21)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (54)
+2012/03/09 13:42:12 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `user`
+in D:\xampp\htdocs\rent\protected\models\User.php (31)
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (21)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (54)
+2012/03/09 13:42:12 [trace] [system.db.ar.CActiveRecord] User.findByAttributes()
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (21)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (54)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (88)
+2012/03/09 13:42:12 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `user` `t` WHERE `t`.`username`=:yp0 LIMIT 1
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (21)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (54)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (88)
+2012/03/09 13:42:12 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\rent\protected\views\site\login.php (36)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:42:12 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\rent\protected\views\site\login.php (77)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:42:15 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:42:15 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:42:15 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:42:15 [trace] [system.CModule] Loading "messages" application component
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (25)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (86)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:42:15 [trace] [system.CModule] Loading "db" application component
+in D:\xampp\htdocs\rent\protected\models\User.php (31)
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (21)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (54)
+2012/03/09 13:42:15 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\xampp\htdocs\rent\protected\models\User.php (31)
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (21)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (54)
+2012/03/09 13:42:15 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `user`
+in D:\xampp\htdocs\rent\protected\models\User.php (31)
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (21)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (54)
+2012/03/09 13:42:15 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `user`
+in D:\xampp\htdocs\rent\protected\models\User.php (31)
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (21)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (54)
+2012/03/09 13:42:15 [trace] [system.db.ar.CActiveRecord] User.findByAttributes()
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (21)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (54)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (88)
+2012/03/09 13:42:15 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `user` `t` WHERE `t`.`username`=:yp0 LIMIT 1
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (21)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (54)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (88)
+2012/03/09 13:42:15 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\rent\protected\views\site\login.php (36)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:42:15 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\rent\protected\views\site\login.php (77)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:42:21 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:42:21 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:42:21 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:42:21 [trace] [system.CModule] Loading "messages" application component
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (25)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (86)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:42:21 [trace] [system.CModule] Loading "db" application component
+in D:\xampp\htdocs\rent\protected\models\User.php (31)
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (21)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (54)
+2012/03/09 13:42:21 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\xampp\htdocs\rent\protected\models\User.php (31)
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (21)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (54)
+2012/03/09 13:42:21 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `user`
+in D:\xampp\htdocs\rent\protected\models\User.php (31)
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (21)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (54)
+2012/03/09 13:42:21 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `user`
+in D:\xampp\htdocs\rent\protected\models\User.php (31)
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (21)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (54)
+2012/03/09 13:42:21 [trace] [system.db.ar.CActiveRecord] User.findByAttributes()
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (21)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (54)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (88)
+2012/03/09 13:42:21 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `user` `t` WHERE `t`.`username`=:yp0 LIMIT 1
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (21)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (54)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (88)
+2012/03/09 13:42:21 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\rent\protected\views\site\login.php (36)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:42:21 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\rent\protected\views\site\login.php (77)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:46:15 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:46:15 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:46:15 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:46:15 [trace] [system.CModule] Loading "messages" application component
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (25)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (86)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:46:15 [trace] [system.CModule] Loading "db" application component
+in D:\xampp\htdocs\rent\protected\models\User.php (31)
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (21)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (65)
+2012/03/09 13:46:15 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\xampp\htdocs\rent\protected\models\User.php (31)
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (21)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (65)
+2012/03/09 13:46:15 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `user`
+in D:\xampp\htdocs\rent\protected\models\User.php (31)
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (21)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (65)
+2012/03/09 13:46:15 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `user`
+in D:\xampp\htdocs\rent\protected\models\User.php (31)
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (21)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (65)
+2012/03/09 13:46:15 [trace] [system.db.ar.CActiveRecord] User.findByAttributes()
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (21)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (65)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (88)
+2012/03/09 13:46:15 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `user` `t` WHERE `t`.`username`=:yp0 LIMIT 1
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (21)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (65)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (88)
+2012/03/09 13:46:15 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\rent\protected\views\site\login.php (36)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:46:15 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\rent\protected\views\site\login.php (77)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:46:20 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:46:20 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:46:20 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:46:20 [trace] [system.CModule] Loading "messages" application component
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (25)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (86)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:46:20 [trace] [system.CModule] Loading "db" application component
+in D:\xampp\htdocs\rent\protected\models\User.php (31)
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (21)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (65)
+2012/03/09 13:46:20 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\xampp\htdocs\rent\protected\models\User.php (31)
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (21)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (65)
+2012/03/09 13:46:20 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `user`
+in D:\xampp\htdocs\rent\protected\models\User.php (31)
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (21)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (65)
+2012/03/09 13:46:20 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `user`
+in D:\xampp\htdocs\rent\protected\models\User.php (31)
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (21)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (65)
+2012/03/09 13:46:20 [trace] [system.db.ar.CActiveRecord] User.findByAttributes()
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (21)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (65)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (88)
+2012/03/09 13:46:20 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `user` `t` WHERE `t`.`username`=:yp0 LIMIT 1
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (21)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (65)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (88)
+2012/03/09 13:46:20 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\rent\protected\views\site\login.php (36)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:46:20 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\rent\protected\views\site\login.php (77)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:46:29 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:46:29 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:46:29 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:46:29 [trace] [system.CModule] Loading "messages" application component
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (25)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (86)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:46:29 [trace] [system.CModule] Loading "db" application component
+in D:\xampp\htdocs\rent\protected\models\User.php (31)
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (21)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (65)
+2012/03/09 13:46:29 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\xampp\htdocs\rent\protected\models\User.php (31)
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (21)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (65)
+2012/03/09 13:46:29 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `user`
+in D:\xampp\htdocs\rent\protected\models\User.php (31)
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (21)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (65)
+2012/03/09 13:46:29 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `user`
+in D:\xampp\htdocs\rent\protected\models\User.php (31)
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (21)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (65)
+2012/03/09 13:46:29 [trace] [system.db.ar.CActiveRecord] User.findByAttributes()
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (21)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (65)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (88)
+2012/03/09 13:46:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `user` `t` WHERE `t`.`username`=:yp0 LIMIT 1
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (21)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (65)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (88)
+2012/03/09 13:46:29 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\rent\protected\views\site\login.php (36)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:46:29 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\rent\protected\views\site\login.php (77)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:46:39 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:46:39 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:46:39 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:46:39 [trace] [system.CModule] Loading "messages" application component
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (25)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (86)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:46:39 [trace] [system.CModule] Loading "db" application component
+in D:\xampp\htdocs\rent\protected\models\User.php (31)
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (21)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (65)
+2012/03/09 13:46:39 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\xampp\htdocs\rent\protected\models\User.php (31)
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (21)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (65)
+2012/03/09 13:46:39 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `user`
+in D:\xampp\htdocs\rent\protected\models\User.php (31)
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (21)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (65)
+2012/03/09 13:46:39 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `user`
+in D:\xampp\htdocs\rent\protected\models\User.php (31)
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (21)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (65)
+2012/03/09 13:46:39 [trace] [system.db.ar.CActiveRecord] User.findByAttributes()
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (21)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (65)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (88)
+2012/03/09 13:46:39 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `user` `t` WHERE `t`.`username`=:yp0 LIMIT 1
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (21)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (65)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (88)
+2012/03/09 13:46:39 [trace] [system.db.ar.CActiveRecord] User.update()
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (29)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (65)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (88)
+2012/03/09 13:46:39 [trace] [system.db.ar.CActiveRecord] User.updateByPk()
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (29)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (65)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (88)
+2012/03/09 13:46:39 [trace] [system.db.CDbCommand] Executing SQL: UPDATE `user` SET `id`=:yp0, `username`=:yp1, `password`=:yp2, `role`=:yp3, `name`=:yp4, `birthday`=:yp5, `idcard`=:yp6, `address1`=:yp7, `address2`=:yp8, `email`=:yp9, `tel`=:yp10, `yahoo`=:yp11, `skype`=:yp12, `last_login`=NOW() WHERE `user`.`id`='US101'
+in D:\xampp\htdocs\rent\protected\components\UserIdentity.php (29)
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (65)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (88)
+2012/03/09 13:46:39 [trace] [system.CModule] Loading "user" application component
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (70)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (88)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:46:39 [trace] [system.CModule] Loading "session" application component
+in D:\xampp\htdocs\rent\protected\models\LoginForm.php (70)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (88)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:46:39 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:46:39 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:46:39 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:46:39 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\rent\protected\views\layouts\column1.php (1)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (32)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/09 13:46:39 [trace] [system.CModule] Loading "user" application component
+in D:\xampp\htdocs\rent\protected\views\layouts\main.php (34)
+in D:\xampp\htdocs\rent\protected\views\layouts\column1.php (5)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (32)
+2012/03/09 13:46:39 [trace] [system.CModule] Loading "session" application component
+in D:\xampp\htdocs\rent\protected\views\layouts\main.php (34)
+in D:\xampp\htdocs\rent\protected\views\layouts\column1.php (5)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (32)
+2012/03/09 13:46:39 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\rent\protected\views\layouts\main.php (52)
+in D:\xampp\htdocs\rent\protected\views\layouts\column1.php (5)
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (32)
+2012/03/09 13:46:39 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (32)
+in D:\xampp\htdocs\rent\index.php (13)
