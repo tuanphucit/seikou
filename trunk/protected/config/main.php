@@ -16,6 +16,7 @@ return array(
 	'import'=>array(
 		'application.models.*',
 		'application.components.*',
+		'application.components.helpers.*',
 	),
 
 	'modules'=>array(
@@ -90,4 +91,6 @@ return array(
 		// this is used in contact page
 		'adminEmail'=>'luckymancvp@gmail.com',
 	),
+	'sourceLanguage'=>'en',
+	'language'=>'jp',
 );
