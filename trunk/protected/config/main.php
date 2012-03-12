@@ -26,6 +26,7 @@ return array(
 		 	// If removed, Gii defaults to localhost only. Edit carefully to taste.
 			'ipFilters'=>array('127.0.0.1','::1'),
 		),
+		'admin'=>array(),
 	),
 
 	// application components
@@ -92,7 +93,7 @@ return array(
 		'adminEmail'=>'luckymancvp@gmail.com',
 	),
 	'sourceLanguage'=>'en',
-	'language'=>'ja_JP',
+	'language'=>'ja',
 	'defaultController'=>'home',
 	'homeUrl'=>array('/home/index/'),
 );

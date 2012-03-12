@@ -49,8 +49,10 @@
 						<span><?php echo $user->getAttributeLabel('role')?><br/>
 						<?php echo $user->getRoleName();?>
 					</li>
-					<li class="fax"><span>Fax:</span><br />
-					+359 2 123 45 67</li>
+					<li class="last_login">
+						<span><?php echo $user->getAttributeLabel('last_login')?><br/>
+						<?php echo $user->last_login;?>
+					</li>
 				</ul>
 			</div>
 		</div>
@@ -116,6 +118,7 @@
 						echo "<br>";
 						echo $form->textField($user,'skype',array('size'=>40));
 						echo $form->error($user,'skype');echo "</br>";
+						echo $form->errorSummary($user);
 					?>						
 					</div>
 					<div class="stitched"></div>
@@ -125,7 +128,7 @@
 			<div class="buttons">
 				<div class="left">
 					<?php
-						echo Html::submitButton(Yii::t('user','Submit'));
+						echo Html::submitButton();
 					?>
 				</div>
 			</div>

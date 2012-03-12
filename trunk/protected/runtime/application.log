@@ -1,0 +1,1176 @@
+2012/03/12 16:54:28 [trace] [system.CModule] Loading "log" application component
+2012/03/12 16:54:28 [trace] [system.CModule] Loading "request" application component
+2012/03/12 16:54:28 [trace] [system.CModule] Loading "viewRenderer" application component
+2012/03/12 16:54:28 [trace] [system.CModule] Loading "db" application component
+2012/03/12 16:54:28 [trace] [system.db.CDbConnection] Opening DB connection
+2012/03/12 16:54:28 [trace] [system.CModule] Loading "clientScript" application component
+2012/03/12 16:54:28 [trace] [system.CModule] Loading "assetManager" application component
+2012/03/12 16:54:28 [trace] [system.CModule] Loading "urlManager" application component
+2012/03/12 16:54:28 [trace] [system.web.filters.CFilterChain] Running filter ProfileController.filteraccessControl()
+2012/03/12 16:54:28 [trace] [system.CModule] Loading "user" application component
+2012/03/12 16:54:28 [trace] [system.CModule] Loading "session" application component
+2012/03/12 16:54:28 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `user`
+2012/03/12 16:54:28 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `user`)
+2012/03/12 16:54:28 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `user`)
+2012/03/12 16:54:28 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `user`
+2012/03/12 16:54:28 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `user`)
+2012/03/12 16:54:28 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `user`)
+2012/03/12 16:54:28 [trace] [system.db.ar.CActiveRecord] User.findByPk()
+2012/03/12 16:54:28 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `user` `t` WHERE `t`.`id`='US101' LIMIT 1
+2012/03/12 16:54:28 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `user` `t` WHERE `t`.`id`='US101' LIMIT 1)
+2012/03/12 16:54:28 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `user` `t` WHERE `t`.`id`='US101' LIMIT 1)
+2012/03/12 16:54:28 [trace] [system.CModule] Loading "messages" application component
+2012/03/12 16:54:28 [trace] [system.CModule] Loading "widgetFactory" application component
+2012/03/12 16:54:28 [trace] [system.CModule] Loading "coreMessages" application component
+2012/03/12 17:04:09 [trace] [system.CModule] Loading "log" application component
+2012/03/12 17:04:09 [trace] [system.CModule] Loading "request" application component
+2012/03/12 17:04:09 [trace] [system.CModule] Loading "viewRenderer" application component
+2012/03/12 17:04:09 [trace] [system.CModule] Loading "db" application component
+2012/03/12 17:04:09 [trace] [system.db.CDbConnection] Opening DB connection
+2012/03/12 17:04:09 [trace] [system.CModule] Loading "clientScript" application component
+2012/03/12 17:04:09 [trace] [system.CModule] Loading "assetManager" application component
+2012/03/12 17:04:09 [trace] [system.CModule] Loading "urlManager" application component
+2012/03/12 17:04:09 [trace] [system.web.filters.CFilterChain] Running filter ProfileController.filteraccessControl()
+2012/03/12 17:04:09 [trace] [system.CModule] Loading "user" application component
+2012/03/12 17:04:09 [trace] [system.CModule] Loading "session" application component
+2012/03/12 17:04:09 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `user`
+2012/03/12 17:04:09 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `user`)
+2012/03/12 17:04:09 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `user`)
+2012/03/12 17:04:09 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `user`
+2012/03/12 17:04:09 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `user`)
+2012/03/12 17:04:09 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `user`)
+2012/03/12 17:04:09 [trace] [system.db.ar.CActiveRecord] User.findByPk()
+2012/03/12 17:04:09 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `user` `t` WHERE `t`.`id`='US101' LIMIT 1
+2012/03/12 17:04:09 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `user` `t` WHERE `t`.`id`='US101' LIMIT 1)
+2012/03/12 17:04:09 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `user` `t` WHERE `t`.`id`='US101' LIMIT 1)
+2012/03/12 17:04:09 [trace] [system.CModule] Loading "messages" application component
+2012/03/12 17:04:09 [trace] [system.CModule] Loading "widgetFactory" application component
+2012/03/12 17:04:09 [trace] [system.CModule] Loading "coreMessages" application component
+2012/03/12 17:05:53 [trace] [system.CModule] Loading "log" application component
+2012/03/12 17:05:53 [trace] [system.CModule] Loading "request" application component
+2012/03/12 17:05:53 [trace] [system.CModule] Loading "viewRenderer" application component
+2012/03/12 17:05:53 [trace] [system.CModule] Loading "db" application component
+2012/03/12 17:05:53 [trace] [system.db.CDbConnection] Opening DB connection
+2012/03/12 17:05:53 [trace] [system.CModule] Loading "clientScript" application component
+2012/03/12 17:05:53 [trace] [system.CModule] Loading "assetManager" application component
+2012/03/12 17:05:53 [trace] [system.CModule] Loading "urlManager" application component
+2012/03/12 17:05:53 [trace] [system.web.filters.CFilterChain] Running filter ProfileController.filteraccessControl()
+2012/03/12 17:05:53 [trace] [system.CModule] Loading "user" application component
+2012/03/12 17:05:53 [trace] [system.CModule] Loading "session" application component
+2012/03/12 17:05:53 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `user`
+2012/03/12 17:05:53 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `user`)
+2012/03/12 17:05:53 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `user`)
+2012/03/12 17:05:53 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `user`
+2012/03/12 17:05:53 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `user`)
+2012/03/12 17:05:53 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `user`)
+2012/03/12 17:05:53 [trace] [system.db.ar.CActiveRecord] User.findByPk()
+2012/03/12 17:05:53 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `user` `t` WHERE `t`.`id`='US101' LIMIT 1
+2012/03/12 17:05:53 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `user` `t` WHERE `t`.`id`='US101' LIMIT 1)
+2012/03/12 17:05:53 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `user` `t` WHERE `t`.`id`='US101' LIMIT 1)
+2012/03/12 17:05:53 [trace] [system.CModule] Loading "messages" application component
+2012/03/12 17:05:53 [trace] [system.CModule] Loading "widgetFactory" application component
+2012/03/12 17:05:53 [trace] [system.CModule] Loading "coreMessages" application component
+2012/03/12 17:06:46 [trace] [system.CModule] Loading "log" application component
+2012/03/12 17:06:46 [trace] [system.CModule] Loading "request" application component
+2012/03/12 17:06:46 [trace] [system.CModule] Loading "viewRenderer" application component
+2012/03/12 17:06:46 [trace] [system.CModule] Loading "db" application component
+2012/03/12 17:06:46 [trace] [system.db.CDbConnection] Opening DB connection
+2012/03/12 17:06:46 [trace] [system.CModule] Loading "clientScript" application component
+2012/03/12 17:06:46 [trace] [system.CModule] Loading "assetManager" application component
+2012/03/12 17:06:46 [trace] [system.CModule] Loading "urlManager" application component
+2012/03/12 17:06:46 [trace] [system.web.filters.CFilterChain] Running filter ProfileController.filteraccessControl()
+2012/03/12 17:06:46 [trace] [system.CModule] Loading "user" application component
+2012/03/12 17:06:46 [trace] [system.CModule] Loading "session" application component
+2012/03/12 17:06:46 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `user`
+2012/03/12 17:06:46 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `user`)
+2012/03/12 17:06:46 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `user`)
+2012/03/12 17:06:46 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `user`
+2012/03/12 17:06:46 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `user`)
+2012/03/12 17:06:46 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `user`)
+2012/03/12 17:06:46 [trace] [system.db.ar.CActiveRecord] User.findByPk()
+2012/03/12 17:06:46 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `user` `t` WHERE `t`.`id`='US101' LIMIT 1
+2012/03/12 17:06:46 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `user` `t` WHERE `t`.`id`='US101' LIMIT 1)
+2012/03/12 17:06:46 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `user` `t` WHERE `t`.`id`='US101' LIMIT 1)
+2012/03/12 17:06:46 [trace] [system.CModule] Loading "messages" application component
+2012/03/12 17:06:46 [trace] [system.CModule] Loading "widgetFactory" application component
+2012/03/12 17:06:46 [trace] [system.CModule] Loading "coreMessages" application component
+2012/03/12 17:07:27 [trace] [system.CModule] Loading "log" application component
+2012/03/12 17:07:27 [trace] [system.CModule] Loading "request" application component
+2012/03/12 17:07:27 [trace] [system.CModule] Loading "viewRenderer" application component
+2012/03/12 17:07:27 [trace] [system.CModule] Loading "db" application component
+2012/03/12 17:07:27 [trace] [system.db.CDbConnection] Opening DB connection
+2012/03/12 17:07:27 [trace] [system.CModule] Loading "clientScript" application component
+2012/03/12 17:07:27 [trace] [system.CModule] Loading "assetManager" application component
+2012/03/12 17:07:27 [trace] [system.CModule] Loading "urlManager" application component
+2012/03/12 17:07:27 [trace] [system.web.filters.CFilterChain] Running filter ProfileController.filteraccessControl()
+2012/03/12 17:07:27 [trace] [system.CModule] Loading "user" application component
+2012/03/12 17:07:27 [trace] [system.CModule] Loading "session" application component
+2012/03/12 17:07:27 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `user`
+2012/03/12 17:07:27 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `user`)
+2012/03/12 17:07:27 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `user`)
+2012/03/12 17:07:27 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `user`
+2012/03/12 17:07:27 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `user`)
+2012/03/12 17:07:27 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `user`)
+2012/03/12 17:07:27 [trace] [system.db.ar.CActiveRecord] User.findByPk()
+2012/03/12 17:07:27 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `user` `t` WHERE `t`.`id`='US101' LIMIT 1
+2012/03/12 17:07:27 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `user` `t` WHERE `t`.`id`='US101' LIMIT 1)
+2012/03/12 17:07:27 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `user` `t` WHERE `t`.`id`='US101' LIMIT 1)
+2012/03/12 17:07:27 [trace] [system.CModule] Loading "messages" application component
+2012/03/12 17:07:27 [trace] [system.CModule] Loading "widgetFactory" application component
+2012/03/12 17:07:27 [trace] [system.CModule] Loading "coreMessages" application component
+2012/03/12 17:39:35 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 17:39:35 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 17:39:35 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 17:39:35 [trace] [system.base.CModule] Loading "gii" module
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 17:39:35 [trace] [system.CModule] Loading "user" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 17:39:35 [trace] [system.CModule] Loading "session" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 17:39:36 [trace] [system.CModule] Loading "db" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 17:39:36 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 17:39:36 [trace] [system.db.CDbCommand] Querying SQL: SHOW TABLES
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 17:39:36 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `orders`
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 17:39:36 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `orders`
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 17:39:36 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `orders_history`
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 17:39:36 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `orders_history`
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 17:39:36 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `products`
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 17:39:36 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `products`
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 17:39:36 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `users`
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 17:39:36 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `users`
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 17:39:36 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 17:39:36 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 17:39:37 [trace] [system.CModule] Loading "assetManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 17:39:37 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 18:43:42 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 18:43:43 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 18:43:43 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 18:43:43 [trace] [system.base.CModule] Loading "gii" module
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 18:43:43 [trace] [system.CModule] Loading "user" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 18:43:43 [trace] [system.CModule] Loading "session" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 18:43:44 [trace] [system.CModule] Loading "db" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 18:43:44 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 18:43:44 [trace] [system.db.CDbCommand] Querying SQL: SHOW TABLES
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 18:43:44 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `orders`
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 18:43:44 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `orders`
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 18:43:44 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `orders_history`
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 18:43:45 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `orders_history`
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 18:43:45 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `products`
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 18:43:45 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `products`
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 18:43:45 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `users`
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 18:43:45 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `users`
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 18:43:45 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 18:43:45 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 18:43:46 [trace] [system.CModule] Loading "assetManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 18:43:47 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 18:46:41 [trace] [system.CModule] Loading "log" application component
+2012/03/12 18:46:41 [trace] [system.CModule] Loading "request" application component
+2012/03/12 18:46:41 [trace] [system.CModule] Loading "viewRenderer" application component
+2012/03/12 18:46:41 [trace] [system.CModule] Loading "db" application component
+2012/03/12 18:46:41 [trace] [system.db.CDbConnection] Opening DB connection
+2012/03/12 18:46:41 [trace] [system.CModule] Loading "clientScript" application component
+2012/03/12 18:46:41 [trace] [system.CModule] Loading "assetManager" application component
+2012/03/12 18:46:42 [trace] [system.CModule] Loading "urlManager" application component
+2012/03/12 18:46:42 [trace] [system.web.filters.CFilterChain] Running filter ProfileController.filteraccessControl()
+2012/03/12 18:46:42 [trace] [system.CModule] Loading "user" application component
+2012/03/12 18:46:42 [trace] [system.CModule] Loading "session" application component
+2012/03/12 18:46:42 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `users`
+2012/03/12 18:46:42 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `users`)
+2012/03/12 18:46:42 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `users`)
+2012/03/12 18:46:42 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `users`
+2012/03/12 18:46:42 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `users`)
+2012/03/12 18:46:42 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `users`)
+2012/03/12 18:46:42 [trace] [system.db.ar.CActiveRecord] Users.findByPk()
+2012/03/12 18:46:42 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `users` `t` WHERE `t`.`id`='US101' LIMIT 1
+2012/03/12 18:46:42 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `users` `t` WHERE `t`.`id`='US101' LIMIT 1)
+2012/03/12 18:46:42 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `users` `t` WHERE `t`.`id`='US101' LIMIT 1)
+2012/03/12 18:46:42 [trace] [system.CModule] Loading "messages" application component
+2012/03/12 18:46:42 [trace] [system.CModule] Loading "widgetFactory" application component
+2012/03/12 18:46:42 [trace] [system.CModule] Loading "coreMessages" application component
+2012/03/12 18:51:49 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 18:51:49 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 18:51:49 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 18:51:49 [trace] [system.web.filters.CFilterChain] Running filter HomeController.filteraccessControl()
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 18:51:49 [trace] [system.CModule] Loading "user" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 18:51:49 [trace] [system.CModule] Loading "session" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 18:51:49 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\rent\protected\controllers\HomeController.php (7)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 18:51:50 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 18:51:50 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 18:51:50 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 18:51:50 [trace] [system.web.filters.CFilterChain] Running filter ProfileController.filteraccessControl()
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 18:51:50 [trace] [system.CModule] Loading "user" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 18:51:50 [trace] [system.CModule] Loading "session" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 18:51:50 [trace] [system.CModule] Loading "db" application component
+in D:\xampp\htdocs\rent\protected\models\Users.php (36)
+in D:\xampp\htdocs\rent\protected\controllers\ProfileController.php (26)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 18:51:50 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\xampp\htdocs\rent\protected\models\Users.php (36)
+in D:\xampp\htdocs\rent\protected\controllers\ProfileController.php (26)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 18:51:50 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `users`
+in D:\xampp\htdocs\rent\protected\models\Users.php (36)
+in D:\xampp\htdocs\rent\protected\controllers\ProfileController.php (26)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 18:51:50 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `users`
+in D:\xampp\htdocs\rent\protected\models\Users.php (36)
+in D:\xampp\htdocs\rent\protected\controllers\ProfileController.php (26)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 18:51:50 [trace] [system.db.ar.CActiveRecord] Users.findByPk()
+in D:\xampp\htdocs\rent\protected\controllers\ProfileController.php (26)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 18:51:50 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `users` `t` WHERE `t`.`id`='US101' LIMIT 1
+in D:\xampp\htdocs\rent\protected\controllers\ProfileController.php (26)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 18:51:50 [trace] [system.CModule] Loading "messages" application component
+in D:\xampp\htdocs\rent\protected\views\profile\index.php (5)
+in D:\xampp\htdocs\rent\protected\controllers\ProfileController.php (34)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 18:51:50 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\rent\protected\views\profile\index.php (67)
+in D:\xampp\htdocs\rent\protected\controllers\ProfileController.php (34)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 18:51:50 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\rent\protected\views\profile\index.php (87)
+in D:\xampp\htdocs\rent\protected\controllers\ProfileController.php (34)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 18:51:51 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\rent\protected\views\profile\index.php (133)
+in D:\xampp\htdocs\rent\protected\controllers\ProfileController.php (34)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 18:51:51 [trace] [system.CModule] Loading "assetManager" application component
+in D:\xampp\htdocs\rent\protected\controllers\ProfileController.php (34)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 18:52:13 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 18:52:13 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 18:52:13 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 18:52:13 [trace] [system.web.filters.CFilterChain] Running filter ProfileController.filteraccessControl()
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 18:52:13 [trace] [system.CModule] Loading "user" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 18:52:13 [trace] [system.CModule] Loading "session" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 18:52:13 [trace] [system.CModule] Loading "db" application component
+in D:\xampp\htdocs\rent\protected\models\Users.php (36)
+in D:\xampp\htdocs\rent\protected\controllers\ProfileController.php (26)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 18:52:13 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\xampp\htdocs\rent\protected\models\Users.php (36)
+in D:\xampp\htdocs\rent\protected\controllers\ProfileController.php (26)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 18:52:13 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `users`
+in D:\xampp\htdocs\rent\protected\models\Users.php (36)
+in D:\xampp\htdocs\rent\protected\controllers\ProfileController.php (26)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 18:52:14 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `users`
+in D:\xampp\htdocs\rent\protected\models\Users.php (36)
+in D:\xampp\htdocs\rent\protected\controllers\ProfileController.php (26)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 18:52:14 [trace] [system.db.ar.CActiveRecord] Users.findByPk()
+in D:\xampp\htdocs\rent\protected\controllers\ProfileController.php (26)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 18:52:14 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `users` `t` WHERE `t`.`id`='US101' LIMIT 1
+in D:\xampp\htdocs\rent\protected\controllers\ProfileController.php (26)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 18:52:14 [trace] [system.CModule] Loading "messages" application component
+in D:\xampp\htdocs\rent\protected\views\profile\index.php (5)
+in D:\xampp\htdocs\rent\protected\controllers\ProfileController.php (34)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 18:52:14 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\rent\protected\views\profile\index.php (67)
+in D:\xampp\htdocs\rent\protected\controllers\ProfileController.php (34)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 18:52:14 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\rent\protected\views\profile\index.php (87)
+in D:\xampp\htdocs\rent\protected\controllers\ProfileController.php (34)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 18:52:14 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\rent\protected\views\profile\index.php (133)
+in D:\xampp\htdocs\rent\protected\controllers\ProfileController.php (34)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 18:52:14 [trace] [system.CModule] Loading "assetManager" application component
+in D:\xampp\htdocs\rent\protected\controllers\ProfileController.php (34)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 18:52:42 [trace] [system.CModule] Loading "log" application component
+2012/03/12 18:52:42 [trace] [system.CModule] Loading "request" application component
+2012/03/12 18:52:42 [trace] [system.CModule] Loading "viewRenderer" application component
+2012/03/12 18:52:42 [trace] [system.CModule] Loading "db" application component
+2012/03/12 18:52:42 [trace] [system.db.CDbConnection] Opening DB connection
+2012/03/12 18:52:42 [trace] [system.CModule] Loading "clientScript" application component
+2012/03/12 18:52:42 [trace] [system.CModule] Loading "assetManager" application component
+2012/03/12 18:52:42 [trace] [system.CModule] Loading "urlManager" application component
+2012/03/12 18:52:42 [trace] [system.web.filters.CFilterChain] Running filter ProfileController.filteraccessControl()
+2012/03/12 18:52:42 [trace] [system.CModule] Loading "user" application component
+2012/03/12 18:52:42 [trace] [system.CModule] Loading "session" application component
+2012/03/12 18:52:42 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `users`
+2012/03/12 18:52:42 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `users`)
+2012/03/12 18:52:42 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `users`)
+2012/03/12 18:52:42 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `users`
+2012/03/12 18:52:42 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `users`)
+2012/03/12 18:52:42 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `users`)
+2012/03/12 18:52:42 [trace] [system.db.ar.CActiveRecord] Users.findByPk()
+2012/03/12 18:52:42 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `users` `t` WHERE `t`.`id`='US101' LIMIT 1
+2012/03/12 18:52:42 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `users` `t` WHERE `t`.`id`='US101' LIMIT 1)
+2012/03/12 18:52:42 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `users` `t` WHERE `t`.`id`='US101' LIMIT 1)
+2012/03/12 18:52:42 [trace] [system.CModule] Loading "messages" application component
+2012/03/12 18:52:42 [trace] [system.CModule] Loading "widgetFactory" application component
+2012/03/12 18:52:42 [trace] [system.CModule] Loading "coreMessages" application component
+2012/03/12 18:54:27 [trace] [system.CModule] Loading "log" application component
+2012/03/12 18:54:27 [trace] [system.CModule] Loading "request" application component
+2012/03/12 18:54:27 [trace] [system.CModule] Loading "viewRenderer" application component
+2012/03/12 18:54:27 [trace] [system.CModule] Loading "db" application component
+2012/03/12 18:54:27 [trace] [system.db.CDbConnection] Opening DB connection
+2012/03/12 18:54:27 [trace] [system.CModule] Loading "clientScript" application component
+2012/03/12 18:54:27 [trace] [system.CModule] Loading "assetManager" application component
+2012/03/12 18:54:27 [trace] [system.CModule] Loading "urlManager" application component
+2012/03/12 18:54:27 [trace] [system.web.filters.CFilterChain] Running filter ProfileController.filteraccessControl()
+2012/03/12 18:54:27 [trace] [system.CModule] Loading "user" application component
+2012/03/12 18:54:27 [trace] [system.CModule] Loading "session" application component
+2012/03/12 18:54:27 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `users`
+2012/03/12 18:54:27 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `users`)
+2012/03/12 18:54:27 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `users`)
+2012/03/12 18:54:27 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `users`
+2012/03/12 18:54:27 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `users`)
+2012/03/12 18:54:27 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `users`)
+2012/03/12 18:54:27 [trace] [system.db.ar.CActiveRecord] Users.findByPk()
+2012/03/12 18:54:27 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `users` `t` WHERE `t`.`id`='US101' LIMIT 1
+2012/03/12 18:54:27 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `users` `t` WHERE `t`.`id`='US101' LIMIT 1)
+2012/03/12 18:54:27 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `users` `t` WHERE `t`.`id`='US101' LIMIT 1)
+2012/03/12 18:54:27 [trace] [system.CModule] Loading "messages" application component
+2012/03/12 18:54:27 [trace] [system.CModule] Loading "widgetFactory" application component
+2012/03/12 18:54:27 [trace] [system.CModule] Loading "coreMessages" application component
+2012/03/12 18:55:50 [trace] [system.CModule] Loading "log" application component
+2012/03/12 18:55:50 [trace] [system.CModule] Loading "request" application component
+2012/03/12 18:55:50 [trace] [system.CModule] Loading "viewRenderer" application component
+2012/03/12 18:55:50 [trace] [system.CModule] Loading "db" application component
+2012/03/12 18:55:50 [trace] [system.db.CDbConnection] Opening DB connection
+2012/03/12 18:55:50 [trace] [system.CModule] Loading "clientScript" application component
+2012/03/12 18:55:50 [trace] [system.CModule] Loading "assetManager" application component
+2012/03/12 18:55:50 [trace] [system.CModule] Loading "urlManager" application component
+2012/03/12 18:55:50 [trace] [system.web.filters.CFilterChain] Running filter ProfileController.filteraccessControl()
+2012/03/12 18:55:50 [trace] [system.CModule] Loading "user" application component
+2012/03/12 18:55:50 [trace] [system.CModule] Loading "session" application component
+2012/03/12 18:55:50 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `users`
+2012/03/12 18:55:50 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `users`)
+2012/03/12 18:55:50 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `users`)
+2012/03/12 18:55:50 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `users`
+2012/03/12 18:55:50 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `users`)
+2012/03/12 18:55:50 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `users`)
+2012/03/12 18:55:50 [trace] [system.db.ar.CActiveRecord] Users.findByPk()
+2012/03/12 18:55:50 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `users` `t` WHERE `t`.`id`='US101' LIMIT 1
+2012/03/12 18:55:50 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `users` `t` WHERE `t`.`id`='US101' LIMIT 1)
+2012/03/12 18:55:50 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `users` `t` WHERE `t`.`id`='US101' LIMIT 1)
+2012/03/12 18:55:50 [trace] [system.CModule] Loading "messages" application component
+2012/03/12 18:55:50 [trace] [system.CModule] Loading "widgetFactory" application component
+2012/03/12 18:55:50 [trace] [system.CModule] Loading "coreMessages" application component
+2012/03/12 18:56:34 [trace] [system.CModule] Loading "log" application component
+2012/03/12 18:56:34 [trace] [system.CModule] Loading "request" application component
+2012/03/12 18:56:34 [trace] [system.CModule] Loading "viewRenderer" application component
+2012/03/12 18:56:34 [trace] [system.CModule] Loading "db" application component
+2012/03/12 18:56:34 [trace] [system.db.CDbConnection] Opening DB connection
+2012/03/12 18:56:34 [trace] [system.CModule] Loading "clientScript" application component
+2012/03/12 18:56:34 [trace] [system.CModule] Loading "assetManager" application component
+2012/03/12 18:56:34 [trace] [system.CModule] Loading "urlManager" application component
+2012/03/12 18:56:35 [trace] [system.web.filters.CFilterChain] Running filter ProfileController.filteraccessControl()
+2012/03/12 18:56:35 [trace] [system.CModule] Loading "user" application component
+2012/03/12 18:56:35 [trace] [system.CModule] Loading "session" application component
+2012/03/12 18:56:35 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `users`
+2012/03/12 18:56:35 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `users`)
+2012/03/12 18:56:35 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `users`)
+2012/03/12 18:56:35 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `users`
+2012/03/12 18:56:35 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `users`)
+2012/03/12 18:56:35 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `users`)
+2012/03/12 18:56:35 [trace] [system.db.ar.CActiveRecord] Users.findByPk()
+2012/03/12 18:56:35 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `users` `t` WHERE `t`.`id`='US101' LIMIT 1
+2012/03/12 18:56:35 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `users` `t` WHERE `t`.`id`='US101' LIMIT 1)
+2012/03/12 18:56:35 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `users` `t` WHERE `t`.`id`='US101' LIMIT 1)
+2012/03/12 18:56:35 [trace] [system.CModule] Loading "messages" application component
+2012/03/12 18:56:35 [trace] [system.CModule] Loading "widgetFactory" application component
+2012/03/12 18:56:35 [trace] [system.CModule] Loading "coreMessages" application component
+2012/03/12 18:56:58 [trace] [system.CModule] Loading "log" application component
+2012/03/12 18:56:58 [trace] [system.CModule] Loading "request" application component
+2012/03/12 18:56:58 [trace] [system.CModule] Loading "viewRenderer" application component
+2012/03/12 18:56:58 [trace] [system.CModule] Loading "db" application component
+2012/03/12 18:56:58 [trace] [system.db.CDbConnection] Opening DB connection
+2012/03/12 18:56:58 [trace] [system.CModule] Loading "clientScript" application component
+2012/03/12 18:56:58 [trace] [system.CModule] Loading "assetManager" application component
+2012/03/12 18:56:58 [trace] [system.CModule] Loading "urlManager" application component
+2012/03/12 18:56:58 [trace] [system.web.filters.CFilterChain] Running filter ProfileController.filteraccessControl()
+2012/03/12 18:56:58 [trace] [system.CModule] Loading "user" application component
+2012/03/12 18:56:58 [trace] [system.CModule] Loading "session" application component
+2012/03/12 18:56:58 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `users`
+2012/03/12 18:56:58 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `users`)
+2012/03/12 18:56:59 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `users`)
+2012/03/12 18:56:59 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `users`
+2012/03/12 18:56:59 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `users`)
+2012/03/12 18:56:59 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `users`)
+2012/03/12 18:56:59 [trace] [system.db.ar.CActiveRecord] Users.findByPk()
+2012/03/12 18:56:59 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `users` `t` WHERE `t`.`id`='US101' LIMIT 1
+2012/03/12 18:56:59 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `users` `t` WHERE `t`.`id`='US101' LIMIT 1)
+2012/03/12 18:56:59 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `users` `t` WHERE `t`.`id`='US101' LIMIT 1)
+2012/03/12 18:56:59 [trace] [system.CModule] Loading "messages" application component
+2012/03/12 18:56:59 [trace] [system.CModule] Loading "widgetFactory" application component
+2012/03/12 18:56:59 [trace] [system.CModule] Loading "coreMessages" application component
+2012/03/12 18:56:59 [error] [exception.CException] exception 'CException' with message 'CActiveForm and its behaviors do not have a method or closure named "summaryError".' in D:\xampp\htdocs\framework\base\CComponent.php:266
+Stack trace:
+#0 D:\xampp\htdocs\rent\protected\views\profile\index.php(119): CComponent->__call('summaryError', Array)
+#1 D:\xampp\htdocs\rent\protected\views\profile\index.php(119): CActiveForm->summaryError()
+#2 D:\xampp\htdocs\framework\web\CBaseController.php(127): require('D:\xampp\htdocs...')
+#3 D:\xampp\htdocs\rent\protected\extensions\yii-debug-toolbar\components\YiiDebugViewRenderer.php(47): CBaseController->renderInternal('D:\xampp\htdocs...', Array, true)
+#4 D:\xampp\htdocs\framework\web\CBaseController.php(94): YiiDebugViewRenderer->renderFile(Object(ProfileController), 'D:\xampp\htdocs...', Array, true)
+#5 D:\xampp\htdocs\framework\web\CController.php(870): CBaseController->renderFile('D:\xampp\htdocs...', Array, true)
+#6 D:\xampp\htdocs\framework\web\CController.php(783): CController->renderPartial('index', Array, true)
+#7 D:\xampp\htdocs\rent\protected\controllers\ProfileController.php(34): CController->render('index', Array)
+#8 D:\xampp\htdocs\framework\web\actions\CInlineAction.php(50): ProfileController->actionIndex()
+#9 D:\xampp\htdocs\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#11 D:\xampp\htdocs\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#12 D:\xampp\htdocs\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#13 D:\xampp\htdocs\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#14 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#15 D:\xampp\htdocs\framework\web\CController.php(292): CFilterChain->run()
+#16 D:\xampp\htdocs\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 D:\xampp\htdocs\framework\web\CWebApplication.php(276): CController->run('index')
+#18 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('profile/index')
+#19 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#20 D:\xampp\htdocs\rent\index-test.php(15): CApplication->run()
+#21 {main}
+REQUEST_URI=/rent/index-test.php/profile/index
+HTTP_REFERER=http://localhost/rent/index-test.php/profile/index
+---
+2012/03/12 18:56:59 [trace] [system.CModule] Loading "errorHandler" application component
+2012/03/12 18:57:09 [trace] [system.CModule] Loading "log" application component
+2012/03/12 18:57:09 [trace] [system.CModule] Loading "request" application component
+2012/03/12 18:57:09 [trace] [system.CModule] Loading "viewRenderer" application component
+2012/03/12 18:57:09 [trace] [system.CModule] Loading "db" application component
+2012/03/12 18:57:09 [trace] [system.db.CDbConnection] Opening DB connection
+2012/03/12 18:57:09 [trace] [system.CModule] Loading "clientScript" application component
+2012/03/12 18:57:09 [trace] [system.CModule] Loading "assetManager" application component
+2012/03/12 18:57:09 [trace] [system.CModule] Loading "urlManager" application component
+2012/03/12 18:57:09 [trace] [system.web.filters.CFilterChain] Running filter ProfileController.filteraccessControl()
+2012/03/12 18:57:09 [trace] [system.CModule] Loading "user" application component
+2012/03/12 18:57:09 [trace] [system.CModule] Loading "session" application component
+2012/03/12 18:57:09 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `users`
+2012/03/12 18:57:09 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `users`)
+2012/03/12 18:57:09 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `users`)
+2012/03/12 18:57:09 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `users`
+2012/03/12 18:57:09 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `users`)
+2012/03/12 18:57:09 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `users`)
+2012/03/12 18:57:09 [trace] [system.db.ar.CActiveRecord] Users.findByPk()
+2012/03/12 18:57:09 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `users` `t` WHERE `t`.`id`='US101' LIMIT 1
+2012/03/12 18:57:09 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `users` `t` WHERE `t`.`id`='US101' LIMIT 1)
+2012/03/12 18:57:09 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `users` `t` WHERE `t`.`id`='US101' LIMIT 1)
+2012/03/12 18:57:09 [trace] [system.CModule] Loading "messages" application component
+2012/03/12 18:57:09 [trace] [system.CModule] Loading "widgetFactory" application component
+2012/03/12 18:57:09 [trace] [system.CModule] Loading "coreMessages" application component
+2012/03/12 18:57:09 [error] [php] Missing argument 1 for CActiveForm::errorSummary(), called in D:\xampp\htdocs\rent\protected\views\profile\index.php on line 119 and defined (D:\xampp\htdocs\framework\web\widgets\CActiveForm.php:511)
+Stack trace:
+#0 D:\xampp\htdocs\rent\protected\extensions\yii-debug-toolbar\components\YiiDebugViewRenderer.php(47): ProfileController->renderInternal()
+#1 D:\xampp\htdocs\framework\web\CBaseController.php(94): YiiDebugViewRenderer->renderFile()
+#2 D:\xampp\htdocs\framework\web\CController.php(870): ProfileController->renderFile()
+#3 D:\xampp\htdocs\framework\web\CController.php(783): ProfileController->renderPartial()
+#4 D:\xampp\htdocs\rent\protected\controllers\ProfileController.php(34): ProfileController->render()
+#5 D:\xampp\htdocs\framework\web\actions\CInlineAction.php(50): ProfileController->actionIndex()
+#6 D:\xampp\htdocs\framework\web\CController.php(309): CInlineAction->runWithParams()
+#7 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(134): ProfileController->runAction()
+#8 D:\xampp\htdocs\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#9 D:\xampp\htdocs\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#10 D:\xampp\htdocs\framework\web\filters\CInlineFilter.php(59): ProfileController->filterAccessControl()
+#11 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#12 D:\xampp\htdocs\framework\web\CController.php(292): CFilterChain->run()
+#13 D:\xampp\htdocs\framework\web\CController.php(266): ProfileController->runActionWithFilters()
+#14 D:\xampp\htdocs\framework\web\CWebApplication.php(276): ProfileController->run()
+#15 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#16 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#17 D:\xampp\htdocs\rent\index-test.php(15): CWebApplication->run()
+REQUEST_URI=/rent/index-test.php/profile/index
+2012/03/12 18:57:09 [trace] [system.CModule] Loading "errorHandler" application component
+2012/03/12 18:57:21 [trace] [system.CModule] Loading "log" application component
+2012/03/12 18:57:21 [trace] [system.CModule] Loading "request" application component
+2012/03/12 18:57:21 [trace] [system.CModule] Loading "viewRenderer" application component
+2012/03/12 18:57:21 [trace] [system.CModule] Loading "db" application component
+2012/03/12 18:57:21 [trace] [system.db.CDbConnection] Opening DB connection
+2012/03/12 18:57:21 [trace] [system.CModule] Loading "clientScript" application component
+2012/03/12 18:57:21 [trace] [system.CModule] Loading "assetManager" application component
+2012/03/12 18:57:21 [trace] [system.CModule] Loading "urlManager" application component
+2012/03/12 18:57:21 [trace] [system.web.filters.CFilterChain] Running filter ProfileController.filteraccessControl()
+2012/03/12 18:57:21 [trace] [system.CModule] Loading "user" application component
+2012/03/12 18:57:21 [trace] [system.CModule] Loading "session" application component
+2012/03/12 18:57:21 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `users`
+2012/03/12 18:57:21 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `users`)
+2012/03/12 18:57:21 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `users`)
+2012/03/12 18:57:21 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `users`
+2012/03/12 18:57:21 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `users`)
+2012/03/12 18:57:21 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `users`)
+2012/03/12 18:57:21 [trace] [system.db.ar.CActiveRecord] Users.findByPk()
+2012/03/12 18:57:21 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `users` `t` WHERE `t`.`id`='US101' LIMIT 1
+2012/03/12 18:57:21 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `users` `t` WHERE `t`.`id`='US101' LIMIT 1)
+2012/03/12 18:57:21 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `users` `t` WHERE `t`.`id`='US101' LIMIT 1)
+2012/03/12 18:57:21 [trace] [system.CModule] Loading "messages" application component
+2012/03/12 18:57:21 [trace] [system.CModule] Loading "widgetFactory" application component
+2012/03/12 18:57:21 [trace] [system.CModule] Loading "coreMessages" application component
+2012/03/12 18:57:38 [trace] [system.CModule] Loading "log" application component
+2012/03/12 18:57:38 [trace] [system.CModule] Loading "request" application component
+2012/03/12 18:57:38 [trace] [system.CModule] Loading "viewRenderer" application component
+2012/03/12 18:57:38 [trace] [system.CModule] Loading "db" application component
+2012/03/12 18:57:38 [trace] [system.db.CDbConnection] Opening DB connection
+2012/03/12 18:57:38 [trace] [system.CModule] Loading "clientScript" application component
+2012/03/12 18:57:38 [trace] [system.CModule] Loading "assetManager" application component
+2012/03/12 18:57:38 [trace] [system.CModule] Loading "urlManager" application component
+2012/03/12 18:57:38 [trace] [system.web.filters.CFilterChain] Running filter ProfileController.filteraccessControl()
+2012/03/12 18:57:38 [trace] [system.CModule] Loading "user" application component
+2012/03/12 18:57:38 [trace] [system.CModule] Loading "session" application component
+2012/03/12 18:57:38 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `users`
+2012/03/12 18:57:38 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `users`)
+2012/03/12 18:57:38 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `users`)
+2012/03/12 18:57:38 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `users`
+2012/03/12 18:57:38 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `users`)
+2012/03/12 18:57:38 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `users`)
+2012/03/12 18:57:38 [trace] [system.db.ar.CActiveRecord] Users.findByPk()
+2012/03/12 18:57:38 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `users` `t` WHERE `t`.`id`='US101' LIMIT 1
+2012/03/12 18:57:38 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `users` `t` WHERE `t`.`id`='US101' LIMIT 1)
+2012/03/12 18:57:38 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `users` `t` WHERE `t`.`id`='US101' LIMIT 1)
+2012/03/12 18:57:38 [trace] [system.CModule] Loading "messages" application component
+2012/03/12 18:57:38 [trace] [system.CModule] Loading "widgetFactory" application component
+2012/03/12 18:57:38 [trace] [system.CModule] Loading "coreMessages" application component
+2012/03/12 18:57:55 [trace] [system.CModule] Loading "log" application component
+2012/03/12 18:57:55 [trace] [system.CModule] Loading "request" application component
+2012/03/12 18:57:55 [trace] [system.CModule] Loading "viewRenderer" application component
+2012/03/12 18:57:55 [trace] [system.CModule] Loading "db" application component
+2012/03/12 18:57:55 [trace] [system.db.CDbConnection] Opening DB connection
+2012/03/12 18:57:55 [trace] [system.CModule] Loading "clientScript" application component
+2012/03/12 18:57:55 [trace] [system.CModule] Loading "assetManager" application component
+2012/03/12 18:57:55 [trace] [system.CModule] Loading "urlManager" application component
+2012/03/12 18:57:55 [trace] [system.web.filters.CFilterChain] Running filter ProfileController.filteraccessControl()
+2012/03/12 18:57:55 [trace] [system.CModule] Loading "user" application component
+2012/03/12 18:57:55 [trace] [system.CModule] Loading "session" application component
+2012/03/12 18:57:55 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `users`
+2012/03/12 18:57:55 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `users`)
+2012/03/12 18:57:55 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `users`)
+2012/03/12 18:57:55 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `users`
+2012/03/12 18:57:55 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `users`)
+2012/03/12 18:57:55 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `users`)
+2012/03/12 18:57:55 [trace] [system.db.ar.CActiveRecord] Users.findByPk()
+2012/03/12 18:57:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `users` `t` WHERE `t`.`id`='US101' LIMIT 1
+2012/03/12 18:57:55 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `users` `t` WHERE `t`.`id`='US101' LIMIT 1)
+2012/03/12 18:57:55 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `users` `t` WHERE `t`.`id`='US101' LIMIT 1)
+2012/03/12 18:57:55 [trace] [system.CModule] Loading "messages" application component
+2012/03/12 18:57:55 [trace] [system.CModule] Loading "widgetFactory" application component
+2012/03/12 18:57:55 [trace] [system.CModule] Loading "coreMessages" application component
+2012/03/12 18:58:42 [trace] [system.CModule] Loading "log" application component
+2012/03/12 18:58:42 [trace] [system.CModule] Loading "request" application component
+2012/03/12 18:58:42 [trace] [system.CModule] Loading "viewRenderer" application component
+2012/03/12 18:58:42 [trace] [system.CModule] Loading "db" application component
+2012/03/12 18:58:42 [trace] [system.db.CDbConnection] Opening DB connection
+2012/03/12 18:58:42 [trace] [system.CModule] Loading "clientScript" application component
+2012/03/12 18:58:42 [trace] [system.CModule] Loading "assetManager" application component
+2012/03/12 18:58:42 [trace] [system.CModule] Loading "urlManager" application component
+2012/03/12 18:58:42 [trace] [system.web.filters.CFilterChain] Running filter ProfileController.filteraccessControl()
+2012/03/12 18:58:42 [trace] [system.CModule] Loading "user" application component
+2012/03/12 18:58:42 [trace] [system.CModule] Loading "session" application component
+2012/03/12 18:58:42 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `users`
+2012/03/12 18:58:42 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `users`)
+2012/03/12 18:58:42 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `users`)
+2012/03/12 18:58:42 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `users`
+2012/03/12 18:58:42 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `users`)
+2012/03/12 18:58:42 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `users`)
+2012/03/12 18:58:42 [trace] [system.db.ar.CActiveRecord] Users.findByPk()
+2012/03/12 18:58:42 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `users` `t` WHERE `t`.`id`='US101' LIMIT 1
+2012/03/12 18:58:42 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `users` `t` WHERE `t`.`id`='US101' LIMIT 1)
+2012/03/12 18:58:42 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `users` `t` WHERE `t`.`id`='US101' LIMIT 1)
+2012/03/12 18:58:42 [trace] [system.db.ar.CActiveRecord] Users.update()
+2012/03/12 18:58:42 [trace] [system.db.ar.CActiveRecord] Users.updateByPk()
+2012/03/12 18:58:42 [trace] [system.db.CDbCommand] Executing SQL: UPDATE `users` SET `id`=:yp0, `username`=:yp1, `password`=:yp2, `role`=:yp3, `name`=:yp4, `birthday`=:yp5, `idcard`=:yp6, `work`=:yp7, `address1`=:yp8, `address2`=:yp9, `email`=:yp10, `tel`=:yp11, `yahoo`=:yp12, `skype`=:yp13, `last_login`=:yp14 WHERE `users`.`id`='US101'
+2012/03/12 18:58:42 [profile] [system.db.CDbCommand.execute] begin:system.db.CDbCommand.execute(UPDATE `users` SET `id`=:yp0, `username`=:yp1, `password`=:yp2, `role`=:yp3, `name`=:yp4, `birthday`=:yp5, `idcard`=:yp6, `work`=:yp7, `address1`=:yp8, `address2`=:yp9, `email`=:yp10, `tel`=:yp11, `yahoo`=:yp12, `skype`=:yp13, `last_login`=:yp14 WHERE `users`.`id`='US101')
+2012/03/12 18:58:42 [profile] [system.db.CDbCommand.execute] end:system.db.CDbCommand.execute(UPDATE `users` SET `id`=:yp0, `username`=:yp1, `password`=:yp2, `role`=:yp3, `name`=:yp4, `birthday`=:yp5, `idcard`=:yp6, `work`=:yp7, `address1`=:yp8, `address2`=:yp9, `email`=:yp10, `tel`=:yp11, `yahoo`=:yp12, `skype`=:yp13, `last_login`=:yp14 WHERE `users`.`id`='US101')
+2012/03/12 18:58:42 [trace] [system.CModule] Loading "messages" application component
+2012/03/12 18:58:42 [trace] [system.CModule] Loading "widgetFactory" application component
+2012/03/12 18:58:42 [trace] [system.CModule] Loading "coreMessages" application component
+2012/03/12 18:58:50 [trace] [system.CModule] Loading "log" application component
+2012/03/12 18:58:50 [trace] [system.CModule] Loading "request" application component
+2012/03/12 18:58:50 [trace] [system.CModule] Loading "viewRenderer" application component
+2012/03/12 18:58:50 [trace] [system.CModule] Loading "db" application component
+2012/03/12 18:58:50 [trace] [system.db.CDbConnection] Opening DB connection
+2012/03/12 18:58:50 [trace] [system.CModule] Loading "clientScript" application component
+2012/03/12 18:58:50 [trace] [system.CModule] Loading "assetManager" application component
+2012/03/12 18:58:50 [trace] [system.CModule] Loading "urlManager" application component
+2012/03/12 18:58:50 [trace] [system.web.filters.CFilterChain] Running filter ProfileController.filteraccessControl()
+2012/03/12 18:58:50 [trace] [system.CModule] Loading "user" application component
+2012/03/12 18:58:50 [trace] [system.CModule] Loading "session" application component
+2012/03/12 18:58:50 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `users`
+2012/03/12 18:58:50 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `users`)
+2012/03/12 18:58:50 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `users`)
+2012/03/12 18:58:50 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `users`
+2012/03/12 18:58:50 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `users`)
+2012/03/12 18:58:50 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `users`)
+2012/03/12 18:58:50 [trace] [system.db.ar.CActiveRecord] Users.findByPk()
+2012/03/12 18:58:50 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `users` `t` WHERE `t`.`id`='US101' LIMIT 1
+2012/03/12 18:58:50 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `users` `t` WHERE `t`.`id`='US101' LIMIT 1)
+2012/03/12 18:58:50 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `users` `t` WHERE `t`.`id`='US101' LIMIT 1)
+2012/03/12 18:58:50 [trace] [system.db.ar.CActiveRecord] Users.update()
+2012/03/12 18:58:50 [trace] [system.db.ar.CActiveRecord] Users.updateByPk()
+2012/03/12 18:58:50 [trace] [system.db.CDbCommand] Executing SQL: UPDATE `users` SET `id`=:yp0, `username`=:yp1, `password`=:yp2, `role`=:yp3, `name`=:yp4, `birthday`=:yp5, `idcard`=:yp6, `work`=:yp7, `address1`=:yp8, `address2`=:yp9, `email`=:yp10, `tel`=:yp11, `yahoo`=:yp12, `skype`=:yp13, `last_login`=:yp14 WHERE `users`.`id`='US101'
+2012/03/12 18:58:50 [profile] [system.db.CDbCommand.execute] begin:system.db.CDbCommand.execute(UPDATE `users` SET `id`=:yp0, `username`=:yp1, `password`=:yp2, `role`=:yp3, `name`=:yp4, `birthday`=:yp5, `idcard`=:yp6, `work`=:yp7, `address1`=:yp8, `address2`=:yp9, `email`=:yp10, `tel`=:yp11, `yahoo`=:yp12, `skype`=:yp13, `last_login`=:yp14 WHERE `users`.`id`='US101')
+2012/03/12 18:58:50 [profile] [system.db.CDbCommand.execute] end:system.db.CDbCommand.execute(UPDATE `users` SET `id`=:yp0, `username`=:yp1, `password`=:yp2, `role`=:yp3, `name`=:yp4, `birthday`=:yp5, `idcard`=:yp6, `work`=:yp7, `address1`=:yp8, `address2`=:yp9, `email`=:yp10, `tel`=:yp11, `yahoo`=:yp12, `skype`=:yp13, `last_login`=:yp14 WHERE `users`.`id`='US101')
+2012/03/12 18:58:50 [trace] [system.CModule] Loading "messages" application component
+2012/03/12 18:58:50 [trace] [system.CModule] Loading "widgetFactory" application component
+2012/03/12 18:58:50 [trace] [system.CModule] Loading "coreMessages" application component
+2012/03/12 18:59:55 [trace] [system.CModule] Loading "log" application component
+2012/03/12 18:59:55 [trace] [system.CModule] Loading "request" application component
+2012/03/12 18:59:55 [trace] [system.CModule] Loading "viewRenderer" application component
+2012/03/12 18:59:55 [trace] [system.CModule] Loading "db" application component
+2012/03/12 18:59:55 [trace] [system.db.CDbConnection] Opening DB connection
+2012/03/12 18:59:55 [trace] [system.CModule] Loading "clientScript" application component
+2012/03/12 18:59:55 [trace] [system.CModule] Loading "assetManager" application component
+2012/03/12 18:59:55 [trace] [system.CModule] Loading "urlManager" application component
+2012/03/12 18:59:55 [trace] [system.web.filters.CFilterChain] Running filter ProfileController.filteraccessControl()
+2012/03/12 18:59:55 [trace] [system.CModule] Loading "user" application component
+2012/03/12 18:59:55 [trace] [system.CModule] Loading "session" application component
+2012/03/12 18:59:55 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `users`
+2012/03/12 18:59:55 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `users`)
+2012/03/12 18:59:56 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `users`)
+2012/03/12 18:59:56 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `users`
+2012/03/12 18:59:56 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `users`)
+2012/03/12 18:59:56 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `users`)
+2012/03/12 18:59:56 [trace] [system.db.ar.CActiveRecord] Users.findByPk()
+2012/03/12 18:59:56 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `users` `t` WHERE `t`.`id`='US101' LIMIT 1
+2012/03/12 18:59:56 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `users` `t` WHERE `t`.`id`='US101' LIMIT 1)
+2012/03/12 18:59:56 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `users` `t` WHERE `t`.`id`='US101' LIMIT 1)
+2012/03/12 18:59:56 [trace] [system.CModule] Loading "messages" application component
+2012/03/12 18:59:56 [trace] [system.CModule] Loading "widgetFactory" application component
+2012/03/12 18:59:56 [trace] [system.CModule] Loading "coreMessages" application component
+2012/03/12 19:01:02 [trace] [system.CModule] Loading "log" application component
+2012/03/12 19:01:02 [trace] [system.CModule] Loading "request" application component
+2012/03/12 19:01:02 [trace] [system.CModule] Loading "viewRenderer" application component
+2012/03/12 19:01:02 [trace] [system.CModule] Loading "db" application component
+2012/03/12 19:01:02 [trace] [system.db.CDbConnection] Opening DB connection
+2012/03/12 19:01:02 [trace] [system.CModule] Loading "clientScript" application component
+2012/03/12 19:01:02 [trace] [system.CModule] Loading "assetManager" application component
+2012/03/12 19:01:02 [trace] [system.CModule] Loading "urlManager" application component
+2012/03/12 19:01:02 [trace] [system.web.filters.CFilterChain] Running filter ProfileController.filteraccessControl()
+2012/03/12 19:01:02 [trace] [system.CModule] Loading "user" application component
+2012/03/12 19:01:02 [trace] [system.CModule] Loading "session" application component
+2012/03/12 19:01:02 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `users`
+2012/03/12 19:01:02 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `users`)
+2012/03/12 19:01:02 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `users`)
+2012/03/12 19:01:02 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `users`
+2012/03/12 19:01:02 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `users`)
+2012/03/12 19:01:02 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `users`)
+2012/03/12 19:01:02 [trace] [system.db.ar.CActiveRecord] Users.findByPk()
+2012/03/12 19:01:02 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `users` `t` WHERE `t`.`id`='US101' LIMIT 1
+2012/03/12 19:01:02 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `users` `t` WHERE `t`.`id`='US101' LIMIT 1)
+2012/03/12 19:01:02 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `users` `t` WHERE `t`.`id`='US101' LIMIT 1)
+2012/03/12 19:01:02 [trace] [system.CModule] Loading "messages" application component
+2012/03/12 19:01:02 [trace] [system.CModule] Loading "widgetFactory" application component
+2012/03/12 19:01:02 [trace] [system.CModule] Loading "coreMessages" application component
+2012/03/12 19:01:38 [trace] [system.CModule] Loading "log" application component
+2012/03/12 19:01:38 [trace] [system.CModule] Loading "request" application component
+2012/03/12 19:01:38 [trace] [system.CModule] Loading "viewRenderer" application component
+2012/03/12 19:01:38 [trace] [system.CModule] Loading "db" application component
+2012/03/12 19:01:38 [trace] [system.db.CDbConnection] Opening DB connection
+2012/03/12 19:01:38 [trace] [system.CModule] Loading "clientScript" application component
+2012/03/12 19:01:38 [trace] [system.CModule] Loading "assetManager" application component
+2012/03/12 19:01:38 [trace] [system.CModule] Loading "urlManager" application component
+2012/03/12 19:01:38 [trace] [system.web.filters.CFilterChain] Running filter ProfileController.filteraccessControl()
+2012/03/12 19:01:38 [trace] [system.CModule] Loading "user" application component
+2012/03/12 19:01:38 [trace] [system.CModule] Loading "session" application component
+2012/03/12 19:01:38 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `users`
+2012/03/12 19:01:38 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `users`)
+2012/03/12 19:01:38 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `users`)
+2012/03/12 19:01:38 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `users`
+2012/03/12 19:01:38 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `users`)
+2012/03/12 19:01:38 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `users`)
+2012/03/12 19:01:38 [trace] [system.db.ar.CActiveRecord] Users.findByPk()
+2012/03/12 19:01:38 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `users` `t` WHERE `t`.`id`='US101' LIMIT 1
+2012/03/12 19:01:38 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `users` `t` WHERE `t`.`id`='US101' LIMIT 1)
+2012/03/12 19:01:38 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `users` `t` WHERE `t`.`id`='US101' LIMIT 1)
+2012/03/12 19:01:38 [trace] [system.CModule] Loading "messages" application component
+2012/03/12 19:01:38 [trace] [system.CModule] Loading "widgetFactory" application component
+2012/03/12 19:01:38 [trace] [system.CModule] Loading "coreMessages" application component
+2012/03/12 19:02:31 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 19:02:31 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 19:02:31 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 19:02:31 [trace] [system.base.CModule] Loading "gii" module
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 19:02:31 [trace] [system.CModule] Loading "user" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 19:02:31 [trace] [system.CModule] Loading "session" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 19:02:31 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 19:02:31 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 19:02:31 [trace] [system.CModule] Loading "assetManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 19:02:31 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 19:02:36 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 19:02:36 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 19:02:36 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 19:02:36 [trace] [system.base.CModule] Loading "gii" module
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 19:02:36 [trace] [system.CModule] Loading "user" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 19:02:36 [trace] [system.CModule] Loading "session" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 19:02:37 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 19:02:37 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 19:02:37 [trace] [system.CModule] Loading "assetManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 19:02:37 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 19:02:39 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 19:02:39 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 19:02:39 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 19:02:39 [trace] [system.base.CModule] Loading "gii" module
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 19:02:39 [trace] [system.CModule] Loading "user" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 19:02:39 [trace] [system.CModule] Loading "session" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 19:02:39 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 19:02:39 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 19:02:39 [trace] [system.CModule] Loading "assetManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 19:02:39 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 19:03:03 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 19:03:03 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 19:03:03 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 19:03:03 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 19:03:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"admin"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('admin')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\rent\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/rent/admin
+---
+2012/03/12 19:03:03 [trace] [system.CModule] Loading "errorHandler" application component
+2012/03/12 19:03:03 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/12 19:03:24 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 19:03:24 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 19:03:24 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 19:03:24 [trace] [system.base.CModule] Loading "admin" module
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 19:03:24 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\rent\protected\modules\admin\controllers\DefaultController.php (7)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 19:10:38 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 19:10:38 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 19:10:38 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 19:10:38 [trace] [system.base.CModule] Loading "admin" module
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 19:10:38 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\rent\protected\modules\admin\views\layouts\main.php (32)
+in D:\xampp\htdocs\rent\protected\modules\admin\controllers\DefaultController.php (7)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 19:10:38 [trace] [system.CModule] Loading "user" application component
+in D:\xampp\htdocs\rent\protected\modules\admin\views\layouts\main.php (69)
+in D:\xampp\htdocs\rent\protected\modules\admin\controllers\DefaultController.php (7)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 19:10:38 [trace] [system.CModule] Loading "session" application component
+in D:\xampp\htdocs\rent\protected\modules\admin\views\layouts\main.php (69)
+in D:\xampp\htdocs\rent\protected\modules\admin\controllers\DefaultController.php (7)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 19:10:38 [error] [php] include(Order.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (D:\xampp\htdocs\framework\YiiBase.php:418)
+Stack trace:
+#0 D:\xampp\htdocs\rent\protected\modules\admin\views\layouts\main.php(69): spl_autoload_call()
+#1 D:\xampp\htdocs\framework\web\CBaseController.php(127): require()
+#2 D:\xampp\htdocs\framework\web\CBaseController.php(96): DefaultController->renderInternal()
+#3 D:\xampp\htdocs\framework\web\CController.php(785): DefaultController->renderFile()
+#4 D:\xampp\htdocs\rent\protected\modules\admin\controllers\DefaultController.php(7): DefaultController->render()
+#5 D:\xampp\htdocs\framework\web\actions\CInlineAction.php(50): DefaultController->actionIndex()
+#6 D:\xampp\htdocs\framework\web\CController.php(309): CInlineAction->runWithParams()
+#7 D:\xampp\htdocs\framework\web\CController.php(287): DefaultController->runAction()
+#8 D:\xampp\htdocs\framework\web\CController.php(266): DefaultController->runActionWithFilters()
+#9 D:\xampp\htdocs\framework\web\CWebApplication.php(276): DefaultController->run()
+#10 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#11 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#12 D:\xampp\htdocs\rent\index.php(13): CWebApplication->run()
+REQUEST_URI=/rent/admin
+in D:\xampp\htdocs\rent\protected\modules\admin\views\layouts\main.php (69)
+in D:\xampp\htdocs\rent\protected\modules\admin\controllers\DefaultController.php (7)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 19:10:38 [trace] [system.CModule] Loading "errorHandler" application component
+in D:\xampp\htdocs\rent\protected\modules\admin\views\layouts\main.php (69)
+in D:\xampp\htdocs\rent\protected\modules\admin\controllers\DefaultController.php (7)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 19:10:38 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\rent\protected\modules\admin\views\layouts\main.php (69)
+in D:\xampp\htdocs\rent\protected\modules\admin\controllers\DefaultController.php (7)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 19:11:23 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 19:11:23 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 19:11:23 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 19:11:23 [trace] [system.base.CModule] Loading "admin" module
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 19:11:23 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\rent\protected\modules\admin\views\layouts\main.php (32)
+in D:\xampp\htdocs\rent\protected\modules\admin\controllers\DefaultController.php (7)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 19:11:23 [trace] [system.CModule] Loading "user" application component
+in D:\xampp\htdocs\rent\protected\modules\admin\views\layouts\main.php (69)
+in D:\xampp\htdocs\rent\protected\modules\admin\controllers\DefaultController.php (7)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 19:11:23 [trace] [system.CModule] Loading "session" application component
+in D:\xampp\htdocs\rent\protected\modules\admin\views\layouts\main.php (69)
+in D:\xampp\htdocs\rent\protected\modules\admin\controllers\DefaultController.php (7)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 19:11:23 [trace] [system.CModule] Loading "assetManager" application component
+in D:\xampp\htdocs\rent\protected\modules\admin\controllers\DefaultController.php (7)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 19:11:24 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 19:11:24 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 19:11:24 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 19:11:24 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 19:11:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"ckeditor/ckeditor.js"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('ckeditor/ckedit...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\rent\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/rent/ckeditor/ckeditor.js
+HTTP_REFERER=http://localhost/rent/admin
+---
+2012/03/12 19:11:24 [trace] [system.CModule] Loading "errorHandler" application component
+2012/03/12 19:11:24 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/12 19:11:24 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 19:11:24 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 19:11:24 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 19:11:24 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 19:11:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"js/admin/ajax.js"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('js/admin/ajax.j...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\rent\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/rent/js/admin/ajax.js
+HTTP_REFERER=http://localhost/rent/admin
+---
+2012/03/12 19:11:24 [trace] [system.CModule] Loading "errorHandler" application component
+2012/03/12 19:11:24 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/12 19:11:24 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 19:11:24 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 19:11:24 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 19:11:24 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 19:11:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"ckfinder/ckfinder.js"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('ckfinder/ckfind...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\rent\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/rent/ckfinder/ckfinder.js
+HTTP_REFERER=http://localhost/rent/admin
+---
+2012/03/12 19:11:24 [trace] [system.CModule] Loading "errorHandler" application component
+2012/03/12 19:11:24 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/12 19:11:24 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 19:11:24 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 19:11:24 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 19:11:24 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 19:11:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"resources/images/closelabel.gif"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('resources/image...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\rent\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/rent/resources/images/closelabel.gif
+HTTP_REFERER=http://localhost/rent/admin
+---
+2012/03/12 19:11:24 [trace] [system.CModule] Loading "errorHandler" application component
+2012/03/12 19:11:24 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/12 19:11:25 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 19:11:25 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 19:11:25 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 19:11:25 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 19:11:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"resources/images/loading.gif"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('resources/image...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\rent\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/rent/resources/images/loading.gif
+HTTP_REFERER=http://localhost/rent/admin
+---
+2012/03/12 19:11:25 [trace] [system.CModule] Loading "errorHandler" application component
+2012/03/12 19:11:25 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/12 19:12:35 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 19:12:35 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 19:12:35 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 19:12:35 [trace] [system.base.CModule] Loading "gii" module
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 19:12:35 [trace] [system.CModule] Loading "user" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 19:12:35 [trace] [system.CModule] Loading "session" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 19:12:35 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 19:12:35 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 19:12:35 [trace] [system.CModule] Loading "assetManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 19:12:35 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 19:14:24 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 19:14:24 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 19:14:24 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 19:14:24 [trace] [system.base.CModule] Loading "admin" module
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 19:14:24 [trace] [system.web.filters.CFilterChain] Running filter UserController.filteraccessControl()
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 19:14:24 [trace] [system.CModule] Loading "user" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 19:14:24 [trace] [system.CModule] Loading "session" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 19:14:24 [trace] [system.CModule] Loading "db" application component
+in D:\xampp\htdocs\rent\protected\models\Users.php (36)
+in D:\xampp\htdocs\rent\protected\modules\admin\controllers\UserController.php (28)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 19:14:24 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\xampp\htdocs\rent\protected\models\Users.php (36)
+in D:\xampp\htdocs\rent\protected\modules\admin\controllers\UserController.php (28)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 19:14:24 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `users`
+in D:\xampp\htdocs\rent\protected\models\Users.php (36)
+in D:\xampp\htdocs\rent\protected\modules\admin\controllers\UserController.php (28)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 19:14:24 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `users`
+in D:\xampp\htdocs\rent\protected\models\Users.php (36)
+in D:\xampp\htdocs\rent\protected\modules\admin\controllers\UserController.php (28)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 19:14:24 [trace] [system.db.ar.CActiveRecord] Users.findAll()
+in D:\xampp\htdocs\rent\protected\modules\admin\controllers\UserController.php (28)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 19:14:24 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `users` `t`
+in D:\xampp\htdocs\rent\protected\modules\admin\controllers\UserController.php (28)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 19:14:24 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\rent\protected\modules\admin\views\layouts\main.php (32)
+in D:\xampp\htdocs\rent\protected\modules\admin\controllers\UserController.php (29)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 19:14:24 [trace] [system.CModule] Loading "assetManager" application component
+in D:\xampp\htdocs\rent\protected\modules\admin\controllers\UserController.php (29)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 19:14:24 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 19:14:24 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 19:14:24 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 19:14:24 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 19:14:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"js/admin/ajax.js"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('js/admin/ajax.j...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\rent\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/rent/js/admin/ajax.js
+HTTP_REFERER=http://localhost/rent/admin/user/index
+---
+2012/03/12 19:14:24 [trace] [system.CModule] Loading "errorHandler" application component
+2012/03/12 19:14:24 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/12 19:14:24 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 19:14:24 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 19:14:24 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 19:14:24 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 19:14:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"ckeditor/ckeditor.js"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('ckeditor/ckedit...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\rent\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/rent/ckeditor/ckeditor.js
+HTTP_REFERER=http://localhost/rent/admin/user/index
+---
+2012/03/12 19:14:24 [trace] [system.CModule] Loading "errorHandler" application component
+2012/03/12 19:14:24 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/12 19:14:24 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 19:14:24 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 19:14:24 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 19:14:24 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 19:14:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"ckfinder/ckfinder.js"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('ckfinder/ckfind...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\rent\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/rent/ckfinder/ckfinder.js
+HTTP_REFERER=http://localhost/rent/admin/user/index
+---
+2012/03/12 19:14:24 [trace] [system.CModule] Loading "errorHandler" application component
+2012/03/12 19:14:24 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/12 19:14:25 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 19:14:25 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 19:14:25 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 19:14:25 [trace] [system.base.CModule] Loading "admin" module
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 19:14:25 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 19:14:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'システムは要求されたアクション "resources" を見つけられません。' in D:\xampp\htdocs\framework\web\CController.php:484
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CController.php(271): CController->missingAction('resources')
+#1 D:\xampp\htdocs\framework\web\CWebApplication.php(276): CController->run('resources')
+#2 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('admin/user/reso...')
+#3 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\rent\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/rent/admin/user/resources/images/closelabel.gif
+HTTP_REFERER=http://localhost/rent/admin/user/index
+---
+2012/03/12 19:14:25 [trace] [system.CModule] Loading "errorHandler" application component
+2012/03/12 19:14:25 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/12 19:14:25 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 19:14:25 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 19:14:25 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 19:14:25 [trace] [system.base.CModule] Loading "admin" module
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 19:14:25 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/12 19:14:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'システムは要求されたアクション "resources" を見つけられません。' in D:\xampp\htdocs\framework\web\CController.php:484
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CController.php(271): CController->missingAction('resources')
+#1 D:\xampp\htdocs\framework\web\CWebApplication.php(276): CController->run('resources')
+#2 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('admin/user/reso...')
+#3 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\rent\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/rent/admin/user/resources/images/loading.gif
+HTTP_REFERER=http://localhost/rent/admin/user/index
+---
+2012/03/12 19:14:25 [trace] [system.CModule] Loading "errorHandler" application component
+2012/03/12 19:14:25 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)

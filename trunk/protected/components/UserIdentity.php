@@ -18,7 +18,7 @@ class UserIdentity extends CUserIdentity
 	private $_id;
 	public function authenticate()
 	{
-		$record = User::model()->findByAttributes(array('username'=>$this->username));
+		$record = Users::model()->findByAttributes(array('username'=>$this->username));
 		if ($record == NULL)
 			$this->errorCode = self::ERROR_USERNAME_INVALID;
 		else if ($record->password != sha1(md5($this->password)))
