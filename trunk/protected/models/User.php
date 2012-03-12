@@ -11,6 +11,7 @@
  * @property string $name
  * @property string $birthday
  * @property integer $idcard
+ * @property string $work
  * @property string $address1
  * @property string $address2
  * @property string $email
@@ -47,18 +48,19 @@ class User extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('id, username, password, role, name, birthday, idcard, address2, email, tel', 'required'),
+			array('id, username, password, role, name, birthday, idcard, work, address2, email, tel', 'required'),
 			array('role, idcard', 'numerical', 'integerOnly'=>true),
 			array('id', 'length', 'max'=>8),
 			array('username', 'length', 'max'=>15),
 			array('password, email, yahoo, skype', 'length', 'max'=>40),
 			array('name', 'length', 'max'=>128),
-			array('address1, address2', 'length', 'max'=>256),
+			array('work, address1, address2', 'length', 'max'=>256),
 			array('tel', 'length', 'max'=>11),
+			array('email','email'),
 			array('last_login', 'safe'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('id, username, password, role, name, birthday, idcard, address1, address2, email, tel, yahoo, skype, last_login', 'safe', 'on'=>'search'),
+			array('id, username, password, role, name, birthday, idcard, work, address1, address2, email, tel, yahoo, skype, last_login', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -79,20 +81,21 @@ class User extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'id' => 'ID',
-			'username' => 'Username',
-			'password' => 'Password',
-			'role' => 'Role',
-			'name' => 'Name',
-			'birthday' => 'Birthday',
-			'idcard' => 'Idcard',
-			'address1' => 'Address1',
-			'address2' => 'Address2',
-			'email' => 'Email',
-			'tel' => 'Tel',
-			'yahoo' => 'Yahoo',
-			'skype' => 'Skype',
-			'last_login' => 'Last Login',
+			'id' => Yii::t('user','ID'),
+			'username' => Yii::t('user','Username'),
+			'password' => Yii::t('user','Password'),
+			'role' => Yii::t('user','Role'),
+			'name' => Yii::t('user','Name'),
+			'birthday' => Yii::t('user','Birthday'),
+			'idcard' => Yii::t('user','Idcard'),
+			'work' => Yii::t('user','Work'),
+			'address1' => Yii::t('user','Address1'),
+			'address2' => Yii::t('user','Address2'),
+			'email' => Yii::t('user','Email'),
+			'tel' => Yii::t('user','Tel'),
+			'yahoo' => Yii::t('user','Yahoo'),
+			'skype' => Yii::t('user','Skype'),
+			'last_login' => Yii::t('user','Last Login'),
 		);
 	}
 
@@ -114,6 +117,7 @@ class User extends CActiveRecord
 		$criteria->compare('name',$this->name,true);
 		$criteria->compare('birthday',$this->birthday,true);
 		$criteria->compare('idcard',$this->idcard);
+		$criteria->compare('work',$this->work,true);
 		$criteria->compare('address1',$this->address1,true);
 		$criteria->compare('address2',$this->address2,true);
 		$criteria->compare('email',$this->email,true);
@@ -125,5 +129,12 @@ class User extends CActiveRecord
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
 		));
+	}
+	
+	/**
+	 * @return ロールの名前
+	 */
+	public function getRoleName() {
+		return ($this->role == 1)? Yii::t('user','admin'):Yii::t('user','user');
 	}
 }

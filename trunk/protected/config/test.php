@@ -6,6 +6,12 @@ return CMap::mergeArray(
 		// preloading 'log' component
 		'preload'=>array('log'),
 		'components'=>array(
+			'urlManager'=>array(
+				'showScriptName'=>true,
+			),
+			'db'=>array(
+				'enableProfiling'=>true,
+			),
 			'fixture'=>array(
 				'class'=>'system.test.CDbFixtureManager',
 			),
