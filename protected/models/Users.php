@@ -1,9 +1,9 @@
 <?php
 
 /**
- * This is the model class for table "user".
+ * This is the model class for table "users".
  *
- * The followings are the available columns in table 'user':
+ * The followings are the available columns in table 'users':
  * @property string $id
  * @property string $username
  * @property string $password
@@ -19,13 +19,17 @@
  * @property string $yahoo
  * @property string $skype
  * @property string $last_login
+ *
+ * The followings are the available model relations:
+ * @property Orders[] $orders
+ * @property OrdersHistory[] $ordersHistories
  */
-class User extends CActiveRecord
+class Users extends CActiveRecord
 {
 	/**
 	 * Returns the static model of the specified AR class.
 	 * @param string $className active record class name.
-	 * @return User the static model class
+	 * @return Users the static model class
 	 */
 	public static function model($className=__CLASS__)
 	{
@@ -37,7 +41,7 @@ class User extends CActiveRecord
 	 */
 	public function tableName()
 	{
-		return 'user';
+		return 'users';
 	}
 
 	/**
@@ -54,9 +58,9 @@ class User extends CActiveRecord
 			array('username', 'length', 'max'=>15),
 			array('password, email, yahoo, skype', 'length', 'max'=>40),
 			array('name', 'length', 'max'=>128),
+			array('email','email'),
 			array('work, address1, address2', 'length', 'max'=>256),
 			array('tel', 'length', 'max'=>11),
-			array('email','email'),
 			array('last_login', 'safe'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
@@ -72,6 +76,8 @@ class User extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
+			'orders' => array(self::HAS_MANY, 'Orders', 'user_id'),
+			'ordersHistories' => array(self::HAS_MANY, 'OrdersHistory', 'user_id'),
 		);
 	}
 

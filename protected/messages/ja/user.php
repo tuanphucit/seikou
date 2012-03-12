@@ -18,7 +18,7 @@
 		'Address2' => 'Dia chi phong',
 		'Email' => 'イーメール',
 		'Tel' => '電話番号',
-		'Last_login' => '最後にログイン',
+		'Last Login' => '最後にログイン',
 		'user' => 'テナント',
 		'admin'=>'管理者',
 	);

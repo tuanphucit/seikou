@@ -23,9 +23,9 @@ class ProfileController extends Controller
 	}
 	public function actionIndex()
 	{
-		$user = User::model()->findByPk(Yii::app()->user->id);
-		if (isset($_POST['User'])){
-			$user->attributes = $_POST['User'];
+		$user = Users::model()->findByPk(Yii::app()->user->id);
+		if (isset($_POST['Users'])){
+			$user->attributes = $_POST['Users'];
 			if ($user->save())
 				Yii::app()->user->setFlash('error',Yii::t('user','Editting profile failed'));
 			else				
