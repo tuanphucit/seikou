@@ -92,5 +92,7 @@ return array(
 		'adminEmail'=>'luckymancvp@gmail.com',
 	),
 	'sourceLanguage'=>'en',
-	'language'=>'jp',
+	'language'=>'ja_JP',
+	'defaultController'=>'home',
+	'homeUrl'=>array('/home/index/'),
 );
