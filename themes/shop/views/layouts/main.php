@@ -151,6 +151,8 @@
 	<!--------------------------------------end of HEADER block  -->
 	
 	<div class="clear"></div>
+	<?php $this->widget('bootstrap.widgets.BootAlert'); ?>
+	<div class="clear"></div>
 	<?php echo $content ?>
 	
 	
