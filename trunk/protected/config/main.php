@@ -95,5 +95,5 @@ return array(
 	'language'=>'ja',
 	'defaultController'=>'home',
 	'homeUrl'=>array('/home/index/'),
-	'theme'=>'spicy',
+	'theme'=>'shop',
 );

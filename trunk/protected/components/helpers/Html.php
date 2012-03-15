@@ -43,19 +43,19 @@ class Html extends CHtml {
 	/**
 	 * Makes the given URL relative to the /theme/image directory
 	 */
-	public static function imageWithThemeUrl($url) {
+	public static function imageThemeUrl($url) {
 		return Yii::app ()->theme->baseUrl . '/images/' . $url;
 	}
 	/**
 	 * Makes the given URL relative to the /theme/css directory
 	 */
-	public static function cssWithThemeUrl($url) {
+	public static function cssThemeUrl($url) {
 		return Yii::app ()->theme->baseUrl . '/css/' . $url;
 	}
 	/**
 	 * Makes the given URL relative to the /theme/js directory
 	 */
-	public static function jsWithThemeUrl($url) {
+	public static function jsThemeUrl($url) {
 		return Yii::app ()->theme->baseUrl . '/js/' . $url;
 	}
 	public static function addClass(&$htmlOptions, $class) {
