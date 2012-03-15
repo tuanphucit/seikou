@@ -6910,3 +6910,119 @@ in D:\xampp\htdocs\seikou\index.php (13)
 2012/03/15 10:40:29 [trace] [system.CModule] Loading "clientScript" application component
 in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (7)
 in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 10:52:24 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 10:52:24 [trace] [system.CModule] Loading "bootstrap" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 10:52:24 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (62)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 10:52:24 [trace] [system.CModule] Loading "assetManager" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (351)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (62)
+2012/03/15 10:52:24 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (351)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (62)
+2012/03/15 10:52:24 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 10:52:24 [trace] [system.web.filters.CFilterChain] Running filter HomeController.filteraccessControl()
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 10:52:24 [trace] [system.CModule] Loading "user" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 10:52:24 [trace] [system.CModule] Loading "session" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 10:52:24 [trace] [system.CModule] Loading "themeManager" application component
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (7)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 10:54:37 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 10:54:37 [trace] [system.CModule] Loading "bootstrap" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 10:54:37 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (62)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 10:54:37 [trace] [system.CModule] Loading "assetManager" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (351)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (62)
+2012/03/15 10:54:37 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (351)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (62)
+2012/03/15 10:54:37 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 10:54:37 [trace] [system.web.filters.CFilterChain] Running filter HomeController.filteraccessControl()
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 10:54:37 [trace] [system.CModule] Loading "user" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 10:54:37 [trace] [system.CModule] Loading "session" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 10:54:37 [trace] [system.CModule] Loading "themeManager" application component
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (7)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 10:54:37 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\seikou\themes\shop\views\layouts\main.php (154)
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (7)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 10:54:59 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 10:54:59 [trace] [system.CModule] Loading "bootstrap" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 10:54:59 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (62)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 10:54:59 [trace] [system.CModule] Loading "assetManager" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (351)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (62)
+2012/03/15 10:54:59 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (351)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (62)
+2012/03/15 10:54:59 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 10:54:59 [trace] [system.web.filters.CFilterChain] Running filter HomeController.filteraccessControl()
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 10:54:59 [trace] [system.CModule] Loading "user" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 10:54:59 [trace] [system.CModule] Loading "session" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 10:54:59 [trace] [system.CModule] Loading "themeManager" application component
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (7)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 10:55:57 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 10:55:57 [trace] [system.CModule] Loading "bootstrap" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 10:55:57 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (62)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 10:55:57 [trace] [system.CModule] Loading "assetManager" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (351)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (62)
+2012/03/15 10:55:57 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (351)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (62)
+2012/03/15 10:55:57 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 10:55:57 [trace] [system.web.filters.CFilterChain] Running filter HomeController.filteraccessControl()
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 10:55:57 [trace] [system.CModule] Loading "user" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 10:55:57 [trace] [system.CModule] Loading "session" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 10:55:57 [trace] [system.CModule] Loading "themeManager" application component
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (11)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 10:55:57 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\seikou\themes\shop\views\layouts\main.php (154)
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (11)
+in D:\xampp\htdocs\seikou\index.php (13)
