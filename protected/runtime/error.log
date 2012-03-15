@@ -3542,3 +3542,547 @@ Stack trace:
 REQUEST_URI=/rent/admin/user/resources/images/loading.gif
 HTTP_REFERER=http://localhost/rent/admin/user/index
 ---
+2012/03/15 09:32:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"js/jquery-ui-1.8.9.custom.min.js"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('js/jquery-ui-1....')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/js/jquery-ui-1.8.9.custom.min.js
+HTTP_REFERER=http://localhost/seikou/site
+---
+2012/03/15 09:32:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"css/jquery-ui-1.8.9.custom.css"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('css/jquery-ui-1...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/css/jquery-ui-1.8.9.custom.css
+HTTP_REFERER=http://localhost/seikou/site
+---
+2012/03/15 09:32:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"js/custom_scripts.js"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('js/custom_scrip...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/js/custom_scripts.js
+HTTP_REFERER=http://localhost/seikou/site
+---
+2012/03/15 09:32:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"css/stylesheet.css"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('css/stylesheet....')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/css/stylesheet.css
+HTTP_REFERER=http://localhost/seikou/site
+---
+2012/03/15 09:32:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"js/tabs.js"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('js/tabs.js')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/js/tabs.js
+HTTP_REFERER=http://localhost/seikou/site
+---
+2012/03/15 09:32:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"js/tipsy/css.tipsy.css"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('js/tipsy/css.ti...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/js/tipsy/css.tipsy.css
+HTTP_REFERER=http://localhost/seikou/site
+---
+2012/03/15 09:32:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"js/tipsy/jquery.tipsy.js"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('js/tipsy/jquery...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/js/tipsy/jquery.tipsy.js
+HTTP_REFERER=http://localhost/seikou/site
+---
+2012/03/15 09:32:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"js/jquery.cycle.lite.1.0.min.js"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('js/jquery.cycle...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/js/jquery.cycle.lite.1.0.min.js
+HTTP_REFERER=http://localhost/seikou/site
+---
+2012/03/15 09:32:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"js/jquery.roundabout.min.js"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('js/jquery.round...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/js/jquery.roundabout.min.js
+HTTP_REFERER=http://localhost/seikou/site
+---
+2012/03/15 09:32:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"images/cart_pic2.jpg"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('images/cart_pic...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/images/cart_pic2.jpg
+HTTP_REFERER=http://localhost/seikou/site
+---
+2012/03/15 09:32:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"images/de.png"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('images/de.png')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/images/de.png
+HTTP_REFERER=http://localhost/seikou/site
+---
+2012/03/15 09:32:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"images/gb.png"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('images/gb.png')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/images/gb.png
+HTTP_REFERER=http://localhost/seikou/site
+---
+2012/03/15 09:32:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"images/cart_pic1.jpg"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('images/cart_pic...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/images/cart_pic1.jpg
+HTTP_REFERER=http://localhost/seikou/site
+---
+2012/03/15 09:32:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"images/cart_pic3.jpg"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('images/cart_pic...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/images/cart_pic3.jpg
+HTTP_REFERER=http://localhost/seikou/site
+---
+2012/03/15 09:32:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"images/close.png"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('images/close.pn...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/images/close.png
+HTTP_REFERER=http://localhost/seikou/site
+---
+2012/03/15 09:32:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"images/bg.png"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg.png')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/images/bg.png
+HTTP_REFERER=http://localhost/seikou/site
+---
+2012/03/15 09:32:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"images/logo.png"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('images/logo.png')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/images/logo.png
+HTTP_REFERER=http://localhost/seikou/site
+---
+2012/03/15 09:32:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"css/stylesheet.css"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('css/stylesheet....')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/css/stylesheet.css
+HTTP_REFERER=http://localhost/seikou/
+---
+2012/03/15 09:32:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"js/jquery.cycle.lite.1.0.min.js"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('js/jquery.cycle...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/js/jquery.cycle.lite.1.0.min.js
+HTTP_REFERER=http://localhost/seikou/
+---
+2012/03/15 09:32:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"css/jquery-ui-1.8.9.custom.css"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('css/jquery-ui-1...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/css/jquery-ui-1.8.9.custom.css
+HTTP_REFERER=http://localhost/seikou/
+---
+2012/03/15 09:32:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"images/close.png"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('images/close.pn...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/images/close.png
+HTTP_REFERER=http://localhost/seikou/
+---
+2012/03/15 09:32:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"images/cart_pic1.jpg"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('images/cart_pic...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/images/cart_pic1.jpg
+HTTP_REFERER=http://localhost/seikou/
+---
+2012/03/15 09:32:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"images/de.png"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('images/de.png')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/images/de.png
+HTTP_REFERER=http://localhost/seikou/
+---
+2012/03/15 09:32:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"images/bg.png"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg.png')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/images/bg.png
+HTTP_REFERER=http://localhost/seikou/
+---
+2012/03/15 09:32:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"images/gb.png"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('images/gb.png')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/images/gb.png
+HTTP_REFERER=http://localhost/seikou/
+---
+2012/03/15 09:32:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"images/cart_pic2.jpg"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('images/cart_pic...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/images/cart_pic2.jpg
+HTTP_REFERER=http://localhost/seikou/
+---
+2012/03/15 09:32:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"images/logo.png"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('images/logo.png')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/images/logo.png
+HTTP_REFERER=http://localhost/seikou/
+---
+2012/03/15 09:32:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"images/cart_pic3.jpg"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('images/cart_pic...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/images/cart_pic3.jpg
+HTTP_REFERER=http://localhost/seikou/
+---
+2012/03/15 09:32:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"images/pizza3.jpg"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('images/pizza3.j...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/images/pizza3.jpg
+HTTP_REFERER=http://localhost/seikou/
+---
+2012/03/15 09:32:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"images/pizza.jpg"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('images/pizza.jp...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/images/pizza.jpg
+HTTP_REFERER=http://localhost/seikou/
+---
+2012/03/15 09:32:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"images/pizza2.jpg"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('images/pizza2.j...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/images/pizza2.jpg
+HTTP_REFERER=http://localhost/seikou/
+---
+2012/03/15 09:32:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"images/pizza4.jpg"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('images/pizza4.j...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/images/pizza4.jpg
+HTTP_REFERER=http://localhost/seikou/
+---
+2012/03/15 09:32:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"images/banner2.jpg"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('images/banner2....')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/images/banner2.jpg
+HTTP_REFERER=http://localhost/seikou/
+---
+2012/03/15 09:32:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"images/pizza5.jpg"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('images/pizza5.j...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/images/pizza5.jpg
+HTTP_REFERER=http://localhost/seikou/
+---
+2012/03/15 09:32:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"images/prod_pic3.jpg"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('images/prod_pic...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/images/prod_pic3.jpg
+HTTP_REFERER=http://localhost/seikou/
+---
+2012/03/15 09:32:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"images/banner1.jpg"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('images/banner1....')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/images/banner1.jpg
+HTTP_REFERER=http://localhost/seikou/
+---
+2012/03/15 09:32:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"images/prod_pic1.jpg"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('images/prod_pic...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/images/prod_pic1.jpg
+HTTP_REFERER=http://localhost/seikou/
+---
+2012/03/15 09:32:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"images/prod_pic2.jpg"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('images/prod_pic...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/images/prod_pic2.jpg
+HTTP_REFERER=http://localhost/seikou/
+---
+2012/03/15 09:32:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"images/prod_pic4.jpg"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('images/prod_pic...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/images/prod_pic4.jpg
+HTTP_REFERER=http://localhost/seikou/
+---
+2012/03/15 09:32:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"images/prod_pic5.jpg"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('images/prod_pic...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/images/prod_pic5.jpg
+HTTP_REFERER=http://localhost/seikou/
+---
+2012/03/15 09:32:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"images/prod_pic7.jpg"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('images/prod_pic...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/images/prod_pic7.jpg
+HTTP_REFERER=http://localhost/seikou/
+---
+2012/03/15 09:32:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"images/prod_pic6.jpg"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('images/prod_pic...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/images/prod_pic6.jpg
+HTTP_REFERER=http://localhost/seikou/
+---
+2012/03/15 09:32:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"images/prod_pic8.jpg"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('images/prod_pic...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/images/prod_pic8.jpg
+HTTP_REFERER=http://localhost/seikou/
+---
+2012/03/15 09:33:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"images/pizza.jpg"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('images/pizza.jp...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/images/pizza.jpg
+HTTP_REFERER=http://localhost/seikou/
+---
+2012/03/15 09:33:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"images/pizza2.jpg"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('images/pizza2.j...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/images/pizza2.jpg
+HTTP_REFERER=http://localhost/seikou/
+---
+2012/03/15 09:33:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"images/pizza5.jpg"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('images/pizza5.j...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/images/pizza5.jpg
+HTTP_REFERER=http://localhost/seikou/
+---
+2012/03/15 09:33:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"images/pizza3.jpg"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('images/pizza3.j...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/images/pizza3.jpg
+HTTP_REFERER=http://localhost/seikou/
+---
+2012/03/15 09:33:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"images/pizza4.jpg"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('images/pizza4.j...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/images/pizza4.jpg
+HTTP_REFERER=http://localhost/seikou/
+---
+2012/03/15 09:33:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"images/banner1.jpg"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('images/banner1....')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/images/banner1.jpg
+HTTP_REFERER=http://localhost/seikou/
+---
+2012/03/15 09:33:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"images/banner2.jpg"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('images/banner2....')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/images/banner2.jpg
+HTTP_REFERER=http://localhost/seikou/
+---
+2012/03/15 09:33:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"images/prod_pic1.jpg"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('images/prod_pic...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/images/prod_pic1.jpg
+HTTP_REFERER=http://localhost/seikou/
+---
+2012/03/15 09:33:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"images/prod_pic2.jpg"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('images/prod_pic...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/images/prod_pic2.jpg
+HTTP_REFERER=http://localhost/seikou/
+---
+2012/03/15 09:33:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"images/prod_pic4.jpg"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('images/prod_pic...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/images/prod_pic4.jpg
+HTTP_REFERER=http://localhost/seikou/
+---
+2012/03/15 09:33:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"images/prod_pic3.jpg"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('images/prod_pic...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/images/prod_pic3.jpg
+HTTP_REFERER=http://localhost/seikou/
+---
+2012/03/15 09:33:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"images/prod_pic5.jpg"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('images/prod_pic...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/images/prod_pic5.jpg
+HTTP_REFERER=http://localhost/seikou/
+---
+2012/03/15 09:33:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"images/prod_pic6.jpg"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('images/prod_pic...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/images/prod_pic6.jpg
+HTTP_REFERER=http://localhost/seikou/
+---
+2012/03/15 09:33:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"images/prod_pic8.jpg"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('images/prod_pic...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/images/prod_pic8.jpg
+HTTP_REFERER=http://localhost/seikou/
+---
+2012/03/15 09:33:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"images/prod_pic7.jpg"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('images/prod_pic...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/images/prod_pic7.jpg
+HTTP_REFERER=http://localhost/seikou/
+---
+2012/03/15 09:37:43 [error] [php] Missing argument 2 for CClientScript::registerScript(), called in D:\xampp\htdocs\seikou\themes\spicy\views\layouts\main.php on line 11 and defined (D:\xampp\htdocs\framework\web\CClientScript.php:603)
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CBaseController.php(96): HomeController->renderInternal()
+#1 D:\xampp\htdocs\framework\web\CController.php(785): HomeController->renderFile()
+#2 D:\xampp\htdocs\seikou\protected\controllers\HomeController.php(7): HomeController->render()
+#3 D:\xampp\htdocs\framework\web\actions\CInlineAction.php(50): HomeController->actionIndex()
+#4 D:\xampp\htdocs\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(134): HomeController->runAction()
+#6 D:\xampp\htdocs\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#7 D:\xampp\htdocs\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#8 D:\xampp\htdocs\framework\web\filters\CInlineFilter.php(59): HomeController->filterAccessControl()
+#9 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#10 D:\xampp\htdocs\framework\web\CController.php(292): CFilterChain->run()
+#11 D:\xampp\htdocs\framework\web\CController.php(266): HomeController->runActionWithFilters()
+#12 D:\xampp\htdocs\framework\web\CWebApplication.php(276): HomeController->run()
+#13 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#14 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 D:\xampp\htdocs\seikou\index.php(13): CWebApplication->run()
+REQUEST_URI=/seikou/
+in D:\xampp\htdocs\seikou\themes\spicy\views\layouts\main.php (11)
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (7)
+in D:\xampp\htdocs\seikou\index.php (13)

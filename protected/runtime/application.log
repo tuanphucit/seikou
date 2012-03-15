@@ -1174,3 +1174,1627 @@ HTTP_REFERER=http://localhost/rent/admin/user/index
 2012/03/12 19:14:25 [trace] [system.CModule] Loading "errorHandler" application component
 2012/03/12 19:14:25 [trace] [system.CModule] Loading "clientScript" application component
 in D:\xampp\htdocs\rent\protected\controllers\SiteController.php (45)
+2012/03/15 09:19:44 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:19:44 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:19:44 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:19:44 [trace] [system.web.filters.CFilterChain] Running filter HomeController.filteraccessControl()
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:19:44 [trace] [system.CModule] Loading "user" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:19:44 [trace] [system.CModule] Loading "session" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:19:44 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:19:44 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:19:44 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:19:44 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:19:44 [trace] [system.CModule] Loading "messages" application component
+in D:\xampp\htdocs\seikou\protected\views\site\login.php (6)
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:19:44 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\seikou\protected\views\site\login.php (36)
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:19:44 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\seikou\protected\views\site\login.php (65)
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:19:44 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\seikou\protected\views\site\login.php (77)
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (92)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:19:53 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:19:53 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:19:53 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:19:53 [trace] [system.CModule] Loading "db" application component
+in D:\xampp\htdocs\seikou\protected\models\Users.php (36)
+in D:\xampp\htdocs\seikou\protected\components\UserIdentity.php (21)
+in D:\xampp\htdocs\seikou\protected\models\LoginForm.php (65)
+2012/03/15 09:19:53 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\xampp\htdocs\seikou\protected\models\Users.php (36)
+in D:\xampp\htdocs\seikou\protected\components\UserIdentity.php (21)
+in D:\xampp\htdocs\seikou\protected\models\LoginForm.php (65)
+2012/03/15 09:19:53 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `users`
+in D:\xampp\htdocs\seikou\protected\models\Users.php (36)
+in D:\xampp\htdocs\seikou\protected\components\UserIdentity.php (21)
+in D:\xampp\htdocs\seikou\protected\models\LoginForm.php (65)
+2012/03/15 09:19:53 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `users`
+in D:\xampp\htdocs\seikou\protected\models\Users.php (36)
+in D:\xampp\htdocs\seikou\protected\components\UserIdentity.php (21)
+in D:\xampp\htdocs\seikou\protected\models\LoginForm.php (65)
+2012/03/15 09:19:53 [trace] [system.db.ar.CActiveRecord] Users.findByAttributes()
+in D:\xampp\htdocs\seikou\protected\components\UserIdentity.php (21)
+in D:\xampp\htdocs\seikou\protected\models\LoginForm.php (65)
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (88)
+2012/03/15 09:19:53 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `users` `t` WHERE `t`.`username`=:yp0 LIMIT 1
+in D:\xampp\htdocs\seikou\protected\components\UserIdentity.php (21)
+in D:\xampp\htdocs\seikou\protected\models\LoginForm.php (65)
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (88)
+2012/03/15 09:19:53 [trace] [system.db.ar.CActiveRecord] Users.update()
+in D:\xampp\htdocs\seikou\protected\components\UserIdentity.php (29)
+in D:\xampp\htdocs\seikou\protected\models\LoginForm.php (65)
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (88)
+2012/03/15 09:19:53 [trace] [system.db.ar.CActiveRecord] Users.updateByPk()
+in D:\xampp\htdocs\seikou\protected\components\UserIdentity.php (29)
+in D:\xampp\htdocs\seikou\protected\models\LoginForm.php (65)
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (88)
+2012/03/15 09:19:53 [trace] [system.db.CDbCommand] Executing SQL: UPDATE `users` SET `id`=:yp0, `username`=:yp1, `password`=:yp2, `role`=:yp3, `name`=:yp4, `birthday`=:yp5, `idcard`=:yp6, `work`=:yp7, `address1`=:yp8, `address2`=:yp9, `email`=:yp10, `tel`=:yp11, `yahoo`=:yp12, `skype`=:yp13, `last_login`=NOW() WHERE `users`.`id`='US101'
+in D:\xampp\htdocs\seikou\protected\components\UserIdentity.php (29)
+in D:\xampp\htdocs\seikou\protected\models\LoginForm.php (65)
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (88)
+2012/03/15 09:19:53 [trace] [system.CModule] Loading "user" application component
+in D:\xampp\htdocs\seikou\protected\models\LoginForm.php (70)
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (88)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:19:53 [trace] [system.CModule] Loading "session" application component
+in D:\xampp\htdocs\seikou\protected\models\LoginForm.php (70)
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (88)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:19:53 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:19:53 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:19:53 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:19:53 [trace] [system.web.filters.CFilterChain] Running filter HomeController.filteraccessControl()
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:19:53 [trace] [system.CModule] Loading "user" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:19:53 [trace] [system.CModule] Loading "session" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:19:53 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (7)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:23:43 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:23:43 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:23:43 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:23:43 [trace] [system.web.filters.CFilterChain] Running filter HomeController.filteraccessControl()
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:23:43 [trace] [system.CModule] Loading "user" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:23:43 [trace] [system.CModule] Loading "session" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:23:43 [trace] [system.CModule] Loading "themeManager" application component
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (7)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:23:43 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (7)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:26:20 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:26:20 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:26:20 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:26:20 [trace] [system.web.filters.CFilterChain] Running filter HomeController.filteraccessControl()
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:26:20 [trace] [system.CModule] Loading "user" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:26:20 [trace] [system.CModule] Loading "session" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:26:20 [trace] [system.CModule] Loading "themeManager" application component
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (7)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:26:20 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (7)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:49 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:49 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:49 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:49 [trace] [system.CModule] Loading "themeManager" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (32)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:49 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (32)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:49 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:49 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:49 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:49 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"js/jquery-ui-1.8.9.custom.min.js"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('js/jquery-ui-1....')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/js/jquery-ui-1.8.9.custom.min.js
+HTTP_REFERER=http://localhost/seikou/site
+---
+2012/03/15 09:32:49 [trace] [system.CModule] Loading "errorHandler" application component
+2012/03/15 09:32:49 [trace] [system.CModule] Loading "themeManager" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/15 09:32:49 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/15 09:32:49 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:49 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:49 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:49 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"css/jquery-ui-1.8.9.custom.css"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('css/jquery-ui-1...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/css/jquery-ui-1.8.9.custom.css
+HTTP_REFERER=http://localhost/seikou/site
+---
+2012/03/15 09:32:49 [trace] [system.CModule] Loading "errorHandler" application component
+2012/03/15 09:32:49 [trace] [system.CModule] Loading "themeManager" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/15 09:32:49 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/15 09:32:49 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:49 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:49 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:49 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"js/custom_scripts.js"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('js/custom_scrip...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/js/custom_scripts.js
+HTTP_REFERER=http://localhost/seikou/site
+---
+2012/03/15 09:32:49 [trace] [system.CModule] Loading "errorHandler" application component
+2012/03/15 09:32:49 [trace] [system.CModule] Loading "themeManager" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/15 09:32:49 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/15 09:32:49 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:49 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:49 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:49 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"css/stylesheet.css"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('css/stylesheet....')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/css/stylesheet.css
+HTTP_REFERER=http://localhost/seikou/site
+---
+2012/03/15 09:32:49 [trace] [system.CModule] Loading "errorHandler" application component
+2012/03/15 09:32:49 [trace] [system.CModule] Loading "themeManager" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/15 09:32:49 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/15 09:32:49 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:49 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:49 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:49 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"js/tabs.js"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('js/tabs.js')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/js/tabs.js
+HTTP_REFERER=http://localhost/seikou/site
+---
+2012/03/15 09:32:49 [trace] [system.CModule] Loading "errorHandler" application component
+2012/03/15 09:32:49 [trace] [system.CModule] Loading "themeManager" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/15 09:32:49 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/15 09:32:49 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:49 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:49 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:49 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"js/tipsy/css.tipsy.css"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('js/tipsy/css.ti...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/js/tipsy/css.tipsy.css
+HTTP_REFERER=http://localhost/seikou/site
+---
+2012/03/15 09:32:49 [trace] [system.CModule] Loading "errorHandler" application component
+2012/03/15 09:32:49 [trace] [system.CModule] Loading "themeManager" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/15 09:32:49 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/15 09:32:49 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:49 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:49 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:49 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"js/tipsy/jquery.tipsy.js"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('js/tipsy/jquery...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/js/tipsy/jquery.tipsy.js
+HTTP_REFERER=http://localhost/seikou/site
+---
+2012/03/15 09:32:49 [trace] [system.CModule] Loading "errorHandler" application component
+2012/03/15 09:32:49 [trace] [system.CModule] Loading "themeManager" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/15 09:32:49 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/15 09:32:49 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:49 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:49 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:49 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"js/jquery.cycle.lite.1.0.min.js"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('js/jquery.cycle...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/js/jquery.cycle.lite.1.0.min.js
+HTTP_REFERER=http://localhost/seikou/site
+---
+2012/03/15 09:32:49 [trace] [system.CModule] Loading "errorHandler" application component
+2012/03/15 09:32:49 [trace] [system.CModule] Loading "themeManager" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/15 09:32:49 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/15 09:32:49 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:49 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:49 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:49 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"js/jquery.roundabout.min.js"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('js/jquery.round...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/js/jquery.roundabout.min.js
+HTTP_REFERER=http://localhost/seikou/site
+---
+2012/03/15 09:32:49 [trace] [system.CModule] Loading "errorHandler" application component
+2012/03/15 09:32:49 [trace] [system.CModule] Loading "themeManager" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/15 09:32:49 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/15 09:32:49 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:49 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:49 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:49 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"images/cart_pic2.jpg"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('images/cart_pic...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/images/cart_pic2.jpg
+HTTP_REFERER=http://localhost/seikou/site
+---
+2012/03/15 09:32:49 [trace] [system.CModule] Loading "errorHandler" application component
+2012/03/15 09:32:49 [trace] [system.CModule] Loading "themeManager" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/15 09:32:49 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/15 09:32:49 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:49 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:49 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:49 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"images/de.png"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('images/de.png')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/images/de.png
+HTTP_REFERER=http://localhost/seikou/site
+---
+2012/03/15 09:32:49 [trace] [system.CModule] Loading "errorHandler" application component
+2012/03/15 09:32:49 [trace] [system.CModule] Loading "themeManager" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/15 09:32:49 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/15 09:32:49 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:49 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:49 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:49 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"images/gb.png"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('images/gb.png')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/images/gb.png
+HTTP_REFERER=http://localhost/seikou/site
+---
+2012/03/15 09:32:49 [trace] [system.CModule] Loading "errorHandler" application component
+2012/03/15 09:32:49 [trace] [system.CModule] Loading "themeManager" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/15 09:32:49 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/15 09:32:49 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:49 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:49 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:49 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"images/cart_pic1.jpg"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('images/cart_pic...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/images/cart_pic1.jpg
+HTTP_REFERER=http://localhost/seikou/site
+---
+2012/03/15 09:32:49 [trace] [system.CModule] Loading "errorHandler" application component
+2012/03/15 09:32:49 [trace] [system.CModule] Loading "themeManager" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/15 09:32:49 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/15 09:32:49 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:49 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:49 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:49 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"images/cart_pic3.jpg"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('images/cart_pic...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/images/cart_pic3.jpg
+HTTP_REFERER=http://localhost/seikou/site
+---
+2012/03/15 09:32:49 [trace] [system.CModule] Loading "errorHandler" application component
+2012/03/15 09:32:49 [trace] [system.CModule] Loading "themeManager" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/15 09:32:49 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/15 09:32:49 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:49 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:49 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:49 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"images/close.png"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('images/close.pn...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/images/close.png
+HTTP_REFERER=http://localhost/seikou/site
+---
+2012/03/15 09:32:49 [trace] [system.CModule] Loading "errorHandler" application component
+2012/03/15 09:32:49 [trace] [system.CModule] Loading "themeManager" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/15 09:32:49 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/15 09:32:49 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:49 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:49 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:49 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"images/bg.png"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg.png')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/images/bg.png
+HTTP_REFERER=http://localhost/seikou/site
+---
+2012/03/15 09:32:49 [trace] [system.CModule] Loading "errorHandler" application component
+2012/03/15 09:32:49 [trace] [system.CModule] Loading "themeManager" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/15 09:32:49 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/15 09:32:49 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:49 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:49 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:49 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"images/logo.png"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('images/logo.png')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/images/logo.png
+HTTP_REFERER=http://localhost/seikou/site
+---
+2012/03/15 09:32:49 [trace] [system.CModule] Loading "errorHandler" application component
+2012/03/15 09:32:49 [trace] [system.CModule] Loading "themeManager" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/15 09:32:49 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/15 09:32:52 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:52 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:52 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:52 [trace] [system.web.filters.CFilterChain] Running filter HomeController.filteraccessControl()
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:52 [trace] [system.CModule] Loading "user" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:52 [trace] [system.CModule] Loading "session" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:52 [trace] [system.CModule] Loading "themeManager" application component
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (7)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:52 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (7)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:52 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:52 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:52 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:52 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"css/stylesheet.css"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('css/stylesheet....')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/css/stylesheet.css
+HTTP_REFERER=http://localhost/seikou/
+---
+2012/03/15 09:32:52 [trace] [system.CModule] Loading "errorHandler" application component
+2012/03/15 09:32:52 [trace] [system.CModule] Loading "themeManager" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/15 09:32:52 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/15 09:32:52 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:52 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:52 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:52 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"js/jquery.cycle.lite.1.0.min.js"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('js/jquery.cycle...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/js/jquery.cycle.lite.1.0.min.js
+HTTP_REFERER=http://localhost/seikou/
+---
+2012/03/15 09:32:52 [trace] [system.CModule] Loading "errorHandler" application component
+2012/03/15 09:32:52 [trace] [system.CModule] Loading "themeManager" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/15 09:32:52 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/15 09:32:52 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:52 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:52 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:52 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"css/jquery-ui-1.8.9.custom.css"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('css/jquery-ui-1...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/css/jquery-ui-1.8.9.custom.css
+HTTP_REFERER=http://localhost/seikou/
+---
+2012/03/15 09:32:52 [trace] [system.CModule] Loading "errorHandler" application component
+2012/03/15 09:32:52 [trace] [system.CModule] Loading "themeManager" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/15 09:32:52 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/15 09:32:52 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:52 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:52 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:52 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"images/close.png"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('images/close.pn...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/images/close.png
+HTTP_REFERER=http://localhost/seikou/
+---
+2012/03/15 09:32:52 [trace] [system.CModule] Loading "errorHandler" application component
+2012/03/15 09:32:52 [trace] [system.CModule] Loading "themeManager" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/15 09:32:52 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/15 09:32:52 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:52 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:52 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:52 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"images/cart_pic1.jpg"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('images/cart_pic...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/images/cart_pic1.jpg
+HTTP_REFERER=http://localhost/seikou/
+---
+2012/03/15 09:32:52 [trace] [system.CModule] Loading "errorHandler" application component
+2012/03/15 09:32:52 [trace] [system.CModule] Loading "themeManager" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/15 09:32:52 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"images/de.png"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('images/de.png')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/images/de.png
+HTTP_REFERER=http://localhost/seikou/
+---
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "errorHandler" application component
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "themeManager" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"images/bg.png"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('images/bg.png')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/images/bg.png
+HTTP_REFERER=http://localhost/seikou/
+---
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "errorHandler" application component
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "themeManager" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/15 09:32:52 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:52 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"images/gb.png"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('images/gb.png')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/images/gb.png
+HTTP_REFERER=http://localhost/seikou/
+---
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "errorHandler" application component
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "themeManager" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/15 09:32:52 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:52 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:52 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:52 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"images/cart_pic2.jpg"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('images/cart_pic...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/images/cart_pic2.jpg
+HTTP_REFERER=http://localhost/seikou/
+---
+2012/03/15 09:32:52 [trace] [system.CModule] Loading "errorHandler" application component
+2012/03/15 09:32:52 [trace] [system.CModule] Loading "themeManager" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/15 09:32:52 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"images/logo.png"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('images/logo.png')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/images/logo.png
+HTTP_REFERER=http://localhost/seikou/
+---
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "errorHandler" application component
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "themeManager" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"images/cart_pic3.jpg"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('images/cart_pic...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/images/cart_pic3.jpg
+HTTP_REFERER=http://localhost/seikou/
+---
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "errorHandler" application component
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "themeManager" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"images/pizza3.jpg"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('images/pizza3.j...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/images/pizza3.jpg
+HTTP_REFERER=http://localhost/seikou/
+---
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "errorHandler" application component
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "themeManager" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"images/pizza.jpg"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('images/pizza.jp...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/images/pizza.jpg
+HTTP_REFERER=http://localhost/seikou/
+---
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "errorHandler" application component
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "themeManager" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"images/pizza2.jpg"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('images/pizza2.j...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/images/pizza2.jpg
+HTTP_REFERER=http://localhost/seikou/
+---
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "errorHandler" application component
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "themeManager" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"images/pizza4.jpg"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('images/pizza4.j...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/images/pizza4.jpg
+HTTP_REFERER=http://localhost/seikou/
+---
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "errorHandler" application component
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "themeManager" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"images/banner2.jpg"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('images/banner2....')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/images/banner2.jpg
+HTTP_REFERER=http://localhost/seikou/
+---
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "errorHandler" application component
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "themeManager" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"images/pizza5.jpg"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('images/pizza5.j...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/images/pizza5.jpg
+HTTP_REFERER=http://localhost/seikou/
+---
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "errorHandler" application component
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "themeManager" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"images/prod_pic3.jpg"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('images/prod_pic...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/images/prod_pic3.jpg
+HTTP_REFERER=http://localhost/seikou/
+---
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "errorHandler" application component
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "themeManager" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"images/banner1.jpg"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('images/banner1....')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/images/banner1.jpg
+HTTP_REFERER=http://localhost/seikou/
+---
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "errorHandler" application component
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "themeManager" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"images/prod_pic1.jpg"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('images/prod_pic...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/images/prod_pic1.jpg
+HTTP_REFERER=http://localhost/seikou/
+---
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "errorHandler" application component
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "themeManager" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"images/prod_pic2.jpg"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('images/prod_pic...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/images/prod_pic2.jpg
+HTTP_REFERER=http://localhost/seikou/
+---
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "errorHandler" application component
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "themeManager" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"images/prod_pic4.jpg"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('images/prod_pic...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/images/prod_pic4.jpg
+HTTP_REFERER=http://localhost/seikou/
+---
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "errorHandler" application component
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "themeManager" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"images/prod_pic5.jpg"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('images/prod_pic...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/images/prod_pic5.jpg
+HTTP_REFERER=http://localhost/seikou/
+---
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "errorHandler" application component
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "themeManager" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"images/prod_pic7.jpg"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('images/prod_pic...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/images/prod_pic7.jpg
+HTTP_REFERER=http://localhost/seikou/
+---
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "errorHandler" application component
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "themeManager" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"images/prod_pic6.jpg"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('images/prod_pic...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/images/prod_pic6.jpg
+HTTP_REFERER=http://localhost/seikou/
+---
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "errorHandler" application component
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "themeManager" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:32:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"images/prod_pic8.jpg"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('images/prod_pic...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/images/prod_pic8.jpg
+HTTP_REFERER=http://localhost/seikou/
+---
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "errorHandler" application component
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "themeManager" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/15 09:32:53 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/15 09:33:17 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:33:17 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:33:17 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:33:17 [trace] [system.web.filters.CFilterChain] Running filter HomeController.filteraccessControl()
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:33:17 [trace] [system.CModule] Loading "user" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:33:17 [trace] [system.CModule] Loading "session" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:33:17 [trace] [system.CModule] Loading "themeManager" application component
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (7)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:33:17 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (7)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:33:17 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:33:17 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:33:17 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:33:17 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:33:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"images/pizza.jpg"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('images/pizza.jp...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/images/pizza.jpg
+HTTP_REFERER=http://localhost/seikou/
+---
+2012/03/15 09:33:17 [trace] [system.CModule] Loading "errorHandler" application component
+2012/03/15 09:33:17 [trace] [system.CModule] Loading "themeManager" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/15 09:33:17 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/15 09:33:17 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:33:17 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:33:17 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:33:17 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:33:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"images/pizza2.jpg"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('images/pizza2.j...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/images/pizza2.jpg
+HTTP_REFERER=http://localhost/seikou/
+---
+2012/03/15 09:33:17 [trace] [system.CModule] Loading "errorHandler" application component
+2012/03/15 09:33:17 [trace] [system.CModule] Loading "themeManager" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/15 09:33:17 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/15 09:33:17 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:33:17 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:33:17 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:33:17 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:33:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"images/pizza5.jpg"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('images/pizza5.j...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/images/pizza5.jpg
+HTTP_REFERER=http://localhost/seikou/
+---
+2012/03/15 09:33:17 [trace] [system.CModule] Loading "errorHandler" application component
+2012/03/15 09:33:17 [trace] [system.CModule] Loading "themeManager" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/15 09:33:17 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/15 09:33:17 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:33:17 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:33:17 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:33:17 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:33:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"images/pizza3.jpg"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('images/pizza3.j...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/images/pizza3.jpg
+HTTP_REFERER=http://localhost/seikou/
+---
+2012/03/15 09:33:17 [trace] [system.CModule] Loading "errorHandler" application component
+2012/03/15 09:33:17 [trace] [system.CModule] Loading "themeManager" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/15 09:33:17 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/15 09:33:17 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:33:17 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:33:17 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:33:17 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:33:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"images/pizza4.jpg"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('images/pizza4.j...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/images/pizza4.jpg
+HTTP_REFERER=http://localhost/seikou/
+---
+2012/03/15 09:33:17 [trace] [system.CModule] Loading "errorHandler" application component
+2012/03/15 09:33:17 [trace] [system.CModule] Loading "themeManager" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/15 09:33:17 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/15 09:33:17 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:33:17 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:33:17 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:33:17 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:33:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"images/banner1.jpg"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('images/banner1....')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/images/banner1.jpg
+HTTP_REFERER=http://localhost/seikou/
+---
+2012/03/15 09:33:17 [trace] [system.CModule] Loading "errorHandler" application component
+2012/03/15 09:33:17 [trace] [system.CModule] Loading "themeManager" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/15 09:33:17 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/15 09:33:17 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:33:17 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:33:17 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:33:17 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:33:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"images/banner2.jpg"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('images/banner2....')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/images/banner2.jpg
+HTTP_REFERER=http://localhost/seikou/
+---
+2012/03/15 09:33:17 [trace] [system.CModule] Loading "errorHandler" application component
+2012/03/15 09:33:17 [trace] [system.CModule] Loading "themeManager" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/15 09:33:17 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/15 09:33:17 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:33:17 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:33:17 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:33:17 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:33:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"images/prod_pic1.jpg"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('images/prod_pic...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/images/prod_pic1.jpg
+HTTP_REFERER=http://localhost/seikou/
+---
+2012/03/15 09:33:17 [trace] [system.CModule] Loading "errorHandler" application component
+2012/03/15 09:33:17 [trace] [system.CModule] Loading "themeManager" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/15 09:33:17 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/15 09:33:17 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:33:17 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:33:17 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:33:17 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:33:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"images/prod_pic2.jpg"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('images/prod_pic...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/images/prod_pic2.jpg
+HTTP_REFERER=http://localhost/seikou/
+---
+2012/03/15 09:33:17 [trace] [system.CModule] Loading "errorHandler" application component
+2012/03/15 09:33:17 [trace] [system.CModule] Loading "themeManager" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/15 09:33:17 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/15 09:33:17 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:33:17 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:33:17 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:33:17 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:33:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"images/prod_pic4.jpg"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('images/prod_pic...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/images/prod_pic4.jpg
+HTTP_REFERER=http://localhost/seikou/
+---
+2012/03/15 09:33:17 [trace] [system.CModule] Loading "errorHandler" application component
+2012/03/15 09:33:17 [trace] [system.CModule] Loading "themeManager" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/15 09:33:17 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/15 09:33:17 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:33:17 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:33:17 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:33:17 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:33:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"images/prod_pic3.jpg"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('images/prod_pic...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/images/prod_pic3.jpg
+HTTP_REFERER=http://localhost/seikou/
+---
+2012/03/15 09:33:17 [trace] [system.CModule] Loading "errorHandler" application component
+2012/03/15 09:33:17 [trace] [system.CModule] Loading "themeManager" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/15 09:33:17 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/15 09:33:17 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:33:17 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:33:17 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:33:17 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:33:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"images/prod_pic5.jpg"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('images/prod_pic...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/images/prod_pic5.jpg
+HTTP_REFERER=http://localhost/seikou/
+---
+2012/03/15 09:33:17 [trace] [system.CModule] Loading "errorHandler" application component
+2012/03/15 09:33:17 [trace] [system.CModule] Loading "themeManager" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/15 09:33:17 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/15 09:33:17 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:33:17 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:33:17 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:33:17 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:33:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"images/prod_pic6.jpg"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('images/prod_pic...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/images/prod_pic6.jpg
+HTTP_REFERER=http://localhost/seikou/
+---
+2012/03/15 09:33:17 [trace] [system.CModule] Loading "errorHandler" application component
+2012/03/15 09:33:17 [trace] [system.CModule] Loading "themeManager" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/15 09:33:17 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/15 09:33:17 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:33:17 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:33:17 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:33:17 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:33:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"images/prod_pic8.jpg"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('images/prod_pic...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/images/prod_pic8.jpg
+HTTP_REFERER=http://localhost/seikou/
+---
+2012/03/15 09:33:17 [trace] [system.CModule] Loading "errorHandler" application component
+2012/03/15 09:33:17 [trace] [system.CModule] Loading "themeManager" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/15 09:33:17 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/15 09:33:17 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:33:17 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:33:17 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:33:17 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:33:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"images/prod_pic7.jpg"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('images/prod_pic...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/images/prod_pic7.jpg
+HTTP_REFERER=http://localhost/seikou/
+---
+2012/03/15 09:33:17 [trace] [system.CModule] Loading "errorHandler" application component
+2012/03/15 09:33:17 [trace] [system.CModule] Loading "themeManager" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/15 09:33:17 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/15 09:36:00 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:36:00 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:36:00 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:36:00 [trace] [system.web.filters.CFilterChain] Running filter HomeController.filteraccessControl()
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:36:00 [trace] [system.CModule] Loading "user" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:36:00 [trace] [system.CModule] Loading "session" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:36:00 [trace] [system.CModule] Loading "themeManager" application component
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (7)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:36:00 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (7)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:36:21 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:36:21 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:36:21 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:36:21 [trace] [system.web.filters.CFilterChain] Running filter HomeController.filteraccessControl()
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:36:21 [trace] [system.CModule] Loading "user" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:36:21 [trace] [system.CModule] Loading "session" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:36:21 [trace] [system.CModule] Loading "themeManager" application component
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (7)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:36:21 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (7)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:37:43 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:37:43 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:37:43 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:37:43 [trace] [system.web.filters.CFilterChain] Running filter HomeController.filteraccessControl()
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:37:43 [trace] [system.CModule] Loading "user" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:37:43 [trace] [system.CModule] Loading "session" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:37:43 [trace] [system.CModule] Loading "themeManager" application component
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (7)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:37:43 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\seikou\themes\spicy\views\layouts\main.php (11)
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (7)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:37:43 [error] [php] Missing argument 2 for CClientScript::registerScript(), called in D:\xampp\htdocs\seikou\themes\spicy\views\layouts\main.php on line 11 and defined (D:\xampp\htdocs\framework\web\CClientScript.php:603)
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CBaseController.php(96): HomeController->renderInternal()
+#1 D:\xampp\htdocs\framework\web\CController.php(785): HomeController->renderFile()
+#2 D:\xampp\htdocs\seikou\protected\controllers\HomeController.php(7): HomeController->render()
+#3 D:\xampp\htdocs\framework\web\actions\CInlineAction.php(50): HomeController->actionIndex()
+#4 D:\xampp\htdocs\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(134): HomeController->runAction()
+#6 D:\xampp\htdocs\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#7 D:\xampp\htdocs\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#8 D:\xampp\htdocs\framework\web\filters\CInlineFilter.php(59): HomeController->filterAccessControl()
+#9 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#10 D:\xampp\htdocs\framework\web\CController.php(292): CFilterChain->run()
+#11 D:\xampp\htdocs\framework\web\CController.php(266): HomeController->runActionWithFilters()
+#12 D:\xampp\htdocs\framework\web\CWebApplication.php(276): HomeController->run()
+#13 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#14 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 D:\xampp\htdocs\seikou\index.php(13): CWebApplication->run()
+REQUEST_URI=/seikou/
+in D:\xampp\htdocs\seikou\themes\spicy\views\layouts\main.php (11)
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (7)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:37:43 [trace] [system.CModule] Loading "errorHandler" application component
+in D:\xampp\htdocs\seikou\themes\spicy\views\layouts\main.php (11)
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (7)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:37:43 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\seikou\themes\spicy\views\layouts\main.php (11)
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (7)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:38:08 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:38:08 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:38:08 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:38:08 [trace] [system.web.filters.CFilterChain] Running filter HomeController.filteraccessControl()
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:38:08 [trace] [system.CModule] Loading "user" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:38:08 [trace] [system.CModule] Loading "session" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:38:08 [trace] [system.CModule] Loading "themeManager" application component
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (7)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:38:08 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\seikou\themes\spicy\views\layouts\main.php (11)
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (7)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:38:08 [trace] [system.CModule] Loading "assetManager" application component
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (7)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:43:29 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:43:29 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:43:29 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:43:29 [trace] [system.web.filters.CFilterChain] Running filter ProfileController.filteraccessControl()
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:43:29 [trace] [system.CModule] Loading "user" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:43:29 [trace] [system.CModule] Loading "session" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:43:29 [trace] [system.CModule] Loading "db" application component
+in D:\xampp\htdocs\seikou\protected\models\Users.php (36)
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (26)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:43:29 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\xampp\htdocs\seikou\protected\models\Users.php (36)
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (26)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:43:29 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `users`
+in D:\xampp\htdocs\seikou\protected\models\Users.php (36)
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (26)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:43:29 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `users`
+in D:\xampp\htdocs\seikou\protected\models\Users.php (36)
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (26)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:43:29 [trace] [system.db.ar.CActiveRecord] Users.findByPk()
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (26)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:43:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `users` `t` WHERE `t`.`id`='US101' LIMIT 1
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (26)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:43:29 [trace] [system.CModule] Loading "themeManager" application component
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (34)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:43:29 [trace] [system.CModule] Loading "messages" application component
+in D:\xampp\htdocs\seikou\themes\spicy\views\profile\index.php (5)
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (34)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:43:29 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\seikou\themes\spicy\views\profile\index.php (69)
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (34)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:43:29 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\seikou\themes\spicy\views\profile\index.php (89)
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (34)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:43:29 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\seikou\themes\spicy\views\profile\index.php (136)
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (34)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/15 09:43:29 [trace] [system.CModule] Loading "assetManager" application component
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (34)
+in D:\xampp\htdocs\seikou\index.php (13)

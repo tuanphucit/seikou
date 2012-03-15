@@ -34,6 +34,30 @@ class Html extends CHtml {
 	public static function jqueryCssUrl($url) {
 		return Yii::app ()->baseUrl . '/js/jqueryUI/theme/' . $url;
 	}
+	
+	
+	/********** For Theming *********/
+	
+	
+	
+	/**
+	 * Makes the given URL relative to the /theme/image directory
+	 */
+	public static function imageWithThemeUrl($url) {
+		return Yii::app ()->theme->baseUrl . '/images/' . $url;
+	}
+	/**
+	 * Makes the given URL relative to the /theme/css directory
+	 */
+	public static function cssWithThemeUrl($url) {
+		return Yii::app ()->theme->baseUrl . '/css/' . $url;
+	}
+	/**
+	 * Makes the given URL relative to the /theme/js directory
+	 */
+	public static function jsWithThemeUrl($url) {
+		return Yii::app ()->theme->baseUrl . '/js/' . $url;
+	}
 	public static function addClass(&$htmlOptions, $class) {
 		if (isset ( $htmlOptions ['class'] ))
 			$htmlOptions ['class'] .= ' ' . $class;
