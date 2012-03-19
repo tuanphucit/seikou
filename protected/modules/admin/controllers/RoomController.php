@@ -1,6 +1,6 @@
 <?php
 
-class ProductController extends Controller
+class RoomController extends Controller
 {
 	public function filters()
 	{
@@ -23,17 +23,18 @@ class ProductController extends Controller
 	
 	public function actionIndex()
 	{
-		$this->breadcrumbs = array("Product"=>$this->createUrl('/admin/product/'),"List");
-		$this->pageTitle   = "Product Management - List Product";
+		$this->breadcrumbs = array("Room"=>$this->createUrl('/admin/room/'),"List");
+		$this->pageTitle   = "Room Management - List Product";
 		$product = new Products();
+		// タイプは１ならルームです。 Setting 1 for attribute 0 means it is room
 		$product->type = 0;
 		$this->render('index',array('users'=>$product));
 	}
 	
 	public function actionView()
 	{
-		$this->breadcrumbs = array("Product"=>$this->createUrl('/admin/product/'),"View");
-		$this->pageTitle   = "Product Management - View Product";
+		$this->breadcrumbs = array("Room"=>$this->createUrl('/admin/room/'),"View");
+		$this->pageTitle   = "Room Management - View Product";
 		//  要求からIDをとる。もしIDがないと４０４ページを表示
 		$id = Yii::app()->request->getParam('id');
 		if ($id == NULL)
@@ -47,8 +48,8 @@ class ProductController extends Controller
 	
 	public function actionAdd()
 	{
-		$this->breadcrumbs = array("Product"=>$this->createUrl('/admin/product/'),"Add");
-		$this->pageTitle   = "Product Management - Add Product";
+		$this->breadcrumbs = array("Room"=>$this->createUrl('/admin/room/'),"Add");
+		$this->pageTitle   = "Room Management - Add Product";
 		$product = new Products();
 		if(isset($_POST['Products']))
 		{
@@ -67,8 +68,8 @@ class ProductController extends Controller
 	
 	public function actionUpdate()
 	{
-		$this->breadcrumbs = array("Product"=>$this->createUrl('/admin/product/'),"Update");
-		$this->pageTitle   = "Product Management - Update Product";
+		$this->breadcrumbs = array("Room"=>$this->createUrl('/admin/room/'),"Update");
+		$this->pageTitle   = "Room Management - Update Product";
 		//  要求からIDをとる。もしIDがないと４０４ページを表示
 		$id = Yii::app()->request->getParam('id');
 		if ($id == NULL)
@@ -93,8 +94,8 @@ class ProductController extends Controller
 	
 	public function actionDelete()
 	{
-		$this->breadcrumbs = array("Product"=>$this->createUrl('/admin/product/'),"Delete");
-		$this->pageTitle   = "Product Management - Delete Product";
+		$this->breadcrumbs = array("Room"=>$this->createUrl('/admin/room/'),"Delete");
+		$this->pageTitle   = "Room Management - Delete Product";
 		//  要求からIDをとる。もしIDがないと４０４ページを表示
 		$id = Yii::app()->request->getParam('id');
 		if ($id == NULL)

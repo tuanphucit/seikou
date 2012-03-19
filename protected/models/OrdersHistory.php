@@ -6,7 +6,7 @@
  * The followings are the available columns in table 'orders_history':
  * @property integer $id
  * @property string $user_id
- * @property string $order_id
+ * @property integer $order_id
  * @property integer $status
  * @property string $time
  * @property string $description
@@ -43,10 +43,9 @@ class OrdersHistory extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('id, user_id, order_id, status, time, description', 'required'),
-			array('id, status', 'numerical', 'integerOnly'=>true),
+			array('user_id, order_id, status, time, description', 'required'),
+			array('order_id, status', 'numerical', 'integerOnly'=>true),
 			array('user_id', 'length', 'max'=>8),
-			array('order_id', 'length', 'max'=>10),
 			array('description', 'length', 'max'=>30),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
@@ -95,7 +94,7 @@ class OrdersHistory extends CActiveRecord
 
 		$criteria->compare('id',$this->id);
 		$criteria->compare('user_id',$this->user_id,true);
-		$criteria->compare('order_id',$this->order_id,true);
+		$criteria->compare('order_id',$this->order_id);
 		$criteria->compare('status',$this->status);
 		$criteria->compare('time',$this->time,true);
 		$criteria->compare('description',$this->description,true);

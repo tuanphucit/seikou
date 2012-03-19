@@ -57,7 +57,7 @@
 			<div id="profile-links">
 				Xin chào, <a href="<?php echo $this->createUrl('/admin/user/index');?>" title="Edit your profile"><?php echo Yii::app()->user->getId()?></a>, Có <a href="<?php echo $this->createUrl('/admin/order/index')?>"><?php echo 3?> ĐDH</a><br />
 				<br />
-				<a target="_blank" href="<?php echo $this->createUrl('/home/index');?>" title="View the Site">Website</a> | <a href="<?php echo $this->createUrl('/admin/default/logout');?>" title="Sign Out">Thoát</a>
+				<a target="_blank" href="<?php echo $this->createUrl('/home/index');?>" title="View the Site">Website</a> | <a href="<?php echo $this->createUrl('/site/logout');?>" title="Sign Out">Thoát</a>
 			</div>        
 			
 			<ul id="main-nav">  <!-- Accordion Menu -->
@@ -97,7 +97,8 @@
 						case 'user':
 							$htmlTop['setting'] = array("class"=>"nav-top-item current");
 							break;
-						case 'product':
+						case 'room':
+						case 'equipment':
 							$htmlTop['product'] = array("class"=>"nav-top-item current");
 							break;
 						case 'sim':
@@ -110,23 +111,14 @@
 							break;
 					}
 					echo "<li>";
-						echo Html::link("Bảng điều khiển",$this->createUrl('/admin/default/index'),$htmlTop['dashboard']);
+						echo Html::link("Dashboard",$this->createUrl('/admin/default/index'),$htmlTop['dashboard']);
 					echo "</li>";
 					/**********          Quản lý hệ thống                      **********/
 					echo "<li>";
-						echo Html::link("Quản lý hệ thống",$this->createUrl('/admin/setting/index'),$htmlTop['setting']);
+						echo Html::link("System Management",$this->createUrl('/admin/setting/index'),$htmlTop['setting']);
 						echo "<ul>";
 							echo "<li>";
-								echo Html::link("Cấu hình hệ thống",$this->createUrl('/admin/setting/index'),($controllerId == 'setting')?$htmlItem:null);
-							echo "</li>";
-							echo "<li>";
-								echo Html::link("Menu",$this->createUrl('/admin/menu/index'),($controllerId == 'menu')?$htmlItem:null);
-							echo "</li>";
-							echo "<li>";
-								echo Html::link("Banner quảng cáo",$this->createUrl('/admin/banner/index'),($controllerId == 'banner')?$htmlItem:null);
-							echo "</li>";
-							echo "<li>";
-								echo Html::link("Thành viên ban quản trị",$this->createUrl('/admin/user/index'),($controllerId == 'user')?$htmlItem:null);
+								echo Html::link("User",$this->createUrl('/admin/user/index'),($controllerId == 'user')?$htmlItem:null);
 							echo "</li>";
 						echo "</ul>";
 					echo "</li>";
@@ -135,28 +127,20 @@
 						echo Html::link("Product Management","#",$htmlTop['product']);
 						echo "<ul>";
 							echo "<li>";
-								echo Html::link("Product",$this->createUrl('/admin/product/index'),($controllerId == 'product')?$htmlItem:null);
+								echo Html::link("Room",$this->createUrl('/admin/room/index'),($controllerId == 'room')?$htmlItem:null);
+							echo "</li>";
+							echo "<li>";
+								echo Html::link("Equipment",$this->createUrl('/admin/equipment/index'),($controllerId == 'equipment')?$htmlItem:null);
 							echo "</li>";
 						echo "</ul>";
 					echo "</li>";
 					/**********          Quản lý dữ liệu                    **********/
 					echo "<li>";
-						echo Html::link("Quản lý dữ liệu","#",$htmlTop['data']);
-						echo "<ul>";
-							echo "<li>";
-								echo Html::link("Danh sách sim",$this->createUrl('/admin/sim/index'),($controllerId == 'sim')?$htmlItem:null);
-							echo "</li>";
-							echo "<li>";
-								echo Html::link("Danh sách kho",$this->createUrl('/admin/store/index'),($controllerId == 'store')?$htmlItem:null);
-							echo "</li>";
-							echo "<li>";
-								echo Html::link("Danh sách đơn đặt hàng",$this->createUrl('/admin/order/index'),($controllerId == 'order')?$htmlItem:null);
-							echo "</li>";
-						echo "</ul>";
+						echo Html::link("Order Management","#",$htmlTop['data']);
 					echo "</li>";
 					/**********          Công cụ                    **********/
 					echo "<li>";
-						echo Html::link("Công cụ","#",$htmlTop['tool']);
+						echo Html::link("Tool","#",$htmlTop['tool']);
 						echo "<ul>";
 							echo "<li>";
 								echo Html::link("Xem cập nhật",$this->createUrl('/admin/tool/update'),($controllerId == 'tool')?$htmlItem:null);
