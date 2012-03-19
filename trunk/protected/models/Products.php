@@ -4,8 +4,8 @@
  * This is the model class for table "products".
  *
  * The followings are the available columns in table 'products':
- * @property string $product_id
- * @property string $product_name
+ * @property string $id
+ * @property string $name
  * @property string $image
  * @property string $description
  * @property integer $price
@@ -22,6 +22,7 @@ class Products extends CActiveRecord
 	 * @param string $className active record class name.
 	 * @return Products the static model class
 	 */
+	
 	public static function model($className=__CLASS__)
 	{
 		return parent::model($className);
@@ -43,15 +44,16 @@ class Products extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('product_id, product_name, type, option', 'required'),
+			array('id, name, type, option', 'required'),
 			array('price, type, option', 'numerical', 'integerOnly'=>true),
-			array('product_id', 'length', 'max'=>5),
-			array('product_name', 'length', 'max'=>50),
+			array('id', 'length', 'max'=>5),
+			array('name', 'length', 'max'=>50),
 			array('image', 'length', 'max'=>255),
-			array('description', 'length', 'max'=>200),
+			array('description', 'length', 'max'=>20000),
+			array('price','numerical','min'=>10000,'max'=>'10000000'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('product_id, product_name, image, description, price, type, option', 'safe', 'on'=>'search'),
+			array('id, name, image, description, price, type, option', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -73,8 +75,8 @@ class Products extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'product_id' => 'Product',
-			'product_name' => 'Product Name',
+			'id' => 'ID',
+			'name' => 'Name',
 			'image' => 'Image',
 			'description' => 'Description',
 			'price' => 'Price',
@@ -94,8 +96,8 @@ class Products extends CActiveRecord
 
 		$criteria=new CDbCriteria;
 
-		$criteria->compare('product_id',$this->product_id,true);
-		$criteria->compare('product_name',$this->product_name,true);
+		$criteria->compare('id',$this->id,true);
+		$criteria->compare('name',$this->name,true);
 		$criteria->compare('image',$this->image,true);
 		$criteria->compare('description',$this->description,true);
 		$criteria->compare('price',$this->price);
@@ -105,5 +107,29 @@ class Products extends CActiveRecord
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
 		));
+	}
+	
+	/**
+	 * @return array プロダクトのタイプ
+	 * ０:ルーム
+	 * １:設備
+	 */
+	public function getTypeList()
+	{
+		return array(
+			0 => Yii::t('admin','Room'),
+			1 => Yii::t('admin','Equipment'),
+		);
+	}
+	
+	/**
+	 * @return プロダクトのタイプ。
+	 * ０:ルーム
+	 * １:設備
+	 */
+	public function getProductType()
+	{
+		$list = $this->getTypeList();
+		return $list[$this->type];
 	}
 }

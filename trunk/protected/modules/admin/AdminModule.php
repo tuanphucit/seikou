@@ -12,6 +12,7 @@ class AdminModule extends CWebModule
 			'admin.models.*',
 			'admin.components.*',
 		));
+		Yii::app()->homeUrl = Yii::app()->createUrl('/admin/default/');
 	}
 
 	public function beforeControllerAction($controller, $action)
@@ -21,6 +22,7 @@ class AdminModule extends CWebModule
 			// this method is called before any module controller action is performed
 			// you may place customized code here
 			$controller->layout = 'main';
+			
 			return true;
 		}
 		else

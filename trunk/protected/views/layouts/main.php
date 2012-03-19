@@ -7,6 +7,9 @@
 <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'/>
 <link rel="stylesheet" type="text/css" href="<?php echo Html::cssUrl("jquery-ui-1.8.9.custom.css")?>" />
 <!-- jQuery and Custom scripts -->
+<?php
+	Yii::app()->clientScript->registerCoreScript('jquery');  
+?>
 <script src="<? echo Html::jsUrl('jquery.cycle.lite.1.0.min.js') ?>" type="text/javascript"></script>
 <script src="<? echo Html::jsUrl('custom_scripts.js') ?>" type="text/javascript"></script>
 <script src="<? echo Html::jsUrl('jquery.roundabout.min.js') ?>" type="text/javascript"></script>
@@ -97,84 +100,123 @@
   <!-- HEADER -->
   <div id="header">
     <div class="inner">
-      <ul class="main_menu menu_left">
-        <li><a href="<?php echo $this->createUrl('/profile/index/')?>">My Profile</a></li>
-        <li><a href="wish.html">Wish List <b>(3)</b></a></li>
-        <li><a href="about.html">About Us</a></li>
-        <li class="warning"><a href="index.html">Home</a>
-          <ul class="secondary">
-            <li><a href="index2.html">Home with LI SLIDER</a></li>
-          </ul>
+      <ul class="main_menu menu_left">        
+        <li>
+        	<?php 
+        		echo Html::link(
+        			Yii::t('user','News'),
+        			$this->createUrl('/news/index/')
+        		);
+        	?>
+        </li>
+        <li>
+        	<?php 
+        		echo Html::link(
+        			Yii::t('user','FAQ'),
+        			$this->createUrl('/post/faq')
+        		);
+        	?>
+        </li>
+        <li>
+        	<?php 
+        		echo Html::link(
+        			Yii::t('user','About Us'),
+        			$this->createUrl('/profile/index/')
+        		);
+        	?>
+        </li>
+        <li class="warning">
+        	<?php 
+        		echo Html::link(
+        			Yii::t('user','Home'),
+        			Yii::app()->homeUrl
+        		);
+        	?>
         </li>
       </ul>
-      <div id="logo"><a href="index.html"><img src="<? echo Html::imageUrl('logo.png') ?>" width="217" height="141" alt="Spicylicious store" /></a></div>
+      <div id="logo">
+      	<?php 
+      		echo Html::link(
+      			Html::image(
+      				Html::imageUrl('logo.png'),
+      				Yii::app()->name,
+      				array(
+      					"width"=>217,
+      					"height"=>141,
+      				)
+      			),
+      			Yii::app()->homeUrl
+      		);
+      	?>
+      </div>
       <ul class="main_menu menu_right">
-        <li><a href="compare.html">Compare</a></li>
-        <li><a href="cart.html">Shopping Cart</a></li>
-        <li><a href="checkout.html">Checkout</a></li>
-        <li><a href="contact.html">Contact Us</a></li>
+        <li>
+        	<?php 
+        		echo Html::link(
+        			Yii::t('user','History'),
+        			$this->createUrl('/history/index/')
+        		);
+        	?>
+        </li>
+        <li>
+        	<?php 
+        		echo Html::link(
+        			Yii::t('user','Contact Us'),
+        			$this->createUrl('/site/contact/')
+        		);
+        	?>
+        </li>
+        <li>
+        	<?php 
+        		echo Html::link(
+        			Yii::t('user','My Profile'),
+        			$this->createUrl('/profile/index/')
+        		);
+        	?>
+        </li>
+        <li>
+        	<?php 
+        		echo Html::link(
+        			Yii::t('user','Log Out'),
+        			$this->createUrl('/site/logout/')
+        		);
+        	?>
+        </li>
       </ul>
-      <div id="welcome"> Welcome visitor you can <a href="#">login</a> or <a href="#">create an account</a>. </div>
+      <div id="welcome">
+      	<?php 
+      		echo Yii::t(
+      			'user',
+      			'Welcome {user} you can {view} your order history or {rent} a new product',
+      			array(
+      				'{user}'=>Yii::app()->user->id,
+      				'{view}'=>Html::link(Yii::t('user','view'),$this->createUrl('/history/index')),
+      				'{rent}'=>Html::link(Yii::t('user','rent'),$this->createUrl('/rent/index')),
+      			)
+      		);
+      	?>
+      </div>
       <div class="menu">
         <ul id="topnav">
-          <li><a href="category.html">Pizza</a>
-            <ul class="children">
-              <li><a href="category.html">Pizza</a></li>
-              <li><a href="category.html">Lasagna</a>
-                <ul class="children2">
-                  <li><a href="category.html">Pizza</a></li>
-                  <li><a href="category.html">Lasagna</a></li>
-                  <li><a href="category.html">Spaghetti</a></li>
-                  <li><a href="category.html">Penne</a></li>
-                  <li><a href="category.html">Canelonni</a></li>
-                </ul>
-              </li>
-              <li><a href="category.html">Spaghetti</a></li>
-              <li><a href="category.html">Penne</a></li>
-              <li><a href="category.html">Canelonni</a></li>
-            </ul>
+          <li>
+          	<?php echo Html::link(Yii::t('user', 'Large Room'),'#')?>
           </li>
-          <li><a href="category.html">Lasagna</a>
-            <ul class="children">
-              <li><a href="category.html">Pizza</a></li>
-              <li><a href="category.html">Lasagna</a>
-                <ul class="children2">
-                  <li><a href="category.html">Pizza</a></li>
-                  <li><a href="category.html">Lasagna</a></li>
-                  <li><a href="category.html">Spaghetti</a></li>
-                  <li><a href="category.html">Penne</a></li>
-                  <li><a href="category.html">Canelonni</a></li>
-                </ul>
-              </li>
-              <li><a href="category.html">Spaghetti</a></li>
-              <li><a href="category.html">Penne</a></li>
-              <li><a href="category.html">Canelonni</a></li>
-            </ul>
+          <li>
+          	<?php echo Html::link(Yii::t('user', 'Medium Room'),'#')?>
           </li>
-          <li><a href="category.html">Spaghetti</a></li>
-          <li><a href="category.html">Penne</a>
-            <ul class="children">
-              <li><a href="category.html">Pizza</a></li>
-              <li><a href="category.html">Lasagna</a>
-                <ul class="children2">
-                  <li><a href="category.html">Pizza</a></li>
-                  <li><a href="category.html">Lasagna</a></li>
-                  <li><a href="category.html">Spaghetti</a></li>
-                  <li><a href="category.html">Penne</a></li>
-                  <li><a href="category.html">Canelonni</a></li>
-                </ul>
-              </li>
-              <li><a href="category.html">Spaghetti</a></li>
-              <li><a href="category.html">Penne</a></li>
-              <li><a href="category.html">Canelonni</a></li>
-            </ul>
+          <li>
+          	<?php echo Html::link(Yii::t('user', 'Small Room'),'#')?>
           </li>
-          <li><a href="category.html">Canelonni</a></li>
-          <li><a href="category.html">Fettuchini</a></li>
-          <li><a href="category.html">Risotto</a></li>
-          <li><a href="category.html">Antipasti</a></li>
-          <li><a href="category.html">Bar-B-Q</a></li>
-          <li><a href="category.html">Desserts</a></li>
+          <li>
+          	<?php echo Html::link(Yii::t('user', 'Booth'),'#')?>
+          </li>
+          <li>
+          	<?php echo Html::link(Yii::t('user', 'Supply'),'#')?>
+          </li>
+          <li>
+          	<?php echo Html::link(Yii::t('user', 'All Product'),$this->createUrl('/product/index'))?>
+          </li>
+          
         </ul>
       </div>
     </div>

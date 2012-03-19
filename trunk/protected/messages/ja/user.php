@@ -3,6 +3,15 @@
 		//メーニュのメッセージ
 		'Home'=>'ホーム',
 		'My Profile'=>'プロファイル',
+		'About Us'=>'私達について',
+		'FAQ'=>'よくある質問',
+		'News'=>'ニュース',
+		'History'=>'歴史',
+		'Contact Us'=>'お問い合わせ',
+		'Rent'=>'借りる',
+		'Log Out'=>'ログアウト',
+		'Welcome {user} you can {view} your order history or {rent} a new product'=>'Welcome {user} you can {view} your order history or {rent} a new product',
+				
 		
 		//プロファイル
 		'Basic Information'=>'基本情報',
@@ -21,5 +30,8 @@
 		'Last Login' => '最後にログイン',
 		'user' => 'テナント',
 		'admin'=>'管理者',
+	
+		//プロダクト
+		'Product'=>'プロダクト',
 	);
 ?>

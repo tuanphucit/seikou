@@ -30,19 +30,8 @@
 		<!-- jQuery Configuration -->
 		<?php 
 			Yii::app()->clientScript->registerCoreScript('jquery');
-		
-			$cs = Yii::app()->getClientScript();
-			$cs->registerScriptFile(Html::jsUrl("admin/simpla.jquery.configuration.js"));
-			$cs->registerScriptFile(Html::jsUrl("admin/ajax.js"));
-	
+			Yii::app()->clientScript->registerScriptFile(Html::jsUrl("admin/simpla.jquery.configuration.js"));
 		?>
-		
-		<!-- Facebox jQuery Plugin -->
-		<script type="text/javascript" src="<?php echo Html::jsUrl('admin/facebox.js')?>"></script>
-		
-		<!-- jQuery Ckeditor Plugin -->
-		<script type="text/javascript" src="<?php echo Html::url('ckeditor/ckeditor.js')?>"></script>
-		<script type="text/javascript" src="<?php echo Html::url('ckfinder/ckfinder.js')?>"></script>
 		
 		<!-- Internet Explorer .png-fix -->
 		
@@ -85,7 +74,7 @@
 						'setting' => array(
 							'class'=> "nav-top-item",
 						),
-						'post' => array(
+						'product' => array(
 							'class'=> "nav-top-item",
 						),
 						'data' => array(
@@ -108,10 +97,8 @@
 						case 'user':
 							$htmlTop['setting'] = array("class"=>"nav-top-item current");
 							break;
-						case 'post':
-						case 'page':
-						case 'cate':
-							$htmlTop['post'] = array("class"=>"nav-top-item current");
+						case 'product':
+							$htmlTop['product'] = array("class"=>"nav-top-item current");
 							break;
 						case 'sim':
 						case 'store':
@@ -143,15 +130,12 @@
 							echo "</li>";
 						echo "</ul>";
 					echo "</li>";
-					/**********          Quản lý bài viết                    **********/
+					/**********          プロダクトを管理する                    **********/
 					echo "<li>";
-						echo Html::link("Quản lý bài viết","#",$htmlTop['post']);
+						echo Html::link("Product Management","#",$htmlTop['product']);
 						echo "<ul>";
 							echo "<li>";
-								echo Html::link("Tin tức",$this->createUrl('/admin/post/index'),($controllerId == 'post')?$htmlItem:null);
-							echo "</li>";
-							echo "<li>";
-								echo Html::link("Bài viết",$this->createUrl('/admin/page/index'),($controllerId == 'page')?$htmlItem:null);
+								echo Html::link("Product",$this->createUrl('/admin/product/index'),($controllerId == 'product')?$htmlItem:null);
 							echo "</li>";
 						echo "</ul>";
 					echo "</li>";
@@ -241,21 +225,10 @@
 		<div id="main-content"> <!-- Main Content Section with everything -->
 			
 			<?php
-				echo "<h3>";
-					foreach ($this->breadcrumbs as $item) {
-						echo "$item ";
-					}
-				echo "</h3>";
-				foreach (Yii::app()->user->getFlashes() as $key => $message) {
-					echo "
-						<div class='notification $key png_bg'>
-							<a class='close' href='#'><img alt='close' title='Close this notification' src='".Html::imageUrl('icons/cross_grey_small.png')."'></a>
-							<div>
-								$key notification. $message
-							</div>
-						</div>
-					";
-				} 
+				$this->widget('bootstrap.widgets.BootAlert');
+				$this->widget('bootstrap.widgets.BootBreadcrumbs', array(
+    				'links'=>$this->breadcrumbs,
+				));
 				echo $content
 			?>			
 			<div id="footer">

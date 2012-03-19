@@ -38,7 +38,7 @@ class LoginForm extends CFormModel
 		return array(
 			'username'=>Yii::t('admin','username'),
 			'password'=>Yii::t('admin','password'),
-			'rememberMe'=>'Remember me next time',
+			'rememberMe'=>Yii::t('admin','Remember me next time '),
 		);
 	}
 
@@ -70,10 +70,10 @@ class LoginForm extends CFormModel
 				Yii::app()->user->login($this->_identity,$duration);
 				return true;
 			case UserIdentity::ERROR_USERNAME_INVALID:
-				$this->addError('invalid',Yii::t('admin','username is invalid'));
+				$this->addError('invalid',Yii::t('admin','{attribute} is invalid',array('{attribute}'=>Users::model()->getAttributeLabel('username'))));
 				return false;
 			case UserIdentity::ERROR_PASSWORD_INVALID:
-				$this->addError('invalid',Yii::t('admin','password is invalid'));
+				$this->addError('invalid',Yii::t('admin','{attribute} is invalid',array('{attribute}'=>Users::model()->getAttributeLabel('password'))));
 				return false;
 		}
 		if($this->_identity->errorCode===UserIdentity::ERROR_NONE)

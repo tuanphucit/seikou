@@ -8,7 +8,8 @@
  * @property string $username
  * @property string $password
  * @property integer $role
- * @property string $name
+ * @property string $first_name
+ * @property string $last_name
  * @property string $birthday
  * @property integer $idcard
  * @property string $work
@@ -26,6 +27,7 @@
  */
 class Users extends CActiveRecord
 {
+	public $password_repeat;
 	/**
 	 * Returns the static model of the specified AR class.
 	 * @param string $className active record class name.
@@ -52,19 +54,20 @@ class Users extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('id, username, password, role, name, birthday, idcard, work, address2, email, tel', 'required'),
+			array('id, username, password, role, first_name, last_name, birthday, idcard, work, address2, email, tel', 'required'),
 			array('role, idcard', 'numerical', 'integerOnly'=>true),
 			array('id', 'length', 'max'=>8),
 			array('username', 'length', 'max'=>15),
-			array('password, email, yahoo, skype', 'length', 'max'=>40),
-			array('name', 'length', 'max'=>128),
+			array('password, first_name, last_name, email, yahoo, skype', 'length', 'max'=>40),
 			array('email','email'),
 			array('work, address1, address2', 'length', 'max'=>256),
 			array('tel', 'length', 'max'=>11),
 			array('last_login', 'safe'),
+			array('password','compare'),
+			array('password_repeat','safe'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('id, username, password, role, name, birthday, idcard, work, address1, address2, email, tel, yahoo, skype, last_login', 'safe', 'on'=>'search'),
+			array('id, username, password, role, first_name, last_name, birthday, idcard, work, address1, address2, email, tel, yahoo, skype, last_login', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -91,7 +94,8 @@ class Users extends CActiveRecord
 			'username' => Yii::t('user','Username'),
 			'password' => Yii::t('user','Password'),
 			'role' => Yii::t('user','Role'),
-			'name' => Yii::t('user','Name'),
+			'first_name' => Yii::t('user','First Name'),
+			'Last_name' => Yii::t('user','Last Name'),
 			'birthday' => Yii::t('user','Birthday'),
 			'idcard' => Yii::t('user','Idcard'),
 			'work' => Yii::t('user','Work'),
@@ -120,7 +124,8 @@ class Users extends CActiveRecord
 		$criteria->compare('username',$this->username,true);
 		$criteria->compare('password',$this->password,true);
 		$criteria->compare('role',$this->role);
-		$criteria->compare('name',$this->name,true);
+		$criteria->compare('first_name',$this->first_name,true);
+		$criteria->compare('last_name',$this->last_name,true);
 		$criteria->compare('birthday',$this->birthday,true);
 		$criteria->compare('idcard',$this->idcard);
 		$criteria->compare('work',$this->work,true);
@@ -142,5 +147,15 @@ class Users extends CActiveRecord
 	 */
 	public function getRoleName() {
 		return ($this->role == 1)? Yii::t('user','admin'):Yii::t('user','user');
+	}
+	
+	/**
+	 * perform one-way encryption on the password before we store it in the database
+	 *
+	 */
+	protected function afterValidate() 
+	{
+		parent::afterValidate();
+		$this->password = sha1(md5($this->password));
 	}
 }

@@ -107,11 +107,11 @@ $(".handle").animate({left:'760'});
 }
 }
 });
-	$('.googleinner').gMap({ markers: [{ latitude: 47.660937,
+/*	$('.googleinner').gMap({ markers: [{ latitude: 47.660937,
                               longitude: 9.569803,
                               html: "Here we are!",
                               popup: true }],
-                  zoom: 6 });
+                  zoom: 6 });*/
 	//gridswitch
 	$('.gridtype').click(function(){
                 $('.griditems').hide();

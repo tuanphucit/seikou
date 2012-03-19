@@ -1,4 +1,4 @@
-<div class="container_16">
+
 		<div class="grid_16">
 			<div class="sliderinner">
 				<a href="javascript:;" class="slideprev">Previous</a>
@@ -270,4 +270,4 @@
 			</div>
 
 		</div>
-	</div>
+	
