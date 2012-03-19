@@ -57,6 +57,7 @@ class Users extends CActiveRecord
 			array('id, username, password, role, first_name, last_name, birthday, idcard, work, address2, email, tel', 'required'),
 			array('role, idcard', 'numerical', 'integerOnly'=>true),
 			array('id', 'length', 'max'=>8),
+			array('id', 'unique'),
 			array('username', 'length', 'max'=>15),
 			array('password, first_name, last_name, email, yahoo, skype', 'length', 'max'=>40),
 			array('email','email'),

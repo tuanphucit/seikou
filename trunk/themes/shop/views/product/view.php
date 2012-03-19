@@ -78,7 +78,7 @@
 					echo Html::image($product->image,$product->name,array('width'=>332))
 				?>
 			</div>
-			<span class="onsale"><span class="oldprice">$314</span>$199</span>
+			<span class="onsale"><?php echo number_format($product->price)?> đ</span>
 		
 		</div>
 		
@@ -89,7 +89,7 @@
 			</div>
 			<div class="infospan">
 				<?php echo $product->getAttributeLabel('price')?>
-				<span><?php echo $product->price?></span>
+				<span><?php echo number_format($product->price)?> đ</span>
 			</div>
 			<div class="infospan">
 				<?php echo $product->getAttributeLabel('type')?>

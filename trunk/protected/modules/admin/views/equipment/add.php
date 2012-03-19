@@ -31,13 +31,12 @@
 		'id'=>'add-post-form',
 	));
 	echo "<table>";	
-		echo $form->hiddenField($product,'type',array('value'=>0));
 		echo "<tr>";
 			echo "<td>";
 				echo $form->label($product,'id');
 			echo "</td>";
 			echo "<td>";
-				echo $form->textField($product,'id',array('placeholder'=>'RMXXX'));
+				echo $form->textField($product,'id',array('placeholder'=>'EQXYY'));
 			echo "</td>";
 		echo "</tr>";
 		
@@ -56,7 +55,7 @@
 			echo "</td>";
 			echo "<td>";
 				echo $form->textField($product,'price');
-				echo Yii::t('admin',' VND / 0.5 hour');
+				echo Yii::t('admin',' .000 VND / 0.5 hour');
 			echo "</td>";
 		echo "</tr>";
 		echo "<tr>";

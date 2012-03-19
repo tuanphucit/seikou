@@ -22,7 +22,8 @@ class Products extends CActiveRecord
 	 * @param string $className active record class name.
 	 * @return Products the static model class
 	 */
-	
+	const TYPE_ROOM = 0;
+	const TYPE_EQUIPMENT = 1;
 	public static function model($className=__CLASS__)
 	{
 		return parent::model($className);
@@ -47,10 +48,11 @@ class Products extends CActiveRecord
 			array('id, name, type, option', 'required'),
 			array('price, type, option', 'numerical', 'integerOnly'=>true),
 			array('id', 'length', 'max'=>5),
+			array('id', 'unique'),
 			array('name', 'length', 'max'=>50),
 			array('image', 'length', 'max'=>255),
 			array('description', 'length', 'max'=>20000),
-			array('price','numerical','min'=>10000,'max'=>'10000000'),
+			array('price','numerical','min'=>1,'max'=>'10000'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
 			array('id, name, image, description, price, type, option', 'safe', 'on'=>'search'),
@@ -79,7 +81,7 @@ class Products extends CActiveRecord
 			'name' => 'Name',
 			'image' => 'Image',
 			'description' => 'Description',
-			'price' => 'Price',
+			'price' => 'Price / 0.5 hour',
 			'type' => 'Type',
 			'option' => 'Option',
 		);
@@ -117,8 +119,8 @@ class Products extends CActiveRecord
 	public function getTypeList()
 	{
 		return array(
-			0 => Yii::t('admin','Room'),
-			1 => Yii::t('admin','Equipment'),
+			self::TYPE_ROOM => Yii::t('admin','Room'),
+			self::TYPE_EQUIPMENT => Yii::t('admin','Equipment'),
 		);
 	}
 	
@@ -131,5 +133,16 @@ class Products extends CActiveRecord
 	{
 		$list = $this->getTypeList();
 		return $list[$this->type];
+	}
+	
+	/**
+	 * @return Option label
+	 */
+	public function getOptionLabel()
+	{
+		if ($this->type == self::TYPE_ROOM) {
+			return Yii::t('admin','Number of seats');
+		}
+		return Yii::t('admin','In stock');
 	}
 }

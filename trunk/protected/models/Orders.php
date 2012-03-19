@@ -4,17 +4,18 @@
  * This is the model class for table "orders".
  *
  * The followings are the available columns in table 'orders':
- * @property string $id
+ * @property integer $id
  * @property string $user_id
  * @property string $product_id
  * @property integer $duration
  * @property string $start_time
  * @property string $real_stop_time
  * @property integer $total
+ * @property integer $visible
  *
  * The followings are the available model relations:
- * @property Products $product
  * @property Users $user
+ * @property Products $product
  * @property OrdersHistory[] $ordersHistories
  */
 class Orders extends CActiveRecord
@@ -46,13 +47,12 @@ class Orders extends CActiveRecord
 		// will receive user inputs.
 		return array(
 			array('id, user_id, product_id, duration, start_time, real_stop_time, total', 'required'),
-			array('duration, total', 'numerical', 'integerOnly'=>true),
-			array('id', 'length', 'max'=>10),
+			array('id, duration, total, visible', 'numerical', 'integerOnly'=>true),
 			array('user_id', 'length', 'max'=>8),
 			array('product_id', 'length', 'max'=>5),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('id, user_id, product_id, duration, start_time, real_stop_time, total', 'safe', 'on'=>'search'),
+			array('id, user_id, product_id, duration, start_time, real_stop_time, total, visible', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -64,8 +64,8 @@ class Orders extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
-			'product' => array(self::BELONGS_TO, 'Products', 'product_id'),
 			'user' => array(self::BELONGS_TO, 'Users', 'user_id'),
+			'product' => array(self::BELONGS_TO, 'Products', 'product_id'),
 			'ordersHistories' => array(self::HAS_MANY, 'OrdersHistory', 'order_id'),
 		);
 	}
@@ -83,6 +83,7 @@ class Orders extends CActiveRecord
 			'start_time' => 'Start Time',
 			'real_stop_time' => 'Real Stop Time',
 			'total' => 'Total',
+			'visible' => 'Visible',
 		);
 	}
 
@@ -97,13 +98,14 @@ class Orders extends CActiveRecord
 
 		$criteria=new CDbCriteria;
 
-		$criteria->compare('id',$this->id,true);
+		$criteria->compare('id',$this->id);
 		$criteria->compare('user_id',$this->user_id,true);
 		$criteria->compare('product_id',$this->product_id,true);
 		$criteria->compare('duration',$this->duration);
 		$criteria->compare('start_time',$this->start_time,true);
 		$criteria->compare('real_stop_time',$this->real_stop_time,true);
 		$criteria->compare('total',$this->total);
+		$criteria->compare('visible',$this->visible);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
