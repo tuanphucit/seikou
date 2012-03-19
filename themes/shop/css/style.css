@@ -50,7 +50,7 @@ outline: medium none !important;}
 .menu1 li a {
     color: #4E5A66;
     display: block;
-    font-size: 14px;
+    font-size: 15px;
     height: 40px;
     margin-top: -13px;
     padding-left: 15px;
@@ -840,10 +840,10 @@ height:20px;
 	.billing {
 	margin-top:20px;}
 	.full {
-	width:434px;
+	width:420px;
 	float:left;}
 	.half {
-	width:211px;
+	width:200px;
 	float:left;}
 	.req {
 	margin-right:10px;}
@@ -854,8 +854,8 @@ height:20px;
 	border-radius:5px;
 	border-bottom: 1px solid #C2CBD2;
     border-right: 1px solid #C2CBD2;
-	color:#b7b7b7;
-	font-size:12px;
+	//color:#b7b7b7;
+	font-size:14px;
 	text-indent:10px;
 	margin-bottom:20px;}
 	.shorty {
@@ -1602,3 +1602,20 @@ background:url(../images/ffeed.png) no-repeat;}
 background:url(../images/frsshover.png) no-repeat;}
 .homelist .onsale {
 margin-left: 124px;}
+.custom input {
+	padding:0px;
+}
+}
+
+label.short{
+	width:200px;
+}
+
+label.left{
+	float:left;
+	margin-right:10px;	
+}
+
+.infospan{
+	float:none;
+}

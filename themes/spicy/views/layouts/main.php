@@ -3,21 +3,21 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Spicylicious - Premium HTML template by D.Koev</title>
-<link rel="stylesheet" href="<?php echo Html::cssWithThemeUrl("stylesheet.css")?>" type="text/css" media="screen" />
+<link rel="stylesheet" href="<?php echo Html::cssThemeUrl("stylesheet.css")?>" type="text/css" media="screen" />
 <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'/>
-<link rel="stylesheet" type="text/css" href="<?php echo Html::cssWithThemeUrl("jquery-ui-1.8.9.custom.css")?>" />
+<link rel="stylesheet" type="text/css" href="<?php echo Html::cssThemeUrl("jquery-ui-1.8.9.custom.css")?>" />
 <!-- jQuery and Custom scripts -->
 <?php
-	Yii::app()->clientScript->registerCoreScript('jquery');
+	Yii::app()->clientScript->registerCoreScript('jquery');  
 ?>
-<script src="<? echo Html::jsWithThemeUrl('jquery.cycle.lite.1.0.min.js') ?>" type="text/javascript"></script>
-<script src="<? echo Html::jsWithThemeUrl('custom_scripts.js') ?>" type="text/javascript"></script>
-<script src="<? echo Html::jsWithThemeUrl('jquery.roundabout.min.js') ?>" type="text/javascript"></script>
-<script type="text/javascript" src="<? echo Html::jsWithThemeUrl('jquery-ui-1.8.9.custom.min.js') ?>"></script>
-<script type="text/javascript" src="<? echo Html::jsWithThemeUrl('tabs.js') ?>"></script>
+<script src="<? echo Html::jsThemeUrl('jquery.cycle.lite.1.0.min.js') ?>" type="text/javascript"></script>
+<script src="<? echo Html::jsThemeUrl('custom_scripts.js') ?>" type="text/javascript"></script>
+<script src="<? echo Html::jsThemeUrl('jquery.roundabout.min.js') ?>" type="text/javascript"></script>
+<script type="text/javascript" src="<? echo Html::jsThemeUrl('jquery-ui-1.8.9.custom.min.js') ?>"></script>
+<script type="text/javascript" src="<? echo Html::jsThemeUrl('tabs.js') ?>"></script>
 <!-- Tipsy -->
-<script src="<? echo Html::jsWithThemeUrl('tipsy/jquery.tipsy.js') ?>" type="text/javascript"></script>
-<link href="<? echo Html::jsWithThemeUrl('tipsy/css.tipsy.css') ?>" rel="stylesheet" type="text/css" />
+<script src="<? echo Html::jsThemeUrl('tipsy/jquery.tipsy.js') ?>" type="text/javascript"></script>
+<link href="<? echo Html::jsThemeUrl('tipsy/css.tipsy.css') ?>" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
@@ -36,29 +36,29 @@
             <table class="cart">
               <tbody>
                 <tr>
-                  <td class="image"><a href="#"><img alt="Spicylicious" src="<? echo Html::imageWithThemeUrl('cart_pic1.jpg') ?>"/></a></td>
+                  <td class="image"><a href="#"><img alt="Spicylicious" src="<? echo Html::imageThemeUrl('cart_pic1.jpg') ?>"/></a></td>
                   <td class="name"><a href="#">Product name 1</a>
                     <div> </div></td>
                   <td class="quantity">x&nbsp;1</td>
                   <td class="total">$117.50</td>
-                  <td class="remove"><img title="Remove" alt="Remove" src="<? echo Html::imageWithThemeUrl('close.png') ?>"/></td>
+                  <td class="remove"><img title="Remove" alt="Remove" src="<? echo Html::imageThemeUrl('close.png') ?>"/></td>
                 </tr>
                 <tr>
-                  <td class="image"><a href="#"><img title="Palm Treo Pro" alt="Palm Treo Pro" src="<? echo Html::imageWithThemeUrl('cart_pic2.jpg') ?>"/></a></td>
+                  <td class="image"><a href="#"><img title="Palm Treo Pro" alt="Palm Treo Pro" src="<? echo Html::imageThemeUrl('cart_pic2.jpg') ?>"/></a></td>
                   <td class="name"><a href="#">Product name 2</a>
                     <div> </div></td>
                   <td class="quantity">x&nbsp;1</td>
                   <td class="total">$328.99</td>
-                  <td class="remove"><img title="Remove" alt="Remove" src="<? echo Html::imageWithThemeUrl('close.png') ?>"/></td>
+                  <td class="remove"><img title="Remove" alt="Remove" src="<? echo Html::imageThemeUrl('close.png') ?>"/></td>
                 </tr>
                 <tr>
-                  <td class="image"><a href="#"><img title="Canon EOS 5D" alt="Canon EOS 5D" src="<? echo Html::imageWithThemeUrl('cart_pic3.jpg') ?>"/></a></td>
+                  <td class="image"><a href="#"><img title="Canon EOS 5D" alt="Canon EOS 5D" src="<? echo Html::imageThemeUrl('cart_pic3.jpg') ?>"/></a></td>
                   <td class="name"><a href="#">Product name 3</a>
                     <div> - <small>Extra Cheese</small><br/>
                     </div></td>
                   <td class="quantity">x&nbsp;1</td>
                   <td class="total">$94.00</td>
-                  <td class="remove"><img title="Remove" alt="Remove" src="<? echo Html::imageWithThemeUrl('close.png') ?>"/></td>
+                  <td class="remove"><img title="Remove" alt="Remove" src="<? echo Html::imageThemeUrl('close.png') ?>"/></td>
                 </tr>
               </tbody>
             </table>
@@ -86,7 +86,7 @@
         <div id="currency"> Currency <a href="#" title="Euro">€</a> <a href="#" title="Pound Sterling">£</a> <a title="US Dollar">$</a> </div>
       </li>
       <li class="side_lang"><span class="icon">Language</span>
-        <div id="language"> Language <a href="#" title="English"><img src="<? echo Html::imageWithThemeUrl('gb.png') ?>" alt="Spicylicious store"/></a> <a href="#" title="Deutsch"><img src="<? echo Html::imageWithThemeUrl('de.png') ?>" alt="Spicylicious store"/></a> <a title="Bylgarski"><img src="<? echo Html::imageWithThemeUrl('bg.png') ?>" alt="Spicylicious store"/></a> </div>
+        <div id="language"> Language <a href="#" title="English"><img src="<? echo Html::imageThemeUrl('gb.png') ?>" alt="Spicylicious store"/></a> <a href="#" title="Deutsch"><img src="<? echo Html::imageThemeUrl('de.png') ?>" alt="Spicylicious store"/></a> <a title="Bylgarski"><img src="<? echo Html::imageThemeUrl('bg.png') ?>" alt="Spicylicious store"/></a> </div>
       </li>
       <li class="side_search"><span class="icon">Search</span>
         <div id="search">
@@ -100,84 +100,123 @@
   <!-- HEADER -->
   <div id="header">
     <div class="inner">
-      <ul class="main_menu menu_left">
-        <li><a href="<?php echo $this->createUrl('/profile/index/')?>">My Profile</a></li>
-        <li><a href="wish.html">Wish List <b>(3)</b></a></li>
-        <li><a href="about.html">About Us</a></li>
-        <li class="warning"><a href="index.html">Home</a>
-          <ul class="secondary">
-            <li><a href="index2.html">Home with LI SLIDER</a></li>
-          </ul>
+      <ul class="main_menu menu_left">        
+        <li>
+        	<?php 
+        		echo Html::link(
+        			Yii::t('user','News'),
+        			$this->createUrl('/news/index/')
+        		);
+        	?>
+        </li>
+        <li>
+        	<?php 
+        		echo Html::link(
+        			Yii::t('user','FAQ'),
+        			$this->createUrl('/post/faq')
+        		);
+        	?>
+        </li>
+        <li>
+        	<?php 
+        		echo Html::link(
+        			Yii::t('user','About Us'),
+        			$this->createUrl('/profile/index/')
+        		);
+        	?>
+        </li>
+        <li class="warning">
+        	<?php 
+        		echo Html::link(
+        			Yii::t('user','Home'),
+        			Yii::app()->homeUrl
+        		);
+        	?>
         </li>
       </ul>
-      <div id="logo"><a href="index.html"><img src="<? echo Html::imageWithThemeUrl('logo.png') ?>" width="217" height="141" alt="Spicylicious store" /></a></div>
+      <div id="logo">
+      	<?php 
+      		echo Html::link(
+      			Html::image(
+      				Html::imageThemeUrl('logo.png'),
+      				Yii::app()->name,
+      				array(
+      					"width"=>217,
+      					"height"=>141,
+      				)
+      			),
+      			Yii::app()->homeUrl
+      		);
+      	?>
+      </div>
       <ul class="main_menu menu_right">
-        <li><a href="compare.html">Compare</a></li>
-        <li><a href="cart.html">Shopping Cart</a></li>
-        <li><a href="checkout.html">Checkout</a></li>
-        <li><a href="contact.html">Contact Us</a></li>
+        <li>
+        	<?php 
+        		echo Html::link(
+        			Yii::t('user','History'),
+        			$this->createUrl('/history/index/')
+        		);
+        	?>
+        </li>
+        <li>
+        	<?php 
+        		echo Html::link(
+        			Yii::t('user','Contact Us'),
+        			$this->createUrl('/site/contact/')
+        		);
+        	?>
+        </li>
+        <li>
+        	<?php 
+        		echo Html::link(
+        			Yii::t('user','My Profile'),
+        			$this->createUrl('/profile/index/')
+        		);
+        	?>
+        </li>
+        <li>
+        	<?php 
+        		echo Html::link(
+        			Yii::t('user','Log Out'),
+        			$this->createUrl('/site/logout/')
+        		);
+        	?>
+        </li>
       </ul>
-      <div id="welcome"> Welcome visitor you can <a href="#">login</a> or <a href="#">create an account</a>. </div>
+      <div id="welcome">
+      	<?php 
+      		echo Yii::t(
+      			'user',
+      			'Welcome {user} you can {view} your order history or {rent} a new product',
+      			array(
+      				'{user}'=>Yii::app()->user->id,
+      				'{view}'=>Html::link(Yii::t('user','view'),$this->createUrl('/history/index')),
+      				'{rent}'=>Html::link(Yii::t('user','rent'),$this->createUrl('/rent/index')),
+      			)
+      		);
+      	?>
+      </div>
       <div class="menu">
         <ul id="topnav">
-          <li><a href="category.html">Pizza</a>
-            <ul class="children">
-              <li><a href="category.html">Pizza</a></li>
-              <li><a href="category.html">Lasagna</a>
-                <ul class="children2">
-                  <li><a href="category.html">Pizza</a></li>
-                  <li><a href="category.html">Lasagna</a></li>
-                  <li><a href="category.html">Spaghetti</a></li>
-                  <li><a href="category.html">Penne</a></li>
-                  <li><a href="category.html">Canelonni</a></li>
-                </ul>
-              </li>
-              <li><a href="category.html">Spaghetti</a></li>
-              <li><a href="category.html">Penne</a></li>
-              <li><a href="category.html">Canelonni</a></li>
-            </ul>
+          <li>
+          	<?php echo Html::link(Yii::t('user', 'Large Room'),'#')?>
           </li>
-          <li><a href="category.html">Lasagna</a>
-            <ul class="children">
-              <li><a href="category.html">Pizza</a></li>
-              <li><a href="category.html">Lasagna</a>
-                <ul class="children2">
-                  <li><a href="category.html">Pizza</a></li>
-                  <li><a href="category.html">Lasagna</a></li>
-                  <li><a href="category.html">Spaghetti</a></li>
-                  <li><a href="category.html">Penne</a></li>
-                  <li><a href="category.html">Canelonni</a></li>
-                </ul>
-              </li>
-              <li><a href="category.html">Spaghetti</a></li>
-              <li><a href="category.html">Penne</a></li>
-              <li><a href="category.html">Canelonni</a></li>
-            </ul>
+          <li>
+          	<?php echo Html::link(Yii::t('user', 'Medium Room'),'#')?>
           </li>
-          <li><a href="category.html">Spaghetti</a></li>
-          <li><a href="category.html">Penne</a>
-            <ul class="children">
-              <li><a href="category.html">Pizza</a></li>
-              <li><a href="category.html">Lasagna</a>
-                <ul class="children2">
-                  <li><a href="category.html">Pizza</a></li>
-                  <li><a href="category.html">Lasagna</a></li>
-                  <li><a href="category.html">Spaghetti</a></li>
-                  <li><a href="category.html">Penne</a></li>
-                  <li><a href="category.html">Canelonni</a></li>
-                </ul>
-              </li>
-              <li><a href="category.html">Spaghetti</a></li>
-              <li><a href="category.html">Penne</a></li>
-              <li><a href="category.html">Canelonni</a></li>
-            </ul>
+          <li>
+          	<?php echo Html::link(Yii::t('user', 'Small Room'),'#')?>
           </li>
-          <li><a href="category.html">Canelonni</a></li>
-          <li><a href="category.html">Fettuchini</a></li>
-          <li><a href="category.html">Risotto</a></li>
-          <li><a href="category.html">Antipasti</a></li>
-          <li><a href="category.html">Bar-B-Q</a></li>
-          <li><a href="category.html">Desserts</a></li>
+          <li>
+          	<?php echo Html::link(Yii::t('user', 'Booth'),'#')?>
+          </li>
+          <li>
+          	<?php echo Html::link(Yii::t('user', 'Supply'),'#')?>
+          </li>
+          <li>
+          	<?php echo Html::link(Yii::t('user', 'All Product'),$this->createUrl('/product/index'))?>
+          </li>
+          
         </ul>
       </div>
     </div>

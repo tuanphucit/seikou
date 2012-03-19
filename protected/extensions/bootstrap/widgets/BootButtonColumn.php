@@ -19,6 +19,7 @@ class BootButtonColumn extends CButtonColumn
 	/**
 	 * @var string the view button icon (defaults to 'eye-open').
 	 */
+	
 	public $viewButtonIcon = 'eye-open';
 	/**
 	 * @var string the update button icon (defaults to 'pencil').

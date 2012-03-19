@@ -27,9 +27,9 @@ class ProfileController extends Controller
 		if (isset($_POST['Users'])){
 			$user->attributes = $_POST['Users'];
 			if ($user->save())
-				Yii::app()->user->setFlash('error',Yii::t('user','Editting profile failed'));
-			else				
 				Yii::app()->user->setFlash('success',Yii::t('user','Editting profile successed'));
+			else				
+				Yii::app()->user->setFlash('error',Yii::t('user','Editting profile failed'));
 		}
 		$this->render('index',array('user'=>$user));
 	}

@@ -4,7 +4,7 @@
  * This is the model class for table "orders_history".
  *
  * The followings are the available columns in table 'orders_history':
- * @property integer $history_id
+ * @property integer $id
  * @property string $user_id
  * @property string $order_id
  * @property integer $status
@@ -43,14 +43,14 @@ class OrdersHistory extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('history_id, user_id, order_id, status, time, description', 'required'),
-			array('history_id, status', 'numerical', 'integerOnly'=>true),
+			array('id, user_id, order_id, status, time, description', 'required'),
+			array('id, status', 'numerical', 'integerOnly'=>true),
 			array('user_id', 'length', 'max'=>8),
 			array('order_id', 'length', 'max'=>10),
 			array('description', 'length', 'max'=>30),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('history_id, user_id, order_id, status, time, description', 'safe', 'on'=>'search'),
+			array('id, user_id, order_id, status, time, description', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -73,7 +73,7 @@ class OrdersHistory extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'history_id' => 'History',
+			'id' => 'ID',
 			'user_id' => 'User',
 			'order_id' => 'Order',
 			'status' => 'Status',
@@ -93,7 +93,7 @@ class OrdersHistory extends CActiveRecord
 
 		$criteria=new CDbCriteria;
 
-		$criteria->compare('history_id',$this->history_id);
+		$criteria->compare('id',$this->id);
 		$criteria->compare('user_id',$this->user_id,true);
 		$criteria->compare('order_id',$this->order_id,true);
 		$criteria->compare('status',$this->status);

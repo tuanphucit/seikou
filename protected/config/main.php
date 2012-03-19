@@ -6,7 +6,7 @@
 // CWebApplication properties can be configured here.
 return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
-	'name'=>'Rent Project',
+	'name'=>'Rental Project',
 
 	// preloading 'log' component
 	'preload'=>array(
@@ -27,7 +27,7 @@ return array(
 			'password'=>'2e',
 		 	// If removed, Gii defaults to localhost only. Edit carefully to taste.
 			'ipFilters'=>array('127.0.0.1','::1'),
-			'generatorPaths'=>'bootstrap.gii',
+			'generatorPaths'=> array('bootstrap.gii'),
 		),
 		'admin'=>array(),
 	),

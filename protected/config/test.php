@@ -4,7 +4,6 @@ return CMap::mergeArray(
 	require(dirname(__FILE__).'/main.php'),
 	array(
 		// preloading 'log' component
-		'preload'=>array('log'),
 		'components'=>array(
 			'urlManager'=>array(
 				'showScriptName'=>true,

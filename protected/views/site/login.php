@@ -40,7 +40,7 @@
 			
 				<h1>Simpla Admin</h1>
 				<!-- Logo (221px width) -->
-				<img id="logo" src="<?php echo Html::imageUrl('admin/logo.png')?>" alt="Simpla Admin logo" />
+				<img id="logo" src="<?php echo Html::imageUrl('logo.png')?>" alt="Simpla Admin logo" />
 			</div> <!-- End #logn-top -->
 			
 			<div id="login-content">
@@ -59,12 +59,11 @@
 					<div class="clear"></div>
 					<p id="remember-password">
 						<?php echo $form->checkBox($model,'rememberMe')?>
+						<?php echo $model->getAttributeLabel('rememberMe')?>
 					</p>
 					<div class="clear"></div>
 					<p>
-						<?php echo $form->error($model,'username')?>
-						<?php echo $form->error($model,'password')?>
-						<?php echo $form->error($model,'invalid')?>
+						<?php echo $form->errorSummary($model,null,null,array('class'=>'errorMessage'))?>
 					</p>
 					<div class="clear"></div>
 					<p>
