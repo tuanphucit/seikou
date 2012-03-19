@@ -38,3 +38,48 @@ Stack trace:
 REQUEST_URI=/rent//rent/uploads/products/thiet-ke-phong-hop-3.jpg
 HTTP_REFERER=http://localhost/rent/product/view/pid/RM102
 ---
+2012/03/19 19:02:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Param is not enough' in D:\xampp\htdocs\rent\protected\modules\admin\controllers\ProductController.php:75
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\actions\CInlineAction.php(50): ProductController->actionUpdate()
+#1 D:\xampp\htdocs\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#2 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#3 D:\xampp\htdocs\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#4 D:\xampp\htdocs\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#5 D:\xampp\htdocs\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#6 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#7 D:\xampp\htdocs\framework\web\CController.php(292): CFilterChain->run()
+#8 D:\xampp\htdocs\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\xampp\htdocs\framework\web\CWebApplication.php(276): CController->run('update')
+#10 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('admin/product/u...')
+#11 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#12 D:\xampp\htdocs\rent\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/rent/admin/product/update/pid/RM110
+---
+2012/03/19 19:08:29 [error] [exception.CException] exception 'CException' with message 'Products and its behaviors do not have a method or closure named "getType".' in D:\xampp\htdocs\framework\base\CComponent.php:266
+Stack trace:
+#0 D:\xampp\htdocs\framework\db\ar\CActiveRecord.php(226): CComponent->__call('getType', Array)
+#1 D:\xampp\htdocs\rent\themes\shop\views\product\view.php(96): CActiveRecord->__call('getType', Array)
+#2 D:\xampp\htdocs\rent\themes\shop\views\product\view.php(96): Products->getType()
+#3 D:\xampp\htdocs\framework\web\CBaseController.php(127): require('D:\xampp\htdocs...')
+#4 D:\xampp\htdocs\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\xampp\htdocs...', Array, true)
+#5 D:\xampp\htdocs\framework\web\CController.php(870): CBaseController->renderFile('D:\xampp\htdocs...', Array, true)
+#6 D:\xampp\htdocs\framework\web\CController.php(783): CController->renderPartial('view', Array, true)
+#7 D:\xampp\htdocs\rent\protected\controllers\ProductController.php(42): CController->render('view', Array)
+#8 D:\xampp\htdocs\framework\web\actions\CInlineAction.php(50): ProductController->actionView()
+#9 D:\xampp\htdocs\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#11 D:\xampp\htdocs\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#12 D:\xampp\htdocs\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#13 D:\xampp\htdocs\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#14 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#15 D:\xampp\htdocs\framework\web\CController.php(292): CFilterChain->run()
+#16 D:\xampp\htdocs\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 D:\xampp\htdocs\framework\web\CWebApplication.php(276): CController->run('view')
+#18 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('product/view/pi...')
+#19 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#20 D:\xampp\htdocs\rent\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/rent/product/view/pid/RM110
+HTTP_REFERER=http://localhost/rent/product/view/pid/RM110
+---

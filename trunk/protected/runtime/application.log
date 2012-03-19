@@ -6902,3 +6902,443 @@ in D:\xampp\htdocs\rent\index.php (13)
 in D:\xampp\htdocs\rent\protected\modules\admin\views\product\add.php (59)
 in D:\xampp\htdocs\rent\protected\modules\admin\controllers\ProductController.php (91)
 in D:\xampp\htdocs\rent\index.php (13)
+2012/03/19 19:03:55 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/19 19:03:55 [trace] [system.CModule] Loading "bootstrap" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/19 19:03:55 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\rent\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\rent\protected\extensions\bootstrap\components\Bootstrap.php (62)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/19 19:03:55 [trace] [system.CModule] Loading "assetManager" application component
+in D:\xampp\htdocs\rent\protected\extensions\bootstrap\components\Bootstrap.php (351)
+in D:\xampp\htdocs\rent\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\rent\protected\extensions\bootstrap\components\Bootstrap.php (62)
+2012/03/19 19:03:55 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\rent\protected\extensions\bootstrap\components\Bootstrap.php (351)
+in D:\xampp\htdocs\rent\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\rent\protected\extensions\bootstrap\components\Bootstrap.php (62)
+2012/03/19 19:03:55 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/19 19:03:55 [trace] [system.base.CModule] Loading "admin" module
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/19 19:03:55 [trace] [system.web.filters.CFilterChain] Running filter ProductController.filteraccessControl()
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/19 19:03:55 [trace] [system.CModule] Loading "user" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/19 19:03:55 [trace] [system.CModule] Loading "session" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/19 19:03:55 [trace] [system.CModule] Loading "db" application component
+in D:\xampp\htdocs\rent\protected\models\Products.php (28)
+in D:\xampp\htdocs\rent\protected\modules\admin\controllers\ProductController.php (76)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/19 19:03:55 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\xampp\htdocs\rent\protected\models\Products.php (28)
+in D:\xampp\htdocs\rent\protected\modules\admin\controllers\ProductController.php (76)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/19 19:03:55 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `products`
+in D:\xampp\htdocs\rent\protected\models\Products.php (28)
+in D:\xampp\htdocs\rent\protected\modules\admin\controllers\ProductController.php (76)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/19 19:03:55 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `products`
+in D:\xampp\htdocs\rent\protected\models\Products.php (28)
+in D:\xampp\htdocs\rent\protected\modules\admin\controllers\ProductController.php (76)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/19 19:03:55 [trace] [system.db.ar.CActiveRecord] Products.findByPk()
+in D:\xampp\htdocs\rent\protected\modules\admin\controllers\ProductController.php (76)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/19 19:03:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `products` `t` WHERE `t`.`id`='RM110' LIMIT 1
+in D:\xampp\htdocs\rent\protected\modules\admin\controllers\ProductController.php (76)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/19 19:03:55 [trace] [system.db.ar.CActiveRecord] Products.update()
+in D:\xampp\htdocs\rent\protected\modules\admin\controllers\ProductController.php (84)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/19 19:03:55 [trace] [system.db.ar.CActiveRecord] Products.updateByPk()
+in D:\xampp\htdocs\rent\protected\modules\admin\controllers\ProductController.php (84)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/19 19:03:55 [trace] [system.db.CDbCommand] Executing SQL: UPDATE `products` SET `id`=:yp0, `name`=:yp1, `image`=:yp2, `description`=:yp3, `price`=:yp4, `type`=:yp5, `option`=:yp6 WHERE `products`.`id`='RM110'
+in D:\xampp\htdocs\rent\protected\modules\admin\controllers\ProductController.php (84)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/19 19:03:56 [trace] [system.CModule] Loading "messages" application component
+in D:\xampp\htdocs\rent\protected\modules\admin\controllers\ProductController.php (85)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/19 19:03:56 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/19 19:03:56 [trace] [system.CModule] Loading "bootstrap" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/19 19:03:56 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\rent\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\rent\protected\extensions\bootstrap\components\Bootstrap.php (62)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/19 19:03:56 [trace] [system.CModule] Loading "assetManager" application component
+in D:\xampp\htdocs\rent\protected\extensions\bootstrap\components\Bootstrap.php (351)
+in D:\xampp\htdocs\rent\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\rent\protected\extensions\bootstrap\components\Bootstrap.php (62)
+2012/03/19 19:03:56 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\rent\protected\extensions\bootstrap\components\Bootstrap.php (351)
+in D:\xampp\htdocs\rent\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\rent\protected\extensions\bootstrap\components\Bootstrap.php (62)
+2012/03/19 19:03:56 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/19 19:03:56 [trace] [system.base.CModule] Loading "admin" module
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/19 19:03:56 [trace] [system.web.filters.CFilterChain] Running filter ProductController.filteraccessControl()
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/19 19:03:56 [trace] [system.CModule] Loading "user" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/19 19:03:56 [trace] [system.CModule] Loading "session" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/19 19:03:56 [trace] [system.CModule] Loading "db" application component
+in D:\xampp\htdocs\rent\protected\models\Products.php (28)
+in D:\xampp\htdocs\rent\protected\modules\admin\controllers\ProductController.php (42)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/19 19:03:56 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\xampp\htdocs\rent\protected\models\Products.php (28)
+in D:\xampp\htdocs\rent\protected\modules\admin\controllers\ProductController.php (42)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/19 19:03:56 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `products`
+in D:\xampp\htdocs\rent\protected\models\Products.php (28)
+in D:\xampp\htdocs\rent\protected\modules\admin\controllers\ProductController.php (42)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/19 19:03:56 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `products`
+in D:\xampp\htdocs\rent\protected\models\Products.php (28)
+in D:\xampp\htdocs\rent\protected\modules\admin\controllers\ProductController.php (42)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/19 19:03:56 [trace] [system.db.ar.CActiveRecord] Products.findByPk()
+in D:\xampp\htdocs\rent\protected\modules\admin\controllers\ProductController.php (42)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/19 19:03:56 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `products` `t` WHERE `t`.`id`='RM110' LIMIT 1
+in D:\xampp\htdocs\rent\protected\modules\admin\controllers\ProductController.php (42)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/19 19:03:56 [trace] [system.CModule] Loading "themeManager" application component
+in D:\xampp\htdocs\rent\protected\modules\admin\controllers\ProductController.php (45)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/19 19:03:56 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\rent\protected\modules\admin\views\product\view.php (21)
+in D:\xampp\htdocs\rent\protected\modules\admin\controllers\ProductController.php (45)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/19 19:03:56 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\rent\protected\modules\admin\views\product\view.php (21)
+in D:\xampp\htdocs\rent\protected\modules\admin\controllers\ProductController.php (45)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/19 19:03:56 [trace] [system.CModule] Loading "format" application component
+in D:\xampp\htdocs\rent\protected\modules\admin\views\product\view.php (21)
+in D:\xampp\htdocs\rent\protected\modules\admin\controllers\ProductController.php (45)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/19 19:03:57 [trace] [system.CModule] Loading "messages" application component
+in D:\xampp\htdocs\rent\protected\modules\admin\views\product\view.php (25)
+in D:\xampp\htdocs\rent\protected\modules\admin\controllers\ProductController.php (45)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/19 19:04:13 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/19 19:04:13 [trace] [system.CModule] Loading "bootstrap" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/19 19:04:13 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\rent\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\rent\protected\extensions\bootstrap\components\Bootstrap.php (62)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/19 19:04:13 [trace] [system.CModule] Loading "assetManager" application component
+in D:\xampp\htdocs\rent\protected\extensions\bootstrap\components\Bootstrap.php (351)
+in D:\xampp\htdocs\rent\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\rent\protected\extensions\bootstrap\components\Bootstrap.php (62)
+2012/03/19 19:04:13 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\rent\protected\extensions\bootstrap\components\Bootstrap.php (351)
+in D:\xampp\htdocs\rent\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\rent\protected\extensions\bootstrap\components\Bootstrap.php (62)
+2012/03/19 19:04:13 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/19 19:04:13 [trace] [system.web.filters.CFilterChain] Running filter ProductController.filteraccessControl()
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/19 19:04:13 [trace] [system.CModule] Loading "user" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/19 19:04:13 [trace] [system.CModule] Loading "session" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/19 19:04:13 [trace] [system.CModule] Loading "db" application component
+in D:\xampp\htdocs\rent\protected\models\Products.php (28)
+in D:\xampp\htdocs\rent\protected\controllers\ProductController.php (41)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/19 19:04:13 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\xampp\htdocs\rent\protected\models\Products.php (28)
+in D:\xampp\htdocs\rent\protected\controllers\ProductController.php (41)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/19 19:04:13 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `products`
+in D:\xampp\htdocs\rent\protected\models\Products.php (28)
+in D:\xampp\htdocs\rent\protected\controllers\ProductController.php (41)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/19 19:04:13 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `products`
+in D:\xampp\htdocs\rent\protected\models\Products.php (28)
+in D:\xampp\htdocs\rent\protected\controllers\ProductController.php (41)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/19 19:04:13 [trace] [system.db.ar.CActiveRecord] Products.findByPk()
+in D:\xampp\htdocs\rent\protected\controllers\ProductController.php (41)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/19 19:04:13 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `products` `t` WHERE `t`.`id`='RM110' LIMIT 1
+in D:\xampp\htdocs\rent\protected\controllers\ProductController.php (41)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/19 19:04:13 [trace] [system.CModule] Loading "themeManager" application component
+in D:\xampp\htdocs\rent\protected\controllers\ProductController.php (42)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/19 19:04:13 [trace] [system.CModule] Loading "messages" application component
+in D:\xampp\htdocs\rent\themes\shop\views\product\view.php (56)
+in D:\xampp\htdocs\rent\protected\controllers\ProductController.php (42)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/19 19:04:13 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\rent\themes\shop\views\layouts\main.php (130)
+in D:\xampp\htdocs\rent\protected\controllers\ProductController.php (42)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/19 19:06:39 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/19 19:06:39 [trace] [system.CModule] Loading "bootstrap" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/19 19:06:39 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\rent\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\rent\protected\extensions\bootstrap\components\Bootstrap.php (62)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/19 19:06:39 [trace] [system.CModule] Loading "assetManager" application component
+in D:\xampp\htdocs\rent\protected\extensions\bootstrap\components\Bootstrap.php (351)
+in D:\xampp\htdocs\rent\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\rent\protected\extensions\bootstrap\components\Bootstrap.php (62)
+2012/03/19 19:06:39 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\rent\protected\extensions\bootstrap\components\Bootstrap.php (351)
+in D:\xampp\htdocs\rent\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\rent\protected\extensions\bootstrap\components\Bootstrap.php (62)
+2012/03/19 19:06:39 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/19 19:06:39 [trace] [system.web.filters.CFilterChain] Running filter ProductController.filteraccessControl()
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/19 19:06:39 [trace] [system.CModule] Loading "user" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/19 19:06:39 [trace] [system.CModule] Loading "session" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/19 19:06:39 [trace] [system.CModule] Loading "db" application component
+in D:\xampp\htdocs\rent\protected\models\Products.php (28)
+in D:\xampp\htdocs\rent\protected\controllers\ProductController.php (41)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/19 19:06:39 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\xampp\htdocs\rent\protected\models\Products.php (28)
+in D:\xampp\htdocs\rent\protected\controllers\ProductController.php (41)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/19 19:06:39 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `products`
+in D:\xampp\htdocs\rent\protected\models\Products.php (28)
+in D:\xampp\htdocs\rent\protected\controllers\ProductController.php (41)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/19 19:06:39 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `products`
+in D:\xampp\htdocs\rent\protected\models\Products.php (28)
+in D:\xampp\htdocs\rent\protected\controllers\ProductController.php (41)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/19 19:06:39 [trace] [system.db.ar.CActiveRecord] Products.findByPk()
+in D:\xampp\htdocs\rent\protected\controllers\ProductController.php (41)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/19 19:06:39 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `products` `t` WHERE `t`.`id`='RM110' LIMIT 1
+in D:\xampp\htdocs\rent\protected\controllers\ProductController.php (41)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/19 19:06:39 [trace] [system.CModule] Loading "themeManager" application component
+in D:\xampp\htdocs\rent\protected\controllers\ProductController.php (42)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/19 19:06:39 [trace] [system.CModule] Loading "messages" application component
+in D:\xampp\htdocs\rent\themes\shop\views\product\view.php (56)
+in D:\xampp\htdocs\rent\protected\controllers\ProductController.php (42)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/19 19:06:39 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\rent\themes\shop\views\layouts\main.php (130)
+in D:\xampp\htdocs\rent\protected\controllers\ProductController.php (42)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/19 19:08:29 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/19 19:08:29 [trace] [system.CModule] Loading "bootstrap" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/19 19:08:29 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\rent\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\rent\protected\extensions\bootstrap\components\Bootstrap.php (62)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/19 19:08:29 [trace] [system.CModule] Loading "assetManager" application component
+in D:\xampp\htdocs\rent\protected\extensions\bootstrap\components\Bootstrap.php (351)
+in D:\xampp\htdocs\rent\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\rent\protected\extensions\bootstrap\components\Bootstrap.php (62)
+2012/03/19 19:08:29 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\rent\protected\extensions\bootstrap\components\Bootstrap.php (351)
+in D:\xampp\htdocs\rent\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\rent\protected\extensions\bootstrap\components\Bootstrap.php (62)
+2012/03/19 19:08:29 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/19 19:08:29 [trace] [system.web.filters.CFilterChain] Running filter ProductController.filteraccessControl()
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/19 19:08:29 [trace] [system.CModule] Loading "user" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/19 19:08:29 [trace] [system.CModule] Loading "session" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/19 19:08:29 [trace] [system.CModule] Loading "db" application component
+in D:\xampp\htdocs\rent\protected\models\Products.php (28)
+in D:\xampp\htdocs\rent\protected\controllers\ProductController.php (41)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/19 19:08:29 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\xampp\htdocs\rent\protected\models\Products.php (28)
+in D:\xampp\htdocs\rent\protected\controllers\ProductController.php (41)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/19 19:08:29 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `products`
+in D:\xampp\htdocs\rent\protected\models\Products.php (28)
+in D:\xampp\htdocs\rent\protected\controllers\ProductController.php (41)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/19 19:08:29 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `products`
+in D:\xampp\htdocs\rent\protected\models\Products.php (28)
+in D:\xampp\htdocs\rent\protected\controllers\ProductController.php (41)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/19 19:08:29 [trace] [system.db.ar.CActiveRecord] Products.findByPk()
+in D:\xampp\htdocs\rent\protected\controllers\ProductController.php (41)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/19 19:08:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `products` `t` WHERE `t`.`id`='RM110' LIMIT 1
+in D:\xampp\htdocs\rent\protected\controllers\ProductController.php (41)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/19 19:08:29 [trace] [system.CModule] Loading "themeManager" application component
+in D:\xampp\htdocs\rent\protected\controllers\ProductController.php (42)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/19 19:08:29 [trace] [system.CModule] Loading "messages" application component
+in D:\xampp\htdocs\rent\themes\shop\views\product\view.php (56)
+in D:\xampp\htdocs\rent\protected\controllers\ProductController.php (42)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/19 19:08:29 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\rent\themes\shop\views\product\view.php (96)
+in D:\xampp\htdocs\rent\themes\shop\views\product\view.php (96)
+in D:\xampp\htdocs\rent\protected\controllers\ProductController.php (42)
+2012/03/19 19:08:29 [error] [exception.CException] exception 'CException' with message 'Products and its behaviors do not have a method or closure named "getType".' in D:\xampp\htdocs\framework\base\CComponent.php:266
+Stack trace:
+#0 D:\xampp\htdocs\framework\db\ar\CActiveRecord.php(226): CComponent->__call('getType', Array)
+#1 D:\xampp\htdocs\rent\themes\shop\views\product\view.php(96): CActiveRecord->__call('getType', Array)
+#2 D:\xampp\htdocs\rent\themes\shop\views\product\view.php(96): Products->getType()
+#3 D:\xampp\htdocs\framework\web\CBaseController.php(127): require('D:\xampp\htdocs...')
+#4 D:\xampp\htdocs\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\xampp\htdocs...', Array, true)
+#5 D:\xampp\htdocs\framework\web\CController.php(870): CBaseController->renderFile('D:\xampp\htdocs...', Array, true)
+#6 D:\xampp\htdocs\framework\web\CController.php(783): CController->renderPartial('view', Array, true)
+#7 D:\xampp\htdocs\rent\protected\controllers\ProductController.php(42): CController->render('view', Array)
+#8 D:\xampp\htdocs\framework\web\actions\CInlineAction.php(50): ProductController->actionView()
+#9 D:\xampp\htdocs\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#11 D:\xampp\htdocs\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#12 D:\xampp\htdocs\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#13 D:\xampp\htdocs\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#14 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#15 D:\xampp\htdocs\framework\web\CController.php(292): CFilterChain->run()
+#16 D:\xampp\htdocs\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 D:\xampp\htdocs\framework\web\CWebApplication.php(276): CController->run('view')
+#18 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('product/view/pi...')
+#19 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#20 D:\xampp\htdocs\rent\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/rent/product/view/pid/RM110
+HTTP_REFERER=http://localhost/rent/product/view/pid/RM110
+---
+2012/03/19 19:08:29 [trace] [system.CModule] Loading "errorHandler" application component
+2012/03/19 19:08:40 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/19 19:08:40 [trace] [system.CModule] Loading "bootstrap" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/19 19:08:40 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\rent\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\rent\protected\extensions\bootstrap\components\Bootstrap.php (62)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/19 19:08:40 [trace] [system.CModule] Loading "assetManager" application component
+in D:\xampp\htdocs\rent\protected\extensions\bootstrap\components\Bootstrap.php (351)
+in D:\xampp\htdocs\rent\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\rent\protected\extensions\bootstrap\components\Bootstrap.php (62)
+2012/03/19 19:08:40 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\rent\protected\extensions\bootstrap\components\Bootstrap.php (351)
+in D:\xampp\htdocs\rent\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\rent\protected\extensions\bootstrap\components\Bootstrap.php (62)
+2012/03/19 19:08:40 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/19 19:08:40 [trace] [system.web.filters.CFilterChain] Running filter ProductController.filteraccessControl()
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/19 19:08:40 [trace] [system.CModule] Loading "user" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/19 19:08:40 [trace] [system.CModule] Loading "session" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/19 19:08:40 [trace] [system.CModule] Loading "db" application component
+in D:\xampp\htdocs\rent\protected\models\Products.php (28)
+in D:\xampp\htdocs\rent\protected\controllers\ProductController.php (41)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/19 19:08:40 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\xampp\htdocs\rent\protected\models\Products.php (28)
+in D:\xampp\htdocs\rent\protected\controllers\ProductController.php (41)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/19 19:08:40 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `products`
+in D:\xampp\htdocs\rent\protected\models\Products.php (28)
+in D:\xampp\htdocs\rent\protected\controllers\ProductController.php (41)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/19 19:08:40 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `products`
+in D:\xampp\htdocs\rent\protected\models\Products.php (28)
+in D:\xampp\htdocs\rent\protected\controllers\ProductController.php (41)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/19 19:08:40 [trace] [system.db.ar.CActiveRecord] Products.findByPk()
+in D:\xampp\htdocs\rent\protected\controllers\ProductController.php (41)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/19 19:08:40 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `products` `t` WHERE `t`.`id`='RM110' LIMIT 1
+in D:\xampp\htdocs\rent\protected\controllers\ProductController.php (41)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/19 19:08:40 [trace] [system.CModule] Loading "themeManager" application component
+in D:\xampp\htdocs\rent\protected\controllers\ProductController.php (42)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/19 19:08:40 [trace] [system.CModule] Loading "messages" application component
+in D:\xampp\htdocs\rent\themes\shop\views\product\view.php (56)
+in D:\xampp\htdocs\rent\protected\controllers\ProductController.php (42)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/19 19:08:40 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\rent\themes\shop\views\layouts\main.php (130)
+in D:\xampp\htdocs\rent\protected\controllers\ProductController.php (42)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/19 19:09:49 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/19 19:09:49 [trace] [system.CModule] Loading "bootstrap" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/19 19:09:49 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\rent\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\rent\protected\extensions\bootstrap\components\Bootstrap.php (62)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/19 19:09:49 [trace] [system.CModule] Loading "assetManager" application component
+in D:\xampp\htdocs\rent\protected\extensions\bootstrap\components\Bootstrap.php (351)
+in D:\xampp\htdocs\rent\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\rent\protected\extensions\bootstrap\components\Bootstrap.php (62)
+2012/03/19 19:09:49 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\rent\protected\extensions\bootstrap\components\Bootstrap.php (351)
+in D:\xampp\htdocs\rent\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\rent\protected\extensions\bootstrap\components\Bootstrap.php (62)
+2012/03/19 19:09:49 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/19 19:09:49 [trace] [system.web.filters.CFilterChain] Running filter ProductController.filteraccessControl()
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/19 19:09:49 [trace] [system.CModule] Loading "user" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/19 19:09:49 [trace] [system.CModule] Loading "session" application component
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/19 19:09:49 [trace] [system.CModule] Loading "db" application component
+in D:\xampp\htdocs\rent\protected\models\Products.php (28)
+in D:\xampp\htdocs\rent\protected\controllers\ProductController.php (41)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/19 19:09:49 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\xampp\htdocs\rent\protected\models\Products.php (28)
+in D:\xampp\htdocs\rent\protected\controllers\ProductController.php (41)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/19 19:09:49 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `products`
+in D:\xampp\htdocs\rent\protected\models\Products.php (28)
+in D:\xampp\htdocs\rent\protected\controllers\ProductController.php (41)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/19 19:09:49 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `products`
+in D:\xampp\htdocs\rent\protected\models\Products.php (28)
+in D:\xampp\htdocs\rent\protected\controllers\ProductController.php (41)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/19 19:09:49 [trace] [system.db.ar.CActiveRecord] Products.findByPk()
+in D:\xampp\htdocs\rent\protected\controllers\ProductController.php (41)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/19 19:09:49 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `products` `t` WHERE `t`.`id`='RM110' LIMIT 1
+in D:\xampp\htdocs\rent\protected\controllers\ProductController.php (41)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/19 19:09:49 [trace] [system.CModule] Loading "themeManager" application component
+in D:\xampp\htdocs\rent\protected\controllers\ProductController.php (42)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/19 19:09:49 [trace] [system.CModule] Loading "messages" application component
+in D:\xampp\htdocs\rent\themes\shop\views\product\view.php (56)
+in D:\xampp\htdocs\rent\protected\controllers\ProductController.php (42)
+in D:\xampp\htdocs\rent\index.php (13)
+2012/03/19 19:09:49 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\rent\themes\shop\views\layouts\main.php (130)
+in D:\xampp\htdocs\rent\protected\controllers\ProductController.php (42)
+in D:\xampp\htdocs\rent\index.php (13)
