@@ -1,74 +1,3 @@
-<?php 
-	$cs = Yii::app()->getClientScript(); 
-	$cs->registerCoreScript( 'jquery.ui' );
-	$cs->registerCssFile(
-		Yii::app()->assetManager->publish(
-			Yii::app()->basePath . '/vendors/jquery.ui/redmond/'
-		).
-		'/jquery-ui-1.8.18.custom.css', 'screen'
-	);
-	$cs->registerCssFile(
-			Html::cssUrl('ui.daterangepicker.css'),
-			'screen'
-	);
-	$cs->registerCssFile(
-			Html::cssUrl('ui.slider.extras.css'),
-			'screen'
-	);
-	$cs->registerScriptFile(Html::jsUrl('selectToUISlider.jQuery.js'));
-	$cs->registerScriptFile(Html::jsUrl('date.js'));
-	$cs->registerScriptFile(Html::jsUrl('daterangepicker.jQuery.js'));
-?>
-
-<script type="text/javascript">	
-	$(function(){
-		$('#date').daterangepicker({
-			arrows:true,
-			onChange:calc_total
-		}); 
-
-		$('select#start_time, select#end_time').selectToUISlider({
-			onChange:function(){alert('nothing')}
-		});
-		
-		/** Check total before submit **/
-		$('form').submit(function(){
-			if ($("#total").text() == '0'){
-				alert("<?php echo Yii::t('user','Please correct your order')?>");
-				return false;
-			}
-			return true;
-		});
-		
-		/** Caculate total price when page loaded **/
-		calc_total();
-	});
-
-	function calc_total() {
-		// Get time diff
-		start_time = $("#start_time").val().split(":");
-		end_time   = $("#end_time").val().split(":");
-		time_diff  = (end_time[0] - start_time[0])*2 + ((end_time[1] - start_time[1]))/30;
-
-		// Get date diff
-		date = $("#date").val();
-		if (date == "") date_diff = 0;
-		else { 
-			date = date.split(" - ");
-			date_diff  = date_difference(date[0],date[1]);
-		}
-
-		total = time_diff * date_diff * $("#Products_price").val();
-		
-		/** For debug 
-		 * Uncomment this code followed to debug 
-		**/
-		debug = "time_diff = "+time_diff+"| date_diff = " + date_diff + "total = " + total;
-		//$("#debug").text(debug);
-
-		$("#total").text(addCommas(total));
-	}
-</script>
 	<div class="grid_16">
 		<div class="ribbonbig">
 			<div class="lijevo">
@@ -89,56 +18,11 @@
 	</div>
 	
 	<div class="grid_11 singleleft">
-		<div class="shiztitle">
-			<h2 class="title h2bg"><?php echo $product->name?></h2>
-		</div>
-		<div class="clear"></div>
-		
-		<div class="productimages">
-			<div class="mainimg">
-				<?php 
-					echo Html::image($product->image,$product->name,array('width'=>332))
-				?>
-			</div>
-			<span class="onsale"><?php echo number_format($product->price)?> đ</span>
-		
-		</div>
-		
-		<div class="productdata">
-			<div class="infospan">
-				<?php echo $product->getAttributeLabel('id')?>
-				<span><?php echo $product->id?></span>
-			</div>
-			<div class="infospan">
-				<?php echo $product->getAttributeLabel('price')?>
-				<span><?php echo number_format($product->price)?> đ</span>
-			</div>
-			<div class="infospan">
-				<?php echo $product->getAttributeLabel('type')?>
-				<span><?php echo $product->getProductType()?></span>
-			</div>
-			<div class="infospan">
-				<?php echo $product->getAttributeLabel('option')?>
-				<span><?php echo $product->option?></span>
-			</div>
-		</div>
-		
-		<div class="tabs">
-			<!-- tabs -->
-			<ul class="tabNavigation">
-				<li><a href="#desc"><?php echo Yii::t('user','Description')?></a></li>
-			</ul>
-			
-			<!-- tab containers -->
-			<div id="desc">
-		    	<?php echo $product->description?>
-		  	</div>
-		</div>
-		
+				
 		<div class="shiztitle">
 			<h2 class="title h2bg">Order</h2>
 		</div>
-		
+		SUCCESS
 		<div id="order-content">
 			<?php 
 				$form = $this->beginWidget('bootstrap.widgets.BootActiveForm',array(
