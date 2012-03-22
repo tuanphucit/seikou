@@ -373,3 +373,30 @@ var TimePeriod = function (years, months, days, hours, minutes, seconds, millise
 	}
 	return this;
 };
+
+function date_diff(d1,d2){
+	if (d2 == null)
+		return 1;
+	//Total time for one day
+	var one_day=1000*60*60*24; 
+	//Here we need to split the inputed dates to convert them into standard format
+	var x=d1.split("/");     
+    var y=d2.split("/");
+    //date format(Fullyear,month,date) 
+    var date1=new Date(x[2], x[0], x[1]);
+    var date2=new Date(y[2], y[0], y[1]);
+    //Calculate difference between the two dates, and convert to days
+    return Math.ceil((date2.getTime()-date1.getTime())/(one_day))+1;  
+}
+
+function addCommas(nStr) {
+	nStr += '';
+	x = nStr.split('.');
+	x1 = x[0];
+	x2 = x.length > 1 ? '.' + x[1] : '';
+	var rgx = /(\d+)(\d{3})/;
+	while (rgx.test(x1)) {
+		x1 = x1.replace(rgx, '$1' + ',' + '$2');
+	}
+	return x1 + x2;
+}
