@@ -374,7 +374,7 @@ var TimePeriod = function (years, months, days, hours, minutes, seconds, millise
 	return this;
 };
 
-function date_diff(d1,d2){
+function date_difference(d1,d2){
 	if (d2 == null)
 		return 1;
 	//Total time for one day

@@ -55,9 +55,16 @@
 		  
 			<!-- Sidebar Profile links -->
 			<div id="profile-links">
-				Xin chào, <a href="<?php echo $this->createUrl('/admin/user/index');?>" title="Edit your profile"><?php echo Yii::app()->user->getId()?></a>, Có <a href="<?php echo $this->createUrl('/admin/order/index')?>"><?php echo 3?> ĐDH</a><br />
+				<?php
+					echo Yii::t('admin','Welcome');
+					echo ", ";
+					echo Html::link(
+						Yii::app()->user->name,
+						"#"
+					);
+				?>
 				<br />
-				<a target="_blank" href="<?php echo $this->createUrl('/home/index');?>" title="View the Site">Website</a> | <a href="<?php echo $this->createUrl('/site/logout');?>" title="Sign Out">Thoát</a>
+				<a target="_blank" href="<?php echo Yii::app()->homeUrl;?>" title="View the Site">Website</a> | <a href="<?php echo $this->createUrl('/site/logout');?>" title="Sign Out">Log Out</a>
 			</div>        
 			
 			<ul id="main-nav">  <!-- Accordion Menu -->
@@ -92,8 +99,6 @@
 							);
 							break;
 						case 'setting':
-						case 'menu':
-						case 'banner':
 						case 'user':
 							$htmlTop['setting'] = array("class"=>"nav-top-item current");
 							break;
@@ -101,8 +106,6 @@
 						case 'equipment':
 							$htmlTop['product'] = array("class"=>"nav-top-item current");
 							break;
-						case 'sim':
-						case 'store':
 						case 'order':
 							$htmlTop['data'] = array("class"=>"nav-top-item current");
 							break;
