@@ -22,31 +22,31 @@
 
 <script type="text/javascript">	
 	$(function(){
-		$('#rangeA').daterangepicker({
-			arrows:true
+		$('#date').daterangepicker({
+			arrows:true,
+			onChange:calc_total
 		}); 
 
-		$('select#valueA, select#valueB').selectToUISlider();
+		$('select#start_time, select#end_time').selectToUISlider({
+			onChange:function(){alert('nothing')}
+		});
 	});
-</script>
 
-		<div>
-			<input type="text" value="" id="rangeA" />			
-		</div>
-		
-		<fieldset>
-			<label for="valueA">From:</label>
-			<?php 
-				echo Html::dropDownList('valueA', '06:00', Timer::getArrayHours());
-			?>
-			
-	
-			<label for="valueB">To:</label>
-			<?php 
-				echo Html::dropDownList('valueB', '12:30', Timer::getArrayHours());
-			?>
-		</fieldset>
-		
+	function calc_total() {
+		// Get time diff
+		start_time = $("#start_time").val().split(":");
+		end_time   = $("#end_time").val().split(":");
+		time_diff  = (end_time[0] - start_time[0])*2 + ((end_time[1] - start_time[1]))/30;
+
+		// Get date diff
+		date = $("#date").val().split(" - ");
+		date_diff  = date_diff(date[0],date[1]);
+
+		total = time_diff * date_diff * $("#Products_price").val();
+
+		$("#total").text(addCommas(total));
+	}
+</script>
 	<div class="grid_16">
 		<div class="ribbonbig">
 			<div class="lijevo">
@@ -115,6 +115,33 @@
 		
 		<div class="shiztitle">
 			<h2 class="title h2bg">Order</h2>
+		</div>
+		
+		<div id="order-content">
+			<?php 
+				$form = $this->beginWidget('bootstrap.widgets.BootActiveForm',array(
+					'id'=>'order-form',
+				));
+					echo $form->hiddenField($product,'price');
+					
+					echo Html::label(Yii::t('user','Pick day you want to rent:'),"date");
+					echo Html::textField("date");
+					echo Html::label(Yii::t('user','Pick time you want to rent:'),"start_time");
+					echo "<fieldset>";
+						echo Html::label(Yii::t('user','From'),'start_time');
+						echo Html::dropDownList('start_time', '8:00', Timer::getArrayHours());
+						echo Html::label(Yii::t('user','To'),'end_time');
+						echo Html::dropDownList('end_time', '11:00', Timer::getArrayHours());
+					echo "</fieldset>";
+					
+					echo "<br><br><br>";
+					echo "<strong> Total: </strong>";
+					echo Html::tag("div",array('id'=>'total','style'=>"display: inline-block"),0);
+					echo " 000 VND";
+					echo "<br>";
+					echo CHtml::htmlButton('Rent it', array('class'=>'btn', 'type'=>'submit'));
+				$this->endWidget();
+			?>
 		</div>
 		
 		<div class="shiztitle">

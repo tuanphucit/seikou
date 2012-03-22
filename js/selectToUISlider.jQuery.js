@@ -96,6 +96,9 @@ jQuery.fn.selectToUISlider = function(settings){
 				var currSelect = jQuery('#' + thisHandle.attr('id').split('handle_')[1]);
 				currSelect.find('option').eq(ui.value).attr('selected', 'selected');
 		},
+		stop: function(e, ui) {
+			calc_total();
+		},
 		values: (function(){
 			var values = [];
 			selects.each(function(){

@@ -1619,3 +1619,9 @@ label.left{
 .infospan{
 	float:none;
 }
+
+#order-content {
+    float: left;
+    position: relative;
+    width: 650px;
+}
