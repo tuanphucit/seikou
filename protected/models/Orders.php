@@ -7,9 +7,10 @@
  * @property integer $id
  * @property string $user_id
  * @property string $product_id
- * @property integer $duration
+ * @property string $start_date
+ * @property string $end_date
  * @property string $start_time
- * @property string $real_stop_time
+ * @property string $end_time
  * @property integer $total
  * @property integer $visible
  *
@@ -46,13 +47,14 @@ class Orders extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('id, user_id, product_id, duration, start_time, real_stop_time, total', 'required'),
-			array('id, duration, total, visible', 'numerical', 'integerOnly'=>true),
+			array('user_id, product_id, start_date, end_date, start_time, total', 'required'),
+			array('total, visible', 'numerical', 'integerOnly'=>true),
 			array('user_id', 'length', 'max'=>8),
 			array('product_id', 'length', 'max'=>5),
+			array('end_time', 'safe'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('id, user_id, product_id, duration, start_time, real_stop_time, total, visible', 'safe', 'on'=>'search'),
+			array('id, user_id, product_id, start_date, end_date, start_time, end_time, total, visible', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -79,9 +81,10 @@ class Orders extends CActiveRecord
 			'id' => 'ID',
 			'user_id' => 'User',
 			'product_id' => 'Product',
-			'duration' => 'Duration',
+			'start_date' => 'Start Date',
+			'end_date' => 'End Date',
 			'start_time' => 'Start Time',
-			'real_stop_time' => 'Real Stop Time',
+			'end_time' => 'End Time',
 			'total' => 'Total',
 			'visible' => 'Visible',
 		);
@@ -101,9 +104,10 @@ class Orders extends CActiveRecord
 		$criteria->compare('id',$this->id);
 		$criteria->compare('user_id',$this->user_id,true);
 		$criteria->compare('product_id',$this->product_id,true);
-		$criteria->compare('duration',$this->duration);
+		$criteria->compare('start_date',$this->start_date,true);
+		$criteria->compare('end_date',$this->end_date,true);
 		$criteria->compare('start_time',$this->start_time,true);
-		$criteria->compare('real_stop_time',$this->real_stop_time,true);
+		$criteria->compare('end_time',$this->end_time,true);
 		$criteria->compare('total',$this->total);
 		$criteria->compare('visible',$this->visible);
 

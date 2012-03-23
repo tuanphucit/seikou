@@ -53,7 +53,7 @@ class ProductController extends Controller
 			$orderTime->attributes = $_POST["OrderTimeForm"];
 			
 			// STEP 1: validate
-			if ( !$orderTime->validate()){
+			if ( !$orderTime->validateTime()){
 				Yii::app()->user->setFlash('error','Error with order');
 			}
 			
@@ -63,7 +63,12 @@ class ProductController extends Controller
 			}
 			
 			else {
-				$this->render('success');
+				$this->render('view',array(
+					'product'=>$product,
+					'orderTime'=>$orderTime,
+				));
+				//$this->render('success',array('product'=>$product));
+				return;
 			}
 			
 		}

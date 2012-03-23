@@ -19,37 +19,7 @@
 	
 	<div class="grid_11 singleleft">
 				
-		<div class="shiztitle">
-			<h2 class="title h2bg">Order</h2>
-		</div>
 		SUCCESS
-		<div id="order-content">
-			<?php 
-				$form = $this->beginWidget('bootstrap.widgets.BootActiveForm',array(
-					'id'=>'order-form',
-				));
-					echo $form->hiddenField($product,'price');
-					
-					echo $form->label($orderTime,'date');
-					echo $form->textField($orderTime,'date',array('id'=>'date'));
-					echo Html::label(Yii::t('user','Pick time you want to rent:'),"start_time");
-					echo "<fieldset>";
-						echo $form->label($orderTime,'start_time');
-						echo $form->dropDownList($orderTime,'start_time',Timer::getArrayHours(),array('id'=>'start_time'));
-						echo $form->label($orderTime,'end_time');
-						echo $form->dropDownList($orderTime,'end_time',Timer::getArrayHours(),array('id'=>'end_time'));
-					echo "</fieldset>";
-					
-					echo "<br><br><br>";
-					echo "<strong> Total: </strong>";
-					echo Html::tag("div",array('id'=>'total','style'=>"display: inline-block"),0);
-					echo " VND";
-					echo "<br>";
-					echo Html::tag("div",array('id'=>'debug'));
-					echo CHtml::htmlButton('Rent it', array('class'=>'btn', 'type'=>'submit'));
-				$this->endWidget();
-			?>
-		</div>
 		
 		<div class="shiztitle">
 			<h2 class="title h2bg">Related Products</h2>

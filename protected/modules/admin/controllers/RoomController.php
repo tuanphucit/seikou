@@ -23,7 +23,7 @@ class RoomController extends Controller
 	
 	public function actionIndex()
 	{
-		$this->breadcrumbs = array("Room"=>$this->createUrl('/admin/room/'),"List");
+		$this->breadcrumbs = array(Yii::t('admin',"Room")=>$this->createUrl('/admin/room/'),Yii::t('admin',"List"));
 		$this->pageTitle   = "Room Management - List Product";
 		$product = new Products();
 		// タイプは１ならルームです。 Setting 1 for attribute 0 means it is room
@@ -33,7 +33,7 @@ class RoomController extends Controller
 	
 	public function actionView()
 	{
-		$this->breadcrumbs = array("Room"=>$this->createUrl('/admin/room/'),"View");
+		$this->breadcrumbs = array(Yii::t('admin',"Room")=>$this->createUrl('/admin/room/'),Yii::t('admin',"View"));
 		$this->pageTitle   = "Room Management - View Product";
 		//  要求からIDをとる。もしIDがないと４０４ページを表示
 		$id = Yii::app()->request->getParam('id');

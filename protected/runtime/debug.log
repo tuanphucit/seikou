@@ -185,3 +185,8 @@ in D:\xampp\htdocs\rent\index.php (13)
 in D:\xampp\htdocs\rent\themes\shop\views\profile\index.php (132)
 in D:\xampp\htdocs\rent\protected\controllers\ProfileController.php (34)
 in D:\xampp\htdocs\rent\index.php (13)
+2012/03/23 08:38:29 [info] [application] <div class="alert alert-block alert-error" id="profile-form_es_" style="display:none"><p>以下の入力エラーを修正してください。</p>
+<ul><li>dummy</li></ul></div>
+in D:\xampp\htdocs\rent\themes\shop\views\profile\index.php (132)
+in D:\xampp\htdocs\rent\protected\controllers\ProfileController.php (34)
+in D:\xampp\htdocs\rent\index.php (13)

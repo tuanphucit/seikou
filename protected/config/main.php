@@ -117,5 +117,5 @@ return array(
 	'language'=>'en',
 	'defaultController'=>'home',
 	'homeUrl'=>array('/home/index/'),
-	'theme'=>'shop',
+	'theme'=>'cool',
 );
