@@ -21,7 +21,7 @@
 		<div class="padding25">
 			<div class="billing">
 				<div class="shiztitle">
-					<h2 class="title h2bg">Personal Details</h2>
+					<h2 class="title h2bg"><?php Yii::t('user',"Personal Details")?></h2>
 				</div>
 				<?php 
 					$form = $this->beginWidget('bootstrap.widgets.BootActiveForm',array(
@@ -77,7 +77,7 @@
 				
 				?>
 				<div class="shiztitle">
-				<h2 class="title h2bg">Account Details</h2>
+				<h2 class="title h2bg"><?php echo Yii::t('user',"Account Details")?></h2>
 				</div>
 				<?php 
 					echo $form->passwordField(
@@ -143,7 +143,7 @@
 	
 	<div class="billing">
 	<div class="shiztitle">
-	<h2 class="title h2bg">Your address</h2>
+	<h2 class="title h2bg"><?php echo Yii::t('user',"Your address")?></h2>
 	</div>
 	<?php 
 		echo $form->textField(

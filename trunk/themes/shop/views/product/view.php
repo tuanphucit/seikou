@@ -161,7 +161,7 @@
 					echo Html::tag("div",array('id'=>'total','style'=>"display: inline-block"),0);
 					echo " VND";
 					echo "<br>";
-					echo Html::tag("div",array('id'=>'debug'));
+					echo $form->errorSummary($orderTime);
 					echo CHtml::htmlButton('Rent it', array('class'=>'btn', 'type'=>'submit'));
 				$this->endWidget();
 			?>

@@ -23,8 +23,8 @@ class EquipmentController extends Controller
 	
 	public function actionIndex()
 	{
-		$this->breadcrumbs = array("Equipment"=>$this->createUrl('/admin/equipment/'),"List");
-		$this->pageTitle   = "Equipment Management - List Product";
+		$this->breadcrumbs = array(Yii::t('admin',"Equipment")=>$this->createUrl('/admin/equipment/'),Yii::t('admin',"List"));
+		$this->pageTitle   = Yii::t('admin',"Equipment Management - List Product");
 		$product = new Products();
 		// タイプは１ならルームです。 Setting 1 for attribute 1 means it is equipment
 		$product->type = 1;
@@ -33,12 +33,12 @@ class EquipmentController extends Controller
 	
 	public function actionView()
 	{
-		$this->breadcrumbs = array("Equipment"=>$this->createUrl('/admin/equipment/'),"View");
-		$this->pageTitle   = "Equipment Management - View Product";
+		$this->breadcrumbs = array(Yii::t('admin',"Equipment")=>$this->createUrl('/admin/equipment/'),Yii::t('admin',"View"));
+		$this->pageTitle   = Yii::t('admin',"Equipment Management - View Product");
 		//  要求からIDをとる。もしIDがないと４０４ページを表示
 		$id = Yii::app()->request->getParam('id');
 		if ($id == NULL)
-			throw new CHttpException('404','Param is not enough');
+			throw new CHttpException('404',Yii::t('admin','Param is not enough'));
 		// IDからModelをみつける。もし見つけません、４０４ページを表示する
 		$product = Products::model()->findByPk($id);
 		if ($product == NULL)
@@ -48,8 +48,8 @@ class EquipmentController extends Controller
 	
 	public function actionAdd()
 	{
-		$this->breadcrumbs = array("Equipment"=>$this->createUrl('/admin/equipment/'),"Add");
-		$this->pageTitle   = "Equipment Management - Add Product";
+		$this->breadcrumbs = array(Yii::t('admin',"Equipment")=>$this->createUrl('/admin/equipment/'),Yii::t('admin',"Add"));
+		$this->pageTitle   = Yii::t('admin',"Equipment Management - Add Product");
 		$product = new Products();
 		$product->type = 1;
 		if(isset($_POST['Products']))
@@ -69,12 +69,12 @@ class EquipmentController extends Controller
 	
 	public function actionUpdate()
 	{
-		$this->breadcrumbs = array("Equipment"=>$this->createUrl('/admin/equipment/'),"Update");
-		$this->pageTitle   = "Equipment Management - Update Product";
+		$this->breadcrumbs = array(Yii::t('admin',"Equipment")=>$this->createUrl('/admin/equipment/'),"Update");
+		$this->pageTitle   = Yii::t('admin',"Equipment Management - Update Product");
 		//  要求からIDをとる。もしIDがないと４０４ページを表示
 		$id = Yii::app()->request->getParam('id');
 		if ($id == NULL)
-			throw new CHttpException('404','Param is not enough');
+			throw new CHttpException('404',Yii::t('admin','Param is not enough'));
 		$product = Products::model()->findByPk($id);
 		if ($product == NULL)
 			throw new CHttpException('404',Yii::t('admin','Object not found'));
@@ -95,12 +95,12 @@ class EquipmentController extends Controller
 	
 	public function actionDelete()
 	{
-		$this->breadcrumbs = array("Equipment"=>$this->createUrl('/admin/equipment/'),"Delete");
-		$this->pageTitle   = "Equipment Management - Delete Product";
+		$this->breadcrumbs = array(Yii::t('admin',"Equipment")=>$this->createUrl('/admin/equipment/'),Yii::t('admin',"Delete"));
+		$this->pageTitle   = Yii::t('admin',"Equipment Management - Delete Product");
 		//  要求からIDをとる。もしIDがないと４０４ページを表示
 		$id = Yii::app()->request->getParam('id');
 		if ($id == NULL)
-			throw new CHttpException('404','Param is not enough');
+			throw new CHttpException('404',Yii::t('admin','Param is not enough'));
 		$product = Products::model()->findByPk($id);
 		if ($product == NULL)
 			throw new CHttpException('404',Yii::t('admin','Object not found'));

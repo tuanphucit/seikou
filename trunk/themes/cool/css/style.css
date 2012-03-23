@@ -1,0 +1,404 @@
+@charset "shift_jis";
+
+
+
+body {
+	font-family: "メイリオ", Meiryo, "ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro";
+	font-size: 75%;
+	line-height: 2;
+	color: #333333;
+	background-color: #eeeeee;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	background-image: url(../images/bg.gif);
+	background-repeat: repeat-x;
+	background-position: top;
+}
+
+body#top {
+	background-image: url(../images/bgtop.gif);	/*トップページ用の壁紙設定*/
+	background-repeat: repeat-x;
+	background-position: top;
+}
+
+h1,h2,h3,h4,h5,p,ul,ol,li,dl,dt,dd,form{
+	margin: 0px;
+	padding: 0px;
+}
+
+ul{
+	list-style-type: none;
+}
+
+img {
+	border: none;
+}
+
+input,textarea,select {
+	font-size: 1em;
+}
+
+form {
+	margin: 0px;
+}
+
+table {
+	border-collapse:collapse;
+	font-size: 100%;
+	border-spacing: 0;
+}
+
+
+
+/*リンク設定
+---------------------------------------------------------------------------*/
+a {
+	color: #333333;		/*文字色*/
+}
+
+a:hover {
+	text-decoration: none;	/*カーソルオーバー時に下線を消す設定*/
+	color: #0375a2;			/*カーソルオーバー時の文字色*/
+}
+
+
+
+/*コンテナー（HPを囲むブロック）
+---------------------------------------------------------------------------*/
+#container {
+	text-align: left;
+	width: 900px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 10px;
+}
+
+
+
+/*ヘッダー（h1タグ）
+---------------------------------------------------------------------------*/
+#header h1 {
+	font-size: 10px;	/*h1タグの文字サイズ*/
+	line-height: 1em;
+	font-weight: normal;
+	color: #FFFFFF;		/*h1タグの文字色*/
+}
+
+
+
+/*メインメニュー（上部の横並びメニュー）
+---------------------------------------------------------------------------*/
+ul#menu {
+	padding-left: 33px;
+	padding-top: 10px;
+}
+
+ul#menu li {
+	float: left;
+}
+
+ul#menu img {
+	vertical-align: bottom;
+}
+
+
+
+/*トップページのスライドショー
+---------------------------------------------------------------------------*/
+#mainimg {
+	position: relative;
+	height: 300px;
+	width: 900px;
+}
+
+#mainimg .slide_file {
+	display: none;
+}
+
+#slide_image {
+	z-Index:2;
+	position: absolute;
+	left:0px;
+	top:0px;
+}
+
+#slide_image2 {
+	z-Index:1;
+	position: absolute;
+	left:0px;
+	top:0px;
+}
+
+
+
+/*コンテンツ（#mainと#subと#footermenuと#footerを囲むブロック）
+---------------------------------------------------------------------------*/
+#contents {
+	clear: left;
+	width: 896px;
+	background-color: #FFFFFF;	/*背景色*/
+	border: 2px solid #6c6c6c;	/*枠線の幅と線種と色の設定*/
+	background-image: url(../images/contents_bg.gif);	/*コンテンツ背景画像*/
+	background-repeat: repeat-y;		/*背景画像をＹ軸（縦軸）にリピート*/
+}
+
+
+
+/*メインコンテンツ（右側ブロック）
+---------------------------------------------------------------------------*/
+#main {
+	float: right;
+	width: 620px;
+	display: inline;
+	margin-right: 10px;
+	padding-top: 30px;
+}
+
+/*h2見出しタグ設定*/
+#main h2 {
+	font-size: 100%;
+	color: #FFFFFF;		/*文字色*/
+	background-image: url(../images/midashi1_bg.gif);	/*h2背景画像*/
+	background-color: #009AD7;	/*背景色。ここをh2背景画像の上下部分の色に合わせておけば改行した場合も比較的なじんで見える*/
+	background-position: center;/*背景画像を上下中央に配置*/
+	background-repeat: no-repeat;	/*背景画像をリピートさせない*/
+	padding-left: 30px;	/*左側の余白*/
+	line-height: 30px;	/*行間*/
+	border: 1px solid #025373;
+}
+
+/*段落タグ設定*/
+#main p {
+	padding: 0.5em 10px 1em;	/*左から、上、左右、下側への余白*/
+}
+
+
+
+/*サブコンテンツ（左側ブロック）
+---------------------------------------------------------------------------*/
+#sub {
+	display: inline;
+	float: left;
+	width: 230px;
+	margin-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+/*h3見出しタグ設定*/
+#sub h3 {
+	border: 1px solid #025373;	/*枠線の幅と線種と色の設定*/
+	line-height: 30px;			/*行間*/
+	background-image: url(../images/midashi2_bg.gif);	/*h3背景画像*/
+	background-repeat: no-repeat;					/*背景画像をリピートさせない*/
+	background-position: left center;				/*背景画像を左側の上下中央に配置*/
+	background-color: #009AD7;	/*背景色。ここをh3背景画像の上下部分の色に合わせておけば改行した場合も比較的なじんで見える*/
+	font-size: 100%;
+	color: #FFFFFF;		/*文字色*/
+	padding-left: 30px;
+}
+
+/*段落タグ設定*/
+#sub p {
+	padding: 0.5em 5px 1em;	/*左から、上、左右、下側への余白*/
+}
+
+
+
+
+/*サブコンテンツ内のボックス設定
+---------------------------------------------------------------------------*/
+#sub .subbox {
+	background-color: #efefe9;	/*ボックスの背景色*/
+	border: 10px solid #dfdfd2;	/*枠線の幅、線種、色の設定*/
+	padding: 10px;				/*余白*/
+	margin-bottom: 10px;
+}
+
+/*ボックス内の段落タグ設定*/
+#sub .subbox p {
+	background-color: #FFFFFF;	/*背景色*/
+	padding: 0.5em 5px 1em;		/*左から、上、左右、下への余白*/
+}
+
+
+/*サブコンテンツ内のボックス内のサブメニュー設定
+---------------------------------------------------------------------------*/
+#sub .subbox .submenu li {
+	margin-bottom: 1px;	/*メニュー１個ごとに下に1pxずつ隙間を空ける設定*/
+}
+
+#sub .subbox .submenu a {
+	display: block;
+	width: 160px;
+	background-color: #FFFFFF;	/*文字色*/
+	text-decoration: none;		/*リンクテキストに入るアンダーラインを消す設定*/
+	padding-left: 30px;			/*左側への余白*/
+	padding-top: 5px;			/*上側への余白*/
+	padding-bottom: 5px;		/*下側への余白*/
+}
+
+#sub .subbox .submenu a:hover {
+	background-color: #0375a2;	/*カーソルオーバー時の背景色*/
+	color: #FFFFFF;				/*カーソルオーバー時の文字色*/
+}
+
+
+
+/*フッターメニュー（下部の横並びテキストリンクメニュー）
+---------------------------------------------------------------------------*/
+ul#footermenu {
+	text-align: center;	/*センタリング*/
+	clear: both;
+	width: 100%;
+	line-height: 60px;
+	background-image: url(../images/footermenu_bg.gif);	/*フッターメニュー背景画像*/
+	background-repeat: repeat-x;	/*背景画像をＸ軸（横軸）にリピート*/
+	background-position: top;		/*背景画像を上部に配置*/
+	border-top: 1px solid #6c6c6c;	/*フッターメニュー上部に入れた線の幅、線種、色*/
+}
+
+ul#footermenu li {
+	display: inline;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+
+
+/*フッター（HP最下部のコピーライトなど入っているブロック）
+---------------------------------------------------------------------------*/
+#footer {
+	background-color: #000000;	/*背景色*/
+	text-align: center;			/*センタリング*/
+	color: #FFFFFF;				/*文字色*/
+}
+
+#footer a {
+	color: #FFFFFF;
+}
+
+
+
+
+/*トップページ内「更新情報・お知らせ」ブロック
+---------------------------------------------------------------------------*/
+#main .new dl {
+	height: 150px;			/*ボックスの高さ*/
+	overflow: auto;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+#main .new dt {
+	font-weight: bold;	/*日付を太字にする設定*/
+	float: left;
+}
+
+#main .new dd {
+	border-bottom: 1px solid #cccccc;	/*日付ごとの下線*/
+	padding-left: 8em;
+}
+
+
+
+/*テーブル
+---------------------------------------------------------------------------*/
+.ta1 {
+	width: 620px;
+}
+
+.ta1, .ta1 td, .ta1 th{
+	border: 1px solid #999999;	/*枠線の幅と線種と色*/
+}
+
+.ta1 td, .ta1 th{
+	padding: 10px 5px;		/*上下、左右、の余白*/
+}
+
+.ta1 th{
+	background-color: #f5f5f5;	/*左側thタグの背景色*/
+	width: 150px;				/*左側thタグの幅*/
+	text-align: center;			/*センタリング*/
+}
+
+.ta1 th.tamidashi{
+	width: auto;
+	text-align: left;
+	color: #FFFFFF;		/*テーブルのタイトル(見出し)部分の文字色*/
+	background-color: #000000;	/*テーブルのタイトル(見出し)部分の背景色*/
+}
+
+
+
+/*技術紹介(technology.html)ページのボックス設定
+---------------------------------------------------------------------------*/
+.box1 {
+	padding: 5px;	/*ボックス内の余白*/
+	margin-bottom: 1em;
+	border: 1px solid #333333;	/*ボックスの線の幅、線種、色の設定*/
+	overflow: hidden;
+	background-image: url(../images/box1_bg.gif);	/*ボックス内のグラデーション背景画像*/
+	background-repeat: repeat-x;				/*背景画像をＸ軸（横軸）にリピート*/
+	background-position: bottom;				/*背景画像を下部に配置*/
+	width: 608px;
+}
+
+/*配置する画像の設定*/
+.box1 img {
+	float: left;	/*ボックスの左側に流し込む*/
+	width: 150px;	/*画像の横幅に合わせて変更する*/
+}
+
+/*h3見出しタグ設定*/
+.box1 h3 {
+	font-size: 100%;
+	margin-left: 155px;			/*ボックスに対しての左側への余白。画像サイズに合わせて調整する。*/
+	background-color: #333333;	/*背景色*/
+	padding-left: 5px;			/*h3内の左側への余白*/
+	border-left: 4px solid #009ad7;	/*h3タグ左側に入っている線の幅、線種、色*/
+	color: #FFFFFF;					/*文字色*/
+	margin-bottom: 0.5em;
+}
+
+.box1 h3 a {
+	color: #FFFFFF;	/*h3タグにリンク設定した場合の文字色*/
+}
+
+/*段落タグ設定*/
+.box1 p {
+	line-height: 1.6;
+	padding: 0px !important;
+	margin-left: 160px;	/*h3と同じように、配置する画像に合わせて調整する。*/
+}
+
+
+
+/*その他
+---------------------------------------------------------------------------*/
+.color1 {
+	color: #0375a2;
+}
+
+.look {
+	background-color: #DFDFD2;
+}
+
+.mb1em {
+	margin-bottom: 1em;
+}
+
+.clear {
+	clear: both;
+}
+
+.pagetop {
+	text-align: right;
+	margin-top: 2em;
+}
+
+ul.disc {
+	padding: 0.5em 10px 1em 25px;
+	list-style: disc;
+}

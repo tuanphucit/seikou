@@ -22,8 +22,11 @@ class Products extends CActiveRecord
 	 * @param string $className active record class name.
 	 * @return Products the static model class
 	 */
+	
+	// Define two types of product
 	const TYPE_ROOM = 0;
 	const TYPE_EQUIPMENT = 1;
+	
 	public static function model($className=__CLASS__)
 	{
 		return parent::model($className);
@@ -77,13 +80,13 @@ class Products extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'id' => 'ID',
-			'name' => 'Name',
-			'image' => 'Image',
-			'description' => 'Description',
-			'price' => 'Price / 0.5 hour',
-			'type' => 'Type',
-			'option' => 'Option',
+			'id' => Yii::t('admin','ID'),
+			'name' => Yii::t('admin','Product Name'),
+			'image' => Yii::t('admin','Image'),
+			'description' => Yii::t('admin','Description'),
+			'price' => Yii::t('admin','Price / 0.5 hour'),
+			'type' => Yii::t('admin','Type'),
+			'option' => Yii::t('admin','Option'),
 		);
 	}
 
