@@ -62,8 +62,8 @@ class Users extends CActiveRecord
 			array('email','email'),
 			array('work, address1, address2', 'length', 'max'=>256),
 			array('tel', 'length', 'max'=>11),
-			array('last_login', 'safe'),
-			array('password_repeat','compare'),
+			array('last_login, password_repeat', 'safe'),
+			array('password_repeat', 'compare', 'compareAttribute'=>'password'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
 			array('id, username, password, role, full_name, birthday, idcard, work, address1, address2, email, tel, yahoo, skype, last_login', 'safe', 'on'=>'search'),
@@ -89,21 +89,22 @@ class Users extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'id' => Yii::t('user','ID'),
-			'username' => Yii::t('user','Username'),
-			'password' => Yii::t('user','Password'),
-			'role' => Yii::t('user','Role'),
-			'full_name' => Yii::t('user','Full Name'),
-			'birthday' => Yii::t('user','Birthday'),
-			'idcard' => Yii::t('user','Idcard'),
-			'work' => Yii::t('user','Work'),
-			'address1' => Yii::t('user','Hometown'),
-			'address2' => Yii::t('user','Home Address'),
-			'email' => Yii::t('user','Email'),
-			'tel' => Yii::t('user','Tel'),
-			'yahoo' => Yii::t('user','Yahoo'),
-			'skype' => Yii::t('user','Skype'),
-			'last_login' => Yii::t('user','Last Login'),
+			'id' => Yii::t('model','ID'),
+			'username' => Yii::t('model','Username'),
+			'password' => Yii::t('model','Password'),
+			'password_repeat' => Yii::t('model','Password Repeat'),
+			'role' => Yii::t('model','Role'),
+			'full_name' => Yii::t('model','Full Name'),
+			'birthday' => Yii::t('model','Birthday'),
+			'idcard' => Yii::t('model','Idcard'),
+			'work' => Yii::t('model','Work'),
+			'address1' => Yii::t('model','Hometown'),
+			'address2' => Yii::t('model','Home Address'),
+			'email' => Yii::t('model','Email'),
+			'tel' => Yii::t('model','Tel'),
+			'yahoo' => Yii::t('model','Yahoo'),
+			'skype' => Yii::t('model','Skype'),
+			'last_login' => Yii::t('model','Last Login'),
 		);
 	}
 
