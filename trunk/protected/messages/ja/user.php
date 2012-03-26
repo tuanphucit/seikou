@@ -22,6 +22,8 @@
 		'Delte' => '削除',
 		'Read More' => '次へ',
 		'Order'     => '注文',
+		'Submit'    => '更新',
+		'Reset'     => 'リセット',
 				
 		
 		//プロファイル
@@ -29,20 +31,6 @@
 		'Additional Information'=>'追加情報',
 		'Personal Details' => '詳細情報',
 		'' => '',
-		'Username'=>'ユーザー名',
-		'Password' => 'パースワード',
-		'Role' => '役割',
-		'Name' => '名前',
-		'Birthday' => '誕生日',
-		'Idcard' => 'IDカード',
-		'Work' => '働く場所',
-		'Hometown' => '故郷',
-		'Home Address' => 'ホームアドレス',
-		'Email' => 'メール',
-		'Tel' => '電話番号',
-		'Last Login' => '最後のログイン',
-		'user' => 'テナント',
-		'admin'=>'管理者',
 	
 		//プロダクト
 		'Product'=>'プロダクト',

@@ -10331,3 +10331,796 @@ in D:\xampp\htdocs\seikou\index.php (13)
 in D:\xampp\htdocs\seikou\themes\krisp\views\room\view.php (24)
 in D:\xampp\htdocs\seikou\protected\controllers\RoomController.php (66)
 in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:21:35 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:21:35 [trace] [system.CModule] Loading "bootstrap" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:21:35 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (62)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:21:36 [trace] [system.CModule] Loading "assetManager" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (351)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (62)
+2012/03/26 19:21:36 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (351)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (62)
+2012/03/26 19:21:36 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:21:37 [trace] [system.web.filters.CFilterChain] Running filter ProfileController.filteraccessControl()
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:21:37 [trace] [system.CModule] Loading "user" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:21:37 [trace] [system.CModule] Loading "session" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:21:37 [trace] [system.CModule] Loading "messages" application component
+in D:\xampp\htdocs\seikou\protected\globals.php (117)
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (28)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:21:37 [trace] [system.CModule] Loading "db" application component
+in D:\xampp\htdocs\seikou\protected\models\Users.php (37)
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (31)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:21:37 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\xampp\htdocs\seikou\protected\models\Users.php (37)
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (31)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:21:38 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `users`
+in D:\xampp\htdocs\seikou\protected\models\Users.php (37)
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (31)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:21:38 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `users`
+in D:\xampp\htdocs\seikou\protected\models\Users.php (37)
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (31)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:21:38 [trace] [system.db.ar.CActiveRecord] Users.findByPk()
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (31)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:21:38 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `users` `t` WHERE `t`.`id`='US101' LIMIT 1
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (31)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:21:38 [trace] [system.CModule] Loading "themeManager" application component
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (42)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:21:38 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\seikou\themes\krisp\views\profile\index.php (6)
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (42)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:21:38 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\widgets\BootActiveForm.php (428)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\widgets\input\BootInput.php (218)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\widgets\input\BootInputVertical.php (153)
+2012/03/26 19:26:51 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:26:51 [trace] [system.CModule] Loading "bootstrap" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:26:51 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (62)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:26:51 [trace] [system.CModule] Loading "assetManager" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (351)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (62)
+2012/03/26 19:26:51 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (351)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (62)
+2012/03/26 19:26:52 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:26:52 [trace] [system.web.filters.CFilterChain] Running filter ProfileController.filteraccessControl()
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:26:52 [trace] [system.CModule] Loading "user" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:26:52 [trace] [system.CModule] Loading "session" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:26:52 [trace] [system.CModule] Loading "messages" application component
+in D:\xampp\htdocs\seikou\protected\globals.php (117)
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (28)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:26:52 [trace] [system.CModule] Loading "db" application component
+in D:\xampp\htdocs\seikou\protected\models\Users.php (37)
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (31)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:26:52 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\xampp\htdocs\seikou\protected\models\Users.php (37)
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (31)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:26:53 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `users`
+in D:\xampp\htdocs\seikou\protected\models\Users.php (37)
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (31)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:26:53 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `users`
+in D:\xampp\htdocs\seikou\protected\models\Users.php (37)
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (31)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:26:53 [trace] [system.db.ar.CActiveRecord] Users.findByPk()
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (31)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:26:53 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `users` `t` WHERE `t`.`id`='US101' LIMIT 1
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (31)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:26:53 [trace] [system.CModule] Loading "themeManager" application component
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (42)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:26:53 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\seikou\themes\krisp\views\profile\index.php (6)
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (42)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:26:53 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\widgets\BootActiveForm.php (428)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\widgets\input\BootInput.php (218)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\widgets\input\BootInputVertical.php (153)
+2012/03/26 19:28:05 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:28:05 [trace] [system.CModule] Loading "bootstrap" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:28:05 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (62)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:28:05 [trace] [system.CModule] Loading "assetManager" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (351)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (62)
+2012/03/26 19:28:05 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (351)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (62)
+2012/03/26 19:28:05 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:28:05 [trace] [system.web.filters.CFilterChain] Running filter ProfileController.filteraccessControl()
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:28:05 [trace] [system.CModule] Loading "user" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:28:05 [trace] [system.CModule] Loading "session" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:28:05 [trace] [system.CModule] Loading "messages" application component
+in D:\xampp\htdocs\seikou\protected\globals.php (117)
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (28)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:28:05 [trace] [system.CModule] Loading "db" application component
+in D:\xampp\htdocs\seikou\protected\models\Users.php (37)
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (31)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:28:05 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\xampp\htdocs\seikou\protected\models\Users.php (37)
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (31)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:28:05 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `users`
+in D:\xampp\htdocs\seikou\protected\models\Users.php (37)
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (31)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:28:05 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `users`
+in D:\xampp\htdocs\seikou\protected\models\Users.php (37)
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (31)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:28:05 [trace] [system.db.ar.CActiveRecord] Users.findByPk()
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (31)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:28:05 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `users` `t` WHERE `t`.`id`='US101' LIMIT 1
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (31)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:28:05 [trace] [system.CModule] Loading "themeManager" application component
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (42)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:28:05 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\seikou\themes\krisp\views\profile\index.php (6)
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (42)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:28:05 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\widgets\BootActiveForm.php (428)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\widgets\input\BootInput.php (218)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\widgets\input\BootInputVertical.php (153)
+2012/03/26 19:30:01 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:30:01 [trace] [system.CModule] Loading "bootstrap" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:30:01 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (62)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:30:01 [trace] [system.CModule] Loading "assetManager" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (351)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (62)
+2012/03/26 19:30:01 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (351)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (62)
+2012/03/26 19:30:01 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:30:01 [trace] [system.web.filters.CFilterChain] Running filter ProfileController.filteraccessControl()
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:30:01 [trace] [system.CModule] Loading "user" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:30:01 [trace] [system.CModule] Loading "session" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:30:01 [trace] [system.CModule] Loading "messages" application component
+in D:\xampp\htdocs\seikou\protected\globals.php (117)
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (28)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:30:01 [trace] [system.CModule] Loading "db" application component
+in D:\xampp\htdocs\seikou\protected\models\Users.php (37)
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (31)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:30:01 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\xampp\htdocs\seikou\protected\models\Users.php (37)
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (31)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:30:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `users`
+in D:\xampp\htdocs\seikou\protected\models\Users.php (37)
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (31)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:30:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `users`
+in D:\xampp\htdocs\seikou\protected\models\Users.php (37)
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (31)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:30:01 [trace] [system.db.ar.CActiveRecord] Users.findByPk()
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (31)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:30:01 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `users` `t` WHERE `t`.`id`='US101' LIMIT 1
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (31)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:30:01 [trace] [system.CModule] Loading "themeManager" application component
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (42)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:30:01 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\seikou\themes\krisp\views\profile\index.php (6)
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (42)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:30:01 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\widgets\BootActiveForm.php (428)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\widgets\input\BootInput.php (218)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\widgets\input\BootInputVertical.php (153)
+2012/03/26 19:32:32 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:32:32 [trace] [system.CModule] Loading "bootstrap" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:32:32 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (62)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:32:32 [trace] [system.CModule] Loading "assetManager" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (351)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (62)
+2012/03/26 19:32:32 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (351)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (62)
+2012/03/26 19:32:32 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:32:32 [trace] [system.web.filters.CFilterChain] Running filter ProfileController.filteraccessControl()
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:32:32 [trace] [system.CModule] Loading "user" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:32:32 [trace] [system.CModule] Loading "session" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:32:32 [trace] [system.CModule] Loading "messages" application component
+in D:\xampp\htdocs\seikou\protected\globals.php (117)
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (28)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:32:32 [trace] [system.CModule] Loading "db" application component
+in D:\xampp\htdocs\seikou\protected\models\Users.php (37)
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (31)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:32:32 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\xampp\htdocs\seikou\protected\models\Users.php (37)
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (31)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:32:32 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `users`
+in D:\xampp\htdocs\seikou\protected\models\Users.php (37)
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (31)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:32:32 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `users`
+in D:\xampp\htdocs\seikou\protected\models\Users.php (37)
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (31)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:32:32 [trace] [system.db.ar.CActiveRecord] Users.findByPk()
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (31)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:32:32 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `users` `t` WHERE `t`.`id`='US101' LIMIT 1
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (31)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:32:32 [trace] [system.CModule] Loading "themeManager" application component
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (42)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:32:32 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\seikou\themes\krisp\views\profile\index.php (6)
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (42)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:32:32 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\widgets\BootActiveForm.php (428)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\widgets\input\BootInput.php (218)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\widgets\input\BootInputVertical.php (153)
+2012/03/26 19:33:58 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:33:58 [trace] [system.CModule] Loading "bootstrap" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:33:58 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (62)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:33:58 [trace] [system.CModule] Loading "assetManager" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (351)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (62)
+2012/03/26 19:33:58 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (351)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (62)
+2012/03/26 19:33:58 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:33:58 [trace] [system.web.filters.CFilterChain] Running filter ProfileController.filteraccessControl()
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:33:58 [trace] [system.CModule] Loading "user" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:33:58 [trace] [system.CModule] Loading "session" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:33:58 [trace] [system.CModule] Loading "messages" application component
+in D:\xampp\htdocs\seikou\protected\globals.php (117)
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (28)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:33:58 [trace] [system.CModule] Loading "db" application component
+in D:\xampp\htdocs\seikou\protected\models\Users.php (37)
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (31)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:33:58 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\xampp\htdocs\seikou\protected\models\Users.php (37)
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (31)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:33:58 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `users`
+in D:\xampp\htdocs\seikou\protected\models\Users.php (37)
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (31)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:33:58 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `users`
+in D:\xampp\htdocs\seikou\protected\models\Users.php (37)
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (31)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:33:58 [trace] [system.db.ar.CActiveRecord] Users.findByPk()
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (31)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:33:58 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `users` `t` WHERE `t`.`id`='US101' LIMIT 1
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (31)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:33:58 [trace] [system.CModule] Loading "themeManager" application component
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (42)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:33:58 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\seikou\themes\krisp\views\profile\index.php (6)
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (42)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:33:58 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\widgets\BootActiveForm.php (428)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\widgets\input\BootInput.php (218)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\widgets\input\BootInputVertical.php (153)
+2012/03/26 19:35:00 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:35:00 [trace] [system.CModule] Loading "bootstrap" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:35:00 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (62)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:35:00 [trace] [system.CModule] Loading "assetManager" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (351)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (62)
+2012/03/26 19:35:00 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (351)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (62)
+2012/03/26 19:35:00 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:35:00 [trace] [system.web.filters.CFilterChain] Running filter ProfileController.filteraccessControl()
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:35:00 [trace] [system.CModule] Loading "user" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:35:00 [trace] [system.CModule] Loading "session" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:35:00 [trace] [system.CModule] Loading "messages" application component
+in D:\xampp\htdocs\seikou\protected\globals.php (117)
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (28)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:35:00 [trace] [system.CModule] Loading "db" application component
+in D:\xampp\htdocs\seikou\protected\models\Users.php (37)
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (31)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:35:00 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\xampp\htdocs\seikou\protected\models\Users.php (37)
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (31)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:35:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `users`
+in D:\xampp\htdocs\seikou\protected\models\Users.php (37)
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (31)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:35:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `users`
+in D:\xampp\htdocs\seikou\protected\models\Users.php (37)
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (31)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:35:00 [trace] [system.db.ar.CActiveRecord] Users.findByPk()
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (31)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:35:00 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `users` `t` WHERE `t`.`id`='US101' LIMIT 1
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (31)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:35:00 [trace] [system.CModule] Loading "themeManager" application component
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (42)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:35:00 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\seikou\themes\krisp\views\profile\index.php (6)
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (42)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:35:00 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\widgets\BootActiveForm.php (428)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\widgets\input\BootInput.php (218)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\widgets\input\BootInputVertical.php (153)
+2012/03/26 19:36:20 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:36:20 [trace] [system.CModule] Loading "bootstrap" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:36:20 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (62)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:36:20 [trace] [system.CModule] Loading "assetManager" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (351)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (62)
+2012/03/26 19:36:20 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (351)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (62)
+2012/03/26 19:36:20 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:36:20 [trace] [system.web.filters.CFilterChain] Running filter ProfileController.filteraccessControl()
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:36:20 [trace] [system.CModule] Loading "user" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:36:20 [trace] [system.CModule] Loading "session" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:36:20 [trace] [system.CModule] Loading "messages" application component
+in D:\xampp\htdocs\seikou\protected\globals.php (117)
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (28)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:36:20 [trace] [system.CModule] Loading "db" application component
+in D:\xampp\htdocs\seikou\protected\models\Users.php (37)
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (31)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:36:20 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\xampp\htdocs\seikou\protected\models\Users.php (37)
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (31)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:36:20 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `users`
+in D:\xampp\htdocs\seikou\protected\models\Users.php (37)
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (31)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:36:20 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `users`
+in D:\xampp\htdocs\seikou\protected\models\Users.php (37)
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (31)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:36:20 [trace] [system.db.ar.CActiveRecord] Users.findByPk()
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (31)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:36:20 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `users` `t` WHERE `t`.`id`='US101' LIMIT 1
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (31)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:36:20 [trace] [system.CModule] Loading "themeManager" application component
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (42)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:36:20 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\seikou\themes\krisp\views\profile\index.php (6)
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (42)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:36:20 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\widgets\BootActiveForm.php (428)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\widgets\input\BootInput.php (218)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\widgets\input\BootInputVertical.php (153)
+2012/03/26 19:36:46 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:36:46 [trace] [system.CModule] Loading "bootstrap" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:36:46 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (62)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:36:46 [trace] [system.CModule] Loading "assetManager" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (351)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (62)
+2012/03/26 19:36:46 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (351)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (62)
+2012/03/26 19:36:46 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:36:46 [trace] [system.web.filters.CFilterChain] Running filter ProfileController.filteraccessControl()
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:36:46 [trace] [system.CModule] Loading "user" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:36:46 [trace] [system.CModule] Loading "session" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:36:46 [trace] [system.CModule] Loading "messages" application component
+in D:\xampp\htdocs\seikou\protected\globals.php (117)
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (28)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:36:46 [trace] [system.CModule] Loading "db" application component
+in D:\xampp\htdocs\seikou\protected\models\Users.php (37)
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (31)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:36:46 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\xampp\htdocs\seikou\protected\models\Users.php (37)
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (31)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:36:46 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `users`
+in D:\xampp\htdocs\seikou\protected\models\Users.php (37)
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (31)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:36:46 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `users`
+in D:\xampp\htdocs\seikou\protected\models\Users.php (37)
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (31)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:36:46 [trace] [system.db.ar.CActiveRecord] Users.findByPk()
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (31)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:36:46 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `users` `t` WHERE `t`.`id`='US101' LIMIT 1
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (31)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:36:46 [trace] [system.CModule] Loading "themeManager" application component
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (42)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:36:46 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\seikou\themes\krisp\views\profile\index.php (6)
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (42)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:36:46 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\widgets\BootActiveForm.php (428)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\widgets\input\BootInput.php (218)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\widgets\input\BootInputVertical.php (153)
+2012/03/26 19:36:50 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:36:50 [trace] [system.CModule] Loading "bootstrap" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:36:50 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (62)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:36:50 [trace] [system.CModule] Loading "assetManager" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (351)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (62)
+2012/03/26 19:36:50 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (351)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (62)
+2012/03/26 19:36:50 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:36:50 [trace] [system.web.filters.CFilterChain] Running filter ProfileController.filteraccessControl()
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:36:50 [trace] [system.CModule] Loading "user" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:36:50 [trace] [system.CModule] Loading "session" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:36:50 [trace] [system.CModule] Loading "messages" application component
+in D:\xampp\htdocs\seikou\protected\globals.php (117)
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (28)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:36:50 [trace] [system.CModule] Loading "db" application component
+in D:\xampp\htdocs\seikou\protected\models\Users.php (37)
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (31)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:36:50 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\xampp\htdocs\seikou\protected\models\Users.php (37)
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (31)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:36:50 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `users`
+in D:\xampp\htdocs\seikou\protected\models\Users.php (37)
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (31)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:36:50 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `users`
+in D:\xampp\htdocs\seikou\protected\models\Users.php (37)
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (31)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:36:50 [trace] [system.db.ar.CActiveRecord] Users.findByPk()
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (31)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:36:50 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `users` `t` WHERE `t`.`id`='US101' LIMIT 1
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (31)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:36:50 [trace] [system.CModule] Loading "themeManager" application component
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (42)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:36:50 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\seikou\themes\krisp\views\profile\index.php (6)
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (42)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:36:50 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\widgets\BootActiveForm.php (428)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\widgets\input\BootInput.php (218)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\widgets\input\BootInputVertical.php (153)
+2012/03/26 19:45:42 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:45:42 [trace] [system.CModule] Loading "bootstrap" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:45:42 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (62)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:45:42 [trace] [system.CModule] Loading "assetManager" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (351)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (62)
+2012/03/26 19:45:42 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (351)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (62)
+2012/03/26 19:45:43 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:45:43 [trace] [system.web.filters.CFilterChain] Running filter ProfileController.filteraccessControl()
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:45:43 [trace] [system.CModule] Loading "user" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:45:43 [trace] [system.CModule] Loading "session" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:45:43 [trace] [system.CModule] Loading "messages" application component
+in D:\xampp\htdocs\seikou\protected\globals.php (117)
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (28)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:45:43 [trace] [system.CModule] Loading "db" application component
+in D:\xampp\htdocs\seikou\protected\models\Users.php (37)
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (31)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:45:43 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\xampp\htdocs\seikou\protected\models\Users.php (37)
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (31)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:45:44 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `users`
+in D:\xampp\htdocs\seikou\protected\models\Users.php (37)
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (31)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:45:44 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `users`
+in D:\xampp\htdocs\seikou\protected\models\Users.php (37)
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (31)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:45:44 [trace] [system.db.ar.CActiveRecord] Users.findByPk()
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (31)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:45:44 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `users` `t` WHERE `t`.`id`='US101' LIMIT 1
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (31)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:45:44 [trace] [system.CModule] Loading "themeManager" application component
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (42)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:45:44 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\seikou\themes\krisp\views\profile\index.php (6)
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (42)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:45:44 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\widgets\BootActiveForm.php (428)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\widgets\input\BootInput.php (218)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\widgets\input\BootInputVertical.php (153)
+2012/03/26 19:46:17 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:46:17 [trace] [system.CModule] Loading "bootstrap" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:46:17 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (62)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:46:17 [trace] [system.CModule] Loading "assetManager" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (351)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (62)
+2012/03/26 19:46:17 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (351)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (62)
+2012/03/26 19:46:17 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:46:17 [trace] [system.web.filters.CFilterChain] Running filter ProfileController.filteraccessControl()
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:46:17 [trace] [system.CModule] Loading "user" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:46:17 [trace] [system.CModule] Loading "session" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:46:17 [trace] [system.CModule] Loading "messages" application component
+in D:\xampp\htdocs\seikou\protected\globals.php (117)
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (28)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:46:17 [trace] [system.CModule] Loading "db" application component
+in D:\xampp\htdocs\seikou\protected\models\Users.php (37)
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (31)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:46:17 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\xampp\htdocs\seikou\protected\models\Users.php (37)
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (31)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:46:17 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `users`
+in D:\xampp\htdocs\seikou\protected\models\Users.php (37)
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (31)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:46:17 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `users`
+in D:\xampp\htdocs\seikou\protected\models\Users.php (37)
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (31)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:46:17 [trace] [system.db.ar.CActiveRecord] Users.findByPk()
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (31)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:46:17 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `users` `t` WHERE `t`.`id`='US101' LIMIT 1
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (31)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:46:17 [trace] [system.CModule] Loading "themeManager" application component
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (42)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:46:17 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\seikou\themes\krisp\views\profile\index.php (6)
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (42)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:46:17 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\widgets\BootActiveForm.php (428)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\widgets\input\BootInput.php (218)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\widgets\input\BootInputVertical.php (153)
+2012/03/26 19:51:31 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:51:31 [trace] [system.CModule] Loading "bootstrap" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:51:31 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (62)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:51:31 [trace] [system.CModule] Loading "assetManager" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (351)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (62)
+2012/03/26 19:51:31 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (351)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (62)
+2012/03/26 19:51:32 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:51:32 [trace] [system.web.filters.CFilterChain] Running filter ProfileController.filteraccessControl()
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:51:32 [trace] [system.CModule] Loading "user" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:51:32 [trace] [system.CModule] Loading "session" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:51:32 [trace] [system.CModule] Loading "messages" application component
+in D:\xampp\htdocs\seikou\protected\globals.php (117)
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (28)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:51:33 [trace] [system.CModule] Loading "db" application component
+in D:\xampp\htdocs\seikou\protected\models\Users.php (37)
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (31)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:51:33 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\xampp\htdocs\seikou\protected\models\Users.php (37)
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (31)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:51:33 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `users`
+in D:\xampp\htdocs\seikou\protected\models\Users.php (37)
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (31)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:51:33 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `users`
+in D:\xampp\htdocs\seikou\protected\models\Users.php (37)
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (31)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:51:33 [trace] [system.db.ar.CActiveRecord] Users.findByPk()
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (31)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:51:33 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `users` `t` WHERE `t`.`id`='US101' LIMIT 1
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (31)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:51:33 [trace] [system.CModule] Loading "themeManager" application component
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (42)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:51:33 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\seikou\themes\krisp\views\profile\index.php (6)
+in D:\xampp\htdocs\seikou\protected\controllers\ProfileController.php (42)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 19:51:34 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\widgets\BootActiveForm.php (428)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\widgets\input\BootInput.php (218)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\widgets\input\BootInputVertical.php (153)
