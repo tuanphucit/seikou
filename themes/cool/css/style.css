@@ -402,3 +402,26 @@ ul.disc {
 	padding: 0.5em 10px 1em 25px;
 	list-style: disc;
 }
+
+#main_nosub {
+	margin : 20px;
+	padding : 20px;
+}
+
+.product-box {
+	clear: both;
+	height: 130px;
+}
+
+.image-preview {
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	border: 3px solid white;
+	-moz-box-shadow: 1px 2px 1px 2px #ccc;
+	-webkit-box-shadow: 1px 2px 1px 2px #ccc;
+	box-shadow: 1px 2px 1px 2px #ccc;
+	height: 100px;
+	width : 150px;
+	
+}

@@ -23,9 +23,17 @@ class ProfileController extends Controller
 	}
 	public function actionIndex()
 	{
+		// Breadcrumbs
+		$this->breadcrumbs = array(
+			t('Profile')  => $this->createUrl('/profile/index'),
+			t('Index'),
+		);
 		$user = Users::model()->findByPk(Yii::app()->user->id);
 		if (isset($_POST['Users'])){
+			$currentPassword  = $_POST['Users']['password'];
 			$user->attributes = $_POST['Users'];
+			if ($user->password != $currentPassword)
+				$user->password = sha1(md5($user->password));
 			if ($user->save())
 				Yii::app()->user->setFlash('success',Yii::t('user','Editting profile successed'));
 			else				

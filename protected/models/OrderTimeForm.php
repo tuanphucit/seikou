@@ -7,12 +7,20 @@
  */
 class OrderTimeForm extends CFormModel
 {
-	public $date;
+	public $pid;
+	
 	public $start_date;
 	public $end_date;
-	public $start_time = "8:00";
-	public $end_time   = "11:00";
-	public $product;
+	public $start_hour;
+	public $end_hour;
+	public $start_minute;
+	public $end_minute;
+	public $start_ampm;
+	public $end_ampm;
+	
+	public $start_time;
+	public $end_time;
+
 	
 	/**
 	 * Declares the validation rules.
@@ -21,7 +29,12 @@ class OrderTimeForm extends CFormModel
 	{
 		return array(
 			// date and start_time and end_time are required
-			array('date ,start_time, end_time', 'required'),
+			array('pid, start_date, end_date, start_hour, end_hour, start_minute, end_minute, start_ampm, end_ampm', 'required'),
+			array('start_date, end_date', 'date',
+				'format'=>array(
+					"yyyy-M-d",
+				),
+			),
 		);
 	}
 
@@ -31,9 +44,15 @@ class OrderTimeForm extends CFormModel
 	public function attributeLabels()
 	{
 		return array(
-			'date'=>Yii::t('user','Pick day you want to rent:'),
-			'start_time'=>Yii::t('user','Start Time'),
-			'end_time'=>Yii::t('user','End Time'),
+			'pid'=>t('Please choose your product', 'model'),
+			'start_date' => t('Start Date', 'model'),
+			'end_date' => t('End Date', 'model'),
+			'start_hour' => t('Start Hour', 'model'),
+			'end_hour' => t('End Hour', 'model'),
+			'start_minute' => t('Start Minute', 'model'),
+			'end_minute' => t('End Minute', 'model'),
+			'start_ampm' => t('Start AM/PM', 'model'),
+			'end_ampm' => t('End AM/PM', 'model'),
 		);
 	}
 	
@@ -42,41 +61,66 @@ class OrderTimeForm extends CFormModel
 	 * - check date, time with ones in database
 	 */
 	public function validateTime() {
-		// STEP1: Split start date and end date
-		$date = explode(" - ", $this->date);
-		if (sizeof($date) < 1)
-			return false;
-		$this->start_date = $date[0];
-		if (sizeof($date) == 2)
-			$this->end_date = $date[1];
-		if (sizeof($date) > 2)
-			return false;
+		// STEP1: Validate Date and Time format
+		$this->validate();
+		if ($this->hasErrors()){
+			logged(dump($this->errors));
+			return false;	
+		}
+		logged('Validate format successed');
 		
-		// STEP2: Validate Date and Time format
-		$dateValidator = CValidator::createValidator(
-			"CDateValidator", 
-			$this, 
-			array(
-				'start_date',
-				'end_date',
-				'start_time',
-				'end_time',
-			),
-			array(
-				'safe'=>true,
-				'format'=>array(
-					"M/d/yyyy",
-					"h:m",
-					"h:mm",
-				),
-			)
-		);
-		$dateValidator->safe = true;
-		$dateValidator->validate($this);
-		Yii::log('debug',"Model:".CVarDumper::dumpAsString($this,3,true));
-		Yii::log('debug',"Error:".CVarDumper::dumpAsString($this->errors,3,true));
-		if ($this->hasErrors())
+		// STEP2: Validate Logic
+		// Convert time format
+		$this->start_time = $this->convert24($this->start_hour, $this->start_minute, $this->start_ampm);
+		$this->end_time = $this->convert24($this->end_hour, $this->end_minute, $this->end_ampm);
+		// Check start_time < end_time
+		if ($this->start_time >= $this->end_time) {
+			$this->addError('Time','Start time must be earlier than End time');
 			return false;
+		}
+		// Check start_date < end_date
+		if ($this->start_date > $this->end_date) {
+			$this->addError('Date','Start date must be earlier than End date');
+			return false;
+		}
+		// Select all order with same pid have conflict time with this current order
+		$criteria=new CDbCriteria;
+		$criteria->addCondition("product_id = '$this->pid'");
+		$criteria->addCondition("
+			((start_time <= '$this->start_time') and (end_time > '$this->start_time')) 
+			or
+			((start_time < '$this->end_time') and (end_time >= '$this->end_time')) 
+			or
+			((start_time >= '$this->start_time') and (end_time <= '$this->end_time'))
+		");
+		$orders = Orders::model()->findAll($criteria);
+		if ($orders == NULL) {
+			logged("Don't have time conflict");
+			return true;
+		}
+		
+		logged('Have time conflict');
+		foreach ($orders as $order){
+			// Check if have date conflict
+			if ((($this->start_date >= $order->start_date) and ($this->start_date < $order->end_date))
+			 or (($this->end_date > $order->start_date) and ($this->end_date < $order->end_date))
+			 or (($this->start_date <= $order->start_date) and ($this->end_date >= $order->end_date))
+			 ) {
+			 	logged("Have date conflict with Order : $order->id");
+			 	// Check if this conflict order have been cancel ??
+				$lastStatus = $order->getLastestStatus();
+				if (($lastStatus == OrdersHistory::HISTORY_CREATE) || ($lastStatus == OrdersHistory::HISTORY_CREATE_ADMIN)) {
+				 	/**
+				 	 * TODO
+				 	 * Need more information about conflict date
+				 	 */
+					$this->addError('Date','Have date conflict');
+					logged("Finally Failed by Order: $order->id");
+					return false;	
+				}
+			}
+		}
+		logged("Validate logic success");
 		return true;
 	}
 	
@@ -86,21 +130,32 @@ class OrderTimeForm extends CFormModel
 	*/
 	public function save() {
 		// Save order information
-		$order = new Orders;
-		$order->product_id   = $this->product->id;
+		$order   = new Orders;
+		$product = Products::model()->findByPk($this->pid); 
+		$order->product_id   = $this->pid;
 		$order->user_id    = Yii::app()->user->id;
-		$order->start_date = Html::formatDateTime($this->start_date,"M/d/yyyy","Y-m-d");
-		$order->end_date   = Html::formatDateTime($this->end_date,"M/d/yyyy","Y-m-d");
+		$order->start_date = Html::formatDateTime($this->start_date,"yyyy-M-d","Y-m-d");
+		$order->end_date   = Html::formatDateTime($this->end_date,"yyyy-M-d","Y-m-d");
 		$order->start_time = $this->start_time;
 		$order->end_time   = $this->end_time;
-		$order->total      = $this->product->price * $this->date_difference($this->start_date, $this->end_date) * $this->time_difference($this->start_time, $this->end_time);
-		Yii::log("debug","Time: ".CVarDumper::dumpAsString($this->time_difference($this->start_time, $this->end_time),3,true));
-		Yii::log("debug","Total: ".CVarDumper::dumpAsString($order->total,3,true));
+		$order->total      = $product->price * $this->date_difference($this->start_date, $this->end_date) * $this->time_difference($this->start_time, $this->end_time);
+		logged("Time: ".dump($this->time_difference($this->start_time, $this->end_time)));
+		logged("Total: ".dump($order->total));
 		if (!$order->save()) {
-			Yii::log('debug',"Error Order:".CVarDumper::dumpAsString($order->errors,3,true));
+			logged("Error when save Order model:".dump($order->errors));
 			return false;
 		}
-			
+		
+		// Save order history
+		$orderHistory = new OrdersHistory();
+		$orderHistory->order_id = $order->id;
+		$orderHistory->user_id  = Yii::app()->user->id;
+		$orderHistory->status   = OrdersHistory::HISTORY_CREATE;
+		$orderHistory->time     = new CDbExpression('NOW()');
+		if (!$orderHistory->save()) {
+			logged("Error when save OrderHistory model:".dump($order->errors));
+			return false;
+		}
 		return true;
 	}
 	
@@ -116,5 +171,67 @@ class OrderTimeForm extends CFormModel
 		$timestamp_diff = strtotime($time2) - strtotime($time1);
 		$half_an_hour = 30*60;
 		return ceil($timestamp_diff / $half_an_hour);
+	}
+	
+	/**
+	 * @return List array id,name of all product
+	 */
+	public function getListProducts()
+	{
+		// Get all product model in database
+		$products = Products::model()->findAll('',array('order'=>'name ASC'));
+		$list = array();
+		foreach ($products as $product){
+			$list[$product->id] = $product->name;
+		}
+		return $list;
+	}
+	
+	/**
+	 * @return List array hour
+	 */
+	public function getListHours()
+	{
+		$hours = array();
+		for ($i = 1; $i<13; $i++)
+			$hours[$i] = $i;
+		return $hours;
+	}
+	
+	/**
+	 * @return List array minute
+	 */
+	public function getListMinutes()
+	{
+		return array(
+			'00'=>'00',
+			'10'=>'10',
+			'20'=>'20',
+			'30'=>'30',
+			'40'=>'40',
+			'50'=>'50',
+		);
+	}
+	
+	/**
+	 * @return List am/pm
+	 */
+	public function getListAmPm()
+	{
+		return array(
+			'AM'=>'AM',
+			'PM'=>'PM',
+		);
+	}
+	
+	/**
+	 * Convert from am/pm to 24 hours format
+	 * @param hour,minute,am/pm
+	 * @return 24hours format
+	 */
+	public function convert24($hour,$minute,$ampm){
+		if ($ampm == 'PM')
+			$hour += 12;
+		return $hour.":".$minute; 
 	}
 }

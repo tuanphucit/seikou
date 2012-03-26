@@ -148,4 +148,20 @@ class Products extends CActiveRecord
 		}
 		return Yii::t('admin','In stock');
 	}
+	
+	public function truncate($string, $limit = 200, $break=" ", $pad="..."){
+		$string = strip_tags($string);
+		// return with no change if string is shorter than $limit 
+		if(strlen($string) <= $limit) return $string;
+		 
+		// is $break present between $limit and the end of the string? 
+		if(false !== ($breakpoint = strpos($string, $break, $limit))) { 
+				if($breakpoint < strlen($string) - 1) { 
+						$string = substr($string, 0, $breakpoint) . $pad; 
+				} 
+		}
+		return $string;
+	}
+
+	
 }

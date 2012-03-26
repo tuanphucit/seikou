@@ -1,13 +1,11 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="utf-8">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=shift_jis" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta http-equiv="Content-Style-Type" content="text/css" />
 <meta http-equiv="Content-Script-Type" content="text/javascript" />
-<meta name="copyright" content="Nikukyu-Punch" />
-<title>ƒN[ƒ‹Œn ƒrƒWƒlƒXŒü‚¯ƒz[ƒ€ƒy[ƒWƒeƒ“ƒvƒŒ[ƒg cool1</title>
-<meta name="description" content="‚±‚±‚ÉƒTƒCƒgà–¾‚ð“ü‚ê‚Ü‚·" />
-<meta name="keywords" content="ƒL[ƒ[ƒh‚P,ƒL[ƒ[ƒh‚Q,ƒL[ƒ[ƒh‚R,ƒL[ƒ[ƒh‚S,ƒL[ƒ[ƒh‚T" />
+<meta name="copyright" content="Luckymancvp" />
+<title><?php echo Yii::app()->name?></title>
 <?php 
 	$cs = Yii::app()->getClientScript(); 
 	$cs->registerCssFile(
@@ -21,171 +19,211 @@
 <body id="top">
 
 
-<div id="container">
+	<div id="container">
 
 
-<div id="header">
-<h1>h1ƒeƒLƒXƒg“ü—ÍêŠ‚Å‚·Btitleƒ^ƒO‚ÌŽŸ‚Éd—v‚È‚Ì‚Å”O“ü‚è‚Él‚¦‚Äƒ[ƒh‚ð·‚èž‚Ý‚Ü‚µ‚å‚¤B</h1>
-<img src="<?php echo Html::imageThemeUrl("logo.gif")?>" alt="" name="logo" width="459" height="61" id="logo" /></div>
-<!--/header-->
+		<div id="header">	
+		<img src="<?php echo Html::imageThemeUrl("logo.gif")?>" alt="" name="logo" width="459" height="61" id="logo" /></div>
+		<!--/header-->
 
 
-<div id="mainimg">
-<img class="slide_file" src="<?php echo Html::imageThemeUrl("1.jpg")?>" title="index.html"/>
-<img class="slide_file" src="<?php echo Html::imageThemeUrl("2.jpg")?>" title="index.html"/>
-<img class="slide_file" src="<?php echo Html::imageThemeUrl("3.jpg")?>" title="index.html"/>
-<input type="hidden" id="slide_loop" value="0"/>
-<a href="" id="slide_link">
-<img id="slide_image" src="<?php echo Html::imageThemeUrl("1.jpg")?>" alt="" width="900" height="300" />
-<img id="slide_image2" src="<?php echo Html::imageThemeUrl("1.jpg")?>" alt="" width="900" height="300" /></a>
-</div>
-<!--/mainimg-->
+		<div id="mainimg">
+		<img class="slide_file" src="<?php echo Html::imageThemeUrl("1.jpg")?>" title="index.html"/>
+		<img class="slide_file" src="<?php echo Html::imageThemeUrl("2.jpg")?>" title="index.html"/>
+		<img class="slide_file" src="<?php echo Html::imageThemeUrl("3.jpg")?>" title="index.html"/>
+		<input type="hidden" id="slide_loop" value="0"/>
+		<a href="" id="slide_link">
+		<img id="slide_image" src="<?php echo Html::imageThemeUrl("1.jpg")?>" alt="" width="900" height="300" />
+		<img id="slide_image2" src="<?php echo Html::imageThemeUrl("1.jpg")?>" alt="" width="900" height="300" /></a>
+		</div>
+		<!--/mainimg-->
 
 
-<ul id="menu">
-<li><a href="index.html"><img src="<?php echo Html::imageThemeUrl("menu_over_01.gif")?>" alt="ƒz[ƒ€" width="139" height="51" id="Image1" onmouseover="MM_swapImage('Image1','','<?php echo Html::imageThemeUrl("menu_over_01.gif")?>',0)" onmouseout="MM_swapImgRestore()" /></a></li>
-<li><a href="product.html"><img src="<?php echo Html::imageThemeUrl("menu_02.gif")?>" alt="»•iÐ‰î" name="Image2" width="139" height="51" id="Image2" onmouseover="MM_swapImage('Image2','','<?php echo Html::imageThemeUrl("menu_over_02.gif")?>',0)" onmouseout="MM_swapImgRestore()" /></a></li>
-<li><a href="technology.html"><img src="<?php echo Html::imageThemeUrl("menu_03.gif")?>" alt="‹ZpÐ‰î" name="Image3" width="139" height="51" id="Image3" onmouseover="MM_swapImage('Image3','','<?php echo Html::imageThemeUrl("menu_over_03.gif")?>',0)" onmouseout="MM_swapImgRestore()" /></a></li>
-<li><a href="company.html"><img src="<?php echo Html::imageThemeUrl("menu_04.gif")?>" alt="‰ïŽÐÐ‰î" width="139" height="51" id="Image4" onmouseover="MM_swapImage('Image4','','<?php echo Html::imageThemeUrl("menu_over_04.gif")?>',0)" onmouseout="MM_swapImgRestore()" /></a></li>
-<li><a href="recruit.html"><img src="<?php echo Html::imageThemeUrl("menu_05.gif")?>" alt="Ì—pî•ñ" width="139" height="51" id="Image5" onmouseover="MM_swapImage('Image5','','<?php echo Html::imageThemeUrl("menu_over_05.gif")?>',0)" onmouseout="MM_swapImgRestore()" /></a></li>
-<li><a href="contact.html"><img src="<?php echo Html::imageThemeUrl("menu_06.gif")?>" alt="‚¨–â‚¢‡‚í‚¹" width="139" height="51" id="Image6" onmouseover="MM_swapImage('Image6','','<?php echo Html::imageThemeUrl("menu_over_06.gif")?>',0)" onmouseout="MM_swapImgRestore()" /></a></li>
-</ul>
-<!--/menu-->
+		<ul id="menu">
+		<?php 
+			echo "<li>";
+				echo Html::link(
+					Html::image(
+						Html::imageThemeUrl("menu_over_01.gif"),
+						t("home"),
+						array(
+							'width'=>"139",
+							'height'=>"51",
+							'id'=>"Image1",
+							'onmouseover'=>"MM_swapImage('Image1','','".Html::imageThemeUrl("menu_over_01.gif")."',0)",
+							'onmouseout'=>"MM_swapImgRestore()",
+						)
+					),
+					Yii::app()->homeUrl
+				);
+			echo "</li>";
+			echo "<li>";
+				echo Html::link(
+					Html::image(
+						Html::imageThemeUrl("menu_02.gif"),
+						t("product"),
+						array(
+							'width'=>"139",
+							'height'=>"51",
+							'id'=>"Image2",
+							'onmouseover'=>"MM_swapImage('Image2','','".Html::imageThemeUrl("menu_over_02.gif")."',0)",
+							'onmouseout'=>"MM_swapImgRestore()",
+						)
+					),
+					$this->createUrl('/product/index')
+				);
+			echo "</li>";
+			echo "<li>";
+				echo Html::link(
+					Html::image(
+						Html::imageThemeUrl("menu_03.gif"),
+						t("product"),
+						array(
+							'width'=>"139",
+							'height'=>"51",
+							'id'=>"Image3",
+							'onmouseover'=>"MM_swapImage('Image3','','".Html::imageThemeUrl("menu_over_03.gif")."',0)",
+							'onmouseout'=>"MM_swapImgRestore()",
+						)
+					),
+					$this->createUrl('/equipment/index')
+				);
+			echo "</li>";
+			echo "<li>";
+				echo Html::link(
+					Html::image(
+						Html::imageThemeUrl("menu_04.gif"),
+						t("company"),
+						array(
+							'width'=>"139",
+							'height'=>"51",
+							'id'=>"Image4",
+							'onmouseover'=>"MM_swapImage('Image4','','".Html::imageThemeUrl("menu_over_04.gif")."',0)",
+							'onmouseout'=>"MM_swapImgRestore()",
+						)
+					),
+					$this->createUrl('/equipment/index')
+				);
+			echo "</li>";
+			echo "<li>";
+				echo Html::link(
+					Html::image(
+						Html::imageThemeUrl("menu_05.gif"),
+						t("recruit"),
+						array(
+							'width'=>"139",
+							'height'=>"51",
+							'id'=>"Image5",
+							'onmouseover'=>"MM_swapImage('Image5','','".Html::imageThemeUrl("menu_over_05.gif")."',0)",
+							'onmouseout'=>"MM_swapImgRestore()",
+						)
+					),
+					$this->createUrl('/equipment/index')
+				);
+			echo "</li>";
+			echo "<li>";
+				echo Html::link(
+					Html::image(
+						Html::imageThemeUrl("menu_06.gif"),
+						t("contact"),
+						array(
+							'width'=>"139",
+							'height'=>"51",
+							'id'=>"Image6",
+							'onmouseover'=>"MM_swapImage('Image6','','".Html::imageThemeUrl("menu_over_06.gif")."',0)",
+							'onmouseout'=>"MM_swapImgRestore()",
+						)
+					),
+					$this->createUrl('/contact/index')
+				);
+			echo "</li>";
+		?>
+		</ul>
+		<!--/menu-->
 
 
-<div id="contents">
+		<div id="contents">
 
 
-<div id="main">
+			<div id="main">
 
-<h2>ƒeƒ“ƒvƒŒ[ƒg‚²—˜—p‚Ì‘O‚É•K‚¸‚¨“Ç‚Ý‰º‚³‚¢</h2>
+			<?php echo $content?>
 
-<p>¡<a href="http://nikukyu-punch.com/temp_biz.html#cool1">“–ƒz[ƒ€ƒy[ƒWƒeƒ“ƒvƒŒ[ƒg‚Í‚±‚¿‚ç‚©‚çƒ_ƒEƒ“ƒ[ƒh‚Å‚«‚Ü‚·B</a></p>
-<p>¡<a href="product.html">“–ƒeƒ“ƒvƒŒ[ƒg‚ÌÚ‚µ‚¢Žg‚¢•û‚Í‚±‚¿‚ç</a>‚ð‚²——‰º‚³‚¢</p>
-<p>¡‚±‚Ìƒeƒ“ƒvƒŒ[ƒg‚ÍA<a href="http://nikukyu-punch.com/">–³—¿ƒeƒ“ƒvƒŒ[ƒgƒTƒCƒgNikukyu-Punch</a>‚ª”z•z‚µ‚Ä‚¢‚é‚à‚Ì‚Å‚·B<br />
-<a href="http://nikukyu-punch.com/about.html">•K‚¸—˜—p‹K–ñ‚ð‚²ˆê“Ç</a>‚Ìã‚Å‚²—˜—p‰º‚³‚¢B</p>
-
-<p><span class="color1">¡<strong>ƒtƒbƒ^[“à(HPÅ‰º•”)‚Ì’˜ì•\Ž¦EƒXƒ|ƒ“ƒT[•\Ž¦‚Ííœ‚µ‚È‚¢‚Å‰º‚³‚¢B</strong></span><br />
-‚¨Žç‚è‚¢‚½‚¾‚¯‚È‚¢ê‡Aƒeƒ“ƒvƒŒ[ƒg‚Ì—˜—p‚ð’†Ž~‚µAˆá”½‹à‚ð¿‹‚¢‚½‚µ‚Ü‚·B ‹t‚ÉAƒ‰ƒCƒZƒ“ƒX—¿‚ðŽx•¥‚¤Ž–‚É‚æ‚èAŠO‚·Ž–‚à‰Â”\‚Å‚·B<br />
-<a href="https://nikukyu-punch.com/license/index2.html" target="_blank">&gt;&gt;ƒ‰ƒCƒZƒ“ƒXƒR[ƒh‚¨\‚µž‚ÝƒtƒH[ƒ€‚Í‚±‚¿‚ç</a></p>
-<p><span class="color1">¡<strong>WEB§ì‹ÆŽÒ—lA‚à‚µ‚­‚ÍŠO•”‹ÆŽÒ‚ÉWEB§ìˆË—Š‚ð—\’è‚³‚ê‚Ä‚¢‚é•û‚Ö</strong></span><br /> 
-WEB§ì‘ãs—p‚É“–ƒeƒ“ƒvƒŒ[ƒg‚ðŽg‚¤<strong>WEB§ì‹ÆŽÒ</strong>—l‚È‚Ç‚Ìê‡A•K‚¸<strong>Ž–‹ÆŽÒ“o˜^</strong>(‹y‚Ñƒeƒ“ƒvƒŒ[ƒgƒR[ƒhŽæ“¾)‚ðs‚Á‚Ä‰º‚³‚¢B<a href="http://nikukyu-punch.com/member.html" target="_blank">Ú‚µ‚­‚Í‚±‚¿‚ç</a>B<br />
-‚Ü‚½A<strong>ŠO•”‚ÌWEB§ì‹ÆŽÒ‚É§ì‚ðˆË—Š—\’è</strong>‚Ì•û‚Ìê‡‚ÍA‚»‚Ì§ì‹ÆŽÒ‘¤‚É‚±‚ÌŽ–‹ÆŽÒ“o˜^‚ðs‚Á‚Ä’¸‚­•K—v‚ª‚ ‚è‚Ü‚·B</p>
-
-<p><span class="color1">¡<strong>“–ŽÐŠÖ˜AƒTƒCƒg(¦‚±‚¿‚ç‚Ìƒoƒi[‚R“_‚Ííœ‚µ‚Ä‚²—˜—p‰º‚³‚Á‚ÄOK‚Å‚·B)</strong></span><br />
-<a href="http://template-punch.com/" target="_blank"><img src="<?php echo Html::imageThemeUrl("banner_tp.png")?>" alt="ƒeƒ“ƒvƒŒ[ƒg”Ì”„ƒTƒCƒg‚Ìƒeƒ“ƒvƒŒ[ƒgƒpƒ“ƒ`" width="200" height="40" /></a></p>
-<p><a href="http://moko-design.com/" target="_blank"><img src="<?php echo Html::imageThemeUrl("banner_md.png")?>" alt="WEB§ìƒTƒCƒg Moko Design" width="200" height="40" /></a></p>
-<p><a href="http://photo-chips.com/" target="_blank"><img src="<?php echo Html::imageThemeUrl("banner_pc.png")?>" alt="ƒtƒŠ[ŽÊ^ƒTƒCƒg PHOTO CHIPS" width="200" height="40" /></a></p>
-
-<h2>ƒeƒ“ƒvƒŒ[ƒg‚Ì•ÒWƒT[ƒrƒX‚É‚Â‚¢‚Ä</h2>
-<p>ƒƒS‚âƒƒjƒ…[‚Ì‰æ‘œ‰ÁH‚âhtmlƒR[ƒfƒBƒ“ƒOAƒeƒ“ƒvƒŒ[ƒg‚Ìƒe[ƒ}ƒJƒ‰[•ÏX‚âƒvƒƒOƒ‰ƒ€Ý’u‚È‚ÇAƒeƒ“ƒvƒŒ[ƒg‚ÉŠÖ‚·‚é—lX‚ÈƒTƒ|[ƒg‚à³‚Á‚Ä‚¨‚è‚Ü‚·B‚Ü‚½A“–ƒeƒ“ƒvƒŒ[ƒg‚ÌPSD(Photoshop)ƒtƒ@ƒCƒ‹”Ì”„‚às‚Á‚Ä‚¨‚è‚Ü‚·B<br />
-<a href="http://nikukyu-punch.com/support.html" target="_blank">Ú‚µ‚­‚Í‚±‚¿‚ç‚Ìƒeƒ“ƒvƒŒ[ƒg•ÒWƒy[ƒW‚ð‚²——‰º‚³‚¢B</a></p>
-
-<h2>XVî•ñE‚¨’m‚ç‚¹</h2>
-
-<div class="new">
-<dl>
-<dt>2011/00/00</dt>
-<dd>ƒz[ƒ€ƒy[ƒWƒŠƒjƒ…[ƒAƒ‹</dd>
-<dt>2011/00/00</dt>
-<dd>ƒz[ƒ€ƒy[ƒWƒŠƒjƒ…[ƒAƒ‹</dd>
-<dt>2011/00/00</dt>
-<dd>ƒz[ƒ€ƒy[ƒWƒŠƒjƒ…[ƒAƒ‹</dd>
-<dt>2011/00/00</dt>
-<dd>ƒz[ƒ€ƒy[ƒWƒŠƒjƒ…[ƒAƒ‹</dd>
-<dt>2011/00/00</dt>
-<dd>ƒz[ƒ€ƒy[ƒWƒŠƒjƒ…[ƒAƒ‹</dd>
-<dt>2011/00/00</dt>
-<dd>ƒz[ƒ€ƒy[ƒWƒŠƒjƒ…[ƒAƒ‹</dd>
-<dt>2011/00/00</dt>
-<dd>ƒz[ƒ€ƒy[ƒWƒŠƒjƒ…[ƒAƒ‹</dd>
-<dt>2011/00/00</dt>
-<dd>ƒz[ƒ€ƒy[ƒWƒŠƒjƒ…[ƒAƒ‹</dd>
-<dt>2011/00/00</dt>
-<dd>ƒz[ƒ€ƒy[ƒWƒŠƒjƒ…[ƒAƒ‹</dd>
-<dt>2011/00/00</dt>
-<dd>ƒz[ƒ€ƒy[ƒWƒŠƒjƒ…[ƒAƒ‹</dd>
-</dl>
-</div>
-<!--/new-->
-
-<p class="pagetop"><a href="#">ª@ƒy[ƒW‚Ìã•”‚Ö</a></p>
-
-</div>
-<!--/main-->
+			</div>
+			<!--/main-->
 
 
-<div id="sub">
+			<div id="sub">
 
-<div class="subbox">
+				<div class="subbox">
 
-<h3>ƒTƒuƒƒjƒ…[</h3>
+					<h3>submenu</h3>
 
-<ul class="submenu">
-<li><a href="#">ƒƒjƒ…[‚P</a></li>
-<li><a href="#">ƒƒjƒ…[‚Q</a></li>
-<li><a href="#">ƒƒjƒ…[‚R</a></li>
-<li><a href="#">ƒƒjƒ…[‚S</a></li>
-<li><a href="#">ƒƒjƒ…[‚T</a></li>
-<li><a href="#">ƒƒjƒ…[‚U</a></li>
-<li><a href="#">ƒƒjƒ…[‚V</a></li>
-<li><a href="#">ƒƒjƒ…[‚W</a></li>
-</ul>
+					<ul class="submenu">
+					<li><a href="#">Menu-1</a></li>
+					<li><a href="#">Menu-2</a></li>
+					<li><a href="#">Menu-3</a></li>
+					<li><a href="#">Menu-4</a></li>
+					<li><a href="#">Menu-5</a></li>
+					<li><a href="#">Menu-6</a></li>
+					<li><a href="#">Menu-7</a></li>
+					<li><a href="#">Menu-8</a></li>
+					</ul>
 
-</div>
-<!--/subbox-->
+				</div>
+				<!--/subbox-->
 
-<div class="subbox">
+				<div class="subbox">
 
-<h3>“–ƒuƒƒbƒN“à‚ÌƒeƒLƒXƒg‚Í</h3>
-<p>’i—Žƒ^ƒO&lt;p&gt;‚ÅˆÍ‚Ý‚Ü‚µ‚å‚¤B—]”’‚ªŽ©“®‚Å”½‰f‚³‚ê‚Ü‚·B </p>
+					<h3>å½“ãƒ–ãƒ­ãƒƒã‚¯å†…ã®ãƒ†ã‚­ã‚¹ãƒˆã¯</h3>
+					<p>æ®µè½ã‚¿ã‚°&lt;p&gt;ã§å›²ã¿ã¾ã—ã‚‡ã†ã€‚ä½™ç™½ãŒè‡ªå‹•ã§åæ˜ ã•ã‚Œã¾ã™ã€‚ </p>
 
-<h3>ƒuƒƒbƒN“à‚É‰æ‘œ‚ð’u‚­ê‡</h3>
-<p>’i—Žƒ^ƒO“à‚È‚ç•180px‚Ü‚ÅB’i—Žƒ^ƒO‚ÌŠO‚È‚ç•190px‚Ü‚ÅB</p>
+					<h3>ãƒ–ãƒ­ãƒƒã‚¯å†…ã«ç”»åƒã‚’ç½®ãå ´åˆ</h3>
+					<p>æ®µè½ã‚¿ã‚°å†…ãªã‚‰å¹…180pxã¾ã§ã€‚æ®µè½ã‚¿ã‚°ã®å¤–ãªã‚‰å¹…190pxã¾ã§ã€‚</p>
 
-</div>
-<!--/subbox-->
+				</div>
+				<!--/subbox-->
 
-<h3>subbox‚ÅˆÍ‚Ü‚È‚¯‚ê‚Î</h3>
-<p>‚±‚Ì‚æ‚¤‚É‚àŽg‚¦‚Ü‚·B‚±‚±‚É‰æ‘œ‚ð‚¨‚­ê‡A’i—Žƒ^ƒO“à‚È‚ç•220pxA’i—Žƒ^ƒO‚ÌŠO‚È‚ç•230px‚Ü‚ÅB</p>
+				<h3>subboxã§å›²ã¾ãªã‘ã‚Œã°</h3>
+				<p>ã“ã®ã‚ˆã†ã«ã‚‚ä½¿ãˆã¾ã™ã€‚ã“ã“ã«ç”»åƒã‚’ãŠãå ´åˆã€æ®µè½ã‚¿ã‚°å†…ãªã‚‰å¹…220pxã€æ®µè½ã‚¿ã‚°ã®å¤–ãªã‚‰å¹…230pxã¾ã§ã€‚</p>
 
-<div class="subbox">
+				<div class="subbox">
 
-<h3>ƒTƒ|[ƒg</h3>
-<p>¡HPƒJƒ‰[‚Ì•ÏXA‚¨–â‚¢‡‚í‚¹ƒtƒH[ƒ€‚ÌÝ’uA‰æ‘œ‰ÁHƒT[ƒrƒX(500‰~?)‚È‚ÇAƒz[ƒ€ƒy[ƒW•ÒW‚Ì‚¨Žè“`‚¢‚à‚µ‚Ä‚¨‚è‚Ü‚·B<br />
-<a href="http://nikukyu-punch.com/support.html" target="_blank">&gt;&gt;Ú×‚Í‚±‚¿‚ç</a></p>
+					<h3>ã‚µãƒãƒ¼ãƒˆ</h3>
+					<p>â– HPã‚«ãƒ©ãƒ¼ã®å¤‰æ›´ã€ãŠå•ã„åˆã‚ã›ãƒ•ã‚©ãƒ¼ãƒ ã®è¨­ç½®ã€ç”»åƒåŠ å·¥ã‚µãƒ¼ãƒ“ã‚¹(500å††?)ãªã©ã€ãƒ›ãƒ¼ãƒ ãƒšãƒ¼ã‚¸ç·¨é›†ã®ãŠæ‰‹ä¼ã„ã‚‚ã—ã¦ãŠã‚Šã¾ã™ã€‚<br />
+					<a href="http://nikukyu-punch.com/support.html" target="_blank">&gt;&gt;è©³ç´°ã¯ã“ã¡ã‚‰</a></p>
 
-</div>
-<!--/subbox-->
+				</div>
+				<!--/subbox-->
 
-</div>
-<!--/sub-->
-
-
-<ul id="footermenu">
-<li><a href="index.html">ƒz[ƒ€</a></li>
-<li><a href="product.html">»•iÐ‰î</a></li>
-<li><a href="technology.html">‹ZpÐ‰î</a></li>
-<li><a href="company.html">‰ïŽÐÐ‰î</a></li>
-<li><a href="recruit.html">Ì—pî•ñ</a></li>
-<li><a href="contact.html">‚¨–â‚¢‡‚í‚¹</a></li>
-</ul>
-<!--/footermenu-->
+			</div>
+			<!--/sub-->
 
 
-<div id="footer">
-Copyright&copy; 2011 ƒTƒ“ƒvƒ‹H‹ÆŠ”Ž®‰ïŽÐ All Rights Reserved.<br />
-<a href="http://nikukyu-punch.com/" target="_blank">Template design by Nikukyu-Punch.</a>•<a href="http://www.crytus.co.jp/" target="_blank">Simple Slide Show by Crytus.</a>
-</div>
-<!--/footer-->
+			<ul id="footermenu">
+				<li><a href="index.html">ãƒ›ãƒ¼ãƒ </a></li>
+				<li><a href="product.html">è£½å“ç´¹ä»‹</a></li>
+				<li><a href="technology.html">æŠ€è¡“ç´¹ä»‹</a></li>
+				<li><a href="company.html">ä¼šç¤¾ç´¹ä»‹</a></li>
+				<li><a href="recruit.html">æŽ¡ç”¨æƒ…å ±</a></li>
+				<li><a href="contact.html">ãŠå•ã„åˆã‚ã›</a></li>
+			</ul>
+			<!--/footermenu-->
 
 
-</div>
-<!--/contents-->
+			<div id="footer">
+				Copyright&copy; 2011 ã‚µãƒ³ãƒ—ãƒ«å·¥æ¥­æ ªå¼ä¼šç¤¾ All Rights Reserved.<br />
+				<a href="http://nikukyu-punch.com/" target="_blank">Template design by Nikukyu-Punch.</a>ï¼†<a href="http://www.crytus.co.jp/" target="_blank">Simple Slide Show by Crytus.</a>
+			</div>
+			<!--/footer-->
 
 
-</div>
-<!--/container-->
+		</div>
+		<!--/contents-->
+
+
+	</div>
+	<!--/container-->
 
 
 </body>
