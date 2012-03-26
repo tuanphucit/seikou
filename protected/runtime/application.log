@@ -7516,3 +7516,1453 @@ in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
 in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\widgets\BootAlert.php (58)
 in D:\xampp\htdocs\seikou\themes\krisp\views\layouts\main.php (65)
 in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/26 11:58:29 [trace] [system.CModule] Loading "log" application component
+2012/03/26 11:58:29 [trace] [system.CModule] Loading "request" application component
+2012/03/26 11:58:29 [trace] [system.CModule] Loading "bootstrap" application component
+2012/03/26 11:58:29 [trace] [system.CModule] Loading "clientScript" application component
+2012/03/26 11:58:29 [trace] [system.CModule] Loading "assetManager" application component
+2012/03/26 11:58:29 [trace] [system.CModule] Loading "viewRenderer" application component
+2012/03/26 11:58:29 [trace] [system.CModule] Loading "db" application component
+2012/03/26 11:58:29 [trace] [system.db.CDbConnection] Opening DB connection
+2012/03/26 11:58:29 [trace] [system.CModule] Loading "urlManager" application component
+2012/03/26 11:58:29 [trace] [system.web.filters.CFilterChain] Running filter HistoryController.filteraccessControl()
+2012/03/26 11:58:29 [trace] [system.CModule] Loading "user" application component
+2012/03/26 11:58:29 [trace] [system.CModule] Loading "session" application component
+2012/03/26 11:58:29 [trace] [system.CModule] Loading "messages" application component
+2012/03/26 11:58:29 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `orders`
+2012/03/26 11:58:29 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `orders`)
+2012/03/26 11:58:29 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `orders`)
+2012/03/26 11:58:29 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `orders`
+2012/03/26 11:58:29 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `orders`)
+2012/03/26 11:58:29 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `orders`)
+2012/03/26 11:58:29 [trace] [system.db.ar.CActiveRecord] Orders.findByPk()
+2012/03/26 11:58:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `orders` `t` WHERE `t`.`id`=96 LIMIT 1
+2012/03/26 11:58:29 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `orders` `t` WHERE `t`.`id`=96 LIMIT 1)
+2012/03/26 11:58:29 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `orders` `t` WHERE `t`.`id`=96 LIMIT 1)
+2012/03/26 11:58:30 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `orders_history`
+2012/03/26 11:58:30 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `orders_history`)
+2012/03/26 11:58:30 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `orders_history`)
+2012/03/26 11:58:30 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `orders_history`
+2012/03/26 11:58:30 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `orders_history`)
+2012/03/26 11:58:30 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `orders_history`)
+2012/03/26 11:58:30 [trace] [system.CModule] Loading "themeManager" application component
+2012/03/26 11:58:30 [trace] [system.CModule] Loading "widgetFactory" application component
+2012/03/26 11:58:30 [trace] [system.db.ar.CActiveRecord] OrdersHistory.count()
+2012/03/26 11:58:30 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `orders_history` `t` WHERE order_id = 96
+2012/03/26 11:58:30 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT COUNT(*) FROM `orders_history` `t` WHERE order_id = 96)
+2012/03/26 11:58:30 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT COUNT(*) FROM `orders_history` `t` WHERE order_id = 96)
+2012/03/26 11:58:30 [trace] [system.db.ar.CActiveRecord] OrdersHistory.findAll()
+2012/03/26 11:58:30 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `orders_history` `t` WHERE order_id = 96 ORDER BY time ASC LIMIT 10
+2012/03/26 11:58:30 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `orders_history` `t` WHERE order_id = 96 ORDER BY time ASC LIMIT 10)
+2012/03/26 11:58:30 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `orders_history` `t` WHERE order_id = 96 ORDER BY time ASC LIMIT 10)
+2012/03/26 11:58:30 [trace] [system.CModule] Loading "format" application component
+2012/03/26 11:58:30 [trace] [system.db.ar.CActiveRecord] lazy loading OrdersHistory.user
+2012/03/26 11:58:30 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `users`
+2012/03/26 11:58:30 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `users`)
+2012/03/26 11:58:30 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `users`)
+2012/03/26 11:58:30 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `users`
+2012/03/26 11:58:30 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `users`)
+2012/03/26 11:58:30 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `users`)
+2012/03/26 11:58:30 [trace] [system.db.CDbCommand] Querying SQL: SELECT `user`.`id` AS `t1_c0`, `user`.`username` AS `t1_c1`, `user`.`password` AS `t1_c2`, `user`.`role` AS `t1_c3`, `user`.`full_name` AS `t1_c4`, `user`.`birthday` AS `t1_c5`, `user`.`idcard` AS `t1_c6`, `user`.`work` AS `t1_c7`, `user`.`address1` AS `t1_c8`, `user`.`address2` AS `t1_c9`, `user`.`email` AS `t1_c10`, `user`.`tel` AS `t1_c11`, `user`.`yahoo` AS `t1_c12`, `user`.`skype` AS `t1_c13`, `user`.`last_login` AS `t1_c14` FROM `users` `user`  WHERE (`user`.`id`=:ypl0)
+2012/03/26 11:58:30 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT `user`.`id` AS `t1_c0`, `user`.`username` AS `t1_c1`, `user`.`password` AS `t1_c2`, `user`.`role` AS `t1_c3`, `user`.`full_name` AS `t1_c4`, `user`.`birthday` AS `t1_c5`, `user`.`idcard` AS `t1_c6`, `user`.`work` AS `t1_c7`, `user`.`address1` AS `t1_c8`, `user`.`address2` AS `t1_c9`, `user`.`email` AS `t1_c10`, `user`.`tel` AS `t1_c11`, `user`.`yahoo` AS `t1_c12`, `user`.`skype` AS `t1_c13`, `user`.`last_login` AS `t1_c14` FROM `users` `user`  WHERE (`user`.`id`=:ypl0))
+2012/03/26 11:58:30 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT `user`.`id` AS `t1_c0`, `user`.`username` AS `t1_c1`, `user`.`password` AS `t1_c2`, `user`.`role` AS `t1_c3`, `user`.`full_name` AS `t1_c4`, `user`.`birthday` AS `t1_c5`, `user`.`idcard` AS `t1_c6`, `user`.`work` AS `t1_c7`, `user`.`address1` AS `t1_c8`, `user`.`address2` AS `t1_c9`, `user`.`email` AS `t1_c10`, `user`.`tel` AS `t1_c11`, `user`.`yahoo` AS `t1_c12`, `user`.`skype` AS `t1_c13`, `user`.`last_login` AS `t1_c14` FROM `users` `user`  WHERE (`user`.`id`=:ypl0))
+2012/03/26 11:58:31 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 11:58:31 [trace] [system.CModule] Loading "bootstrap" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 11:58:31 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (62)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 11:58:31 [trace] [system.CModule] Loading "assetManager" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (351)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (62)
+2012/03/26 11:58:31 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (351)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (62)
+2012/03/26 11:58:31 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 11:58:31 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 11:58:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"themes/krisp/images/favicon.ico"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('themes/krisp/im...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/themes/krisp/images/favicon.ico
+---
+2012/03/26 11:58:31 [trace] [system.CModule] Loading "errorHandler" application component
+2012/03/26 11:58:31 [trace] [system.CModule] Loading "themeManager" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/26 11:58:31 [trace] [system.CModule] Loading "messages" application component
+in D:\xampp\htdocs\seikou\protected\globals.php (117)
+in D:\xampp\htdocs\seikou\themes\krisp\views\layouts\main.php (43)
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/26 11:58:31 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\seikou\themes\krisp\views\layouts\main.php (64)
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/26 11:58:31 [trace] [system.CModule] Loading "user" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\widgets\BootAlert.php (58)
+in D:\xampp\htdocs\seikou\themes\krisp\views\layouts\main.php (65)
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/26 11:58:31 [trace] [system.CModule] Loading "session" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\widgets\BootAlert.php (58)
+in D:\xampp\htdocs\seikou\themes\krisp\views\layouts\main.php (65)
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/26 12:07:07 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 12:07:07 [trace] [system.CModule] Loading "bootstrap" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 12:07:07 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (62)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 12:07:07 [trace] [system.CModule] Loading "assetManager" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (351)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (62)
+2012/03/26 12:07:07 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (351)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (62)
+2012/03/26 12:07:07 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 12:07:07 [trace] [system.base.CModule] Loading "admin" module
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 12:07:08 [trace] [system.CModule] Loading "themeManager" application component
+in D:\xampp\htdocs\seikou\protected\modules\admin\controllers\DefaultController.php (7)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 12:07:08 [trace] [system.CModule] Loading "messages" application component
+in D:\xampp\htdocs\seikou\protected\modules\admin\views\layouts\main.php (59)
+in D:\xampp\htdocs\seikou\protected\modules\admin\controllers\DefaultController.php (7)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 12:07:08 [trace] [system.CModule] Loading "user" application component
+in D:\xampp\htdocs\seikou\protected\modules\admin\views\layouts\main.php (62)
+in D:\xampp\htdocs\seikou\protected\modules\admin\controllers\DefaultController.php (7)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 12:07:08 [trace] [system.CModule] Loading "session" application component
+in D:\xampp\htdocs\seikou\protected\modules\admin\views\layouts\main.php (62)
+in D:\xampp\htdocs\seikou\protected\modules\admin\controllers\DefaultController.php (7)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 12:07:08 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\seikou\protected\modules\admin\views\layouts\main.php (215)
+in D:\xampp\htdocs\seikou\protected\modules\admin\controllers\DefaultController.php (7)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 12:07:13 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 12:07:13 [trace] [system.CModule] Loading "bootstrap" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 12:07:13 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (62)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 12:07:13 [trace] [system.CModule] Loading "assetManager" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (351)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (62)
+2012/03/26 12:07:13 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (351)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (62)
+2012/03/26 12:07:13 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 12:07:13 [trace] [system.base.CModule] Loading "admin" module
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 12:07:13 [trace] [system.web.filters.CFilterChain] Running filter RoomController.filteraccessControl()
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 12:07:13 [trace] [system.CModule] Loading "user" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 12:07:13 [trace] [system.CModule] Loading "session" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 12:07:13 [trace] [system.CModule] Loading "messages" application component
+in D:\xampp\htdocs\seikou\protected\modules\admin\controllers\RoomController.php (26)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 12:07:13 [trace] [system.CModule] Loading "db" application component
+in D:\xampp\htdocs\seikou\protected\modules\admin\controllers\RoomController.php (28)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 12:07:13 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\xampp\htdocs\seikou\protected\modules\admin\controllers\RoomController.php (28)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 12:07:13 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `products`
+in D:\xampp\htdocs\seikou\protected\modules\admin\controllers\RoomController.php (28)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 12:07:13 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `products`
+in D:\xampp\htdocs\seikou\protected\modules\admin\controllers\RoomController.php (28)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 12:07:13 [trace] [system.CModule] Loading "themeManager" application component
+in D:\xampp\htdocs\seikou\protected\modules\admin\controllers\RoomController.php (31)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 12:07:13 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\seikou\protected\modules\admin\views\room\index.php (19)
+in D:\xampp\htdocs\seikou\protected\modules\admin\controllers\RoomController.php (31)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 12:07:13 [trace] [system.db.ar.CActiveRecord] Products.count()
+in D:\xampp\htdocs\seikou\protected\modules\admin\views\room\index.php (19)
+in D:\xampp\htdocs\seikou\protected\modules\admin\controllers\RoomController.php (31)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 12:07:13 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `products` `t` WHERE type=:ycp0
+in D:\xampp\htdocs\seikou\protected\modules\admin\views\room\index.php (19)
+in D:\xampp\htdocs\seikou\protected\modules\admin\controllers\RoomController.php (31)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 12:07:13 [trace] [system.db.ar.CActiveRecord] Products.findAll()
+in D:\xampp\htdocs\seikou\protected\modules\admin\views\room\index.php (19)
+in D:\xampp\htdocs\seikou\protected\modules\admin\controllers\RoomController.php (31)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 12:07:13 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `products` `t` WHERE type=:ycp0 LIMIT 10
+in D:\xampp\htdocs\seikou\protected\modules\admin\views\room\index.php (19)
+in D:\xampp\htdocs\seikou\protected\modules\admin\controllers\RoomController.php (31)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 12:07:13 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\widgets\BootButtonColumn.php (38)
+in D:\xampp\htdocs\seikou\protected\modules\admin\views\room\index.php (19)
+in D:\xampp\htdocs\seikou\protected\modules\admin\controllers\RoomController.php (31)
+2012/03/26 12:07:13 [trace] [system.CModule] Loading "format" application component
+in D:\xampp\htdocs\seikou\protected\modules\admin\views\room\index.php (19)
+in D:\xampp\htdocs\seikou\protected\modules\admin\controllers\RoomController.php (31)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 12:07:15 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 12:07:15 [trace] [system.CModule] Loading "bootstrap" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 12:07:15 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (62)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 12:07:15 [trace] [system.CModule] Loading "assetManager" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (351)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (62)
+2012/03/26 12:07:15 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (351)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (62)
+2012/03/26 12:07:15 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 12:07:15 [trace] [system.base.CModule] Loading "admin" module
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 12:07:15 [trace] [system.web.filters.CFilterChain] Running filter RoomController.filteraccessControl()
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 12:07:15 [trace] [system.CModule] Loading "user" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 12:07:15 [trace] [system.CModule] Loading "session" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 12:07:15 [trace] [system.CModule] Loading "messages" application component
+in D:\xampp\htdocs\seikou\protected\modules\admin\controllers\RoomController.php (36)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 12:07:15 [trace] [system.CModule] Loading "db" application component
+in D:\xampp\htdocs\seikou\protected\models\Products.php (32)
+in D:\xampp\htdocs\seikou\protected\modules\admin\controllers\RoomController.php (43)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 12:07:15 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\xampp\htdocs\seikou\protected\models\Products.php (32)
+in D:\xampp\htdocs\seikou\protected\modules\admin\controllers\RoomController.php (43)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 12:07:15 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `products`
+in D:\xampp\htdocs\seikou\protected\models\Products.php (32)
+in D:\xampp\htdocs\seikou\protected\modules\admin\controllers\RoomController.php (43)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 12:07:15 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `products`
+in D:\xampp\htdocs\seikou\protected\models\Products.php (32)
+in D:\xampp\htdocs\seikou\protected\modules\admin\controllers\RoomController.php (43)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 12:07:15 [trace] [system.db.ar.CActiveRecord] Products.findByPk()
+in D:\xampp\htdocs\seikou\protected\modules\admin\controllers\RoomController.php (43)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 12:07:15 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `products` `t` WHERE `t`.`id`='RM102' LIMIT 1
+in D:\xampp\htdocs\seikou\protected\modules\admin\controllers\RoomController.php (43)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 12:07:15 [trace] [system.CModule] Loading "themeManager" application component
+in D:\xampp\htdocs\seikou\protected\modules\admin\controllers\RoomController.php (46)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 12:07:15 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\seikou\protected\modules\admin\views\room\view.php (24)
+in D:\xampp\htdocs\seikou\protected\modules\admin\controllers\RoomController.php (46)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 12:07:15 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\seikou\protected\modules\admin\views\room\view.php (24)
+in D:\xampp\htdocs\seikou\protected\modules\admin\controllers\RoomController.php (46)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 12:07:15 [trace] [system.CModule] Loading "format" application component
+in D:\xampp\htdocs\seikou\protected\modules\admin\views\room\view.php (24)
+in D:\xampp\htdocs\seikou\protected\modules\admin\controllers\RoomController.php (46)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 12:18:10 [trace] [system.CModule] Loading "log" application component
+2012/03/26 12:18:10 [trace] [system.CModule] Loading "request" application component
+2012/03/26 12:18:10 [trace] [system.CModule] Loading "bootstrap" application component
+2012/03/26 12:18:10 [trace] [system.CModule] Loading "clientScript" application component
+2012/03/26 12:18:10 [trace] [system.CModule] Loading "assetManager" application component
+2012/03/26 12:18:10 [trace] [system.CModule] Loading "viewRenderer" application component
+2012/03/26 12:18:10 [trace] [system.CModule] Loading "db" application component
+2012/03/26 12:18:10 [trace] [system.db.CDbConnection] Opening DB connection
+2012/03/26 12:18:10 [trace] [system.CModule] Loading "urlManager" application component
+2012/03/26 12:18:10 [trace] [system.web.filters.CFilterChain] Running filter HistoryController.filteraccessControl()
+2012/03/26 12:18:10 [trace] [system.CModule] Loading "user" application component
+2012/03/26 12:18:10 [trace] [system.CModule] Loading "session" application component
+2012/03/26 12:18:10 [trace] [system.CModule] Loading "messages" application component
+2012/03/26 12:18:10 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `orders`
+2012/03/26 12:18:10 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `orders`)
+2012/03/26 12:18:10 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `orders`)
+2012/03/26 12:18:10 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `orders`
+2012/03/26 12:18:10 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `orders`)
+2012/03/26 12:18:10 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `orders`)
+2012/03/26 12:18:10 [trace] [system.db.ar.CActiveRecord] Orders.findByPk()
+2012/03/26 12:18:10 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `orders` `t` WHERE `t`.`id`=96 LIMIT 1
+2012/03/26 12:18:10 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `orders` `t` WHERE `t`.`id`=96 LIMIT 1)
+2012/03/26 12:18:10 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `orders` `t` WHERE `t`.`id`=96 LIMIT 1)
+2012/03/26 12:18:10 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `orders_history`
+2012/03/26 12:18:10 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `orders_history`)
+2012/03/26 12:18:10 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `orders_history`)
+2012/03/26 12:18:10 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `orders_history`
+2012/03/26 12:18:10 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `orders_history`)
+2012/03/26 12:18:10 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `orders_history`)
+2012/03/26 12:18:10 [trace] [system.CModule] Loading "themeManager" application component
+2012/03/26 12:18:10 [trace] [system.db.ar.CActiveRecord] lazy loading Orders.product
+2012/03/26 12:18:10 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `products`
+2012/03/26 12:18:10 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `products`)
+2012/03/26 12:18:10 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `products`)
+2012/03/26 12:18:10 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `products`
+2012/03/26 12:18:10 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `products`)
+2012/03/26 12:18:10 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `products`)
+2012/03/26 12:18:10 [trace] [system.db.CDbCommand] Querying SQL: SELECT `product`.`id` AS `t1_c0`, `product`.`name` AS `t1_c1`, `product`.`image` AS `t1_c2`, `product`.`description` AS `t1_c3`, `product`.`price` AS `t1_c4`, `product`.`type` AS `t1_c5`, `product`.`option` AS `t1_c6` FROM `products` `product`  WHERE (`product`.`id`=:ypl0)
+2012/03/26 12:18:10 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT `product`.`id` AS `t1_c0`, `product`.`name` AS `t1_c1`, `product`.`image` AS `t1_c2`, `product`.`description` AS `t1_c3`, `product`.`price` AS `t1_c4`, `product`.`type` AS `t1_c5`, `product`.`option` AS `t1_c6` FROM `products` `product`  WHERE (`product`.`id`=:ypl0))
+2012/03/26 12:18:10 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT `product`.`id` AS `t1_c0`, `product`.`name` AS `t1_c1`, `product`.`image` AS `t1_c2`, `product`.`description` AS `t1_c3`, `product`.`price` AS `t1_c4`, `product`.`type` AS `t1_c5`, `product`.`option` AS `t1_c6` FROM `products` `product`  WHERE (`product`.`id`=:ypl0))
+2012/03/26 12:18:10 [trace] [system.CModule] Loading "widgetFactory" application component
+2012/03/26 12:18:10 [trace] [system.CModule] Loading "coreMessages" application component
+2012/03/26 12:18:10 [trace] [system.CModule] Loading "format" application component
+2012/03/26 12:18:10 [trace] [system.db.ar.CActiveRecord] OrdersHistory.count()
+2012/03/26 12:18:10 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `orders_history` `t` WHERE order_id = 96
+2012/03/26 12:18:10 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT COUNT(*) FROM `orders_history` `t` WHERE order_id = 96)
+2012/03/26 12:18:10 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT COUNT(*) FROM `orders_history` `t` WHERE order_id = 96)
+2012/03/26 12:18:10 [trace] [system.db.ar.CActiveRecord] OrdersHistory.findAll()
+2012/03/26 12:18:10 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `orders_history` `t` WHERE order_id = 96 ORDER BY time ASC LIMIT 10
+2012/03/26 12:18:10 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `orders_history` `t` WHERE order_id = 96 ORDER BY time ASC LIMIT 10)
+2012/03/26 12:18:10 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `orders_history` `t` WHERE order_id = 96 ORDER BY time ASC LIMIT 10)
+2012/03/26 12:18:10 [trace] [system.db.ar.CActiveRecord] lazy loading OrdersHistory.user
+2012/03/26 12:18:10 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `users`
+2012/03/26 12:18:10 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `users`)
+2012/03/26 12:18:10 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `users`)
+2012/03/26 12:18:10 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `users`
+2012/03/26 12:18:10 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `users`)
+2012/03/26 12:18:10 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `users`)
+2012/03/26 12:18:10 [trace] [system.db.CDbCommand] Querying SQL: SELECT `user`.`id` AS `t1_c0`, `user`.`username` AS `t1_c1`, `user`.`password` AS `t1_c2`, `user`.`role` AS `t1_c3`, `user`.`full_name` AS `t1_c4`, `user`.`birthday` AS `t1_c5`, `user`.`idcard` AS `t1_c6`, `user`.`work` AS `t1_c7`, `user`.`address1` AS `t1_c8`, `user`.`address2` AS `t1_c9`, `user`.`email` AS `t1_c10`, `user`.`tel` AS `t1_c11`, `user`.`yahoo` AS `t1_c12`, `user`.`skype` AS `t1_c13`, `user`.`last_login` AS `t1_c14` FROM `users` `user`  WHERE (`user`.`id`=:ypl0)
+2012/03/26 12:18:10 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT `user`.`id` AS `t1_c0`, `user`.`username` AS `t1_c1`, `user`.`password` AS `t1_c2`, `user`.`role` AS `t1_c3`, `user`.`full_name` AS `t1_c4`, `user`.`birthday` AS `t1_c5`, `user`.`idcard` AS `t1_c6`, `user`.`work` AS `t1_c7`, `user`.`address1` AS `t1_c8`, `user`.`address2` AS `t1_c9`, `user`.`email` AS `t1_c10`, `user`.`tel` AS `t1_c11`, `user`.`yahoo` AS `t1_c12`, `user`.`skype` AS `t1_c13`, `user`.`last_login` AS `t1_c14` FROM `users` `user`  WHERE (`user`.`id`=:ypl0))
+2012/03/26 12:18:10 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT `user`.`id` AS `t1_c0`, `user`.`username` AS `t1_c1`, `user`.`password` AS `t1_c2`, `user`.`role` AS `t1_c3`, `user`.`full_name` AS `t1_c4`, `user`.`birthday` AS `t1_c5`, `user`.`idcard` AS `t1_c6`, `user`.`work` AS `t1_c7`, `user`.`address1` AS `t1_c8`, `user`.`address2` AS `t1_c9`, `user`.`email` AS `t1_c10`, `user`.`tel` AS `t1_c11`, `user`.`yahoo` AS `t1_c12`, `user`.`skype` AS `t1_c13`, `user`.`last_login` AS `t1_c14` FROM `users` `user`  WHERE (`user`.`id`=:ypl0))
+2012/03/26 12:18:11 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 12:18:11 [trace] [system.CModule] Loading "bootstrap" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 12:18:11 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (62)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 12:18:11 [trace] [system.CModule] Loading "assetManager" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (351)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (62)
+2012/03/26 12:18:11 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (351)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (62)
+2012/03/26 12:18:11 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 12:18:11 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 12:18:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"themes/krisp/images/favicon.ico"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('themes/krisp/im...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/themes/krisp/images/favicon.ico
+---
+2012/03/26 12:18:12 [trace] [system.CModule] Loading "errorHandler" application component
+2012/03/26 12:18:12 [trace] [system.CModule] Loading "themeManager" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/26 12:18:12 [trace] [system.CModule] Loading "messages" application component
+in D:\xampp\htdocs\seikou\protected\globals.php (117)
+in D:\xampp\htdocs\seikou\themes\krisp\views\layouts\main.php (43)
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/26 12:18:12 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\seikou\themes\krisp\views\layouts\main.php (64)
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/26 12:18:12 [trace] [system.CModule] Loading "user" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\widgets\BootAlert.php (58)
+in D:\xampp\htdocs\seikou\themes\krisp\views\layouts\main.php (65)
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/26 12:18:12 [trace] [system.CModule] Loading "session" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\widgets\BootAlert.php (58)
+in D:\xampp\htdocs\seikou\themes\krisp\views\layouts\main.php (65)
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/26 12:19:19 [trace] [system.CModule] Loading "log" application component
+2012/03/26 12:19:19 [trace] [system.CModule] Loading "request" application component
+2012/03/26 12:19:19 [trace] [system.CModule] Loading "bootstrap" application component
+2012/03/26 12:19:19 [trace] [system.CModule] Loading "clientScript" application component
+2012/03/26 12:19:19 [trace] [system.CModule] Loading "assetManager" application component
+2012/03/26 12:19:19 [trace] [system.CModule] Loading "viewRenderer" application component
+2012/03/26 12:19:19 [trace] [system.CModule] Loading "db" application component
+2012/03/26 12:19:19 [trace] [system.db.CDbConnection] Opening DB connection
+2012/03/26 12:19:19 [trace] [system.CModule] Loading "urlManager" application component
+2012/03/26 12:19:19 [trace] [system.web.filters.CFilterChain] Running filter HistoryController.filteraccessControl()
+2012/03/26 12:19:19 [trace] [system.CModule] Loading "user" application component
+2012/03/26 12:19:19 [trace] [system.CModule] Loading "session" application component
+2012/03/26 12:19:19 [trace] [system.CModule] Loading "messages" application component
+2012/03/26 12:19:19 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `orders`
+2012/03/26 12:19:19 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `orders`)
+2012/03/26 12:19:20 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `orders`)
+2012/03/26 12:19:20 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `orders`
+2012/03/26 12:19:20 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `orders`)
+2012/03/26 12:19:20 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `orders`)
+2012/03/26 12:19:20 [trace] [system.db.ar.CActiveRecord] Orders.findByPk()
+2012/03/26 12:19:20 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `orders` `t` WHERE `t`.`id`=96 LIMIT 1
+2012/03/26 12:19:20 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `orders` `t` WHERE `t`.`id`=96 LIMIT 1)
+2012/03/26 12:19:20 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `orders` `t` WHERE `t`.`id`=96 LIMIT 1)
+2012/03/26 12:19:20 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `orders_history`
+2012/03/26 12:19:20 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `orders_history`)
+2012/03/26 12:19:20 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `orders_history`)
+2012/03/26 12:19:20 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `orders_history`
+2012/03/26 12:19:20 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `orders_history`)
+2012/03/26 12:19:20 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `orders_history`)
+2012/03/26 12:19:20 [trace] [system.CModule] Loading "themeManager" application component
+2012/03/26 12:19:20 [trace] [system.db.ar.CActiveRecord] lazy loading Orders.product
+2012/03/26 12:19:20 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `products`
+2012/03/26 12:19:20 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `products`)
+2012/03/26 12:19:20 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `products`)
+2012/03/26 12:19:20 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `products`
+2012/03/26 12:19:20 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `products`)
+2012/03/26 12:19:20 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `products`)
+2012/03/26 12:19:20 [trace] [system.db.CDbCommand] Querying SQL: SELECT `product`.`id` AS `t1_c0`, `product`.`name` AS `t1_c1`, `product`.`image` AS `t1_c2`, `product`.`description` AS `t1_c3`, `product`.`price` AS `t1_c4`, `product`.`type` AS `t1_c5`, `product`.`option` AS `t1_c6` FROM `products` `product`  WHERE (`product`.`id`=:ypl0)
+2012/03/26 12:19:20 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT `product`.`id` AS `t1_c0`, `product`.`name` AS `t1_c1`, `product`.`image` AS `t1_c2`, `product`.`description` AS `t1_c3`, `product`.`price` AS `t1_c4`, `product`.`type` AS `t1_c5`, `product`.`option` AS `t1_c6` FROM `products` `product`  WHERE (`product`.`id`=:ypl0))
+2012/03/26 12:19:20 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT `product`.`id` AS `t1_c0`, `product`.`name` AS `t1_c1`, `product`.`image` AS `t1_c2`, `product`.`description` AS `t1_c3`, `product`.`price` AS `t1_c4`, `product`.`type` AS `t1_c5`, `product`.`option` AS `t1_c6` FROM `products` `product`  WHERE (`product`.`id`=:ypl0))
+2012/03/26 12:19:20 [trace] [system.CModule] Loading "widgetFactory" application component
+2012/03/26 12:19:20 [trace] [system.CModule] Loading "coreMessages" application component
+2012/03/26 12:19:20 [trace] [system.CModule] Loading "format" application component
+2012/03/26 12:19:20 [trace] [system.db.ar.CActiveRecord] OrdersHistory.count()
+2012/03/26 12:19:20 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `orders_history` `t` WHERE order_id = 96
+2012/03/26 12:19:20 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT COUNT(*) FROM `orders_history` `t` WHERE order_id = 96)
+2012/03/26 12:19:20 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT COUNT(*) FROM `orders_history` `t` WHERE order_id = 96)
+2012/03/26 12:19:20 [trace] [system.db.ar.CActiveRecord] OrdersHistory.findAll()
+2012/03/26 12:19:20 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `orders_history` `t` WHERE order_id = 96 ORDER BY time ASC LIMIT 10
+2012/03/26 12:19:20 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `orders_history` `t` WHERE order_id = 96 ORDER BY time ASC LIMIT 10)
+2012/03/26 12:19:20 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `orders_history` `t` WHERE order_id = 96 ORDER BY time ASC LIMIT 10)
+2012/03/26 12:19:20 [trace] [system.db.ar.CActiveRecord] lazy loading OrdersHistory.user
+2012/03/26 12:19:20 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `users`
+2012/03/26 12:19:20 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `users`)
+2012/03/26 12:19:20 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `users`)
+2012/03/26 12:19:20 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `users`
+2012/03/26 12:19:20 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `users`)
+2012/03/26 12:19:20 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `users`)
+2012/03/26 12:19:20 [trace] [system.db.CDbCommand] Querying SQL: SELECT `user`.`id` AS `t1_c0`, `user`.`username` AS `t1_c1`, `user`.`password` AS `t1_c2`, `user`.`role` AS `t1_c3`, `user`.`full_name` AS `t1_c4`, `user`.`birthday` AS `t1_c5`, `user`.`idcard` AS `t1_c6`, `user`.`work` AS `t1_c7`, `user`.`address1` AS `t1_c8`, `user`.`address2` AS `t1_c9`, `user`.`email` AS `t1_c10`, `user`.`tel` AS `t1_c11`, `user`.`yahoo` AS `t1_c12`, `user`.`skype` AS `t1_c13`, `user`.`last_login` AS `t1_c14` FROM `users` `user`  WHERE (`user`.`id`=:ypl0)
+2012/03/26 12:19:20 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT `user`.`id` AS `t1_c0`, `user`.`username` AS `t1_c1`, `user`.`password` AS `t1_c2`, `user`.`role` AS `t1_c3`, `user`.`full_name` AS `t1_c4`, `user`.`birthday` AS `t1_c5`, `user`.`idcard` AS `t1_c6`, `user`.`work` AS `t1_c7`, `user`.`address1` AS `t1_c8`, `user`.`address2` AS `t1_c9`, `user`.`email` AS `t1_c10`, `user`.`tel` AS `t1_c11`, `user`.`yahoo` AS `t1_c12`, `user`.`skype` AS `t1_c13`, `user`.`last_login` AS `t1_c14` FROM `users` `user`  WHERE (`user`.`id`=:ypl0))
+2012/03/26 12:19:20 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT `user`.`id` AS `t1_c0`, `user`.`username` AS `t1_c1`, `user`.`password` AS `t1_c2`, `user`.`role` AS `t1_c3`, `user`.`full_name` AS `t1_c4`, `user`.`birthday` AS `t1_c5`, `user`.`idcard` AS `t1_c6`, `user`.`work` AS `t1_c7`, `user`.`address1` AS `t1_c8`, `user`.`address2` AS `t1_c9`, `user`.`email` AS `t1_c10`, `user`.`tel` AS `t1_c11`, `user`.`yahoo` AS `t1_c12`, `user`.`skype` AS `t1_c13`, `user`.`last_login` AS `t1_c14` FROM `users` `user`  WHERE (`user`.`id`=:ypl0))
+2012/03/26 12:19:20 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 12:19:20 [trace] [system.CModule] Loading "bootstrap" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 12:19:20 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (62)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 12:19:20 [trace] [system.CModule] Loading "assetManager" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (351)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (62)
+2012/03/26 12:19:20 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (351)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (62)
+2012/03/26 12:19:20 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 12:19:20 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 12:19:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"themes/krisp/images/favicon.ico"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('themes/krisp/im...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/themes/krisp/images/favicon.ico
+---
+2012/03/26 12:19:20 [trace] [system.CModule] Loading "errorHandler" application component
+2012/03/26 12:19:20 [trace] [system.CModule] Loading "themeManager" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/26 12:19:20 [trace] [system.CModule] Loading "messages" application component
+in D:\xampp\htdocs\seikou\protected\globals.php (117)
+in D:\xampp\htdocs\seikou\themes\krisp\views\layouts\main.php (43)
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/26 12:19:20 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\seikou\themes\krisp\views\layouts\main.php (64)
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/26 12:19:20 [trace] [system.CModule] Loading "user" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\widgets\BootAlert.php (58)
+in D:\xampp\htdocs\seikou\themes\krisp\views\layouts\main.php (65)
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/26 12:19:20 [trace] [system.CModule] Loading "session" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\widgets\BootAlert.php (58)
+in D:\xampp\htdocs\seikou\themes\krisp\views\layouts\main.php (65)
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/26 12:19:32 [trace] [system.CModule] Loading "log" application component
+2012/03/26 12:19:32 [trace] [system.CModule] Loading "request" application component
+2012/03/26 12:19:32 [trace] [system.CModule] Loading "bootstrap" application component
+2012/03/26 12:19:32 [trace] [system.CModule] Loading "clientScript" application component
+2012/03/26 12:19:32 [trace] [system.CModule] Loading "assetManager" application component
+2012/03/26 12:19:32 [trace] [system.CModule] Loading "viewRenderer" application component
+2012/03/26 12:19:32 [trace] [system.CModule] Loading "db" application component
+2012/03/26 12:19:32 [trace] [system.db.CDbConnection] Opening DB connection
+2012/03/26 12:19:32 [trace] [system.CModule] Loading "urlManager" application component
+2012/03/26 12:19:32 [trace] [system.web.filters.CFilterChain] Running filter HistoryController.filteraccessControl()
+2012/03/26 12:19:32 [trace] [system.CModule] Loading "user" application component
+2012/03/26 12:19:32 [trace] [system.CModule] Loading "session" application component
+2012/03/26 12:19:32 [trace] [system.CModule] Loading "messages" application component
+2012/03/26 12:19:32 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `orders`
+2012/03/26 12:19:32 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `orders`)
+2012/03/26 12:19:32 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `orders`)
+2012/03/26 12:19:32 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `orders`
+2012/03/26 12:19:32 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `orders`)
+2012/03/26 12:19:32 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `orders`)
+2012/03/26 12:19:32 [trace] [system.db.ar.CActiveRecord] Orders.findByPk()
+2012/03/26 12:19:32 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `orders` `t` WHERE `t`.`id`=96 LIMIT 1
+2012/03/26 12:19:32 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `orders` `t` WHERE `t`.`id`=96 LIMIT 1)
+2012/03/26 12:19:32 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `orders` `t` WHERE `t`.`id`=96 LIMIT 1)
+2012/03/26 12:19:32 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `orders_history`
+2012/03/26 12:19:32 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `orders_history`)
+2012/03/26 12:19:32 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `orders_history`)
+2012/03/26 12:19:32 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `orders_history`
+2012/03/26 12:19:32 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `orders_history`)
+2012/03/26 12:19:32 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `orders_history`)
+2012/03/26 12:19:32 [trace] [system.CModule] Loading "themeManager" application component
+2012/03/26 12:19:32 [trace] [system.db.ar.CActiveRecord] lazy loading Orders.product
+2012/03/26 12:19:32 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `products`
+2012/03/26 12:19:32 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `products`)
+2012/03/26 12:19:32 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `products`)
+2012/03/26 12:19:32 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `products`
+2012/03/26 12:19:32 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `products`)
+2012/03/26 12:19:32 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `products`)
+2012/03/26 12:19:32 [trace] [system.db.CDbCommand] Querying SQL: SELECT `product`.`id` AS `t1_c0`, `product`.`name` AS `t1_c1`, `product`.`image` AS `t1_c2`, `product`.`description` AS `t1_c3`, `product`.`price` AS `t1_c4`, `product`.`type` AS `t1_c5`, `product`.`option` AS `t1_c6` FROM `products` `product`  WHERE (`product`.`id`=:ypl0)
+2012/03/26 12:19:32 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT `product`.`id` AS `t1_c0`, `product`.`name` AS `t1_c1`, `product`.`image` AS `t1_c2`, `product`.`description` AS `t1_c3`, `product`.`price` AS `t1_c4`, `product`.`type` AS `t1_c5`, `product`.`option` AS `t1_c6` FROM `products` `product`  WHERE (`product`.`id`=:ypl0))
+2012/03/26 12:19:32 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT `product`.`id` AS `t1_c0`, `product`.`name` AS `t1_c1`, `product`.`image` AS `t1_c2`, `product`.`description` AS `t1_c3`, `product`.`price` AS `t1_c4`, `product`.`type` AS `t1_c5`, `product`.`option` AS `t1_c6` FROM `products` `product`  WHERE (`product`.`id`=:ypl0))
+2012/03/26 12:19:32 [trace] [system.CModule] Loading "widgetFactory" application component
+2012/03/26 12:19:32 [trace] [system.CModule] Loading "coreMessages" application component
+2012/03/26 12:19:32 [trace] [system.CModule] Loading "format" application component
+2012/03/26 12:19:32 [trace] [system.db.ar.CActiveRecord] OrdersHistory.count()
+2012/03/26 12:19:32 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `orders_history` `t` WHERE order_id = 96
+2012/03/26 12:19:32 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT COUNT(*) FROM `orders_history` `t` WHERE order_id = 96)
+2012/03/26 12:19:32 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT COUNT(*) FROM `orders_history` `t` WHERE order_id = 96)
+2012/03/26 12:19:32 [trace] [system.db.ar.CActiveRecord] OrdersHistory.findAll()
+2012/03/26 12:19:32 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `orders_history` `t` WHERE order_id = 96 ORDER BY time ASC LIMIT 10
+2012/03/26 12:19:32 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `orders_history` `t` WHERE order_id = 96 ORDER BY time ASC LIMIT 10)
+2012/03/26 12:19:32 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `orders_history` `t` WHERE order_id = 96 ORDER BY time ASC LIMIT 10)
+2012/03/26 12:19:32 [trace] [system.db.ar.CActiveRecord] lazy loading OrdersHistory.user
+2012/03/26 12:19:32 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `users`
+2012/03/26 12:19:32 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `users`)
+2012/03/26 12:19:32 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `users`)
+2012/03/26 12:19:32 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `users`
+2012/03/26 12:19:32 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `users`)
+2012/03/26 12:19:32 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `users`)
+2012/03/26 12:19:32 [trace] [system.db.CDbCommand] Querying SQL: SELECT `user`.`id` AS `t1_c0`, `user`.`username` AS `t1_c1`, `user`.`password` AS `t1_c2`, `user`.`role` AS `t1_c3`, `user`.`full_name` AS `t1_c4`, `user`.`birthday` AS `t1_c5`, `user`.`idcard` AS `t1_c6`, `user`.`work` AS `t1_c7`, `user`.`address1` AS `t1_c8`, `user`.`address2` AS `t1_c9`, `user`.`email` AS `t1_c10`, `user`.`tel` AS `t1_c11`, `user`.`yahoo` AS `t1_c12`, `user`.`skype` AS `t1_c13`, `user`.`last_login` AS `t1_c14` FROM `users` `user`  WHERE (`user`.`id`=:ypl0)
+2012/03/26 12:19:32 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT `user`.`id` AS `t1_c0`, `user`.`username` AS `t1_c1`, `user`.`password` AS `t1_c2`, `user`.`role` AS `t1_c3`, `user`.`full_name` AS `t1_c4`, `user`.`birthday` AS `t1_c5`, `user`.`idcard` AS `t1_c6`, `user`.`work` AS `t1_c7`, `user`.`address1` AS `t1_c8`, `user`.`address2` AS `t1_c9`, `user`.`email` AS `t1_c10`, `user`.`tel` AS `t1_c11`, `user`.`yahoo` AS `t1_c12`, `user`.`skype` AS `t1_c13`, `user`.`last_login` AS `t1_c14` FROM `users` `user`  WHERE (`user`.`id`=:ypl0))
+2012/03/26 12:19:32 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT `user`.`id` AS `t1_c0`, `user`.`username` AS `t1_c1`, `user`.`password` AS `t1_c2`, `user`.`role` AS `t1_c3`, `user`.`full_name` AS `t1_c4`, `user`.`birthday` AS `t1_c5`, `user`.`idcard` AS `t1_c6`, `user`.`work` AS `t1_c7`, `user`.`address1` AS `t1_c8`, `user`.`address2` AS `t1_c9`, `user`.`email` AS `t1_c10`, `user`.`tel` AS `t1_c11`, `user`.`yahoo` AS `t1_c12`, `user`.`skype` AS `t1_c13`, `user`.`last_login` AS `t1_c14` FROM `users` `user`  WHERE (`user`.`id`=:ypl0))
+2012/03/26 12:19:33 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 12:19:33 [trace] [system.CModule] Loading "bootstrap" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 12:19:33 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (62)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 12:19:33 [trace] [system.CModule] Loading "assetManager" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (351)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (62)
+2012/03/26 12:19:33 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (351)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (62)
+2012/03/26 12:19:33 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 12:19:33 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 12:19:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"themes/krisp/images/favicon.ico"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('themes/krisp/im...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/themes/krisp/images/favicon.ico
+---
+2012/03/26 12:19:33 [trace] [system.CModule] Loading "errorHandler" application component
+2012/03/26 12:19:33 [trace] [system.CModule] Loading "themeManager" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/26 12:19:33 [trace] [system.CModule] Loading "messages" application component
+in D:\xampp\htdocs\seikou\protected\globals.php (117)
+in D:\xampp\htdocs\seikou\themes\krisp\views\layouts\main.php (43)
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/26 12:19:33 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\seikou\themes\krisp\views\layouts\main.php (64)
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/26 12:19:33 [trace] [system.CModule] Loading "user" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\widgets\BootAlert.php (58)
+in D:\xampp\htdocs\seikou\themes\krisp\views\layouts\main.php (65)
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/26 12:19:33 [trace] [system.CModule] Loading "session" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\widgets\BootAlert.php (58)
+in D:\xampp\htdocs\seikou\themes\krisp\views\layouts\main.php (65)
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/26 12:21:11 [trace] [system.CModule] Loading "log" application component
+2012/03/26 12:21:11 [trace] [system.CModule] Loading "request" application component
+2012/03/26 12:21:11 [trace] [system.CModule] Loading "bootstrap" application component
+2012/03/26 12:21:11 [trace] [system.CModule] Loading "clientScript" application component
+2012/03/26 12:21:11 [trace] [system.CModule] Loading "assetManager" application component
+2012/03/26 12:21:11 [trace] [system.CModule] Loading "viewRenderer" application component
+2012/03/26 12:21:11 [trace] [system.CModule] Loading "db" application component
+2012/03/26 12:21:11 [trace] [system.db.CDbConnection] Opening DB connection
+2012/03/26 12:21:11 [trace] [system.CModule] Loading "urlManager" application component
+2012/03/26 12:21:11 [trace] [system.web.filters.CFilterChain] Running filter HistoryController.filteraccessControl()
+2012/03/26 12:21:11 [trace] [system.CModule] Loading "user" application component
+2012/03/26 12:21:11 [trace] [system.CModule] Loading "session" application component
+2012/03/26 12:21:11 [trace] [system.CModule] Loading "messages" application component
+2012/03/26 12:21:11 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `orders`
+2012/03/26 12:21:11 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `orders`)
+2012/03/26 12:21:11 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `orders`)
+2012/03/26 12:21:11 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `orders`
+2012/03/26 12:21:11 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `orders`)
+2012/03/26 12:21:11 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `orders`)
+2012/03/26 12:21:11 [trace] [system.db.ar.CActiveRecord] Orders.findByPk()
+2012/03/26 12:21:11 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `orders` `t` WHERE `t`.`id`=96 LIMIT 1
+2012/03/26 12:21:11 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `orders` `t` WHERE `t`.`id`=96 LIMIT 1)
+2012/03/26 12:21:11 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `orders` `t` WHERE `t`.`id`=96 LIMIT 1)
+2012/03/26 12:21:11 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `orders_history`
+2012/03/26 12:21:11 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `orders_history`)
+2012/03/26 12:21:11 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `orders_history`)
+2012/03/26 12:21:11 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `orders_history`
+2012/03/26 12:21:11 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `orders_history`)
+2012/03/26 12:21:11 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `orders_history`)
+2012/03/26 12:21:11 [trace] [system.CModule] Loading "themeManager" application component
+2012/03/26 12:21:11 [trace] [system.db.ar.CActiveRecord] lazy loading Orders.product
+2012/03/26 12:21:11 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `products`
+2012/03/26 12:21:11 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `products`)
+2012/03/26 12:21:11 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `products`)
+2012/03/26 12:21:11 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `products`
+2012/03/26 12:21:11 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `products`)
+2012/03/26 12:21:11 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `products`)
+2012/03/26 12:21:11 [trace] [system.db.CDbCommand] Querying SQL: SELECT `product`.`id` AS `t1_c0`, `product`.`name` AS `t1_c1`, `product`.`image` AS `t1_c2`, `product`.`description` AS `t1_c3`, `product`.`price` AS `t1_c4`, `product`.`type` AS `t1_c5`, `product`.`option` AS `t1_c6` FROM `products` `product`  WHERE (`product`.`id`=:ypl0)
+2012/03/26 12:21:11 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT `product`.`id` AS `t1_c0`, `product`.`name` AS `t1_c1`, `product`.`image` AS `t1_c2`, `product`.`description` AS `t1_c3`, `product`.`price` AS `t1_c4`, `product`.`type` AS `t1_c5`, `product`.`option` AS `t1_c6` FROM `products` `product`  WHERE (`product`.`id`=:ypl0))
+2012/03/26 12:21:11 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT `product`.`id` AS `t1_c0`, `product`.`name` AS `t1_c1`, `product`.`image` AS `t1_c2`, `product`.`description` AS `t1_c3`, `product`.`price` AS `t1_c4`, `product`.`type` AS `t1_c5`, `product`.`option` AS `t1_c6` FROM `products` `product`  WHERE (`product`.`id`=:ypl0))
+2012/03/26 12:21:11 [trace] [system.CModule] Loading "widgetFactory" application component
+2012/03/26 12:21:11 [trace] [system.CModule] Loading "coreMessages" application component
+2012/03/26 12:21:11 [trace] [system.CModule] Loading "format" application component
+2012/03/26 12:21:11 [trace] [system.db.ar.CActiveRecord] OrdersHistory.count()
+2012/03/26 12:21:11 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `orders_history` `t` WHERE order_id = 96
+2012/03/26 12:21:11 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT COUNT(*) FROM `orders_history` `t` WHERE order_id = 96)
+2012/03/26 12:21:11 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT COUNT(*) FROM `orders_history` `t` WHERE order_id = 96)
+2012/03/26 12:21:11 [trace] [system.db.ar.CActiveRecord] OrdersHistory.findAll()
+2012/03/26 12:21:11 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `orders_history` `t` WHERE order_id = 96 ORDER BY time ASC LIMIT 10
+2012/03/26 12:21:11 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `orders_history` `t` WHERE order_id = 96 ORDER BY time ASC LIMIT 10)
+2012/03/26 12:21:11 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `orders_history` `t` WHERE order_id = 96 ORDER BY time ASC LIMIT 10)
+2012/03/26 12:21:11 [trace] [system.db.ar.CActiveRecord] lazy loading OrdersHistory.user
+2012/03/26 12:21:11 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `users`
+2012/03/26 12:21:11 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `users`)
+2012/03/26 12:21:11 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `users`)
+2012/03/26 12:21:11 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `users`
+2012/03/26 12:21:11 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `users`)
+2012/03/26 12:21:11 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `users`)
+2012/03/26 12:21:11 [trace] [system.db.CDbCommand] Querying SQL: SELECT `user`.`id` AS `t1_c0`, `user`.`username` AS `t1_c1`, `user`.`password` AS `t1_c2`, `user`.`role` AS `t1_c3`, `user`.`full_name` AS `t1_c4`, `user`.`birthday` AS `t1_c5`, `user`.`idcard` AS `t1_c6`, `user`.`work` AS `t1_c7`, `user`.`address1` AS `t1_c8`, `user`.`address2` AS `t1_c9`, `user`.`email` AS `t1_c10`, `user`.`tel` AS `t1_c11`, `user`.`yahoo` AS `t1_c12`, `user`.`skype` AS `t1_c13`, `user`.`last_login` AS `t1_c14` FROM `users` `user`  WHERE (`user`.`id`=:ypl0)
+2012/03/26 12:21:11 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT `user`.`id` AS `t1_c0`, `user`.`username` AS `t1_c1`, `user`.`password` AS `t1_c2`, `user`.`role` AS `t1_c3`, `user`.`full_name` AS `t1_c4`, `user`.`birthday` AS `t1_c5`, `user`.`idcard` AS `t1_c6`, `user`.`work` AS `t1_c7`, `user`.`address1` AS `t1_c8`, `user`.`address2` AS `t1_c9`, `user`.`email` AS `t1_c10`, `user`.`tel` AS `t1_c11`, `user`.`yahoo` AS `t1_c12`, `user`.`skype` AS `t1_c13`, `user`.`last_login` AS `t1_c14` FROM `users` `user`  WHERE (`user`.`id`=:ypl0))
+2012/03/26 12:21:11 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT `user`.`id` AS `t1_c0`, `user`.`username` AS `t1_c1`, `user`.`password` AS `t1_c2`, `user`.`role` AS `t1_c3`, `user`.`full_name` AS `t1_c4`, `user`.`birthday` AS `t1_c5`, `user`.`idcard` AS `t1_c6`, `user`.`work` AS `t1_c7`, `user`.`address1` AS `t1_c8`, `user`.`address2` AS `t1_c9`, `user`.`email` AS `t1_c10`, `user`.`tel` AS `t1_c11`, `user`.`yahoo` AS `t1_c12`, `user`.`skype` AS `t1_c13`, `user`.`last_login` AS `t1_c14` FROM `users` `user`  WHERE (`user`.`id`=:ypl0))
+2012/03/26 12:21:12 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 12:21:12 [trace] [system.CModule] Loading "bootstrap" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 12:21:12 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (62)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 12:21:12 [trace] [system.CModule] Loading "assetManager" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (351)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (62)
+2012/03/26 12:21:12 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (351)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (62)
+2012/03/26 12:21:12 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 12:21:12 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 12:21:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"themes/krisp/images/favicon.ico"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('themes/krisp/im...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/themes/krisp/images/favicon.ico
+---
+2012/03/26 12:21:12 [trace] [system.CModule] Loading "errorHandler" application component
+2012/03/26 12:21:12 [trace] [system.CModule] Loading "themeManager" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/26 12:21:12 [trace] [system.CModule] Loading "messages" application component
+in D:\xampp\htdocs\seikou\protected\globals.php (117)
+in D:\xampp\htdocs\seikou\themes\krisp\views\layouts\main.php (43)
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/26 12:21:12 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\seikou\themes\krisp\views\layouts\main.php (64)
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/26 12:21:12 [trace] [system.CModule] Loading "user" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\widgets\BootAlert.php (58)
+in D:\xampp\htdocs\seikou\themes\krisp\views\layouts\main.php (65)
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/26 12:21:12 [trace] [system.CModule] Loading "session" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\widgets\BootAlert.php (58)
+in D:\xampp\htdocs\seikou\themes\krisp\views\layouts\main.php (65)
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/26 12:21:50 [trace] [system.CModule] Loading "log" application component
+2012/03/26 12:21:50 [trace] [system.CModule] Loading "request" application component
+2012/03/26 12:21:50 [trace] [system.CModule] Loading "bootstrap" application component
+2012/03/26 12:21:50 [trace] [system.CModule] Loading "clientScript" application component
+2012/03/26 12:21:50 [trace] [system.CModule] Loading "assetManager" application component
+2012/03/26 12:21:50 [trace] [system.CModule] Loading "viewRenderer" application component
+2012/03/26 12:21:50 [trace] [system.CModule] Loading "db" application component
+2012/03/26 12:21:50 [trace] [system.db.CDbConnection] Opening DB connection
+2012/03/26 12:21:50 [trace] [system.CModule] Loading "urlManager" application component
+2012/03/26 12:21:50 [trace] [system.web.filters.CFilterChain] Running filter HistoryController.filteraccessControl()
+2012/03/26 12:21:50 [trace] [system.CModule] Loading "user" application component
+2012/03/26 12:21:50 [trace] [system.CModule] Loading "session" application component
+2012/03/26 12:21:50 [trace] [system.CModule] Loading "messages" application component
+2012/03/26 12:21:50 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `orders`
+2012/03/26 12:21:50 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `orders`)
+2012/03/26 12:21:50 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `orders`)
+2012/03/26 12:21:50 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `orders`
+2012/03/26 12:21:50 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `orders`)
+2012/03/26 12:21:50 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `orders`)
+2012/03/26 12:21:50 [trace] [system.db.ar.CActiveRecord] Orders.findByPk()
+2012/03/26 12:21:50 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `orders` `t` WHERE `t`.`id`=96 LIMIT 1
+2012/03/26 12:21:50 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `orders` `t` WHERE `t`.`id`=96 LIMIT 1)
+2012/03/26 12:21:50 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `orders` `t` WHERE `t`.`id`=96 LIMIT 1)
+2012/03/26 12:21:50 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `orders_history`
+2012/03/26 12:21:50 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `orders_history`)
+2012/03/26 12:21:50 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `orders_history`)
+2012/03/26 12:21:50 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `orders_history`
+2012/03/26 12:21:50 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `orders_history`)
+2012/03/26 12:21:50 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `orders_history`)
+2012/03/26 12:21:50 [trace] [system.CModule] Loading "themeManager" application component
+2012/03/26 12:21:50 [trace] [system.db.ar.CActiveRecord] lazy loading Orders.product
+2012/03/26 12:21:50 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `products`
+2012/03/26 12:21:50 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `products`)
+2012/03/26 12:21:50 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `products`)
+2012/03/26 12:21:50 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `products`
+2012/03/26 12:21:50 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `products`)
+2012/03/26 12:21:50 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `products`)
+2012/03/26 12:21:50 [trace] [system.db.CDbCommand] Querying SQL: SELECT `product`.`id` AS `t1_c0`, `product`.`name` AS `t1_c1`, `product`.`image` AS `t1_c2`, `product`.`description` AS `t1_c3`, `product`.`price` AS `t1_c4`, `product`.`type` AS `t1_c5`, `product`.`option` AS `t1_c6` FROM `products` `product`  WHERE (`product`.`id`=:ypl0)
+2012/03/26 12:21:50 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT `product`.`id` AS `t1_c0`, `product`.`name` AS `t1_c1`, `product`.`image` AS `t1_c2`, `product`.`description` AS `t1_c3`, `product`.`price` AS `t1_c4`, `product`.`type` AS `t1_c5`, `product`.`option` AS `t1_c6` FROM `products` `product`  WHERE (`product`.`id`=:ypl0))
+2012/03/26 12:21:50 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT `product`.`id` AS `t1_c0`, `product`.`name` AS `t1_c1`, `product`.`image` AS `t1_c2`, `product`.`description` AS `t1_c3`, `product`.`price` AS `t1_c4`, `product`.`type` AS `t1_c5`, `product`.`option` AS `t1_c6` FROM `products` `product`  WHERE (`product`.`id`=:ypl0))
+2012/03/26 12:21:50 [trace] [system.CModule] Loading "widgetFactory" application component
+2012/03/26 12:21:50 [trace] [system.CModule] Loading "coreMessages" application component
+2012/03/26 12:21:50 [trace] [system.CModule] Loading "format" application component
+2012/03/26 12:21:50 [trace] [system.db.ar.CActiveRecord] OrdersHistory.count()
+2012/03/26 12:21:50 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `orders_history` `t` WHERE order_id = 96
+2012/03/26 12:21:50 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT COUNT(*) FROM `orders_history` `t` WHERE order_id = 96)
+2012/03/26 12:21:50 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT COUNT(*) FROM `orders_history` `t` WHERE order_id = 96)
+2012/03/26 12:21:50 [trace] [system.db.ar.CActiveRecord] OrdersHistory.findAll()
+2012/03/26 12:21:50 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `orders_history` `t` WHERE order_id = 96 ORDER BY time ASC LIMIT 10
+2012/03/26 12:21:50 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `orders_history` `t` WHERE order_id = 96 ORDER BY time ASC LIMIT 10)
+2012/03/26 12:21:50 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `orders_history` `t` WHERE order_id = 96 ORDER BY time ASC LIMIT 10)
+2012/03/26 12:21:50 [trace] [system.db.ar.CActiveRecord] lazy loading OrdersHistory.user
+2012/03/26 12:21:50 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `users`
+2012/03/26 12:21:50 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `users`)
+2012/03/26 12:21:50 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `users`)
+2012/03/26 12:21:50 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `users`
+2012/03/26 12:21:50 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `users`)
+2012/03/26 12:21:50 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `users`)
+2012/03/26 12:21:50 [trace] [system.db.CDbCommand] Querying SQL: SELECT `user`.`id` AS `t1_c0`, `user`.`username` AS `t1_c1`, `user`.`password` AS `t1_c2`, `user`.`role` AS `t1_c3`, `user`.`full_name` AS `t1_c4`, `user`.`birthday` AS `t1_c5`, `user`.`idcard` AS `t1_c6`, `user`.`work` AS `t1_c7`, `user`.`address1` AS `t1_c8`, `user`.`address2` AS `t1_c9`, `user`.`email` AS `t1_c10`, `user`.`tel` AS `t1_c11`, `user`.`yahoo` AS `t1_c12`, `user`.`skype` AS `t1_c13`, `user`.`last_login` AS `t1_c14` FROM `users` `user`  WHERE (`user`.`id`=:ypl0)
+2012/03/26 12:21:50 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT `user`.`id` AS `t1_c0`, `user`.`username` AS `t1_c1`, `user`.`password` AS `t1_c2`, `user`.`role` AS `t1_c3`, `user`.`full_name` AS `t1_c4`, `user`.`birthday` AS `t1_c5`, `user`.`idcard` AS `t1_c6`, `user`.`work` AS `t1_c7`, `user`.`address1` AS `t1_c8`, `user`.`address2` AS `t1_c9`, `user`.`email` AS `t1_c10`, `user`.`tel` AS `t1_c11`, `user`.`yahoo` AS `t1_c12`, `user`.`skype` AS `t1_c13`, `user`.`last_login` AS `t1_c14` FROM `users` `user`  WHERE (`user`.`id`=:ypl0))
+2012/03/26 12:21:50 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT `user`.`id` AS `t1_c0`, `user`.`username` AS `t1_c1`, `user`.`password` AS `t1_c2`, `user`.`role` AS `t1_c3`, `user`.`full_name` AS `t1_c4`, `user`.`birthday` AS `t1_c5`, `user`.`idcard` AS `t1_c6`, `user`.`work` AS `t1_c7`, `user`.`address1` AS `t1_c8`, `user`.`address2` AS `t1_c9`, `user`.`email` AS `t1_c10`, `user`.`tel` AS `t1_c11`, `user`.`yahoo` AS `t1_c12`, `user`.`skype` AS `t1_c13`, `user`.`last_login` AS `t1_c14` FROM `users` `user`  WHERE (`user`.`id`=:ypl0))
+2012/03/26 12:21:51 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 12:21:51 [trace] [system.CModule] Loading "bootstrap" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 12:21:51 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (62)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 12:21:51 [trace] [system.CModule] Loading "assetManager" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (351)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (62)
+2012/03/26 12:21:51 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (351)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (62)
+2012/03/26 12:21:51 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 12:21:51 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 12:21:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"themes/krisp/images/favicon.ico"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('themes/krisp/im...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/themes/krisp/images/favicon.ico
+---
+2012/03/26 12:21:51 [trace] [system.CModule] Loading "errorHandler" application component
+2012/03/26 12:21:51 [trace] [system.CModule] Loading "themeManager" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/26 12:21:51 [trace] [system.CModule] Loading "messages" application component
+in D:\xampp\htdocs\seikou\protected\globals.php (117)
+in D:\xampp\htdocs\seikou\themes\krisp\views\layouts\main.php (43)
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/26 12:21:51 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\seikou\themes\krisp\views\layouts\main.php (64)
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/26 12:21:51 [trace] [system.CModule] Loading "user" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\widgets\BootAlert.php (58)
+in D:\xampp\htdocs\seikou\themes\krisp\views\layouts\main.php (65)
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/26 12:21:51 [trace] [system.CModule] Loading "session" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\widgets\BootAlert.php (58)
+in D:\xampp\htdocs\seikou\themes\krisp\views\layouts\main.php (65)
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/26 12:22:20 [trace] [system.CModule] Loading "log" application component
+2012/03/26 12:22:20 [trace] [system.CModule] Loading "request" application component
+2012/03/26 12:22:20 [trace] [system.CModule] Loading "bootstrap" application component
+2012/03/26 12:22:20 [trace] [system.CModule] Loading "clientScript" application component
+2012/03/26 12:22:20 [trace] [system.CModule] Loading "assetManager" application component
+2012/03/26 12:22:20 [trace] [system.CModule] Loading "viewRenderer" application component
+2012/03/26 12:22:20 [trace] [system.CModule] Loading "db" application component
+2012/03/26 12:22:20 [trace] [system.db.CDbConnection] Opening DB connection
+2012/03/26 12:22:21 [trace] [system.CModule] Loading "urlManager" application component
+2012/03/26 12:22:21 [trace] [system.web.filters.CFilterChain] Running filter HistoryController.filteraccessControl()
+2012/03/26 12:22:21 [trace] [system.CModule] Loading "user" application component
+2012/03/26 12:22:21 [trace] [system.CModule] Loading "session" application component
+2012/03/26 12:22:21 [trace] [system.CModule] Loading "messages" application component
+2012/03/26 12:22:21 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `orders`
+2012/03/26 12:22:21 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `orders`)
+2012/03/26 12:22:21 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `orders`)
+2012/03/26 12:22:21 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `orders`
+2012/03/26 12:22:21 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `orders`)
+2012/03/26 12:22:21 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `orders`)
+2012/03/26 12:22:21 [trace] [system.db.ar.CActiveRecord] Orders.findByPk()
+2012/03/26 12:22:21 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `orders` `t` WHERE `t`.`id`=96 LIMIT 1
+2012/03/26 12:22:21 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `orders` `t` WHERE `t`.`id`=96 LIMIT 1)
+2012/03/26 12:22:21 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `orders` `t` WHERE `t`.`id`=96 LIMIT 1)
+2012/03/26 12:22:21 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `orders_history`
+2012/03/26 12:22:21 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `orders_history`)
+2012/03/26 12:22:21 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `orders_history`)
+2012/03/26 12:22:21 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `orders_history`
+2012/03/26 12:22:21 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `orders_history`)
+2012/03/26 12:22:21 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `orders_history`)
+2012/03/26 12:22:21 [trace] [system.CModule] Loading "themeManager" application component
+2012/03/26 12:22:21 [trace] [system.db.ar.CActiveRecord] lazy loading Orders.product
+2012/03/26 12:22:21 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `products`
+2012/03/26 12:22:21 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `products`)
+2012/03/26 12:22:21 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `products`)
+2012/03/26 12:22:21 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `products`
+2012/03/26 12:22:21 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `products`)
+2012/03/26 12:22:21 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `products`)
+2012/03/26 12:22:21 [trace] [system.db.CDbCommand] Querying SQL: SELECT `product`.`id` AS `t1_c0`, `product`.`name` AS `t1_c1`, `product`.`image` AS `t1_c2`, `product`.`description` AS `t1_c3`, `product`.`price` AS `t1_c4`, `product`.`type` AS `t1_c5`, `product`.`option` AS `t1_c6` FROM `products` `product`  WHERE (`product`.`id`=:ypl0)
+2012/03/26 12:22:21 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT `product`.`id` AS `t1_c0`, `product`.`name` AS `t1_c1`, `product`.`image` AS `t1_c2`, `product`.`description` AS `t1_c3`, `product`.`price` AS `t1_c4`, `product`.`type` AS `t1_c5`, `product`.`option` AS `t1_c6` FROM `products` `product`  WHERE (`product`.`id`=:ypl0))
+2012/03/26 12:22:21 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT `product`.`id` AS `t1_c0`, `product`.`name` AS `t1_c1`, `product`.`image` AS `t1_c2`, `product`.`description` AS `t1_c3`, `product`.`price` AS `t1_c4`, `product`.`type` AS `t1_c5`, `product`.`option` AS `t1_c6` FROM `products` `product`  WHERE (`product`.`id`=:ypl0))
+2012/03/26 12:22:21 [trace] [system.CModule] Loading "widgetFactory" application component
+2012/03/26 12:22:21 [trace] [system.CModule] Loading "coreMessages" application component
+2012/03/26 12:22:21 [trace] [system.CModule] Loading "format" application component
+2012/03/26 12:22:21 [trace] [system.db.ar.CActiveRecord] OrdersHistory.count()
+2012/03/26 12:22:21 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `orders_history` `t` WHERE order_id = 96
+2012/03/26 12:22:21 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT COUNT(*) FROM `orders_history` `t` WHERE order_id = 96)
+2012/03/26 12:22:21 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT COUNT(*) FROM `orders_history` `t` WHERE order_id = 96)
+2012/03/26 12:22:21 [trace] [system.db.ar.CActiveRecord] OrdersHistory.findAll()
+2012/03/26 12:22:21 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `orders_history` `t` WHERE order_id = 96 ORDER BY time ASC LIMIT 10
+2012/03/26 12:22:21 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `orders_history` `t` WHERE order_id = 96 ORDER BY time ASC LIMIT 10)
+2012/03/26 12:22:21 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `orders_history` `t` WHERE order_id = 96 ORDER BY time ASC LIMIT 10)
+2012/03/26 12:22:21 [trace] [system.db.ar.CActiveRecord] lazy loading OrdersHistory.user
+2012/03/26 12:22:21 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `users`
+2012/03/26 12:22:21 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `users`)
+2012/03/26 12:22:21 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `users`)
+2012/03/26 12:22:21 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `users`
+2012/03/26 12:22:21 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `users`)
+2012/03/26 12:22:21 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `users`)
+2012/03/26 12:22:21 [trace] [system.db.CDbCommand] Querying SQL: SELECT `user`.`id` AS `t1_c0`, `user`.`username` AS `t1_c1`, `user`.`password` AS `t1_c2`, `user`.`role` AS `t1_c3`, `user`.`full_name` AS `t1_c4`, `user`.`birthday` AS `t1_c5`, `user`.`idcard` AS `t1_c6`, `user`.`work` AS `t1_c7`, `user`.`address1` AS `t1_c8`, `user`.`address2` AS `t1_c9`, `user`.`email` AS `t1_c10`, `user`.`tel` AS `t1_c11`, `user`.`yahoo` AS `t1_c12`, `user`.`skype` AS `t1_c13`, `user`.`last_login` AS `t1_c14` FROM `users` `user`  WHERE (`user`.`id`=:ypl0)
+2012/03/26 12:22:21 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT `user`.`id` AS `t1_c0`, `user`.`username` AS `t1_c1`, `user`.`password` AS `t1_c2`, `user`.`role` AS `t1_c3`, `user`.`full_name` AS `t1_c4`, `user`.`birthday` AS `t1_c5`, `user`.`idcard` AS `t1_c6`, `user`.`work` AS `t1_c7`, `user`.`address1` AS `t1_c8`, `user`.`address2` AS `t1_c9`, `user`.`email` AS `t1_c10`, `user`.`tel` AS `t1_c11`, `user`.`yahoo` AS `t1_c12`, `user`.`skype` AS `t1_c13`, `user`.`last_login` AS `t1_c14` FROM `users` `user`  WHERE (`user`.`id`=:ypl0))
+2012/03/26 12:22:21 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT `user`.`id` AS `t1_c0`, `user`.`username` AS `t1_c1`, `user`.`password` AS `t1_c2`, `user`.`role` AS `t1_c3`, `user`.`full_name` AS `t1_c4`, `user`.`birthday` AS `t1_c5`, `user`.`idcard` AS `t1_c6`, `user`.`work` AS `t1_c7`, `user`.`address1` AS `t1_c8`, `user`.`address2` AS `t1_c9`, `user`.`email` AS `t1_c10`, `user`.`tel` AS `t1_c11`, `user`.`yahoo` AS `t1_c12`, `user`.`skype` AS `t1_c13`, `user`.`last_login` AS `t1_c14` FROM `users` `user`  WHERE (`user`.`id`=:ypl0))
+2012/03/26 12:22:21 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 12:22:21 [trace] [system.CModule] Loading "bootstrap" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 12:22:21 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (62)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 12:22:21 [trace] [system.CModule] Loading "assetManager" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (351)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (62)
+2012/03/26 12:22:21 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (351)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (62)
+2012/03/26 12:22:21 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 12:22:21 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 12:22:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"themes/krisp/images/favicon.ico"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('themes/krisp/im...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/themes/krisp/images/favicon.ico
+---
+2012/03/26 12:22:21 [trace] [system.CModule] Loading "errorHandler" application component
+2012/03/26 12:22:21 [trace] [system.CModule] Loading "themeManager" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/26 12:22:21 [trace] [system.CModule] Loading "messages" application component
+in D:\xampp\htdocs\seikou\protected\globals.php (117)
+in D:\xampp\htdocs\seikou\themes\krisp\views\layouts\main.php (43)
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/26 12:22:21 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\seikou\themes\krisp\views\layouts\main.php (64)
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/26 12:22:21 [trace] [system.CModule] Loading "user" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\widgets\BootAlert.php (58)
+in D:\xampp\htdocs\seikou\themes\krisp\views\layouts\main.php (65)
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/26 12:22:21 [trace] [system.CModule] Loading "session" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\widgets\BootAlert.php (58)
+in D:\xampp\htdocs\seikou\themes\krisp\views\layouts\main.php (65)
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/26 12:23:47 [trace] [system.CModule] Loading "log" application component
+2012/03/26 12:23:47 [trace] [system.CModule] Loading "request" application component
+2012/03/26 12:23:47 [trace] [system.CModule] Loading "bootstrap" application component
+2012/03/26 12:23:47 [trace] [system.CModule] Loading "clientScript" application component
+2012/03/26 12:23:47 [trace] [system.CModule] Loading "assetManager" application component
+2012/03/26 12:23:47 [trace] [system.CModule] Loading "viewRenderer" application component
+2012/03/26 12:23:47 [trace] [system.CModule] Loading "db" application component
+2012/03/26 12:23:47 [trace] [system.db.CDbConnection] Opening DB connection
+2012/03/26 12:23:47 [trace] [system.CModule] Loading "urlManager" application component
+2012/03/26 12:23:47 [trace] [system.web.filters.CFilterChain] Running filter HistoryController.filteraccessControl()
+2012/03/26 12:23:47 [trace] [system.CModule] Loading "user" application component
+2012/03/26 12:23:47 [trace] [system.CModule] Loading "session" application component
+2012/03/26 12:23:47 [trace] [system.CModule] Loading "messages" application component
+2012/03/26 12:23:47 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `orders`
+2012/03/26 12:23:47 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `orders`)
+2012/03/26 12:23:47 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `orders`)
+2012/03/26 12:23:47 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `orders`
+2012/03/26 12:23:47 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `orders`)
+2012/03/26 12:23:47 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `orders`)
+2012/03/26 12:23:47 [trace] [system.db.ar.CActiveRecord] Orders.findByPk()
+2012/03/26 12:23:47 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `orders` `t` WHERE `t`.`id`=96 LIMIT 1
+2012/03/26 12:23:47 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `orders` `t` WHERE `t`.`id`=96 LIMIT 1)
+2012/03/26 12:23:47 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `orders` `t` WHERE `t`.`id`=96 LIMIT 1)
+2012/03/26 12:23:47 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `orders_history`
+2012/03/26 12:23:47 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `orders_history`)
+2012/03/26 12:23:47 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `orders_history`)
+2012/03/26 12:23:47 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `orders_history`
+2012/03/26 12:23:47 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `orders_history`)
+2012/03/26 12:23:47 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `orders_history`)
+2012/03/26 12:23:47 [trace] [system.CModule] Loading "themeManager" application component
+2012/03/26 12:23:47 [trace] [system.db.ar.CActiveRecord] lazy loading Orders.product
+2012/03/26 12:23:47 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `products`
+2012/03/26 12:23:47 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `products`)
+2012/03/26 12:23:47 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `products`)
+2012/03/26 12:23:47 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `products`
+2012/03/26 12:23:47 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `products`)
+2012/03/26 12:23:47 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `products`)
+2012/03/26 12:23:47 [trace] [system.db.CDbCommand] Querying SQL: SELECT `product`.`id` AS `t1_c0`, `product`.`name` AS `t1_c1`, `product`.`image` AS `t1_c2`, `product`.`description` AS `t1_c3`, `product`.`price` AS `t1_c4`, `product`.`type` AS `t1_c5`, `product`.`option` AS `t1_c6` FROM `products` `product`  WHERE (`product`.`id`=:ypl0)
+2012/03/26 12:23:47 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT `product`.`id` AS `t1_c0`, `product`.`name` AS `t1_c1`, `product`.`image` AS `t1_c2`, `product`.`description` AS `t1_c3`, `product`.`price` AS `t1_c4`, `product`.`type` AS `t1_c5`, `product`.`option` AS `t1_c6` FROM `products` `product`  WHERE (`product`.`id`=:ypl0))
+2012/03/26 12:23:47 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT `product`.`id` AS `t1_c0`, `product`.`name` AS `t1_c1`, `product`.`image` AS `t1_c2`, `product`.`description` AS `t1_c3`, `product`.`price` AS `t1_c4`, `product`.`type` AS `t1_c5`, `product`.`option` AS `t1_c6` FROM `products` `product`  WHERE (`product`.`id`=:ypl0))
+2012/03/26 12:23:47 [trace] [system.CModule] Loading "widgetFactory" application component
+2012/03/26 12:23:47 [trace] [system.CModule] Loading "coreMessages" application component
+2012/03/26 12:23:47 [trace] [system.CModule] Loading "format" application component
+2012/03/26 12:23:47 [trace] [system.db.ar.CActiveRecord] OrdersHistory.count()
+2012/03/26 12:23:47 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `orders_history` `t` WHERE order_id = 96
+2012/03/26 12:23:47 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT COUNT(*) FROM `orders_history` `t` WHERE order_id = 96)
+2012/03/26 12:23:47 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT COUNT(*) FROM `orders_history` `t` WHERE order_id = 96)
+2012/03/26 12:23:47 [trace] [system.db.ar.CActiveRecord] OrdersHistory.findAll()
+2012/03/26 12:23:47 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `orders_history` `t` WHERE order_id = 96 ORDER BY time ASC LIMIT 10
+2012/03/26 12:23:47 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `orders_history` `t` WHERE order_id = 96 ORDER BY time ASC LIMIT 10)
+2012/03/26 12:23:47 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `orders_history` `t` WHERE order_id = 96 ORDER BY time ASC LIMIT 10)
+2012/03/26 12:23:47 [trace] [system.db.ar.CActiveRecord] lazy loading OrdersHistory.user
+2012/03/26 12:23:47 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `users`
+2012/03/26 12:23:47 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `users`)
+2012/03/26 12:23:47 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `users`)
+2012/03/26 12:23:47 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `users`
+2012/03/26 12:23:47 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `users`)
+2012/03/26 12:23:47 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `users`)
+2012/03/26 12:23:47 [trace] [system.db.CDbCommand] Querying SQL: SELECT `user`.`id` AS `t1_c0`, `user`.`username` AS `t1_c1`, `user`.`password` AS `t1_c2`, `user`.`role` AS `t1_c3`, `user`.`full_name` AS `t1_c4`, `user`.`birthday` AS `t1_c5`, `user`.`idcard` AS `t1_c6`, `user`.`work` AS `t1_c7`, `user`.`address1` AS `t1_c8`, `user`.`address2` AS `t1_c9`, `user`.`email` AS `t1_c10`, `user`.`tel` AS `t1_c11`, `user`.`yahoo` AS `t1_c12`, `user`.`skype` AS `t1_c13`, `user`.`last_login` AS `t1_c14` FROM `users` `user`  WHERE (`user`.`id`=:ypl0)
+2012/03/26 12:23:47 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT `user`.`id` AS `t1_c0`, `user`.`username` AS `t1_c1`, `user`.`password` AS `t1_c2`, `user`.`role` AS `t1_c3`, `user`.`full_name` AS `t1_c4`, `user`.`birthday` AS `t1_c5`, `user`.`idcard` AS `t1_c6`, `user`.`work` AS `t1_c7`, `user`.`address1` AS `t1_c8`, `user`.`address2` AS `t1_c9`, `user`.`email` AS `t1_c10`, `user`.`tel` AS `t1_c11`, `user`.`yahoo` AS `t1_c12`, `user`.`skype` AS `t1_c13`, `user`.`last_login` AS `t1_c14` FROM `users` `user`  WHERE (`user`.`id`=:ypl0))
+2012/03/26 12:23:47 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT `user`.`id` AS `t1_c0`, `user`.`username` AS `t1_c1`, `user`.`password` AS `t1_c2`, `user`.`role` AS `t1_c3`, `user`.`full_name` AS `t1_c4`, `user`.`birthday` AS `t1_c5`, `user`.`idcard` AS `t1_c6`, `user`.`work` AS `t1_c7`, `user`.`address1` AS `t1_c8`, `user`.`address2` AS `t1_c9`, `user`.`email` AS `t1_c10`, `user`.`tel` AS `t1_c11`, `user`.`yahoo` AS `t1_c12`, `user`.`skype` AS `t1_c13`, `user`.`last_login` AS `t1_c14` FROM `users` `user`  WHERE (`user`.`id`=:ypl0))
+2012/03/26 12:23:47 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 12:23:47 [trace] [system.CModule] Loading "bootstrap" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 12:23:47 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (62)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 12:23:47 [trace] [system.CModule] Loading "assetManager" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (351)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (62)
+2012/03/26 12:23:47 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (351)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (62)
+2012/03/26 12:23:47 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 12:23:47 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 12:23:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"themes/krisp/images/favicon.ico"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('themes/krisp/im...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/themes/krisp/images/favicon.ico
+---
+2012/03/26 12:23:47 [trace] [system.CModule] Loading "errorHandler" application component
+2012/03/26 12:23:47 [trace] [system.CModule] Loading "themeManager" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/26 12:23:47 [trace] [system.CModule] Loading "messages" application component
+in D:\xampp\htdocs\seikou\protected\globals.php (117)
+in D:\xampp\htdocs\seikou\themes\krisp\views\layouts\main.php (43)
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/26 12:23:47 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\seikou\themes\krisp\views\layouts\main.php (64)
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/26 12:23:47 [trace] [system.CModule] Loading "user" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\widgets\BootAlert.php (58)
+in D:\xampp\htdocs\seikou\themes\krisp\views\layouts\main.php (65)
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/26 12:23:47 [trace] [system.CModule] Loading "session" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\widgets\BootAlert.php (58)
+in D:\xampp\htdocs\seikou\themes\krisp\views\layouts\main.php (65)
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/26 12:25:00 [trace] [system.CModule] Loading "log" application component
+2012/03/26 12:25:00 [trace] [system.CModule] Loading "request" application component
+2012/03/26 12:25:00 [trace] [system.CModule] Loading "bootstrap" application component
+2012/03/26 12:25:00 [trace] [system.CModule] Loading "clientScript" application component
+2012/03/26 12:25:00 [trace] [system.CModule] Loading "assetManager" application component
+2012/03/26 12:25:00 [trace] [system.CModule] Loading "viewRenderer" application component
+2012/03/26 12:25:00 [trace] [system.CModule] Loading "db" application component
+2012/03/26 12:25:00 [trace] [system.db.CDbConnection] Opening DB connection
+2012/03/26 12:25:00 [trace] [system.CModule] Loading "urlManager" application component
+2012/03/26 12:25:00 [trace] [system.web.filters.CFilterChain] Running filter HistoryController.filteraccessControl()
+2012/03/26 12:25:00 [trace] [system.CModule] Loading "user" application component
+2012/03/26 12:25:00 [trace] [system.CModule] Loading "session" application component
+2012/03/26 12:25:00 [trace] [system.CModule] Loading "messages" application component
+2012/03/26 12:25:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `orders`
+2012/03/26 12:25:00 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `orders`)
+2012/03/26 12:25:00 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `orders`)
+2012/03/26 12:25:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `orders`
+2012/03/26 12:25:00 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `orders`)
+2012/03/26 12:25:00 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `orders`)
+2012/03/26 12:25:00 [trace] [system.db.ar.CActiveRecord] Orders.findByPk()
+2012/03/26 12:25:00 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `orders` `t` WHERE `t`.`id`=96 LIMIT 1
+2012/03/26 12:25:00 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `orders` `t` WHERE `t`.`id`=96 LIMIT 1)
+2012/03/26 12:25:00 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `orders` `t` WHERE `t`.`id`=96 LIMIT 1)
+2012/03/26 12:25:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `orders_history`
+2012/03/26 12:25:00 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `orders_history`)
+2012/03/26 12:25:00 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `orders_history`)
+2012/03/26 12:25:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `orders_history`
+2012/03/26 12:25:00 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `orders_history`)
+2012/03/26 12:25:00 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `orders_history`)
+2012/03/26 12:25:00 [trace] [system.CModule] Loading "themeManager" application component
+2012/03/26 12:25:00 [trace] [system.db.ar.CActiveRecord] lazy loading Orders.product
+2012/03/26 12:25:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `products`
+2012/03/26 12:25:00 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `products`)
+2012/03/26 12:25:00 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `products`)
+2012/03/26 12:25:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `products`
+2012/03/26 12:25:00 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `products`)
+2012/03/26 12:25:00 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `products`)
+2012/03/26 12:25:00 [trace] [system.db.CDbCommand] Querying SQL: SELECT `product`.`id` AS `t1_c0`, `product`.`name` AS `t1_c1`, `product`.`image` AS `t1_c2`, `product`.`description` AS `t1_c3`, `product`.`price` AS `t1_c4`, `product`.`type` AS `t1_c5`, `product`.`option` AS `t1_c6` FROM `products` `product`  WHERE (`product`.`id`=:ypl0)
+2012/03/26 12:25:00 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT `product`.`id` AS `t1_c0`, `product`.`name` AS `t1_c1`, `product`.`image` AS `t1_c2`, `product`.`description` AS `t1_c3`, `product`.`price` AS `t1_c4`, `product`.`type` AS `t1_c5`, `product`.`option` AS `t1_c6` FROM `products` `product`  WHERE (`product`.`id`=:ypl0))
+2012/03/26 12:25:00 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT `product`.`id` AS `t1_c0`, `product`.`name` AS `t1_c1`, `product`.`image` AS `t1_c2`, `product`.`description` AS `t1_c3`, `product`.`price` AS `t1_c4`, `product`.`type` AS `t1_c5`, `product`.`option` AS `t1_c6` FROM `products` `product`  WHERE (`product`.`id`=:ypl0))
+2012/03/26 12:25:00 [trace] [system.CModule] Loading "widgetFactory" application component
+2012/03/26 12:25:00 [trace] [system.CModule] Loading "coreMessages" application component
+2012/03/26 12:25:00 [trace] [system.CModule] Loading "format" application component
+2012/03/26 12:25:00 [trace] [system.db.ar.CActiveRecord] OrdersHistory.count()
+2012/03/26 12:25:00 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `orders_history` `t` WHERE order_id = 96
+2012/03/26 12:25:00 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT COUNT(*) FROM `orders_history` `t` WHERE order_id = 96)
+2012/03/26 12:25:00 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT COUNT(*) FROM `orders_history` `t` WHERE order_id = 96)
+2012/03/26 12:25:00 [trace] [system.db.ar.CActiveRecord] OrdersHistory.findAll()
+2012/03/26 12:25:00 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `orders_history` `t` WHERE order_id = 96 ORDER BY time ASC LIMIT 10
+2012/03/26 12:25:00 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `orders_history` `t` WHERE order_id = 96 ORDER BY time ASC LIMIT 10)
+2012/03/26 12:25:00 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `orders_history` `t` WHERE order_id = 96 ORDER BY time ASC LIMIT 10)
+2012/03/26 12:25:00 [trace] [system.db.ar.CActiveRecord] lazy loading OrdersHistory.user
+2012/03/26 12:25:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `users`
+2012/03/26 12:25:00 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `users`)
+2012/03/26 12:25:00 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `users`)
+2012/03/26 12:25:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `users`
+2012/03/26 12:25:00 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `users`)
+2012/03/26 12:25:00 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `users`)
+2012/03/26 12:25:00 [trace] [system.db.CDbCommand] Querying SQL: SELECT `user`.`id` AS `t1_c0`, `user`.`username` AS `t1_c1`, `user`.`password` AS `t1_c2`, `user`.`role` AS `t1_c3`, `user`.`full_name` AS `t1_c4`, `user`.`birthday` AS `t1_c5`, `user`.`idcard` AS `t1_c6`, `user`.`work` AS `t1_c7`, `user`.`address1` AS `t1_c8`, `user`.`address2` AS `t1_c9`, `user`.`email` AS `t1_c10`, `user`.`tel` AS `t1_c11`, `user`.`yahoo` AS `t1_c12`, `user`.`skype` AS `t1_c13`, `user`.`last_login` AS `t1_c14` FROM `users` `user`  WHERE (`user`.`id`=:ypl0)
+2012/03/26 12:25:00 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT `user`.`id` AS `t1_c0`, `user`.`username` AS `t1_c1`, `user`.`password` AS `t1_c2`, `user`.`role` AS `t1_c3`, `user`.`full_name` AS `t1_c4`, `user`.`birthday` AS `t1_c5`, `user`.`idcard` AS `t1_c6`, `user`.`work` AS `t1_c7`, `user`.`address1` AS `t1_c8`, `user`.`address2` AS `t1_c9`, `user`.`email` AS `t1_c10`, `user`.`tel` AS `t1_c11`, `user`.`yahoo` AS `t1_c12`, `user`.`skype` AS `t1_c13`, `user`.`last_login` AS `t1_c14` FROM `users` `user`  WHERE (`user`.`id`=:ypl0))
+2012/03/26 12:25:00 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT `user`.`id` AS `t1_c0`, `user`.`username` AS `t1_c1`, `user`.`password` AS `t1_c2`, `user`.`role` AS `t1_c3`, `user`.`full_name` AS `t1_c4`, `user`.`birthday` AS `t1_c5`, `user`.`idcard` AS `t1_c6`, `user`.`work` AS `t1_c7`, `user`.`address1` AS `t1_c8`, `user`.`address2` AS `t1_c9`, `user`.`email` AS `t1_c10`, `user`.`tel` AS `t1_c11`, `user`.`yahoo` AS `t1_c12`, `user`.`skype` AS `t1_c13`, `user`.`last_login` AS `t1_c14` FROM `users` `user`  WHERE (`user`.`id`=:ypl0))
+2012/03/26 12:25:00 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 12:25:00 [trace] [system.CModule] Loading "bootstrap" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 12:25:00 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (62)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 12:25:00 [trace] [system.CModule] Loading "assetManager" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (351)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (62)
+2012/03/26 12:25:00 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (351)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (62)
+2012/03/26 12:25:00 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 12:25:00 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 12:25:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"themes/krisp/images/favicon.ico"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('themes/krisp/im...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/themes/krisp/images/favicon.ico
+---
+2012/03/26 12:25:00 [trace] [system.CModule] Loading "errorHandler" application component
+2012/03/26 12:25:00 [trace] [system.CModule] Loading "themeManager" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/26 12:25:00 [trace] [system.CModule] Loading "messages" application component
+in D:\xampp\htdocs\seikou\protected\globals.php (117)
+in D:\xampp\htdocs\seikou\themes\krisp\views\layouts\main.php (43)
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/26 12:25:00 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\seikou\themes\krisp\views\layouts\main.php (64)
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/26 12:25:00 [trace] [system.CModule] Loading "user" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\widgets\BootAlert.php (58)
+in D:\xampp\htdocs\seikou\themes\krisp\views\layouts\main.php (65)
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/26 12:25:00 [trace] [system.CModule] Loading "session" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\widgets\BootAlert.php (58)
+in D:\xampp\htdocs\seikou\themes\krisp\views\layouts\main.php (65)
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/26 12:25:46 [trace] [system.CModule] Loading "log" application component
+2012/03/26 12:25:46 [trace] [system.CModule] Loading "request" application component
+2012/03/26 12:25:46 [trace] [system.CModule] Loading "bootstrap" application component
+2012/03/26 12:25:46 [trace] [system.CModule] Loading "clientScript" application component
+2012/03/26 12:25:46 [trace] [system.CModule] Loading "assetManager" application component
+2012/03/26 12:25:46 [trace] [system.CModule] Loading "viewRenderer" application component
+2012/03/26 12:25:46 [trace] [system.CModule] Loading "db" application component
+2012/03/26 12:25:46 [trace] [system.db.CDbConnection] Opening DB connection
+2012/03/26 12:25:46 [trace] [system.CModule] Loading "urlManager" application component
+2012/03/26 12:25:46 [trace] [system.web.filters.CFilterChain] Running filter HistoryController.filteraccessControl()
+2012/03/26 12:25:46 [trace] [system.CModule] Loading "user" application component
+2012/03/26 12:25:46 [trace] [system.CModule] Loading "session" application component
+2012/03/26 12:25:46 [trace] [system.CModule] Loading "messages" application component
+2012/03/26 12:25:46 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `orders`
+2012/03/26 12:25:46 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `orders`)
+2012/03/26 12:25:46 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `orders`)
+2012/03/26 12:25:46 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `orders`
+2012/03/26 12:25:46 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `orders`)
+2012/03/26 12:25:46 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `orders`)
+2012/03/26 12:25:46 [trace] [system.db.ar.CActiveRecord] Orders.findByPk()
+2012/03/26 12:25:46 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `orders` `t` WHERE `t`.`id`=96 LIMIT 1
+2012/03/26 12:25:46 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `orders` `t` WHERE `t`.`id`=96 LIMIT 1)
+2012/03/26 12:25:46 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `orders` `t` WHERE `t`.`id`=96 LIMIT 1)
+2012/03/26 12:25:46 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `orders_history`
+2012/03/26 12:25:46 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `orders_history`)
+2012/03/26 12:25:46 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `orders_history`)
+2012/03/26 12:25:46 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `orders_history`
+2012/03/26 12:25:46 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `orders_history`)
+2012/03/26 12:25:46 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `orders_history`)
+2012/03/26 12:25:46 [trace] [system.CModule] Loading "themeManager" application component
+2012/03/26 12:25:46 [trace] [system.db.ar.CActiveRecord] lazy loading Orders.product
+2012/03/26 12:25:46 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `products`
+2012/03/26 12:25:46 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `products`)
+2012/03/26 12:25:46 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `products`)
+2012/03/26 12:25:46 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `products`
+2012/03/26 12:25:46 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `products`)
+2012/03/26 12:25:46 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `products`)
+2012/03/26 12:25:46 [trace] [system.db.CDbCommand] Querying SQL: SELECT `product`.`id` AS `t1_c0`, `product`.`name` AS `t1_c1`, `product`.`image` AS `t1_c2`, `product`.`description` AS `t1_c3`, `product`.`price` AS `t1_c4`, `product`.`type` AS `t1_c5`, `product`.`option` AS `t1_c6` FROM `products` `product`  WHERE (`product`.`id`=:ypl0)
+2012/03/26 12:25:46 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT `product`.`id` AS `t1_c0`, `product`.`name` AS `t1_c1`, `product`.`image` AS `t1_c2`, `product`.`description` AS `t1_c3`, `product`.`price` AS `t1_c4`, `product`.`type` AS `t1_c5`, `product`.`option` AS `t1_c6` FROM `products` `product`  WHERE (`product`.`id`=:ypl0))
+2012/03/26 12:25:46 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT `product`.`id` AS `t1_c0`, `product`.`name` AS `t1_c1`, `product`.`image` AS `t1_c2`, `product`.`description` AS `t1_c3`, `product`.`price` AS `t1_c4`, `product`.`type` AS `t1_c5`, `product`.`option` AS `t1_c6` FROM `products` `product`  WHERE (`product`.`id`=:ypl0))
+2012/03/26 12:25:46 [trace] [system.CModule] Loading "widgetFactory" application component
+2012/03/26 12:25:46 [trace] [system.CModule] Loading "coreMessages" application component
+2012/03/26 12:25:46 [trace] [system.CModule] Loading "format" application component
+2012/03/26 12:25:46 [trace] [system.db.ar.CActiveRecord] OrdersHistory.count()
+2012/03/26 12:25:46 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `orders_history` `t` WHERE order_id = 96
+2012/03/26 12:25:46 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT COUNT(*) FROM `orders_history` `t` WHERE order_id = 96)
+2012/03/26 12:25:46 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT COUNT(*) FROM `orders_history` `t` WHERE order_id = 96)
+2012/03/26 12:25:46 [trace] [system.db.ar.CActiveRecord] OrdersHistory.findAll()
+2012/03/26 12:25:46 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `orders_history` `t` WHERE order_id = 96 ORDER BY time ASC LIMIT 10
+2012/03/26 12:25:46 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `orders_history` `t` WHERE order_id = 96 ORDER BY time ASC LIMIT 10)
+2012/03/26 12:25:46 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `orders_history` `t` WHERE order_id = 96 ORDER BY time ASC LIMIT 10)
+2012/03/26 12:25:46 [trace] [system.db.ar.CActiveRecord] lazy loading OrdersHistory.user
+2012/03/26 12:25:46 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `users`
+2012/03/26 12:25:46 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `users`)
+2012/03/26 12:25:46 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `users`)
+2012/03/26 12:25:46 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `users`
+2012/03/26 12:25:46 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `users`)
+2012/03/26 12:25:46 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `users`)
+2012/03/26 12:25:46 [trace] [system.db.CDbCommand] Querying SQL: SELECT `user`.`id` AS `t1_c0`, `user`.`username` AS `t1_c1`, `user`.`password` AS `t1_c2`, `user`.`role` AS `t1_c3`, `user`.`full_name` AS `t1_c4`, `user`.`birthday` AS `t1_c5`, `user`.`idcard` AS `t1_c6`, `user`.`work` AS `t1_c7`, `user`.`address1` AS `t1_c8`, `user`.`address2` AS `t1_c9`, `user`.`email` AS `t1_c10`, `user`.`tel` AS `t1_c11`, `user`.`yahoo` AS `t1_c12`, `user`.`skype` AS `t1_c13`, `user`.`last_login` AS `t1_c14` FROM `users` `user`  WHERE (`user`.`id`=:ypl0)
+2012/03/26 12:25:46 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT `user`.`id` AS `t1_c0`, `user`.`username` AS `t1_c1`, `user`.`password` AS `t1_c2`, `user`.`role` AS `t1_c3`, `user`.`full_name` AS `t1_c4`, `user`.`birthday` AS `t1_c5`, `user`.`idcard` AS `t1_c6`, `user`.`work` AS `t1_c7`, `user`.`address1` AS `t1_c8`, `user`.`address2` AS `t1_c9`, `user`.`email` AS `t1_c10`, `user`.`tel` AS `t1_c11`, `user`.`yahoo` AS `t1_c12`, `user`.`skype` AS `t1_c13`, `user`.`last_login` AS `t1_c14` FROM `users` `user`  WHERE (`user`.`id`=:ypl0))
+2012/03/26 12:25:46 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT `user`.`id` AS `t1_c0`, `user`.`username` AS `t1_c1`, `user`.`password` AS `t1_c2`, `user`.`role` AS `t1_c3`, `user`.`full_name` AS `t1_c4`, `user`.`birthday` AS `t1_c5`, `user`.`idcard` AS `t1_c6`, `user`.`work` AS `t1_c7`, `user`.`address1` AS `t1_c8`, `user`.`address2` AS `t1_c9`, `user`.`email` AS `t1_c10`, `user`.`tel` AS `t1_c11`, `user`.`yahoo` AS `t1_c12`, `user`.`skype` AS `t1_c13`, `user`.`last_login` AS `t1_c14` FROM `users` `user`  WHERE (`user`.`id`=:ypl0))
+2012/03/26 12:25:47 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 12:25:47 [trace] [system.CModule] Loading "bootstrap" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 12:25:47 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (62)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 12:25:47 [trace] [system.CModule] Loading "assetManager" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (351)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (62)
+2012/03/26 12:25:47 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (351)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (62)
+2012/03/26 12:25:47 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 12:25:47 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 12:25:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"themes/krisp/images/favicon.ico"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('themes/krisp/im...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/themes/krisp/images/favicon.ico
+---
+2012/03/26 12:25:47 [trace] [system.CModule] Loading "errorHandler" application component
+2012/03/26 12:25:47 [trace] [system.CModule] Loading "themeManager" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/26 12:25:47 [trace] [system.CModule] Loading "messages" application component
+in D:\xampp\htdocs\seikou\protected\globals.php (117)
+in D:\xampp\htdocs\seikou\themes\krisp\views\layouts\main.php (43)
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/26 12:25:47 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\seikou\themes\krisp\views\layouts\main.php (64)
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/26 12:25:47 [trace] [system.CModule] Loading "user" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\widgets\BootAlert.php (58)
+in D:\xampp\htdocs\seikou\themes\krisp\views\layouts\main.php (65)
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/26 12:25:47 [trace] [system.CModule] Loading "session" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\widgets\BootAlert.php (58)
+in D:\xampp\htdocs\seikou\themes\krisp\views\layouts\main.php (65)
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/26 12:25:52 [trace] [system.CModule] Loading "log" application component
+2012/03/26 12:25:52 [trace] [system.CModule] Loading "request" application component
+2012/03/26 12:25:52 [trace] [system.CModule] Loading "bootstrap" application component
+2012/03/26 12:25:52 [trace] [system.CModule] Loading "clientScript" application component
+2012/03/26 12:25:52 [trace] [system.CModule] Loading "assetManager" application component
+2012/03/26 12:25:52 [trace] [system.CModule] Loading "viewRenderer" application component
+2012/03/26 12:25:52 [trace] [system.CModule] Loading "db" application component
+2012/03/26 12:25:52 [trace] [system.db.CDbConnection] Opening DB connection
+2012/03/26 12:25:52 [trace] [system.CModule] Loading "urlManager" application component
+2012/03/26 12:25:52 [trace] [system.web.filters.CFilterChain] Running filter HistoryController.filteraccessControl()
+2012/03/26 12:25:52 [trace] [system.CModule] Loading "user" application component
+2012/03/26 12:25:52 [trace] [system.CModule] Loading "session" application component
+2012/03/26 12:25:52 [trace] [system.CModule] Loading "messages" application component
+2012/03/26 12:25:52 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `orders`
+2012/03/26 12:25:52 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `orders`)
+2012/03/26 12:25:52 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `orders`)
+2012/03/26 12:25:52 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `orders`
+2012/03/26 12:25:52 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `orders`)
+2012/03/26 12:25:52 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `orders`)
+2012/03/26 12:25:52 [trace] [system.db.ar.CActiveRecord] Orders.findByPk()
+2012/03/26 12:25:52 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `orders` `t` WHERE `t`.`id`=96 LIMIT 1
+2012/03/26 12:25:52 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `orders` `t` WHERE `t`.`id`=96 LIMIT 1)
+2012/03/26 12:25:52 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `orders` `t` WHERE `t`.`id`=96 LIMIT 1)
+2012/03/26 12:25:52 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `orders_history`
+2012/03/26 12:25:52 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `orders_history`)
+2012/03/26 12:25:52 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `orders_history`)
+2012/03/26 12:25:52 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `orders_history`
+2012/03/26 12:25:52 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `orders_history`)
+2012/03/26 12:25:52 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `orders_history`)
+2012/03/26 12:25:52 [trace] [system.CModule] Loading "themeManager" application component
+2012/03/26 12:25:52 [trace] [system.db.ar.CActiveRecord] lazy loading Orders.product
+2012/03/26 12:25:52 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `products`
+2012/03/26 12:25:52 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `products`)
+2012/03/26 12:25:52 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `products`)
+2012/03/26 12:25:52 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `products`
+2012/03/26 12:25:52 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `products`)
+2012/03/26 12:25:52 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `products`)
+2012/03/26 12:25:52 [trace] [system.db.CDbCommand] Querying SQL: SELECT `product`.`id` AS `t1_c0`, `product`.`name` AS `t1_c1`, `product`.`image` AS `t1_c2`, `product`.`description` AS `t1_c3`, `product`.`price` AS `t1_c4`, `product`.`type` AS `t1_c5`, `product`.`option` AS `t1_c6` FROM `products` `product`  WHERE (`product`.`id`=:ypl0)
+2012/03/26 12:25:52 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT `product`.`id` AS `t1_c0`, `product`.`name` AS `t1_c1`, `product`.`image` AS `t1_c2`, `product`.`description` AS `t1_c3`, `product`.`price` AS `t1_c4`, `product`.`type` AS `t1_c5`, `product`.`option` AS `t1_c6` FROM `products` `product`  WHERE (`product`.`id`=:ypl0))
+2012/03/26 12:25:52 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT `product`.`id` AS `t1_c0`, `product`.`name` AS `t1_c1`, `product`.`image` AS `t1_c2`, `product`.`description` AS `t1_c3`, `product`.`price` AS `t1_c4`, `product`.`type` AS `t1_c5`, `product`.`option` AS `t1_c6` FROM `products` `product`  WHERE (`product`.`id`=:ypl0))
+2012/03/26 12:25:52 [trace] [system.CModule] Loading "widgetFactory" application component
+2012/03/26 12:25:52 [trace] [system.CModule] Loading "coreMessages" application component
+2012/03/26 12:25:52 [trace] [system.CModule] Loading "format" application component
+2012/03/26 12:25:52 [trace] [system.db.ar.CActiveRecord] OrdersHistory.count()
+2012/03/26 12:25:52 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `orders_history` `t` WHERE order_id = 96
+2012/03/26 12:25:52 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT COUNT(*) FROM `orders_history` `t` WHERE order_id = 96)
+2012/03/26 12:25:52 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT COUNT(*) FROM `orders_history` `t` WHERE order_id = 96)
+2012/03/26 12:25:52 [trace] [system.db.ar.CActiveRecord] OrdersHistory.findAll()
+2012/03/26 12:25:52 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `orders_history` `t` WHERE order_id = 96 ORDER BY time ASC LIMIT 10
+2012/03/26 12:25:52 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `orders_history` `t` WHERE order_id = 96 ORDER BY time ASC LIMIT 10)
+2012/03/26 12:25:52 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `orders_history` `t` WHERE order_id = 96 ORDER BY time ASC LIMIT 10)
+2012/03/26 12:25:52 [trace] [system.db.ar.CActiveRecord] lazy loading OrdersHistory.user
+2012/03/26 12:25:52 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `users`
+2012/03/26 12:25:52 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `users`)
+2012/03/26 12:25:52 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `users`)
+2012/03/26 12:25:52 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `users`
+2012/03/26 12:25:52 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `users`)
+2012/03/26 12:25:52 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `users`)
+2012/03/26 12:25:52 [trace] [system.db.CDbCommand] Querying SQL: SELECT `user`.`id` AS `t1_c0`, `user`.`username` AS `t1_c1`, `user`.`password` AS `t1_c2`, `user`.`role` AS `t1_c3`, `user`.`full_name` AS `t1_c4`, `user`.`birthday` AS `t1_c5`, `user`.`idcard` AS `t1_c6`, `user`.`work` AS `t1_c7`, `user`.`address1` AS `t1_c8`, `user`.`address2` AS `t1_c9`, `user`.`email` AS `t1_c10`, `user`.`tel` AS `t1_c11`, `user`.`yahoo` AS `t1_c12`, `user`.`skype` AS `t1_c13`, `user`.`last_login` AS `t1_c14` FROM `users` `user`  WHERE (`user`.`id`=:ypl0)
+2012/03/26 12:25:52 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT `user`.`id` AS `t1_c0`, `user`.`username` AS `t1_c1`, `user`.`password` AS `t1_c2`, `user`.`role` AS `t1_c3`, `user`.`full_name` AS `t1_c4`, `user`.`birthday` AS `t1_c5`, `user`.`idcard` AS `t1_c6`, `user`.`work` AS `t1_c7`, `user`.`address1` AS `t1_c8`, `user`.`address2` AS `t1_c9`, `user`.`email` AS `t1_c10`, `user`.`tel` AS `t1_c11`, `user`.`yahoo` AS `t1_c12`, `user`.`skype` AS `t1_c13`, `user`.`last_login` AS `t1_c14` FROM `users` `user`  WHERE (`user`.`id`=:ypl0))
+2012/03/26 12:25:52 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT `user`.`id` AS `t1_c0`, `user`.`username` AS `t1_c1`, `user`.`password` AS `t1_c2`, `user`.`role` AS `t1_c3`, `user`.`full_name` AS `t1_c4`, `user`.`birthday` AS `t1_c5`, `user`.`idcard` AS `t1_c6`, `user`.`work` AS `t1_c7`, `user`.`address1` AS `t1_c8`, `user`.`address2` AS `t1_c9`, `user`.`email` AS `t1_c10`, `user`.`tel` AS `t1_c11`, `user`.`yahoo` AS `t1_c12`, `user`.`skype` AS `t1_c13`, `user`.`last_login` AS `t1_c14` FROM `users` `user`  WHERE (`user`.`id`=:ypl0))
+2012/03/26 12:25:53 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 12:25:53 [trace] [system.CModule] Loading "bootstrap" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 12:25:53 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (62)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 12:25:53 [trace] [system.CModule] Loading "assetManager" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (351)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (62)
+2012/03/26 12:25:53 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (351)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (62)
+2012/03/26 12:25:53 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 12:25:53 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 12:25:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"themes/krisp/images/favicon.ico"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('themes/krisp/im...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/themes/krisp/images/favicon.ico
+---
+2012/03/26 12:25:53 [trace] [system.CModule] Loading "errorHandler" application component
+2012/03/26 12:25:53 [trace] [system.CModule] Loading "themeManager" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/26 12:25:53 [trace] [system.CModule] Loading "messages" application component
+in D:\xampp\htdocs\seikou\protected\globals.php (117)
+in D:\xampp\htdocs\seikou\themes\krisp\views\layouts\main.php (43)
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/26 12:25:53 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\seikou\themes\krisp\views\layouts\main.php (64)
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/26 12:25:53 [trace] [system.CModule] Loading "user" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\widgets\BootAlert.php (58)
+in D:\xampp\htdocs\seikou\themes\krisp\views\layouts\main.php (65)
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/26 12:25:53 [trace] [system.CModule] Loading "session" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\widgets\BootAlert.php (58)
+in D:\xampp\htdocs\seikou\themes\krisp\views\layouts\main.php (65)
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/26 12:26:37 [trace] [system.CModule] Loading "log" application component
+2012/03/26 12:26:37 [trace] [system.CModule] Loading "request" application component
+2012/03/26 12:26:37 [trace] [system.CModule] Loading "bootstrap" application component
+2012/03/26 12:26:37 [trace] [system.CModule] Loading "clientScript" application component
+2012/03/26 12:26:37 [trace] [system.CModule] Loading "assetManager" application component
+2012/03/26 12:26:37 [trace] [system.CModule] Loading "viewRenderer" application component
+2012/03/26 12:26:37 [trace] [system.CModule] Loading "db" application component
+2012/03/26 12:26:37 [trace] [system.db.CDbConnection] Opening DB connection
+2012/03/26 12:26:37 [trace] [system.CModule] Loading "urlManager" application component
+2012/03/26 12:26:37 [trace] [system.web.filters.CFilterChain] Running filter HistoryController.filteraccessControl()
+2012/03/26 12:26:37 [trace] [system.CModule] Loading "user" application component
+2012/03/26 12:26:37 [trace] [system.CModule] Loading "session" application component
+2012/03/26 12:26:37 [trace] [system.CModule] Loading "messages" application component
+2012/03/26 12:26:37 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `orders`
+2012/03/26 12:26:37 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `orders`)
+2012/03/26 12:26:37 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `orders`)
+2012/03/26 12:26:37 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `orders`
+2012/03/26 12:26:37 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `orders`)
+2012/03/26 12:26:37 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `orders`)
+2012/03/26 12:26:37 [trace] [system.db.ar.CActiveRecord] Orders.findByPk()
+2012/03/26 12:26:37 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `orders` `t` WHERE `t`.`id`=96 LIMIT 1
+2012/03/26 12:26:37 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `orders` `t` WHERE `t`.`id`=96 LIMIT 1)
+2012/03/26 12:26:37 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `orders` `t` WHERE `t`.`id`=96 LIMIT 1)
+2012/03/26 12:26:37 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `orders_history`
+2012/03/26 12:26:37 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `orders_history`)
+2012/03/26 12:26:37 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `orders_history`)
+2012/03/26 12:26:37 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `orders_history`
+2012/03/26 12:26:37 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `orders_history`)
+2012/03/26 12:26:37 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `orders_history`)
+2012/03/26 12:26:37 [trace] [system.CModule] Loading "themeManager" application component
+2012/03/26 12:26:37 [trace] [system.db.ar.CActiveRecord] lazy loading Orders.product
+2012/03/26 12:26:37 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `products`
+2012/03/26 12:26:37 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `products`)
+2012/03/26 12:26:37 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `products`)
+2012/03/26 12:26:37 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `products`
+2012/03/26 12:26:37 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `products`)
+2012/03/26 12:26:37 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `products`)
+2012/03/26 12:26:37 [trace] [system.db.CDbCommand] Querying SQL: SELECT `product`.`id` AS `t1_c0`, `product`.`name` AS `t1_c1`, `product`.`image` AS `t1_c2`, `product`.`description` AS `t1_c3`, `product`.`price` AS `t1_c4`, `product`.`type` AS `t1_c5`, `product`.`option` AS `t1_c6` FROM `products` `product`  WHERE (`product`.`id`=:ypl0)
+2012/03/26 12:26:37 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT `product`.`id` AS `t1_c0`, `product`.`name` AS `t1_c1`, `product`.`image` AS `t1_c2`, `product`.`description` AS `t1_c3`, `product`.`price` AS `t1_c4`, `product`.`type` AS `t1_c5`, `product`.`option` AS `t1_c6` FROM `products` `product`  WHERE (`product`.`id`=:ypl0))
+2012/03/26 12:26:37 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT `product`.`id` AS `t1_c0`, `product`.`name` AS `t1_c1`, `product`.`image` AS `t1_c2`, `product`.`description` AS `t1_c3`, `product`.`price` AS `t1_c4`, `product`.`type` AS `t1_c5`, `product`.`option` AS `t1_c6` FROM `products` `product`  WHERE (`product`.`id`=:ypl0))
+2012/03/26 12:26:37 [trace] [system.CModule] Loading "widgetFactory" application component
+2012/03/26 12:26:37 [trace] [system.CModule] Loading "coreMessages" application component
+2012/03/26 12:26:37 [trace] [system.CModule] Loading "format" application component
+2012/03/26 12:26:38 [trace] [system.db.ar.CActiveRecord] OrdersHistory.count()
+2012/03/26 12:26:38 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `orders_history` `t` WHERE order_id = 96
+2012/03/26 12:26:38 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT COUNT(*) FROM `orders_history` `t` WHERE order_id = 96)
+2012/03/26 12:26:38 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT COUNT(*) FROM `orders_history` `t` WHERE order_id = 96)
+2012/03/26 12:26:38 [trace] [system.db.ar.CActiveRecord] OrdersHistory.findAll()
+2012/03/26 12:26:38 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `orders_history` `t` WHERE order_id = 96 ORDER BY time ASC LIMIT 10
+2012/03/26 12:26:38 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `orders_history` `t` WHERE order_id = 96 ORDER BY time ASC LIMIT 10)
+2012/03/26 12:26:38 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `orders_history` `t` WHERE order_id = 96 ORDER BY time ASC LIMIT 10)
+2012/03/26 12:26:38 [trace] [system.db.ar.CActiveRecord] lazy loading OrdersHistory.user
+2012/03/26 12:26:38 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `users`
+2012/03/26 12:26:38 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW COLUMNS FROM `users`)
+2012/03/26 12:26:38 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW COLUMNS FROM `users`)
+2012/03/26 12:26:38 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `users`
+2012/03/26 12:26:38 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SHOW CREATE TABLE `users`)
+2012/03/26 12:26:38 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SHOW CREATE TABLE `users`)
+2012/03/26 12:26:38 [trace] [system.db.CDbCommand] Querying SQL: SELECT `user`.`id` AS `t1_c0`, `user`.`username` AS `t1_c1`, `user`.`password` AS `t1_c2`, `user`.`role` AS `t1_c3`, `user`.`full_name` AS `t1_c4`, `user`.`birthday` AS `t1_c5`, `user`.`idcard` AS `t1_c6`, `user`.`work` AS `t1_c7`, `user`.`address1` AS `t1_c8`, `user`.`address2` AS `t1_c9`, `user`.`email` AS `t1_c10`, `user`.`tel` AS `t1_c11`, `user`.`yahoo` AS `t1_c12`, `user`.`skype` AS `t1_c13`, `user`.`last_login` AS `t1_c14` FROM `users` `user`  WHERE (`user`.`id`=:ypl0)
+2012/03/26 12:26:38 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT `user`.`id` AS `t1_c0`, `user`.`username` AS `t1_c1`, `user`.`password` AS `t1_c2`, `user`.`role` AS `t1_c3`, `user`.`full_name` AS `t1_c4`, `user`.`birthday` AS `t1_c5`, `user`.`idcard` AS `t1_c6`, `user`.`work` AS `t1_c7`, `user`.`address1` AS `t1_c8`, `user`.`address2` AS `t1_c9`, `user`.`email` AS `t1_c10`, `user`.`tel` AS `t1_c11`, `user`.`yahoo` AS `t1_c12`, `user`.`skype` AS `t1_c13`, `user`.`last_login` AS `t1_c14` FROM `users` `user`  WHERE (`user`.`id`=:ypl0))
+2012/03/26 12:26:38 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT `user`.`id` AS `t1_c0`, `user`.`username` AS `t1_c1`, `user`.`password` AS `t1_c2`, `user`.`role` AS `t1_c3`, `user`.`full_name` AS `t1_c4`, `user`.`birthday` AS `t1_c5`, `user`.`idcard` AS `t1_c6`, `user`.`work` AS `t1_c7`, `user`.`address1` AS `t1_c8`, `user`.`address2` AS `t1_c9`, `user`.`email` AS `t1_c10`, `user`.`tel` AS `t1_c11`, `user`.`yahoo` AS `t1_c12`, `user`.`skype` AS `t1_c13`, `user`.`last_login` AS `t1_c14` FROM `users` `user`  WHERE (`user`.`id`=:ypl0))
+2012/03/26 12:26:38 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 12:26:38 [trace] [system.CModule] Loading "bootstrap" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 12:26:38 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (62)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 12:26:38 [trace] [system.CModule] Loading "assetManager" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (351)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (62)
+2012/03/26 12:26:38 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (351)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (62)
+2012/03/26 12:26:38 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 12:26:38 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/26 12:26:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"themes/krisp/images/favicon.ico"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('themes/krisp/im...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/themes/krisp/images/favicon.ico
+---
+2012/03/26 12:26:38 [trace] [system.CModule] Loading "errorHandler" application component
+2012/03/26 12:26:38 [trace] [system.CModule] Loading "themeManager" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/26 12:26:38 [trace] [system.CModule] Loading "messages" application component
+in D:\xampp\htdocs\seikou\protected\globals.php (117)
+in D:\xampp\htdocs\seikou\themes\krisp\views\layouts\main.php (43)
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/26 12:26:38 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\seikou\themes\krisp\views\layouts\main.php (64)
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/26 12:26:38 [trace] [system.CModule] Loading "user" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\widgets\BootAlert.php (58)
+in D:\xampp\htdocs\seikou\themes\krisp\views\layouts\main.php (65)
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)
+2012/03/26 12:26:38 [trace] [system.CModule] Loading "session" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\widgets\BootAlert.php (58)
+in D:\xampp\htdocs\seikou\themes\krisp\views\layouts\main.php (65)
+in D:\xampp\htdocs\seikou\protected\controllers\SiteController.php (45)

@@ -9238,3 +9238,91 @@ Stack trace:
 #3 {main}
 REQUEST_URI=/seikou/themes/krisp/images/favicon.ico
 ---
+2012/03/26 12:18:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"themes/krisp/images/favicon.ico"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('themes/krisp/im...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/themes/krisp/images/favicon.ico
+---
+2012/03/26 12:19:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"themes/krisp/images/favicon.ico"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('themes/krisp/im...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/themes/krisp/images/favicon.ico
+---
+2012/03/26 12:19:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"themes/krisp/images/favicon.ico"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('themes/krisp/im...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/themes/krisp/images/favicon.ico
+---
+2012/03/26 12:21:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"themes/krisp/images/favicon.ico"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('themes/krisp/im...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/themes/krisp/images/favicon.ico
+---
+2012/03/26 12:21:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"themes/krisp/images/favicon.ico"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('themes/krisp/im...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/themes/krisp/images/favicon.ico
+---
+2012/03/26 12:22:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"themes/krisp/images/favicon.ico"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('themes/krisp/im...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/themes/krisp/images/favicon.ico
+---
+2012/03/26 12:23:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"themes/krisp/images/favicon.ico"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('themes/krisp/im...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/themes/krisp/images/favicon.ico
+---
+2012/03/26 12:25:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"themes/krisp/images/favicon.ico"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('themes/krisp/im...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/themes/krisp/images/favicon.ico
+---
+2012/03/26 12:25:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"themes/krisp/images/favicon.ico"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('themes/krisp/im...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/themes/krisp/images/favicon.ico
+---
+2012/03/26 12:25:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"themes/krisp/images/favicon.ico"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('themes/krisp/im...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/themes/krisp/images/favicon.ico
+---
+2012/03/26 12:26:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"themes/krisp/images/favicon.ico"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('themes/krisp/im...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/themes/krisp/images/favicon.ico
+---
