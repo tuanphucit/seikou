@@ -2,7 +2,7 @@
 <html>
 <head>
 
-<title>Krisp - HTML/CSS Portfolio Template</title>
+<title>Krisp - <?php echo t('Conference Room Reservation System')?></title>
 <?php
 	$cs = Yii::app()->getClientScript(); 
 	// CSS 
@@ -33,7 +33,13 @@
 <!-- website wrap starts -->
 <div class="mainWrap">
   <!-- header wrap starts -->
-  <div class="headerWrap"> <a href="" class="mainLogo"><img src="<?php echo Html::imageThemeUrl('default/mainLogo.png') ?>" alt=""/></a> <a href="" class="headerAd"><img src="<?php echo Html::imageThemeUrl('default/ad1-top.jpg') ?>" alt=""/></a> </div>
+  <div class="headerWrap"> <a href="" class="mainLogo"><img src="<?php echo Html::imageThemeUrl('default/mainLogo.png') ?>" alt=""/></a> 
+  <!-- Uncomment this for header Ads
+  <a href="" class="headerAd">
+  	<img src="<?php echo Html::imageThemeUrl('default/ad1-top.jpg') ?>" alt=""/>
+  </a>
+  --> 
+  </div> 
   <!-- header wrap ends -->
   <!-- page wrap starts -->
   <div class="pageWrap">
@@ -41,6 +47,10 @@
     <div class="menuWrap">
       <ul class="mainMenu">
         <li><?php echo Html::link(t('Home'),$this->createUrl('/home/index'),array())?></li>
+        <li><?php echo Html::link(t('Conference Room'),$this->createUrl('/room/index'),array())?></li>
+        <li><?php echo Html::link(t('Equipment'),$this->createUrl('/equipment/index'),array())?></li>
+        <li><?php echo Html::link(t('Order Now'),$this->createUrl('/order/index'),array())?></li>
+        <li><?php echo Html::link(t('Contact Us'),$this->createUrl('/contact/index'),array())?></li>
         <li><?php echo Html::link(t('Your Account'),"#",array())?>
           <ul>
             <li><?php echo Html::link(t('History'),$this->createUrl('/history/index'),array())?></li>
@@ -48,10 +58,6 @@
             <li><?php echo Html::link(t('Log Out'),$this->createUrl('/site/logout'),array())?></li>
           </ul>
         </li>
-        <li><?php echo Html::link(t('Conference Room'),$this->createUrl('/room/index'),array())?></li>
-        <li><?php echo Html::link(t('Equipment'),$this->createUrl('/equipment/index'),array())?></li>
-        <li><?php echo Html::link(t('Order Now'),$this->createUrl('/order/index'),array())?></li>
-        <li><?php echo Html::link(t('Contact Us'),$this->createUrl('/contact/index'),array())?></li>
       </ul>
     </div>
     <!-- main menu ends -->
@@ -72,6 +78,7 @@
   <!-- footer starts -->
   <div class="footerWrap">
     <div class="copyrightWrap"> <span class="copyright">&copy; copyright JAP-IT Team 12.</span> </div>
+  </div>
   <!-- footer ends -->
 </div>
 <!-- website wrap ends -->

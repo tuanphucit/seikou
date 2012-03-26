@@ -4,7 +4,31 @@ class HomeController extends Controller
 {
 	public function actionIndex()
 	{
-		$this->render('index');
+		// Breadcrumbs
+		$this->breadcrumbs = array(
+			t('Index'),
+		);
+		// Get 10 newest added room to show in homepage
+		$products = Products::model()->findAllByAttributes(
+			array('type'=>Products::TYPE_ROOM),
+			array('order'=>'price DESC','limit'=>5)
+		);
+		
+		// Get recent activity of user
+		$today = date('Y-m-d');
+		$dataProvider = new CActiveDataProvider('Orders',array(
+			'criteria'=>array(
+				'condition' => "start_date >= '$today'",
+				'order'     => "start_date ASC",
+			),
+			'pagination'=>array(
+				'pageSize'  => 50,
+			)
+		));
+		$this->render('index',array(
+			'products'=>$products,
+			'dataProvider' => $dataProvider,
+		));
 	}
 	
 	public function filters()

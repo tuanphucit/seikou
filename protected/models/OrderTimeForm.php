@@ -73,6 +73,11 @@ class OrderTimeForm extends CFormModel
 		// Convert time format
 		$this->start_time = $this->convert24($this->start_hour, $this->start_minute, $this->start_ampm);
 		$this->end_time = $this->convert24($this->end_hour, $this->end_minute, $this->end_ampm);
+		// Check if start_date is earlier than today
+		if ($this->start_date < date('Y-m-d')) {
+			$this->addError('Date','Start date must be in the furture');
+			return false;
+		}
 		// Check start_time < end_time
 		if ($this->start_time >= $this->end_time) {
 			$this->addError('Time','Start time must be earlier than End time');

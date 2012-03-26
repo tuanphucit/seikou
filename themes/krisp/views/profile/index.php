@@ -66,6 +66,7 @@
 	echo "</div>";
 	
 	echo '<div class="clear"></div>';
+	echo $form->errorSummary($user);
     echo CHtml::htmlButton('<i class="icon-ok icon-white"></i> '.t('Submit'), array('class'=>'btn btn-primary', 'type'=>'submit'));
     echo CHtml::htmlButton('<i class="icon-ban-circle"></i> '.t('Reset'), array('class'=>'btn', 'type'=>'reset'));
 	$this->endWidget();
