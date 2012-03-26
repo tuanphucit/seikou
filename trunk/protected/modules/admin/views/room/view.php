@@ -20,6 +20,11 @@
 	        	'type'=>'html',
 	        	'value'=>Html::image($product->image,$product->name),
 	        ),
+	        array(
+	        	'header'=>t('Status'),
+	        	'type'=>'raw',
+	        	'value'=>'OrdersHistory::getStatusTypeLabel($order->getLastestStatus())',
+	        ),
 	    ),
 	)); 
 	
