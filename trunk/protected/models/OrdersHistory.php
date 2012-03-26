@@ -22,6 +22,12 @@ class OrdersHistory extends CActiveRecord
 	 * @param string $className active record class name.
 	 * @return OrdersHistory the static model class
 	 */
+	const HISTORY_CREATE = 0;
+	const HISTORY_FINISH = 1;
+	const HISTORY_CANCEL_USER  = 2;
+	const HISTORY_CANCEL_ADMIN = 3;
+	const HISTORY_CREATE_ADMIN = 4; 
+	
 	public static function model($className=__CLASS__)
 	{
 		return parent::model($className);
@@ -43,7 +49,7 @@ class OrdersHistory extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('user_id, order_id, status, time, description', 'required'),
+			array('user_id, order_id, status, time', 'required'),
 			array('order_id, status', 'numerical', 'integerOnly'=>true),
 			array('user_id', 'length', 'max'=>8),
 			array('description', 'length', 'max'=>30),
@@ -102,5 +108,24 @@ class OrdersHistory extends CActiveRecord
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
 		));
+	}
+	
+	
+	/**
+	 * Get status name
+	 * @param status value
+	 * @return The name of status
+	 */
+	public static function getStatusTypeLabel($status)
+	{
+		$statusList = array(
+			OrdersHistory::HISTORY_CREATE => t('Created'),
+			OrdersHistory::HISTORY_FINISH => t('Finished'),
+			OrdersHistory::HISTORY_CANCEL_USER  => t('Canceled'),
+			OrdersHistory::HISTORY_CANCEL_ADMIN => t('CANCELED'),
+			OrdersHistory::HISTORY_CREATE_ADMIN => t('Created'), 
+		);
+		
+		return $statusList[$status];
 	}
 }

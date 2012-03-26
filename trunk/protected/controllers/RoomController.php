@@ -1,6 +1,6 @@
 <?php
 
-class ProductController extends Controller
+class RoomController extends Controller
 {
 	
 	public function filters()
@@ -25,7 +25,19 @@ class ProductController extends Controller
 	
 	public function actionIndex()
 	{
-		$this->render('index');
+		// Breadcrumbs
+		$this->breadcrumbs = array(
+			t('Conference Room')  => $this->createUrl('/room/index'),
+			t('Index'),
+		);
+		// Retrieve Room data from database
+		$dataProvider=new CActiveDataProvider('Products',array(
+			'criteria'=>array(
+				'condition'=>'type='.Products::TYPE_ROOM,
+				'order'=>'name ASC',
+			),
+		));
+		$this->render('index',array('dataProvider'=>$dataProvider));
 	}
 	
 	
@@ -34,6 +46,11 @@ class ProductController extends Controller
 	 */
 	public function actionView()
 	{
+		// Breadcrumbs
+		$this->breadcrumbs = array(
+			t('Conference Room')  => $this->createUrl('/room/index'),
+			t('View'),
+		);
 		// Get Parameter pid for product id
 		$pid = Yii::app()->request->getParam('pid');
 		if ($pid == NULL)
@@ -43,38 +60,9 @@ class ProductController extends Controller
 		$product = Products::model()->findByPk($pid);
 		if ($product == NULL)
 			throw new CHttpException('404','Object not found');
-			
-		// Construct OrderTimeForm for containing order information
-		$orderTime = new OrderTimeForm();
-		$orderTime->product = $product;
 		
-		// Check if whenever order form is submitted
-		if (isset($_POST["OrderTimeForm"])){
-			$orderTime->attributes = $_POST["OrderTimeForm"];
-			
-			// STEP 1: validate
-			if ( !$orderTime->validateTime()){
-				Yii::app()->user->setFlash('error','Error with order');
-			}
-			
-			// STEP 2 : save order
-			else if ( !$orderTime->save()){
-				Yii::app()->user->setFlash('error','Error with save order');
-			}
-			
-			else {
-				$this->render('view',array(
-					'product'=>$product,
-					'orderTime'=>$orderTime,
-				));
-				//$this->render('success',array('product'=>$product));
-				return;
-			}
-			
-		}
 		$this->render('view',array(
 			'product'=>$product,
-			'orderTime'=>$orderTime,
 		));
 	}
 

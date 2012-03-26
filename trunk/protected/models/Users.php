@@ -8,8 +8,7 @@
  * @property string $username
  * @property string $password
  * @property integer $role
- * @property string $first_name
- * @property string $last_name
+ * @property string $full_name
  * @property string $birthday
  * @property integer $idcard
  * @property string $work
@@ -54,12 +53,12 @@ class Users extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('id, username, password, role, first_name, last_name, birthday, idcard, work, address2, email, tel', 'required'),
+			array('id, username, password, role, full_name, birthday, idcard, work, address2, email, tel', 'required'),
 			array('role, idcard', 'numerical', 'integerOnly'=>true),
 			array('id', 'length', 'max'=>8),
 			array('id', 'unique'),
 			array('username', 'length', 'max'=>15),
-			array('password, first_name, last_name, email, yahoo, skype', 'length', 'max'=>40),
+			array('password, full_name, email, yahoo, skype', 'length', 'max'=>40),
 			array('email','email'),
 			array('work, address1, address2', 'length', 'max'=>256),
 			array('tel', 'length', 'max'=>11),
@@ -68,7 +67,7 @@ class Users extends CActiveRecord
 			array('password_repeat','safe'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('id, username, password, role, first_name, last_name, birthday, idcard, work, address1, address2, email, tel, yahoo, skype, last_login', 'safe', 'on'=>'search'),
+			array('id, username, password, role, full_name, birthday, idcard, work, address1, address2, email, tel, yahoo, skype, last_login', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -95,8 +94,7 @@ class Users extends CActiveRecord
 			'username' => Yii::t('user','Username'),
 			'password' => Yii::t('user','Password'),
 			'role' => Yii::t('user','Role'),
-			'first_name' => Yii::t('user','First Name'),
-			'Last_name' => Yii::t('user','Last Name'),
+			'full_name' => Yii::t('user','Full Name'),
 			'birthday' => Yii::t('user','Birthday'),
 			'idcard' => Yii::t('user','Idcard'),
 			'work' => Yii::t('user','Work'),
@@ -125,8 +123,7 @@ class Users extends CActiveRecord
 		$criteria->compare('username',$this->username,true);
 		$criteria->compare('password',$this->password,true);
 		$criteria->compare('role',$this->role);
-		$criteria->compare('first_name',$this->first_name,true);
-		$criteria->compare('last_name',$this->last_name,true);
+		$criteria->compare('full_name',$this->full_name,true);
 		$criteria->compare('birthday',$this->birthday,true);
 		$criteria->compare('idcard',$this->idcard);
 		$criteria->compare('work',$this->work,true);

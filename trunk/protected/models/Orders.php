@@ -115,4 +115,17 @@ class Orders extends CActiveRecord
 			'criteria'=>$criteria,
 		));
 	}
+	
+	/**
+	 * Get lastest status of an order
+	 * @param int order_id
+	 */
+	public function getLastestStatus()
+	{
+		$orderHistory = OrdersHistory::model()->findByAttributes(
+													array('order_id'=>$this->id),
+													array('order'=>'time DESC')
+													);
+		return $orderHistory->status;
+	}
 }

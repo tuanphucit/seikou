@@ -2,7 +2,11 @@
 	return array(
 		//メーニュのメッセージ
 		'Home'=>'ホーム',
-		'My Profile'=>'プロファイル',
+		'Your Account'=>'アカウント',
+		'Profile'=>'プロファイル',
+		'Conference Room' => '会議室',
+		'Equipment' => '設備',
+		'Order Now' => 'すぐに注文',
 		'About Us'=>'私達について',
 		'FAQ'=>'質問と答え',
 		'News'=>'ニュース',
@@ -11,6 +15,10 @@
 		'Rent'=>'借りる',
 		'Log Out'=>'ログアウト',
 		'Welcome {user} you can view your order history or rent a new product'=>'ようこそあなたは自分のオーダーヒストリを見ることできます。そして新しい設備をかりることができます',
+	
+		// Common Use
+		'Index' => 'インデックス',
+		'Read More' => '次へ',
 				
 		
 		//プロファイル

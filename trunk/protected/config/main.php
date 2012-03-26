@@ -4,9 +4,12 @@
 
 // This is the main Web application configuration. Any writable
 // CWebApplication properties can be configured here.
+
+require dirname(__FILE__).DIRECTORY_SEPARATOR.'..'.DIRECTORY_SEPARATOR.'globals.php';
+
 return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
-	'name'=>'Rental Project',
+	'name'=>'会議室予約システム',
 
 	// preloading 'log' component
 	'preload'=>array(
@@ -49,7 +52,7 @@ return array(
 			),
 		),
 		'db'=>array(
-			'connectionString' => 'mysql:host=localhost;dbname=rent',
+			'connectionString' => 'mysql:host=localhost;dbname=seikou',
 			'emulatePrepare' => true,
 			'username' => 'root',
 			'password' => '',
@@ -114,8 +117,8 @@ return array(
 		'adminEmail'=>'luckymancvp@gmail.com',
 	),
 	'sourceLanguage'=>'en',
-	'language'=>'en',
+	'language'=>'ja',
 	'defaultController'=>'home',
 	'homeUrl'=>array('/home/index/'),
-	'theme'=>'cool',
+	'theme'=>'krisp',
 );
