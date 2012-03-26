@@ -261,7 +261,7 @@ $(document).ready(function(){
 	 */
 	$("#add-event-form").dialog({
 		autoOpen: false,
-		height: 400,
+		height: 500,
 		width: 520,
 		modal: true,
 		buttons: {
@@ -525,6 +525,10 @@ $(document).ready(function(){
 	<?php 
 		$orders = Orders::model()->findAllByAttributes(array('visible'=>1));
 		foreach ($orders as $order) {
+			$status = $order->getLastestStatus();
+			if (($status != OrdersHistory::HISTORY_CANCEL_ADMIN ) &&
+				($status != OrdersHistory::HISTORY_CANCEL_ADMIN ))
+			{
 			$startDate = explode("-", $order->start_date);
 			$endDate = explode("-", $order->end_date);
 			$startTime = explode(":", $order->start_time);
@@ -545,7 +549,7 @@ $(document).ready(function(){
 						}	
 				);
 			";
-		}
+		}}
 		echo 'jfcalplugin.reRenderAgendaItems("#mycal");';
 	?>
 });

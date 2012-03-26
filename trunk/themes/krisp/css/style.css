@@ -1763,3 +1763,8 @@ td a{
 .oneFourth input{
 	width: 170px;
 }
+
+.help-inline {
+	color: red;
+}
+}

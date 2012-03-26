@@ -63,8 +63,7 @@ class Users extends CActiveRecord
 			array('work, address1, address2', 'length', 'max'=>256),
 			array('tel', 'length', 'max'=>11),
 			array('last_login', 'safe'),
-			array('password','compare'),
-			array('password_repeat','safe'),
+			array('password_repeat','compare'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
 			array('id, username, password, role, full_name, birthday, idcard, work, address1, address2, email, tel, yahoo, skype, last_login', 'safe', 'on'=>'search'),

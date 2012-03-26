@@ -33,7 +33,7 @@ class EquipmentController extends Controller
 		// Retrieve Room data from database
 		$dataProvider=new CActiveDataProvider('Products',array(
 			'criteria'=>array(
-				'condition'=>'type='.Products::TYPE_ROOM,
+				'condition'=>'type='.Products::TYPE_EQUIPMENT,
 				'order'=>'name ASC',
 			),
 		));

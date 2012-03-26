@@ -18,7 +18,10 @@
 	
 		// Common Use
 		'Index' => 'インデックス',
+		'View'  => 'ビュー',
+		'Delte' => '削除',
 		'Read More' => '次へ',
+		'Order'     => '注文',
 				
 		
 		//プロファイル
@@ -43,5 +46,6 @@
 	
 		//プロダクト
 		'Product'=>'プロダクト',
+		' now for the best price' => ' ',
 	);
 ?>
