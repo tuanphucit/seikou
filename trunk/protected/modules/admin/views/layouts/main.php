@@ -157,14 +157,14 @@
 						echo Html::link(Yii::t('admin',"Tool"),"#",$htmlTop['tool']);
 						echo "<ul>";
 							echo "<li>";
-								echo Html::link("Xem cập nhật",$this->createUrl('/admin/tool/update'),($controllerId == 'tool')?$htmlItem:null);
+								echo Html::link("Export CSV",$this->createUrl('/admin/tool/exportcsv'),($controllerId == 'tool')?$htmlItem:null);
 							echo "</li>";
-							echo "<li>";
+							/*echo "<li>";
 								echo Html::link("HDSD",'https://docs.google.com/document/d/1MoJokttxx32f3Bf24mWmmfgJFB-ccXYcIfBFCNLgARQ/edit',array("target"=>"_blank"));
 							echo "</li>";
 							echo "<li>";
 								echo Html::link("Xóa sim lỗi",$this->createUrl('/admin/tool/delSim'),array());
-							echo "</li>";
+							echo "</li>";*/
 						echo "</ul>";
 					echo "</li>";
 				?>

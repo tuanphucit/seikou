@@ -1308,3 +1308,176 @@ Stack trace:
 #9 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
 #10 D:\xampp\htdocs\seikou\index-test.php(15): CWebApplication->run()
 REQUEST_URI=/seikou/index-test.php/admin/tool/exportcsv?year=2012&month=03
+2012/03/27 19:43:30 [error] [exception.CHttpException.500] exception 'CHttpException' with message 'Your order have already deleted or stopped' in D:\xampp\htdocs\seikou\protected\modules\admin\controllers\OrderController.php:195
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\actions\CInlineAction.php(50): OrderController->actionStop()
+#1 D:\xampp\htdocs\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#2 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#3 D:\xampp\htdocs\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#4 D:\xampp\htdocs\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#5 D:\xampp\htdocs\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#6 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#7 D:\xampp\htdocs\framework\web\CController.php(292): CFilterChain->run()
+#8 D:\xampp\htdocs\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\xampp\htdocs\framework\web\CWebApplication.php(276): CController->run('stop')
+#10 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('admin/order/sto...')
+#11 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#12 D:\xampp\htdocs\seikou\index-test.php(15): CApplication->run()
+#13 {main}
+REQUEST_URI=/seikou/index-test.php/admin/order/stop/id/102?_=1332870210384
+HTTP_REFERER=http://localhost/seikou/index-test.php/admin/order
+---
+2012/03/27 20:00:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"contact/index"を解決できません。' in D:\xampp\htdocs\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('contact/index')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/seikou/contact/index
+HTTP_REFERER=http://localhost/seikou/
+---
+2012/03/27 20:00:24 [error] [system.db.CDbCommand] CDbCommand::fetchAll() がSQLSTATE[42S02]: Base table or view not found: 1146 Table 'seikou_quan.fee' doesn't existで失敗しました。実行されたSQL文は: SHOW COLUMNS FROM `fee`
+in D:\xampp\htdocs\seikou\protected\models\Fee.php (21)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (158)
+in D:\xampp\htdocs\seikou\protected\controllers\OrderController.php (34)
+2012/03/27 20:00:24 [error] [exception.CDbException] exception 'CDbException' with message 'アクティブレコードクラス "Fee" のテーブル "fee" がデータベースにありません。' in D:\xampp\htdocs\framework\db\ar\CActiveRecord.php:2264
+Stack trace:
+#0 D:\xampp\htdocs\framework\db\ar\CActiveRecord.php(379): CActiveRecordMetaData->__construct(Object(Fee))
+#1 D:\xampp\htdocs\seikou\protected\models\Fee.php(21): CActiveRecord::model('Fee')
+#2 D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php(158): Fee::model()
+#3 D:\xampp\htdocs\seikou\protected\controllers\OrderController.php(34): OrderTimeForm->save()
+#4 D:\xampp\htdocs\framework\web\actions\CInlineAction.php(50): OrderController->actionAdd()
+#5 D:\xampp\htdocs\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#7 D:\xampp\htdocs\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#8 D:\xampp\htdocs\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#9 D:\xampp\htdocs\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#10 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#11 D:\xampp\htdocs\framework\web\CController.php(292): CFilterChain->run()
+#12 D:\xampp\htdocs\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\xampp\htdocs\framework\web\CWebApplication.php(276): CController->run('add')
+#14 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('order/add')
+#15 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/seikou/order/add?OrderTimeForm%5Bpid%5D=RM102&OrderTimeForm%5Bstart_date%5D=2012-03-31&OrderTimeForm%5Bstart_hour%5D=1&OrderTimeForm%5Bstart_minute%5D=00&OrderTimeForm%5Bstart_ampm%5D=AM&OrderTimeForm%5Bend_date%5D=2012-03-31&OrderTimeForm%5Bend_hour%5D=1&OrderTimeForm%5Bend_minute%5D=10&OrderTimeForm%5Bend_ampm%5D=AM
+HTTP_REFERER=http://localhost/seikou/order/index
+---
+2012/03/27 20:00:30 [error] [system.db.CDbCommand] CDbCommand::fetchAll() がSQLSTATE[42S02]: Base table or view not found: 1146 Table 'seikou_quan.fee' doesn't existで失敗しました。実行されたSQL文は: SHOW COLUMNS FROM `fee`
+in D:\xampp\htdocs\seikou\protected\models\Fee.php (21)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (158)
+in D:\xampp\htdocs\seikou\protected\controllers\OrderController.php (34)
+2012/03/27 20:00:30 [error] [exception.CDbException] exception 'CDbException' with message 'アクティブレコードクラス "Fee" のテーブル "fee" がデータベースにありません。' in D:\xampp\htdocs\framework\db\ar\CActiveRecord.php:2264
+Stack trace:
+#0 D:\xampp\htdocs\framework\db\ar\CActiveRecord.php(379): CActiveRecordMetaData->__construct(Object(Fee))
+#1 D:\xampp\htdocs\seikou\protected\models\Fee.php(21): CActiveRecord::model('Fee')
+#2 D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php(158): Fee::model()
+#3 D:\xampp\htdocs\seikou\protected\controllers\OrderController.php(34): OrderTimeForm->save()
+#4 D:\xampp\htdocs\framework\web\actions\CInlineAction.php(50): OrderController->actionAdd()
+#5 D:\xampp\htdocs\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#7 D:\xampp\htdocs\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#8 D:\xampp\htdocs\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#9 D:\xampp\htdocs\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#10 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#11 D:\xampp\htdocs\framework\web\CController.php(292): CFilterChain->run()
+#12 D:\xampp\htdocs\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\xampp\htdocs\framework\web\CWebApplication.php(276): CController->run('add')
+#14 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('order/add')
+#15 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/seikou/order/add?OrderTimeForm%5Bpid%5D=RM102&OrderTimeForm%5Bstart_date%5D=2012-03-31&OrderTimeForm%5Bstart_hour%5D=1&OrderTimeForm%5Bstart_minute%5D=00&OrderTimeForm%5Bstart_ampm%5D=AM&OrderTimeForm%5Bend_date%5D=2012-03-31&OrderTimeForm%5Bend_hour%5D=1&OrderTimeForm%5Bend_minute%5D=10&OrderTimeForm%5Bend_ampm%5D=AM
+HTTP_REFERER=http://localhost/seikou/order/index
+---
+2012/03/27 20:02:14 [error] [system.db.CDbCommand] CDbCommand::fetchAll() がSQLSTATE[42S02]: Base table or view not found: 1146 Table 'seikou_quan.fee' doesn't existで失敗しました。実行されたSQL文は: SHOW COLUMNS FROM `fee`
+in D:\xampp\htdocs\seikou\protected\models\Fee.php (21)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (158)
+in D:\xampp\htdocs\seikou\protected\controllers\OrderController.php (34)
+2012/03/27 20:02:14 [error] [exception.CDbException] exception 'CDbException' with message 'アクティブレコードクラス "Fee" のテーブル "fee" がデータベースにありません。' in D:\xampp\htdocs\framework\db\ar\CActiveRecord.php:2264
+Stack trace:
+#0 D:\xampp\htdocs\framework\db\ar\CActiveRecord.php(379): CActiveRecordMetaData->__construct(Object(Fee))
+#1 D:\xampp\htdocs\seikou\protected\models\Fee.php(21): CActiveRecord::model('Fee')
+#2 D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php(158): Fee::model()
+#3 D:\xampp\htdocs\seikou\protected\controllers\OrderController.php(34): OrderTimeForm->save()
+#4 D:\xampp\htdocs\framework\web\actions\CInlineAction.php(50): OrderController->actionAdd()
+#5 D:\xampp\htdocs\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#7 D:\xampp\htdocs\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#8 D:\xampp\htdocs\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#9 D:\xampp\htdocs\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#10 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#11 D:\xampp\htdocs\framework\web\CController.php(292): CFilterChain->run()
+#12 D:\xampp\htdocs\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\xampp\htdocs\framework\web\CWebApplication.php(276): CController->run('add')
+#14 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('order/add')
+#15 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/seikou/order/add?OrderTimeForm%5Bpid%5D=RM102&OrderTimeForm%5Bstart_date%5D=2012-03-31&OrderTimeForm%5Bstart_hour%5D=1&OrderTimeForm%5Bstart_minute%5D=00&OrderTimeForm%5Bstart_ampm%5D=AM&OrderTimeForm%5Bend_date%5D=2012-03-31&OrderTimeForm%5Bend_hour%5D=1&OrderTimeForm%5Bend_minute%5D=10&OrderTimeForm%5Bend_ampm%5D=AM
+HTTP_REFERER=http://localhost/seikou/order/index
+---
+2012/03/27 20:02:26 [error] [system.db.CDbCommand] CDbCommand::fetchAll() がSQLSTATE[42S02]: Base table or view not found: 1146 Table 'seikou_quan.fee' doesn't existで失敗しました。実行されたSQL文は: SHOW COLUMNS FROM `fee`
+in D:\xampp\htdocs\seikou\protected\models\Fee.php (21)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (158)
+in D:\xampp\htdocs\seikou\protected\controllers\OrderController.php (34)
+2012/03/27 20:02:26 [error] [exception.CDbException] exception 'CDbException' with message 'アクティブレコードクラス "Fee" のテーブル "fee" がデータベースにありません。' in D:\xampp\htdocs\framework\db\ar\CActiveRecord.php:2264
+Stack trace:
+#0 D:\xampp\htdocs\framework\db\ar\CActiveRecord.php(379): CActiveRecordMetaData->__construct(Object(Fee))
+#1 D:\xampp\htdocs\seikou\protected\models\Fee.php(21): CActiveRecord::model('Fee')
+#2 D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php(158): Fee::model()
+#3 D:\xampp\htdocs\seikou\protected\controllers\OrderController.php(34): OrderTimeForm->save()
+#4 D:\xampp\htdocs\framework\web\actions\CInlineAction.php(50): OrderController->actionAdd()
+#5 D:\xampp\htdocs\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#7 D:\xampp\htdocs\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#8 D:\xampp\htdocs\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#9 D:\xampp\htdocs\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#10 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#11 D:\xampp\htdocs\framework\web\CController.php(292): CFilterChain->run()
+#12 D:\xampp\htdocs\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\xampp\htdocs\framework\web\CWebApplication.php(276): CController->run('add')
+#14 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('order/add')
+#15 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/seikou/order/add?OrderTimeForm%5Bpid%5D=RM102&OrderTimeForm%5Bstart_date%5D=2012-03-31&OrderTimeForm%5Bstart_hour%5D=1&OrderTimeForm%5Bstart_minute%5D=00&OrderTimeForm%5Bstart_ampm%5D=AM&OrderTimeForm%5Bend_date%5D=2012-03-31&OrderTimeForm%5Bend_hour%5D=1&OrderTimeForm%5Bend_minute%5D=10&OrderTimeForm%5Bend_ampm%5D=AM
+---
+2012/03/27 20:11:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Param is not enough' in D:\xampp\htdocs\seikou\protected\modules\admin\controllers\ToolController.php:47
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\actions\CInlineAction.php(50): ToolController->actionExportcsv()
+#1 D:\xampp\htdocs\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#2 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#3 D:\xampp\htdocs\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#4 D:\xampp\htdocs\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#5 D:\xampp\htdocs\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#6 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#7 D:\xampp\htdocs\framework\web\CController.php(292): CFilterChain->run()
+#8 D:\xampp\htdocs\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\xampp\htdocs\framework\web\CWebApplication.php(276): CController->run('exportcsv')
+#10 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('admin/tool/expo...')
+#11 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#12 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/seikou/admin/tool/exportcsv
+---
+2012/03/27 20:12:05 [error] [exception.CException] exception 'CException' with message 'プロパティ "Fee.penatly" が定義されていません。' in D:\xampp\htdocs\framework\base\CComponent.php:131
+Stack trace:
+#0 D:\xampp\htdocs\framework\db\ar\CActiveRecord.php(144): CComponent->__get('penatly')
+#1 D:\xampp\htdocs\seikou\protected\modules\admin\controllers\ToolController.php(85): CActiveRecord->__get('penatly')
+#2 D:\xampp\htdocs\framework\web\actions\CInlineAction.php(50): ToolController->actionExportcsv()
+#3 D:\xampp\htdocs\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#5 D:\xampp\htdocs\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#6 D:\xampp\htdocs\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#7 D:\xampp\htdocs\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#8 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#9 D:\xampp\htdocs\framework\web\CController.php(292): CFilterChain->run()
+#10 D:\xampp\htdocs\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\xampp\htdocs\framework\web\CWebApplication.php(276): CController->run('exportcsv')
+#12 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('admin/tool/expo...')
+#13 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#14 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/seikou/admin/tool/exportcsv?year=2012&month=3
+---
