@@ -25,7 +25,7 @@ class EquipmentController extends Controller
 	
 	public function actionIndex()
 	{
-		// Breadcrumbs
+		// Breadcrumbs - パン粉
 		$this->breadcrumbs = array(
 			t('Equipment')  => $this->createUrl('/room/index'),
 			t('Index'),
@@ -46,7 +46,7 @@ class EquipmentController extends Controller
 	 */
 	public function actionView()
 	{
-		// Breadcrumbs
+		// Breadcrumbs - パン粉
 		$this->breadcrumbs = array(
 			t('Equipment')  => $this->createUrl('/room/index'),
 			t('View'),

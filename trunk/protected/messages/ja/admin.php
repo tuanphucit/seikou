@@ -9,6 +9,7 @@
 	 *バリューは翻訳される言葉だ。
 	 */
 	return array(
+		'Admin' => '',
 		// Login
 		'Login'=>'ログイン',
 		'username'=>'ユーザ名',
@@ -22,6 +23,16 @@
 		'Object not found' => 'オブジェクトが見つかりません',
 		'' => '',
 		
+		// Common Use
+		'Index' => 'インデックス',
+		'view'  => '表示',
+		'delete'=> '削除',
+		'Delte' => '削除',
+		'Read More' => '次へ',
+		'Order'     => '注文',
+		'Submit'    => '更新',
+		'Reset'     => 'リセット',
+	
 		// ** Layout
 		'Welcome' => 'ようこそ',
 		'Website' => 'ウェブサイト',
@@ -47,26 +58,13 @@
 		'Delete' => '削除',
 		'Back' => '戻る',
 	
+		// User Management
+		'User' => 'ユーザー',
+	
 		// Product Management
-		// Room
-		'' => '',
-		'' => '',
-		'' => '',
-		'ID' => 'ID',
-		'Product Name' => 'プロダクト名',
-		'Image' => 'イメージ',
-		'Description' => 'ディスクリプション',
-		'Price / 0.5 hour' => '単価　/ 30分',
-		'Type' => 'タイプ',
-		'Number of seats' => '椅子の数',
-		''=>'',
+		
 		
 		// Equipment
-		'Equipment Management - List Product' => '設備マネジメントープロダクトをリストする',
-		'Equipment Management - View Product' => '設備マネジメントープロダクトを見る',
-		'Equipment Management - Add Product'  => '設備マネジメントープロダクトを追加する',
-		'Equipment Management - Update Product' => '設備マネジメントープロダクトを更新する',
-		'Equipment Management - Delete Product' => '設備マネジメントープロダクトを削除する',
 		'Add equipment successful' => 'プロダクトを追加したのはせいこうした',
 		'Add equipment failed' => 'プロダクトを追加すしたのは成功した',
 		

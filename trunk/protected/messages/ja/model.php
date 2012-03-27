@@ -17,5 +17,39 @@
 		'Last Login' => '最後のログイン',
 		'user' => 'テナント',
 		'admin'=>'管理者',
+	
+		// OrderTimeForm
+		'Start Date' => 'スタート·日',
+		'End Date' => 'エンド·日',
+		'Product ID' => 'プロダクト ID',
+		'Start Time' => 'スタート·タイム',
+		'End Time' => 'エンド·タイム',
+		'Start Hour' => 'スタート·アワー',
+		'End Hour' => 'エンド·アワー',
+		'Start Minute' => 'スタート·ミニッツ',
+		'End Minute' => 'エンド·ミニッツ',
+		'Start AM/PM' => 'スタート·午前/午後',
+		'End AM/PM' => 'エンド·午前/午後',
+		
+		// OrdersHistory Model
+		'User' => 'ユーザー',
+		'Status' => '状態',
+		'Description' => 'デスクリプション ',
+		
+		// Order Model
+		'Real Stop Time' => '実のストップタイム',
+		'Total' => '合計',
+	
+		// Product Model
+		// Room
+		'ID' => 'ID',
+		'Product' => 'プロダクト',
+		'Product Name' => 'プロダクト名',
+		'Image' => 'イメージ',
+		'Description' => 'ディスクリプション',
+		'Price / 0.5 hour' => '単価　/ 30分',
+		'Type' => 'タイプ',
+		'Number of seats' => '椅子の数',
+		''=>'',
 	);
 ?>

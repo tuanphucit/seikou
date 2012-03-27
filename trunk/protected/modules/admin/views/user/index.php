@@ -1,30 +1,27 @@
 <?php 
-	echo "<table>";
-		echo "<thead>";
-			echo "<tr>";
-				echo "<th>Thứ tự</th>";
-				echo "<th>Tên</th>";
-				echo "<th>Thao tác</th>";
-			echo "</tr>";
-		echo "</thead>";
-		$count = 0;
-		foreach ($users as $user) {
-			echo "<tr>";
-				echo "<td>";echo ++$count;echo "</td>";
-				echo "<td>";echo "$user->username";echo "</td>";
-				echo "<td>";
-					echo Html::link('Edit',$this->createUrl('/admin/user/edit',array('id'=>$user->id)));
-					echo "  |  ";
-					echo Html::link('Del',$this->createUrl('/admin/user/del',array('id'=>$user->id)),array('class'=>'del-button'));
-				echo "</td>";
-			echo "</tr>";
-		}
-		echo "<tfoot>";
-			echo "<tr>";
-				echo "<td>";
-					echo Html::link("Tạo user mới",$this->createUrl('/admin/user/add'),array('class'=>'button'));
-				echo "</td>";
-			echo "</tr>";
-		echo "</tfoot>";
-	echo "</table>";
+	$this->widget('bootstrap.widgets.BootGridView', array(
+	    'dataProvider'=>$users->search(),
+	    'template'=>"{items}{pager}",
+	    'itemsCssClass'=>'table table-striped',
+	    'columns'=>array(
+	        array('name'=>'id'),
+	        array('name'=>'username'),
+	        array('name'=>'full_name',),
+	        array('name'=>'email',),
+	        array('name'=>'tel',),
+	        array('name'=>'yahoo',),
+	        array('name'=>'last_login',),
+	        array(
+				'class'=>'bootstrap.widgets.BootButtonColumn',
+	            'htmlOptions'=>array('style'=>'width: 50px'),
+	        ),
+	    ),
+	)); 
+
+	$this->widget('bootstrap.widgets.BootButton', array(
+		'label'=>t('Add','admin'),
+    	'size'=>'small',
+		'type'=>'success',
+		'url'=>$this->createUrl('/admin/user/add'),
+	));
 ?>

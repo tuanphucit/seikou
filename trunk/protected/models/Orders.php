@@ -11,6 +11,7 @@
  * @property string $end_date
  * @property string $start_time
  * @property string $end_time
+ * @property string $real_stop_time
  * @property integer $total
  * @property integer $visible
  *
@@ -51,10 +52,10 @@ class Orders extends CActiveRecord
 			array('total, visible', 'numerical', 'integerOnly'=>true),
 			array('user_id', 'length', 'max'=>8),
 			array('product_id', 'length', 'max'=>5),
-			array('end_time', 'safe'),
+			array('end_time, real_stop_time', 'safe'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('id, user_id, product_id, start_date, end_date, start_time, end_time, total, visible', 'safe', 'on'=>'search'),
+			array('id, user_id, product_id, start_date, end_date, real_stop_time, start_time, end_time, total, visible', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -79,14 +80,15 @@ class Orders extends CActiveRecord
 	{
 		return array(
 			'id' => 'ID',
-			'user_id' => 'User',
-			'product_id' => 'Product',
-			'start_date' => 'Start Date',
-			'end_date' => 'End Date',
-			'start_time' => 'Start Time',
-			'end_time' => 'End Time',
-			'total' => 'Total',
-			'visible' => 'Visible',
+			'user_id' => t('User','model'),
+			'product_id' => t('Product','model'),
+			'start_date' => t('Start Date','model'),
+			'end_date' => t('End Date','model'),
+			'start_time' => t('Start Time','model'),
+			'end_time' => t('End Time','model'),
+			'real_stop_time' => t('Real Stop Time','model'),
+			'total' => t('Total','model'),
+			'visible' => t('Visible','model'),
 		);
 	}
 
@@ -100,6 +102,7 @@ class Orders extends CActiveRecord
 		// should not be searched.
 
 		$criteria=new CDbCriteria;
+		$criteria->order = "start_date DESC";
 
 		$criteria->compare('id',$this->id);
 		$criteria->compare('user_id',$this->user_id,true);
@@ -108,11 +111,15 @@ class Orders extends CActiveRecord
 		$criteria->compare('end_date',$this->end_date,true);
 		$criteria->compare('start_time',$this->start_time,true);
 		$criteria->compare('end_time',$this->end_time,true);
+		$criteria->compare('real_stop_time',$this->real_stop_time,true);
 		$criteria->compare('total',$this->total);
 		$criteria->compare('visible',$this->visible);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
+			'pagination'=>array(
+				'pageSize'  => 30,
+			)
 		));
 	}
 	
