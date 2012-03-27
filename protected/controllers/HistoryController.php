@@ -71,9 +71,10 @@ class HistoryController extends Controller
 		
 		// save log
 		logged("$order->id | ".Yii::app()->user->name. "Delete Order");
-		if (($order->getLastestStatus() == OrdersHistory::HISTORY_CANCEL_ADMIN) || 
-			($order->getLastestStatus() == OrdersHistory::HISTORY_CANCEL_USER))
-			throw new CHttpException('500',t('Your order have already deleted'));
+		if (( $status == OrdersHistory::HISTORY_CANCEL_ADMIN) || 
+			( $status == OrdersHistory::HISTORY_CANCEL_USER)   ||
+			( $status == OrdersHistory::HISTORY_FINISH))
+			throw new CHttpException('500',t('Your order have already deleted or stopped'));
 		
 		// Save order history
 		$orderHistory = new OrdersHistory();

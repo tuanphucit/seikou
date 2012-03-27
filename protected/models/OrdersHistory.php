@@ -78,12 +78,12 @@ class OrdersHistory extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'id' => 'ID',
-			'user_id' => 'User',
-			'order_id' => 'Order',
-			'status' => 'Status',
-			'time' => 'Time',
-			'description' => 'Description',
+			'id' => t('ID','model'),
+			'user_id' => t('User','model'),
+			'order_id' => t('Order','model'),
+			'status' => t('Status','model'),
+			'time' => t('Time','model'),
+			'description' => t('Description','model'),
 		);
 	}
 

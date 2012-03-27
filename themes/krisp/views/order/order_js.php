@@ -262,7 +262,7 @@ $(document).ready(function(){
 	$("#add-event-form").dialog({
 		autoOpen: false,
 		height: 500,
-		width: 520,
+		width: 547,
 		modal: true,
 		buttons: {
 			'Add Order': function() {
@@ -526,7 +526,7 @@ $(document).ready(function(){
 		$orders = Orders::model()->findAllByAttributes(array('visible'=>1));
 		foreach ($orders as $order) {
 			$status = $order->getLastestStatus();
-			if (($status != OrdersHistory::HISTORY_CANCEL_ADMIN ) &&
+			if (($status != OrdersHistory::HISTORY_CANCEL_USER ) &&
 				($status != OrdersHistory::HISTORY_CANCEL_ADMIN ))
 			{
 			$startDate = explode("-", $order->start_date);

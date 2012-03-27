@@ -87,7 +87,7 @@
 			echo $form->errorSummary($product);
 			echo "<tr>";
 				echo "<td>";
-					echo Html::submitButton("Lưu",array('class'=>'button'));
+					echo Html::submitButton(t("Add",'admin'),array('class'=>'button'));
 				echo "</td>";
 			echo "</tr>";
 		echo "</tfoot>";

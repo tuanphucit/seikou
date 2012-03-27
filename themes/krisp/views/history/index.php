@@ -3,7 +3,7 @@
 	$this->widget('bootstrap.widgets.BootGridView', array(
 		'itemsCssClass'=>'striped bordered condensed',
 	    'dataProvider'=>$dataProvider,
-	    'template'=>"{items}",
+	    'template'=>"{items}{pager}",
 	    'columns'=>array(
 	        array('name'=>'id', 'header'=>'#'),
 	        array('name'=>'product_id'),
@@ -12,7 +12,8 @@
 	        array('name'=>'start_time'),
 	        array('name'=>'end_time'),
 	        array(
-	        	'header'=>t('Status'),
+	        	'name'=>'status',
+	        	'header'=>t('Status','model'),
 	        	'type'=>'raw',
 	        	'value'=>'OrdersHistory::getStatusTypeLabel($data->getLastestStatus())',
 	        ),

@@ -3,7 +3,17 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-		<title><?php echo $this->pageTitle?></title>
+		<title><?php 
+			$title = t('admin','Admin');
+			foreach($this->breadcrumbs as $key=>$value){
+				if ($key != '0')
+					$title .= " - ".$key;
+				else
+					$title .= " - ".$value;
+			}
+			$title .= " - ". t(Yii::app()->name);
+			echo $title;
+		?></title>
 		
 		<!--                       CSS                       -->
   
@@ -121,7 +131,7 @@
 						echo Html::link(Yii::t('admin',"System Management"),$this->createUrl('/admin/setting/index'),$htmlTop['setting']);
 						echo "<ul>";
 							echo "<li>";
-								echo Html::link("User",$this->createUrl('/admin/user/index'),($controllerId == 'user')?$htmlItem:null);
+								echo Html::link(t('User','admin'),$this->createUrl('/admin/user/index'),($controllerId == 'user')?$htmlItem:null);
 							echo "</li>";
 						echo "</ul>";
 					echo "</li>";
@@ -181,29 +191,6 @@
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue.
 					<small><a href="#" class="remove-link" title="Remove message">Remove</a></small>
 				</p>
-				
-				<form action="" method="post">
-				
-					<h4>New Message</h4>
-					
-					<fieldset>
-						<textarea class="textarea" name="textfield" cols="79" rows="5"></textarea>
-					</fieldset>
-					
-					<fieldset>
-					
-						<select name="dropdown" class="small-input">
-							<option value="option1">Send to...</option>
-							<option value="option2">Everyone</option>
-							<option value="option3">Admin</option>
-							<option value="option4">Jane Doe</option>
-						</select>
-						
-						<input class="button" type="submit" value="Send" />
-						
-					</fieldset>
-					
-				</form>
 				
 			</div> <!-- End #messages -->
 			

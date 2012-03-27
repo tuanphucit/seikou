@@ -37,7 +37,7 @@ class OrderController extends Controller
 				}
 			};
 		}
-		echo Html::errorSummary($orderTime);
+		echo Html::errorSummary($orderTime,null,null,array("class"=>"alert-error"));
 		//For debug only 
 		//$this->render('order_form',array('orderTime'=>$orderTime));
 	}

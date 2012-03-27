@@ -3158,3 +3158,906 @@ in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
 in D:\xampp\htdocs\seikou\protected\globals.php (27)
 in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (115)
 in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 05:40:04 [debug] [] <code><span style="color: #000000">
+<span style="color: #0000BB"></span><span style="color: #007700">array<br />(<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">'0'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'admin'<br /></span><span style="color: #007700">)</span>
+</span>
+</code>
+2012/03/27 05:41:31 [debug] [] <code><span style="color: #000000">
+<span style="color: #0000BB"></span><span style="color: #007700">array<br />(<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">'設備'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'/seikou/index-test.php/room/index'<br />&nbsp;&nbsp;&nbsp;&nbsp;'0'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'インデックス'<br /></span><span style="color: #007700">)</span>
+</span>
+</code>
+2012/03/27 05:44:34 [debug] [] <code><span style="color: #000000">
+<span style="color: #0000BB"></span><span style="color: #007700">array<br />(<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">'設備'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'/seikou/index-test.php/room/index'<br />&nbsp;&nbsp;&nbsp;&nbsp;'0'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'インデックス'<br /></span><span style="color: #007700">)</span>
+</span>
+</code>
+2012/03/27 05:45:41 [debug] [] <code><span style="color: #000000">
+<span style="color: #0000BB"></span><span style="color: #007700">array<br />(<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">'設備'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'/seikou/index-test.php/room/index'<br />&nbsp;&nbsp;&nbsp;&nbsp;'0'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'インデックス'<br /></span><span style="color: #007700">)</span>
+</span>
+</code>
+2012/03/27 05:47:22 [debug] [] <code><span style="color: #000000">
+<span style="color: #0000BB"></span><span style="color: #007700">array<br />(<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">'設備'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'/seikou/index-test.php/room/index'<br />&nbsp;&nbsp;&nbsp;&nbsp;'0'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'インデックス'<br /></span><span style="color: #007700">)</span>
+</span>
+</code>
+2012/03/27 05:47:52 [debug] [] <code><span style="color: #000000">
+<span style="color: #0000BB"></span><span style="color: #007700">array<br />(<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">'設備'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'/seikou/index-test.php/room/index'<br />&nbsp;&nbsp;&nbsp;&nbsp;'0'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'インデックス'<br /></span><span style="color: #007700">)</span>
+</span>
+</code>
+2012/03/27 06:42:50 [debug] [] OrderTime model:<code><span style="color: #000000">
+<span style="color: #0000BB">OrderTimeForm</span><span style="color: #FF8000">#1<br /></span><span style="color: #007700">(<br />&nbsp;&nbsp;&nbsp;&nbsp;[</span><span style="color: #0000BB">pid</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">start_date</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #DD0000">'2012-03-27'<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">end_date</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #DD0000">'2012-03-27'<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">start_hour</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">end_hour</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">start_minute</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">end_minute</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">start_ampm</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">end_ampm</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">start_time</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">end_time</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">CModel</span><span style="color: #007700">:</span><span style="color: #0000BB">_errors</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;array()<br />&nbsp;&nbsp;&nbsp;&nbsp;[</span><span style="color: #0000BB">CModel</span><span style="color: #007700">:</span><span style="color: #0000BB">_validators</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">CModel</span><span style="color: #007700">:</span><span style="color: #0000BB">_scenario</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #DD0000">''<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">CComponent</span><span style="color: #007700">:</span><span style="color: #0000BB">_e</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">CComponent</span><span style="color: #007700">:</span><span style="color: #0000BB">_m</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br /></span><span style="color: #007700">)</span>
+</span>
+</code>
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\controllers\OrderController.php (15)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 06:44:59 [debug] [] OrderTime model:<code><span style="color: #000000">
+<span style="color: #0000BB">OrderTimeForm</span><span style="color: #FF8000">#1<br /></span><span style="color: #007700">(<br />&nbsp;&nbsp;&nbsp;&nbsp;[</span><span style="color: #0000BB">pid</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">start_date</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #DD0000">'2012-03-27'<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">end_date</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #DD0000">'2012-03-27'<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">start_hour</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">end_hour</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">start_minute</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">end_minute</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">start_ampm</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">end_ampm</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">start_time</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">end_time</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">CModel</span><span style="color: #007700">:</span><span style="color: #0000BB">_errors</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;array()<br />&nbsp;&nbsp;&nbsp;&nbsp;[</span><span style="color: #0000BB">CModel</span><span style="color: #007700">:</span><span style="color: #0000BB">_validators</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">CModel</span><span style="color: #007700">:</span><span style="color: #0000BB">_scenario</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #DD0000">''<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">CComponent</span><span style="color: #007700">:</span><span style="color: #0000BB">_e</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">CComponent</span><span style="color: #007700">:</span><span style="color: #0000BB">_m</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br /></span><span style="color: #007700">)</span>
+</span>
+</code>
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\controllers\OrderController.php (15)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 06:46:56 [debug] [] OrderTime model:<code><span style="color: #000000">
+<span style="color: #0000BB">OrderTimeForm</span><span style="color: #FF8000">#1<br /></span><span style="color: #007700">(<br />&nbsp;&nbsp;&nbsp;&nbsp;[</span><span style="color: #0000BB">pid</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">start_date</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #DD0000">'2012-03-27'<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">end_date</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #DD0000">'2012-03-27'<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">start_hour</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">end_hour</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">start_minute</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">end_minute</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">start_ampm</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">end_ampm</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">start_time</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">end_time</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">CModel</span><span style="color: #007700">:</span><span style="color: #0000BB">_errors</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;array()<br />&nbsp;&nbsp;&nbsp;&nbsp;[</span><span style="color: #0000BB">CModel</span><span style="color: #007700">:</span><span style="color: #0000BB">_validators</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">CModel</span><span style="color: #007700">:</span><span style="color: #0000BB">_scenario</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #DD0000">''<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">CComponent</span><span style="color: #007700">:</span><span style="color: #0000BB">_e</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">CComponent</span><span style="color: #007700">:</span><span style="color: #0000BB">_m</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br /></span><span style="color: #007700">)</span>
+</span>
+</code>
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\controllers\OrderController.php (15)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 06:47:06 [debug] [] Validate format successed
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (79)
+in D:\xampp\htdocs\seikou\protected\controllers\OrderController.php (33)
+2012/03/27 06:47:06 [debug] [] Have time conflict
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (119)
+in D:\xampp\htdocs\seikou\protected\controllers\OrderController.php (33)
+2012/03/27 06:47:06 [debug] [] Have date conflict with Order : 98
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (126)
+in D:\xampp\htdocs\seikou\protected\controllers\OrderController.php (33)
+2012/03/27 06:47:06 [debug] [] Have date conflict with Order : 99
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (126)
+in D:\xampp\htdocs\seikou\protected\controllers\OrderController.php (33)
+2012/03/27 06:47:06 [debug] [] Validate logic success
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (140)
+in D:\xampp\htdocs\seikou\protected\controllers\OrderController.php (33)
+2012/03/27 06:47:06 [debug] [] Time: <code><span style="color: #000000">
+<span style="color: #0000BB">2</span>
+</span>
+</code>
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (159)
+in D:\xampp\htdocs\seikou\protected\controllers\OrderController.php (34)
+2012/03/27 06:47:06 [debug] [] Total: <code><span style="color: #000000">
+<span style="color: #0000BB">40000</span>
+</span>
+</code>
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (160)
+in D:\xampp\htdocs\seikou\protected\controllers\OrderController.php (34)
+2012/03/27 06:48:25 [debug] [] OrderTime model:<code><span style="color: #000000">
+<span style="color: #0000BB">OrderTimeForm</span><span style="color: #FF8000">#1<br /></span><span style="color: #007700">(<br />&nbsp;&nbsp;&nbsp;&nbsp;[</span><span style="color: #0000BB">pid</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">start_date</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #DD0000">'2012-03-27'<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">end_date</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #DD0000">'2012-03-27'<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">start_hour</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">end_hour</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">start_minute</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">end_minute</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">start_ampm</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">end_ampm</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">start_time</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">end_time</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">CModel</span><span style="color: #007700">:</span><span style="color: #0000BB">_errors</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;array()<br />&nbsp;&nbsp;&nbsp;&nbsp;[</span><span style="color: #0000BB">CModel</span><span style="color: #007700">:</span><span style="color: #0000BB">_validators</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">CModel</span><span style="color: #007700">:</span><span style="color: #0000BB">_scenario</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #DD0000">''<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">CComponent</span><span style="color: #007700">:</span><span style="color: #0000BB">_e</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">CComponent</span><span style="color: #007700">:</span><span style="color: #0000BB">_m</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br /></span><span style="color: #007700">)</span>
+</span>
+</code>
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\controllers\OrderController.php (15)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 06:50:10 [debug] [] OrderTime model:<code><span style="color: #000000">
+<span style="color: #0000BB">OrderTimeForm</span><span style="color: #FF8000">#1<br /></span><span style="color: #007700">(<br />&nbsp;&nbsp;&nbsp;&nbsp;[</span><span style="color: #0000BB">pid</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">start_date</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #DD0000">'2012-03-27'<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">end_date</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #DD0000">'2012-03-27'<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">start_hour</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">end_hour</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">start_minute</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">end_minute</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">start_ampm</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">end_ampm</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">start_time</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">end_time</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">CModel</span><span style="color: #007700">:</span><span style="color: #0000BB">_errors</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;array()<br />&nbsp;&nbsp;&nbsp;&nbsp;[</span><span style="color: #0000BB">CModel</span><span style="color: #007700">:</span><span style="color: #0000BB">_validators</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">CModel</span><span style="color: #007700">:</span><span style="color: #0000BB">_scenario</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #DD0000">''<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">CComponent</span><span style="color: #007700">:</span><span style="color: #0000BB">_e</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">CComponent</span><span style="color: #007700">:</span><span style="color: #0000BB">_m</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br /></span><span style="color: #007700">)</span>
+</span>
+</code>
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\controllers\OrderController.php (15)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 06:52:55 [debug] [] OrderTime model:<code><span style="color: #000000">
+<span style="color: #0000BB">OrderTimeForm</span><span style="color: #FF8000">#1<br /></span><span style="color: #007700">(<br />&nbsp;&nbsp;&nbsp;&nbsp;[</span><span style="color: #0000BB">pid</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">start_date</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #DD0000">'2012-03-27'<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">end_date</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #DD0000">'2012-03-27'<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">start_hour</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">end_hour</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">start_minute</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">end_minute</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">start_ampm</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">end_ampm</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">start_time</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">end_time</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">CModel</span><span style="color: #007700">:</span><span style="color: #0000BB">_errors</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;array()<br />&nbsp;&nbsp;&nbsp;&nbsp;[</span><span style="color: #0000BB">CModel</span><span style="color: #007700">:</span><span style="color: #0000BB">_validators</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">CModel</span><span style="color: #007700">:</span><span style="color: #0000BB">_scenario</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #DD0000">''<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">CComponent</span><span style="color: #007700">:</span><span style="color: #0000BB">_e</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">CComponent</span><span style="color: #007700">:</span><span style="color: #0000BB">_m</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br /></span><span style="color: #007700">)</span>
+</span>
+</code>
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\controllers\OrderController.php (15)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 06:53:09 [debug] [] 100 | luckymancvpDelete Order
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\controllers\HistoryController.php (73)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 06:53:14 [debug] [] 100 | luckymancvpDelete Order
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\controllers\HistoryController.php (73)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 06:53:24 [debug] [] 98 | luckymancvpDelete Order
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\controllers\HistoryController.php (73)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 06:53:30 [debug] [] 99 | luckymancvpDelete Order
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\controllers\HistoryController.php (73)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 06:53:35 [debug] [] OrderTime model:<code><span style="color: #000000">
+<span style="color: #0000BB">OrderTimeForm</span><span style="color: #FF8000">#1<br /></span><span style="color: #007700">(<br />&nbsp;&nbsp;&nbsp;&nbsp;[</span><span style="color: #0000BB">pid</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">start_date</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #DD0000">'2012-03-27'<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">end_date</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #DD0000">'2012-03-27'<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">start_hour</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">end_hour</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">start_minute</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">end_minute</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">start_ampm</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">end_ampm</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">start_time</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">end_time</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">CModel</span><span style="color: #007700">:</span><span style="color: #0000BB">_errors</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;array()<br />&nbsp;&nbsp;&nbsp;&nbsp;[</span><span style="color: #0000BB">CModel</span><span style="color: #007700">:</span><span style="color: #0000BB">_validators</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">CModel</span><span style="color: #007700">:</span><span style="color: #0000BB">_scenario</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #DD0000">''<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">CComponent</span><span style="color: #007700">:</span><span style="color: #0000BB">_e</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">CComponent</span><span style="color: #007700">:</span><span style="color: #0000BB">_m</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br /></span><span style="color: #007700">)</span>
+</span>
+</code>
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\controllers\OrderController.php (15)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 06:54:13 [debug] [] Validate format successed
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (79)
+in D:\xampp\htdocs\seikou\protected\controllers\OrderController.php (33)
+2012/03/27 06:54:13 [debug] [] Don't have time conflict
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (115)
+in D:\xampp\htdocs\seikou\protected\controllers\OrderController.php (33)
+2012/03/27 06:54:13 [debug] [] Time: <code><span style="color: #000000">
+<span style="color: #0000BB">4</span>
+</span>
+</code>
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (159)
+in D:\xampp\htdocs\seikou\protected\controllers\OrderController.php (34)
+2012/03/27 06:54:13 [debug] [] Total: <code><span style="color: #000000">
+<span style="color: #0000BB">240000</span>
+</span>
+</code>
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (160)
+in D:\xampp\htdocs\seikou\protected\controllers\OrderController.php (34)
+2012/03/27 07:21:32 [debug] [] Have user submit<code><span style="color: #000000">
+<span style="color: #0000BB"></span><span style="color: #007700">array<br />(<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">'id'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">''<br />&nbsp;&nbsp;&nbsp;&nbsp;'username'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">''<br />&nbsp;&nbsp;&nbsp;&nbsp;'password'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">''<br />&nbsp;&nbsp;&nbsp;&nbsp;'password_repeat'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">''<br />&nbsp;&nbsp;&nbsp;&nbsp;'role'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'0'<br />&nbsp;&nbsp;&nbsp;&nbsp;'full_name'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">''<br />&nbsp;&nbsp;&nbsp;&nbsp;'birthday'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">''<br />&nbsp;&nbsp;&nbsp;&nbsp;'idcard'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">''<br />&nbsp;&nbsp;&nbsp;&nbsp;'work'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">''<br />&nbsp;&nbsp;&nbsp;&nbsp;'address1'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">''<br />&nbsp;&nbsp;&nbsp;&nbsp;'address2'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">''<br />&nbsp;&nbsp;&nbsp;&nbsp;'email'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">''<br />&nbsp;&nbsp;&nbsp;&nbsp;'tel'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">''<br />&nbsp;&nbsp;&nbsp;&nbsp;'yahoo'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">''<br />&nbsp;&nbsp;&nbsp;&nbsp;'skype'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">''<br /></span><span style="color: #007700">)</span>
+</span>
+</code>
+2012/03/27 07:26:47 [debug] [] Have user submit<code><span style="color: #000000">
+<span style="color: #0000BB"></span><span style="color: #007700">array<br />(<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">'id'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'US102'<br />&nbsp;&nbsp;&nbsp;&nbsp;'username'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">''<br />&nbsp;&nbsp;&nbsp;&nbsp;'password'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">''<br />&nbsp;&nbsp;&nbsp;&nbsp;'password_repeat'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">''<br />&nbsp;&nbsp;&nbsp;&nbsp;'role'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'0'<br />&nbsp;&nbsp;&nbsp;&nbsp;'full_name'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">''<br />&nbsp;&nbsp;&nbsp;&nbsp;'birthday'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">''<br />&nbsp;&nbsp;&nbsp;&nbsp;'idcard'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">''<br />&nbsp;&nbsp;&nbsp;&nbsp;'work'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">''<br />&nbsp;&nbsp;&nbsp;&nbsp;'address1'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">''<br />&nbsp;&nbsp;&nbsp;&nbsp;'address2'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">''<br />&nbsp;&nbsp;&nbsp;&nbsp;'email'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">''<br />&nbsp;&nbsp;&nbsp;&nbsp;'tel'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">''<br />&nbsp;&nbsp;&nbsp;&nbsp;'yahoo'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">''<br />&nbsp;&nbsp;&nbsp;&nbsp;'skype'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">''<br /></span><span style="color: #007700">)</span>
+</span>
+</code>
+2012/03/27 07:27:01 [debug] [] Have user submit<code><span style="color: #000000">
+<span style="color: #0000BB"></span><span style="color: #007700">array<br />(<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">'id'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'US102'<br />&nbsp;&nbsp;&nbsp;&nbsp;'username'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">''<br />&nbsp;&nbsp;&nbsp;&nbsp;'password'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">''<br />&nbsp;&nbsp;&nbsp;&nbsp;'password_repeat'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">''<br />&nbsp;&nbsp;&nbsp;&nbsp;'role'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'0'<br />&nbsp;&nbsp;&nbsp;&nbsp;'full_name'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">''<br />&nbsp;&nbsp;&nbsp;&nbsp;'birthday'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">''<br />&nbsp;&nbsp;&nbsp;&nbsp;'idcard'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">''<br />&nbsp;&nbsp;&nbsp;&nbsp;'work'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">''<br />&nbsp;&nbsp;&nbsp;&nbsp;'address1'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">''<br />&nbsp;&nbsp;&nbsp;&nbsp;'address2'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">''<br />&nbsp;&nbsp;&nbsp;&nbsp;'email'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">''<br />&nbsp;&nbsp;&nbsp;&nbsp;'tel'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">''<br />&nbsp;&nbsp;&nbsp;&nbsp;'yahoo'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">''<br />&nbsp;&nbsp;&nbsp;&nbsp;'skype'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">''<br /></span><span style="color: #007700">)</span>
+</span>
+</code>
+2012/03/27 07:28:41 [debug] [] Have user submit<code><span style="color: #000000">
+<span style="color: #0000BB"></span><span style="color: #007700">array<br />(<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">'id'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'US102'<br />&nbsp;&nbsp;&nbsp;&nbsp;'username'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'thienvt'<br />&nbsp;&nbsp;&nbsp;&nbsp;'password'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'2e'<br />&nbsp;&nbsp;&nbsp;&nbsp;'password_repeat'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'2e'<br />&nbsp;&nbsp;&nbsp;&nbsp;'role'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'0'<br />&nbsp;&nbsp;&nbsp;&nbsp;'full_name'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'Võ&nbsp;Tắc&nbsp;Thiên'<br />&nbsp;&nbsp;&nbsp;&nbsp;'birthday'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'1989-03-27'<br />&nbsp;&nbsp;&nbsp;&nbsp;'idcard'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'132987562'<br />&nbsp;&nbsp;&nbsp;&nbsp;'work'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'Hà&nbsp;Đông&nbsp;Hà&nbsp;Nội'<br />&nbsp;&nbsp;&nbsp;&nbsp;'address1'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'Hương&nbsp;Canh&nbsp;Bình&nbsp;Xuyên&nbsp;Vĩnh&nbsp;Phúc'<br />&nbsp;&nbsp;&nbsp;&nbsp;'address2'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'Đại&nbsp;La&nbsp;Hà&nbsp;Nội'<br />&nbsp;&nbsp;&nbsp;&nbsp;'email'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'thienvt@gmail.com'<br />&nbsp;&nbsp;&nbsp;&nbsp;'tel'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'13589715'<br />&nbsp;&nbsp;&nbsp;&nbsp;'yahoo'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'thienvt'<br />&nbsp;&nbsp;&nbsp;&nbsp;'skype'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'thienvt'<br /></span><span style="color: #007700">)</span>
+</span>
+</code>
+2012/03/27 07:28:55 [debug] [] Have user submit<code><span style="color: #000000">
+<span style="color: #0000BB"></span><span style="color: #007700">array<br />(<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">'id'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'US102'<br />&nbsp;&nbsp;&nbsp;&nbsp;'username'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'thienvt'<br />&nbsp;&nbsp;&nbsp;&nbsp;'password'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'2e'<br />&nbsp;&nbsp;&nbsp;&nbsp;'password_repeat'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'2e'<br />&nbsp;&nbsp;&nbsp;&nbsp;'role'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'0'<br />&nbsp;&nbsp;&nbsp;&nbsp;'full_name'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'Võ&nbsp;Tắc&nbsp;Thiên'<br />&nbsp;&nbsp;&nbsp;&nbsp;'birthday'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'1989-03-27'<br />&nbsp;&nbsp;&nbsp;&nbsp;'idcard'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'132987562'<br />&nbsp;&nbsp;&nbsp;&nbsp;'work'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'Hà&nbsp;Đông&nbsp;Hà&nbsp;Nội'<br />&nbsp;&nbsp;&nbsp;&nbsp;'address1'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'Hương&nbsp;Canh&nbsp;Bình&nbsp;Xuyên&nbsp;Vĩnh&nbsp;Phúc'<br />&nbsp;&nbsp;&nbsp;&nbsp;'address2'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'Đại&nbsp;La&nbsp;Hà&nbsp;Nội'<br />&nbsp;&nbsp;&nbsp;&nbsp;'email'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'thienvt@gmail.com'<br />&nbsp;&nbsp;&nbsp;&nbsp;'tel'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'13589715'<br />&nbsp;&nbsp;&nbsp;&nbsp;'yahoo'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'thienvt'<br />&nbsp;&nbsp;&nbsp;&nbsp;'skype'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'thienvt'<br /></span><span style="color: #007700">)</span>
+</span>
+</code>
+2012/03/27 07:31:20 [debug] [] Have user submit<code><span style="color: #000000">
+<span style="color: #0000BB"></span><span style="color: #007700">array<br />(<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">'id'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'US102'<br />&nbsp;&nbsp;&nbsp;&nbsp;'username'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'thienvt'<br />&nbsp;&nbsp;&nbsp;&nbsp;'password'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'2e'<br />&nbsp;&nbsp;&nbsp;&nbsp;'password_repeat'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'2e'<br />&nbsp;&nbsp;&nbsp;&nbsp;'role'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'0'<br />&nbsp;&nbsp;&nbsp;&nbsp;'full_name'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'Võ&nbsp;Tắc&nbsp;Thiên'<br />&nbsp;&nbsp;&nbsp;&nbsp;'birthday'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'1989-03-27'<br />&nbsp;&nbsp;&nbsp;&nbsp;'idcard'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'132987562'<br />&nbsp;&nbsp;&nbsp;&nbsp;'work'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'Hà&nbsp;Đông&nbsp;Hà&nbsp;Nội'<br />&nbsp;&nbsp;&nbsp;&nbsp;'address1'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'Hương&nbsp;Canh&nbsp;Bình&nbsp;Xuyên&nbsp;Vĩnh&nbsp;Phúc'<br />&nbsp;&nbsp;&nbsp;&nbsp;'address2'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'Đại&nbsp;La&nbsp;Hà&nbsp;Nội'<br />&nbsp;&nbsp;&nbsp;&nbsp;'email'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'thienvt@gmail.com'<br />&nbsp;&nbsp;&nbsp;&nbsp;'tel'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'13589715'<br />&nbsp;&nbsp;&nbsp;&nbsp;'yahoo'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'thienvt'<br />&nbsp;&nbsp;&nbsp;&nbsp;'skype'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'thienvt'<br /></span><span style="color: #007700">)</span>
+</span>
+</code>
+2012/03/27 09:37:23 [debug] [] Validate format successed
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (79)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 09:37:23 [debug] [] スタートタイムはストップタイムを超えた
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (93)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 09:37:23 [debug] [] Validate format successed
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (79)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 09:37:23 [debug] [] スタートタイムはストップタイムを超えた
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (93)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 09:37:23 [debug] [] Validate format successed
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (79)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 09:37:23 [debug] [] スタートタイムはストップタイムを超えた
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (93)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 09:37:30 [debug] [] Validate format successed
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (79)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 09:37:30 [debug] [] スタートタイムはストップタイムを超えた
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (93)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 09:37:30 [debug] [] Validate format successed
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (79)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 09:37:30 [debug] [] スタートタイムはストップタイムを超えた
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (93)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 09:37:30 [debug] [] Validate format successed
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (79)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 09:37:30 [debug] [] スタートタイムはストップタイムを超えた
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (93)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 09:37:32 [debug] [] Validate format successed
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (79)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 09:37:32 [debug] [] スタートタイムはストップタイムを超えた
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (93)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 09:37:32 [debug] [] Validate format successed
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (79)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 09:37:32 [debug] [] スタートタイムはストップタイムを超えた
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (93)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 09:37:32 [debug] [] Validate format successed
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (79)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 09:37:32 [debug] [] スタートタイムはストップタイムを超えた
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (93)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 09:37:41 [debug] [] Validate format successed
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (79)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 09:37:41 [debug] [] Have time conflict
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (119)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 09:37:41 [debug] [] Validate logic success
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (140)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 09:37:41 [debug] [] Validate format successed
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (79)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 09:37:41 [debug] [] Don't have time conflict
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (115)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 09:37:41 [debug] [] Validate format successed
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (79)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 09:37:41 [debug] [] Don't have time conflict
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (115)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 09:43:23 [debug] [] OrderTime model:<code><span style="color: #000000">
+<span style="color: #0000BB">OrderTimeForm</span><span style="color: #FF8000">#1<br /></span><span style="color: #007700">(<br />&nbsp;&nbsp;&nbsp;&nbsp;[</span><span style="color: #0000BB">pid</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">start_date</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #DD0000">'2012-03-27'<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">end_date</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #DD0000">'2012-03-27'<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">start_hour</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">end_hour</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">start_minute</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">end_minute</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">start_ampm</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">end_ampm</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">start_time</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">end_time</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">CModel</span><span style="color: #007700">:</span><span style="color: #0000BB">_errors</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;array()<br />&nbsp;&nbsp;&nbsp;&nbsp;[</span><span style="color: #0000BB">CModel</span><span style="color: #007700">:</span><span style="color: #0000BB">_validators</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">CModel</span><span style="color: #007700">:</span><span style="color: #0000BB">_scenario</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #DD0000">''<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">CComponent</span><span style="color: #007700">:</span><span style="color: #0000BB">_e</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">CComponent</span><span style="color: #007700">:</span><span style="color: #0000BB">_m</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br /></span><span style="color: #007700">)</span>
+</span>
+</code>
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\controllers\OrderController.php (15)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 09:45:40 [debug] [] OrderTime model:<code><span style="color: #000000">
+<span style="color: #0000BB">OrderTimeForm</span><span style="color: #FF8000">#1<br /></span><span style="color: #007700">(<br />&nbsp;&nbsp;&nbsp;&nbsp;[</span><span style="color: #0000BB">pid</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">start_date</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #DD0000">'2012-03-27'<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">end_date</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #DD0000">'2012-03-27'<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">start_hour</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">end_hour</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">start_minute</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">end_minute</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">start_ampm</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">end_ampm</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">start_time</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">end_time</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">CModel</span><span style="color: #007700">:</span><span style="color: #0000BB">_errors</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;array()<br />&nbsp;&nbsp;&nbsp;&nbsp;[</span><span style="color: #0000BB">CModel</span><span style="color: #007700">:</span><span style="color: #0000BB">_validators</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">CModel</span><span style="color: #007700">:</span><span style="color: #0000BB">_scenario</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #DD0000">''<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">CComponent</span><span style="color: #007700">:</span><span style="color: #0000BB">_e</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">CComponent</span><span style="color: #007700">:</span><span style="color: #0000BB">_m</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br /></span><span style="color: #007700">)</span>
+</span>
+</code>
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\controllers\OrderController.php (15)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 09:52:38 [debug] [] OrderTime model:<code><span style="color: #000000">
+<span style="color: #0000BB">OrderTimeForm</span><span style="color: #FF8000">#1<br /></span><span style="color: #007700">(<br />&nbsp;&nbsp;&nbsp;&nbsp;[</span><span style="color: #0000BB">pid</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">start_date</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #DD0000">'2012-03-27'<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">end_date</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #DD0000">'2012-03-27'<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">start_hour</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">end_hour</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">start_minute</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">end_minute</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">start_ampm</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">end_ampm</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">start_time</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">end_time</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">CModel</span><span style="color: #007700">:</span><span style="color: #0000BB">_errors</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;array()<br />&nbsp;&nbsp;&nbsp;&nbsp;[</span><span style="color: #0000BB">CModel</span><span style="color: #007700">:</span><span style="color: #0000BB">_validators</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">CModel</span><span style="color: #007700">:</span><span style="color: #0000BB">_scenario</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #DD0000">''<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">CComponent</span><span style="color: #007700">:</span><span style="color: #0000BB">_e</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">CComponent</span><span style="color: #007700">:</span><span style="color: #0000BB">_m</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br /></span><span style="color: #007700">)</span>
+</span>
+</code>
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\controllers\OrderController.php (15)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 09:52:56 [debug] [] Validate format successed
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (79)
+in D:\xampp\htdocs\seikou\protected\controllers\OrderController.php (33)
+2012/03/27 09:52:56 [debug] [] スタートタイムはストップタイムを超えた
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (93)
+in D:\xampp\htdocs\seikou\protected\controllers\OrderController.php (33)
+2012/03/27 09:53:03 [debug] [] OrderTime model:<code><span style="color: #000000">
+<span style="color: #0000BB">OrderTimeForm</span><span style="color: #FF8000">#1<br /></span><span style="color: #007700">(<br />&nbsp;&nbsp;&nbsp;&nbsp;[</span><span style="color: #0000BB">pid</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">start_date</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #DD0000">'2012-03-27'<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">end_date</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #DD0000">'2012-03-27'<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">start_hour</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">end_hour</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">start_minute</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">end_minute</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">start_ampm</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">end_ampm</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">start_time</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">end_time</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">CModel</span><span style="color: #007700">:</span><span style="color: #0000BB">_errors</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;array()<br />&nbsp;&nbsp;&nbsp;&nbsp;[</span><span style="color: #0000BB">CModel</span><span style="color: #007700">:</span><span style="color: #0000BB">_validators</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">CModel</span><span style="color: #007700">:</span><span style="color: #0000BB">_scenario</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #DD0000">''<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">CComponent</span><span style="color: #007700">:</span><span style="color: #0000BB">_e</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">CComponent</span><span style="color: #007700">:</span><span style="color: #0000BB">_m</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br /></span><span style="color: #007700">)</span>
+</span>
+</code>
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\controllers\OrderController.php (15)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 09:54:26 [debug] [] OrderTime model:<code><span style="color: #000000">
+<span style="color: #0000BB">OrderTimeForm</span><span style="color: #FF8000">#1<br /></span><span style="color: #007700">(<br />&nbsp;&nbsp;&nbsp;&nbsp;[</span><span style="color: #0000BB">pid</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">start_date</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #DD0000">'2012-03-27'<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">end_date</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #DD0000">'2012-03-27'<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">start_hour</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">end_hour</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">start_minute</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">end_minute</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">start_ampm</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">end_ampm</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">start_time</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">end_time</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">CModel</span><span style="color: #007700">:</span><span style="color: #0000BB">_errors</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;array()<br />&nbsp;&nbsp;&nbsp;&nbsp;[</span><span style="color: #0000BB">CModel</span><span style="color: #007700">:</span><span style="color: #0000BB">_validators</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">CModel</span><span style="color: #007700">:</span><span style="color: #0000BB">_scenario</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #DD0000">''<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">CComponent</span><span style="color: #007700">:</span><span style="color: #0000BB">_e</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">CComponent</span><span style="color: #007700">:</span><span style="color: #0000BB">_m</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br /></span><span style="color: #007700">)</span>
+</span>
+</code>
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\controllers\OrderController.php (15)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 09:54:40 [debug] [] OrderTime model:<code><span style="color: #000000">
+<span style="color: #0000BB">OrderTimeForm</span><span style="color: #FF8000">#1<br /></span><span style="color: #007700">(<br />&nbsp;&nbsp;&nbsp;&nbsp;[</span><span style="color: #0000BB">pid</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">start_date</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #DD0000">'2012-03-27'<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">end_date</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #DD0000">'2012-03-27'<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">start_hour</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">end_hour</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">start_minute</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">end_minute</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">start_ampm</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">end_ampm</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">start_time</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">end_time</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">CModel</span><span style="color: #007700">:</span><span style="color: #0000BB">_errors</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;array()<br />&nbsp;&nbsp;&nbsp;&nbsp;[</span><span style="color: #0000BB">CModel</span><span style="color: #007700">:</span><span style="color: #0000BB">_validators</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">CModel</span><span style="color: #007700">:</span><span style="color: #0000BB">_scenario</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #DD0000">''<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">CComponent</span><span style="color: #007700">:</span><span style="color: #0000BB">_e</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">CComponent</span><span style="color: #007700">:</span><span style="color: #0000BB">_m</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br /></span><span style="color: #007700">)</span>
+</span>
+</code>
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\controllers\OrderController.php (15)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 09:55:21 [debug] [] OrderTime model:<code><span style="color: #000000">
+<span style="color: #0000BB">OrderTimeForm</span><span style="color: #FF8000">#1<br /></span><span style="color: #007700">(<br />&nbsp;&nbsp;&nbsp;&nbsp;[</span><span style="color: #0000BB">pid</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">start_date</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #DD0000">'2012-03-27'<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">end_date</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #DD0000">'2012-03-27'<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">start_hour</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">end_hour</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">start_minute</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">end_minute</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">start_ampm</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">end_ampm</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">start_time</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">end_time</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">CModel</span><span style="color: #007700">:</span><span style="color: #0000BB">_errors</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;array()<br />&nbsp;&nbsp;&nbsp;&nbsp;[</span><span style="color: #0000BB">CModel</span><span style="color: #007700">:</span><span style="color: #0000BB">_validators</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">CModel</span><span style="color: #007700">:</span><span style="color: #0000BB">_scenario</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #DD0000">''<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">CComponent</span><span style="color: #007700">:</span><span style="color: #0000BB">_e</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">CComponent</span><span style="color: #007700">:</span><span style="color: #0000BB">_m</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br /></span><span style="color: #007700">)</span>
+</span>
+</code>
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\controllers\OrderController.php (15)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 09:55:31 [debug] [] Validate format successed
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (79)
+in D:\xampp\htdocs\seikou\protected\controllers\OrderController.php (33)
+2012/03/27 09:55:31 [debug] [] スタートデーは未来ではない
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (87)
+in D:\xampp\htdocs\seikou\protected\controllers\OrderController.php (33)
+2012/03/27 09:57:43 [debug] [] Validate format successed
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (79)
+in D:\xampp\htdocs\seikou\protected\controllers\OrderController.php (33)
+2012/03/27 09:57:43 [debug] [] スタートデーは未来ではない
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (87)
+in D:\xampp\htdocs\seikou\protected\controllers\OrderController.php (33)
+2012/03/27 09:58:12 [debug] [] Validate format successed
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (79)
+in D:\xampp\htdocs\seikou\protected\controllers\OrderController.php (33)
+2012/03/27 09:58:12 [debug] [] スタートデーは未来ではない
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (87)
+in D:\xampp\htdocs\seikou\protected\controllers\OrderController.php (33)
+2012/03/27 09:58:24 [debug] [] Validate format successed
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (79)
+in D:\xampp\htdocs\seikou\protected\controllers\OrderController.php (33)
+2012/03/27 09:58:24 [debug] [] スタートデーは未来ではない
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (87)
+in D:\xampp\htdocs\seikou\protected\controllers\OrderController.php (33)
+2012/03/27 09:58:43 [debug] [] Validate format successed
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (79)
+in D:\xampp\htdocs\seikou\protected\controllers\OrderController.php (33)
+2012/03/27 09:58:43 [debug] [] スタートデーは未来ではない
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (87)
+in D:\xampp\htdocs\seikou\protected\controllers\OrderController.php (33)
+2012/03/27 09:58:52 [debug] [] Validate format successed
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (79)
+in D:\xampp\htdocs\seikou\protected\controllers\OrderController.php (33)
+2012/03/27 09:58:52 [debug] [] スタートデーは未来ではない
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (87)
+in D:\xampp\htdocs\seikou\protected\controllers\OrderController.php (33)
+2012/03/27 10:03:04 [debug] [] OrderTime model:<code><span style="color: #000000">
+<span style="color: #0000BB">OrderTimeForm</span><span style="color: #FF8000">#1<br /></span><span style="color: #007700">(<br />&nbsp;&nbsp;&nbsp;&nbsp;[</span><span style="color: #0000BB">pid</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">start_date</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #DD0000">'2012-03-27'<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">end_date</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #DD0000">'2012-03-27'<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">start_hour</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">end_hour</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">start_minute</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">end_minute</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">start_ampm</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">end_ampm</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">start_time</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">end_time</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">CModel</span><span style="color: #007700">:</span><span style="color: #0000BB">_errors</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;array()<br />&nbsp;&nbsp;&nbsp;&nbsp;[</span><span style="color: #0000BB">CModel</span><span style="color: #007700">:</span><span style="color: #0000BB">_validators</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">CModel</span><span style="color: #007700">:</span><span style="color: #0000BB">_scenario</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #DD0000">''<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">CComponent</span><span style="color: #007700">:</span><span style="color: #0000BB">_e</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">CComponent</span><span style="color: #007700">:</span><span style="color: #0000BB">_m</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br /></span><span style="color: #007700">)</span>
+</span>
+</code>
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\controllers\OrderController.php (15)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 10:03:15 [debug] [] Validate format successed
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (79)
+in D:\xampp\htdocs\seikou\protected\controllers\OrderController.php (33)
+2012/03/27 10:03:15 [debug] [] スタートデーは未来ではない
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (87)
+in D:\xampp\htdocs\seikou\protected\controllers\OrderController.php (33)
+2012/03/27 11:02:31 [debug] [] Validate format successed
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (79)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 11:02:31 [debug] [] スタートタイムはストップタイムを超えた
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (93)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 11:02:31 [debug] [] Validate format successed
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (79)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 11:02:31 [debug] [] スタートタイムはストップタイムを超えた
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (93)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 11:02:31 [debug] [] Validate format successed
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (79)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 11:02:31 [debug] [] スタートタイムはストップタイムを超えた
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (93)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 11:02:51 [debug] [] Validate format successed
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (79)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 11:02:51 [debug] [] Have time conflict
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (119)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 11:02:51 [debug] [] Validate logic success
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (140)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 11:02:51 [debug] [] Validate format successed
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (79)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 11:02:51 [debug] [] Have time conflict
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (119)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 11:02:51 [debug] [] Validate logic success
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (140)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 11:02:51 [debug] [] Validate format successed
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (79)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 11:02:51 [debug] [] Don't have time conflict
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (115)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 11:02:58 [debug] [] Validate format successed
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (79)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 11:02:58 [debug] [] Have time conflict
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (119)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 11:02:58 [debug] [] Validate logic success
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (140)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 11:02:58 [debug] [] Validate format successed
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (79)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 11:02:58 [debug] [] Don't have time conflict
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (115)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 11:02:58 [debug] [] Validate format successed
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (79)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 11:02:58 [debug] [] Don't have time conflict
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (115)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 11:03:08 [debug] [] Validate format successed
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (79)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 11:03:08 [debug] [] Don't have time conflict
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (115)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 11:03:08 [debug] [] Validate format successed
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (79)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 11:03:08 [debug] [] Don't have time conflict
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (115)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 11:03:08 [debug] [] Validate format successed
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (79)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 11:03:08 [debug] [] Don't have time conflict
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (115)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 11:03:12 [debug] [] OrderTime model:<code><span style="color: #000000">
+<span style="color: #0000BB">OrderTimeForm</span><span style="color: #FF8000">#1<br /></span><span style="color: #007700">(<br />&nbsp;&nbsp;&nbsp;&nbsp;[</span><span style="color: #0000BB">pid</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">start_date</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #DD0000">'2012-03-27'<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">end_date</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #DD0000">'2012-03-27'<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">start_hour</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">end_hour</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">start_minute</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">end_minute</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">start_ampm</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">end_ampm</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">start_time</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">end_time</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">CModel</span><span style="color: #007700">:</span><span style="color: #0000BB">_errors</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;array()<br />&nbsp;&nbsp;&nbsp;&nbsp;[</span><span style="color: #0000BB">CModel</span><span style="color: #007700">:</span><span style="color: #0000BB">_validators</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">CModel</span><span style="color: #007700">:</span><span style="color: #0000BB">_scenario</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #DD0000">''<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">CComponent</span><span style="color: #007700">:</span><span style="color: #0000BB">_e</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">CComponent</span><span style="color: #007700">:</span><span style="color: #0000BB">_m</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br /></span><span style="color: #007700">)</span>
+</span>
+</code>
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\controllers\OrderController.php (15)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 11:03:39 [debug] [] Validate format successed
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (79)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 11:03:39 [debug] [] Have time conflict
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (119)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 11:03:39 [debug] [] Validate logic success
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (140)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 11:03:39 [debug] [] Validate format successed
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (79)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 11:03:39 [debug] [] Have time conflict
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (119)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 11:03:39 [debug] [] Validate logic success
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (140)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 11:03:39 [debug] [] Validate format successed
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (79)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 11:03:39 [debug] [] Don't have time conflict
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (115)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 11:03:47 [debug] [] Validate format successed
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (79)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 11:03:47 [debug] [] Have time conflict
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (119)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 11:03:47 [debug] [] Validate logic success
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (140)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 11:03:47 [debug] [] Validate format successed
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (79)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 11:03:47 [debug] [] Have time conflict
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (119)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 11:03:47 [debug] [] Validate logic success
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (140)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 11:03:47 [debug] [] Validate format successed
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (79)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 11:03:47 [debug] [] Don't have time conflict
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (115)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 11:03:49 [debug] [] Validate format successed
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (79)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 11:03:49 [debug] [] Have time conflict
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (119)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 11:03:49 [debug] [] Validate logic success
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (140)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 11:03:49 [debug] [] Validate format successed
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (79)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 11:03:49 [debug] [] Have time conflict
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (119)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 11:03:49 [debug] [] Validate logic success
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (140)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 11:03:49 [debug] [] Validate format successed
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (79)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 11:03:49 [debug] [] Don't have time conflict
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (115)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 11:05:44 [debug] [] Validate format successed
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (79)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 11:05:44 [debug] [] スタート日はストップ日を超えた
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (99)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 11:05:44 [debug] [] Validate format successed
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (79)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 11:05:44 [debug] [] スタート日はストップ日を超えた
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (99)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 11:05:44 [debug] [] Validate format successed
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (79)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 11:05:44 [debug] [] スタート日はストップ日を超えた
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (99)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 11:06:06 [debug] [] Validate format successed
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (79)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 11:06:06 [debug] [] スタートタイムはストップタイムを超えた
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (93)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 11:06:06 [debug] [] Validate format successed
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (79)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 11:06:06 [debug] [] スタートタイムはストップタイムを超えた
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (93)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 11:06:06 [debug] [] Validate format successed
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (79)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 11:06:06 [debug] [] スタートタイムはストップタイムを超えた
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (93)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 11:21:33 [debug] [] Validate format successed
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (79)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 11:21:33 [debug] [] スタートデーは未来ではない
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (87)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 11:21:33 [debug] [] Validate format successed
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (79)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 11:21:33 [debug] [] スタートデーは未来ではない
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (87)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 11:21:33 [debug] [] Validate format successed
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (79)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 11:21:33 [debug] [] スタートデーは未来ではない
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (87)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 11:22:23 [debug] [] 97 | luckymancvpDelete Order
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\modules\admin\controllers\OrderController.php (110)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 11:22:54 [debug] [] 97 | luckymancvpDelete Order
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\modules\admin\controllers\OrderController.php (110)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 11:23:27 [debug] [] Validate format successed
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (79)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 11:23:27 [debug] [] スタートタイムはストップタイムを超えた
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (93)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 11:23:27 [debug] [] Validate format successed
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (79)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 11:23:27 [debug] [] スタートタイムはストップタイムを超えた
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (93)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 11:23:27 [debug] [] Validate format successed
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (79)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 11:23:27 [debug] [] スタートタイムはストップタイムを超えた
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (93)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 11:23:40 [debug] [] 98 | luckymancvpDelete Order
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\modules\admin\controllers\OrderController.php (110)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 11:25:26 [debug] [] Validate format successed
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (79)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 11:25:26 [debug] [] Have time conflict
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (119)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 11:25:26 [debug] [] Validate logic success
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (140)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 11:25:26 [debug] [] Validate format successed
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (79)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 11:25:26 [debug] [] Have time conflict
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (119)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 11:25:26 [debug] [] Validate logic success
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (140)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 11:25:26 [debug] [] Validate format successed
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (79)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 11:25:26 [debug] [] Don't have time conflict
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (115)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 11:41:40 [debug] [] OrderTime model:<code><span style="color: #000000">
+<span style="color: #0000BB">OrderTimeForm</span><span style="color: #FF8000">#1<br /></span><span style="color: #007700">(<br />&nbsp;&nbsp;&nbsp;&nbsp;[</span><span style="color: #0000BB">pid</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #DD0000">'RM102'<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">start_date</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #DD0000">'2012-03-27'<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">end_date</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #DD0000">'2012-03-27'<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">start_hour</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">end_hour</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">start_minute</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">end_minute</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">start_ampm</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">end_ampm</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">start_time</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">end_time</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">CModel</span><span style="color: #007700">:</span><span style="color: #0000BB">_errors</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;array()<br />&nbsp;&nbsp;&nbsp;&nbsp;[</span><span style="color: #0000BB">CModel</span><span style="color: #007700">:</span><span style="color: #0000BB">_validators</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">CModel</span><span style="color: #007700">:</span><span style="color: #0000BB">_scenario</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #DD0000">''<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">CComponent</span><span style="color: #007700">:</span><span style="color: #0000BB">_e</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">CComponent</span><span style="color: #007700">:</span><span style="color: #0000BB">_m</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br /></span><span style="color: #007700">)</span>
+</span>
+</code>
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\controllers\OrderController.php (15)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 12:06:14 [debug] [] OrderTime model:<code><span style="color: #000000">
+<span style="color: #0000BB">OrderTimeForm</span><span style="color: #FF8000">#1<br /></span><span style="color: #007700">(<br />&nbsp;&nbsp;&nbsp;&nbsp;[</span><span style="color: #0000BB">pid</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #DD0000">'RM102'<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">start_date</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #DD0000">'2012-03-27'<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">end_date</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #DD0000">'2012-03-27'<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">start_hour</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">end_hour</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">start_minute</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">end_minute</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">start_ampm</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">end_ampm</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">start_time</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">end_time</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">CModel</span><span style="color: #007700">:</span><span style="color: #0000BB">_errors</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;array()<br />&nbsp;&nbsp;&nbsp;&nbsp;[</span><span style="color: #0000BB">CModel</span><span style="color: #007700">:</span><span style="color: #0000BB">_validators</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">CModel</span><span style="color: #007700">:</span><span style="color: #0000BB">_scenario</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #DD0000">''<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">CComponent</span><span style="color: #007700">:</span><span style="color: #0000BB">_e</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">CComponent</span><span style="color: #007700">:</span><span style="color: #0000BB">_m</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br /></span><span style="color: #007700">)</span>
+</span>
+</code>
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\controllers\OrderController.php (15)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 12:16:01 [debug] [] Validate format successed
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (79)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 12:16:01 [debug] [] Have time conflict
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (119)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 12:16:01 [debug] [] Validate logic success
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (140)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 12:16:01 [debug] [] Validate format successed
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (79)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 12:16:01 [debug] [] Have time conflict
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (119)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 12:16:01 [debug] [] Validate logic success
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (140)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 12:16:01 [debug] [] Validate format successed
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (79)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 12:16:01 [debug] [] Don't have time conflict
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (115)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 12:16:15 [debug] [] OrderTime model:<code><span style="color: #000000">
+<span style="color: #0000BB">OrderTimeForm</span><span style="color: #FF8000">#1<br /></span><span style="color: #007700">(<br />&nbsp;&nbsp;&nbsp;&nbsp;[</span><span style="color: #0000BB">pid</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #DD0000">'RM119'<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">start_date</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #DD0000">'2012-03-27'<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">end_date</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #DD0000">'2012-03-27'<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">start_hour</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">end_hour</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">start_minute</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">end_minute</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">start_ampm</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">end_ampm</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">start_time</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">end_time</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">CModel</span><span style="color: #007700">:</span><span style="color: #0000BB">_errors</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;array()<br />&nbsp;&nbsp;&nbsp;&nbsp;[</span><span style="color: #0000BB">CModel</span><span style="color: #007700">:</span><span style="color: #0000BB">_validators</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">CModel</span><span style="color: #007700">:</span><span style="color: #0000BB">_scenario</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #DD0000">''<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">CComponent</span><span style="color: #007700">:</span><span style="color: #0000BB">_e</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">CComponent</span><span style="color: #007700">:</span><span style="color: #0000BB">_m</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br /></span><span style="color: #007700">)</span>
+</span>
+</code>
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\controllers\OrderController.php (15)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 13:23:36 [debug] [] OrderTime model:<code><span style="color: #000000">
+<span style="color: #0000BB">OrderTimeForm</span><span style="color: #FF8000">#1<br /></span><span style="color: #007700">(<br />&nbsp;&nbsp;&nbsp;&nbsp;[</span><span style="color: #0000BB">pid</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">start_date</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #DD0000">'2012-03-27'<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">end_date</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #DD0000">'2012-03-27'<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">start_hour</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">end_hour</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">start_minute</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">end_minute</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">start_ampm</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">end_ampm</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">start_time</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">end_time</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">CModel</span><span style="color: #007700">:</span><span style="color: #0000BB">_errors</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;array()<br />&nbsp;&nbsp;&nbsp;&nbsp;[</span><span style="color: #0000BB">CModel</span><span style="color: #007700">:</span><span style="color: #0000BB">_validators</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">CModel</span><span style="color: #007700">:</span><span style="color: #0000BB">_scenario</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #DD0000">''<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">CComponent</span><span style="color: #007700">:</span><span style="color: #0000BB">_e</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">CComponent</span><span style="color: #007700">:</span><span style="color: #0000BB">_m</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br /></span><span style="color: #007700">)</span>
+</span>
+</code>
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\controllers\OrderController.php (15)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 13:25:43 [debug] [] OrderTime model:<code><span style="color: #000000">
+<span style="color: #0000BB">OrderTimeForm</span><span style="color: #FF8000">#1<br /></span><span style="color: #007700">(<br />&nbsp;&nbsp;&nbsp;&nbsp;[</span><span style="color: #0000BB">pid</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">start_date</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #DD0000">'2012-03-27'<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">end_date</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #DD0000">'2012-03-27'<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">start_hour</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">end_hour</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">start_minute</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">end_minute</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">start_ampm</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">end_ampm</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">start_time</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">end_time</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">CModel</span><span style="color: #007700">:</span><span style="color: #0000BB">_errors</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;array()<br />&nbsp;&nbsp;&nbsp;&nbsp;[</span><span style="color: #0000BB">CModel</span><span style="color: #007700">:</span><span style="color: #0000BB">_validators</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">CModel</span><span style="color: #007700">:</span><span style="color: #0000BB">_scenario</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #DD0000">''<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">CComponent</span><span style="color: #007700">:</span><span style="color: #0000BB">_e</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">[</span><span style="color: #0000BB">CComponent</span><span style="color: #007700">:</span><span style="color: #0000BB">_m</span><span style="color: #007700">]&nbsp;=&gt;&nbsp;</span><span style="color: #0000BB">null<br /></span><span style="color: #007700">)</span>
+</span>
+</code>
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\controllers\OrderController.php (15)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 13:59:32 [debug] [] 101 | luckymancvpStop Order
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\modules\admin\controllers\OrderController.php (168)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 14:02:35 [debug] [] 102 | luckymancvpStop Order
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\modules\admin\controllers\OrderController.php (168)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 14:08:52 [debug] [] 97 | luckymancvpStop Order
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\modules\admin\controllers\OrderController.php (168)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 14:52:09 [debug] [] 100 | luckymancvpStop Order
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\modules\admin\controllers\OrderController.php (168)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 15:00:35 [debug] [] 102 | luckymancvpStop Order
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\modules\admin\controllers\OrderController.php (168)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 16:01:07 [debug] [] 102 | luckymancvpStop Order
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\modules\admin\controllers\OrderController.php (168)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 16:02:24 [debug] [] 101 | luckymancvpStop Order
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\modules\admin\controllers\OrderController.php (168)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 16:02:27 [debug] [] 100 | luckymancvpStop Order
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\modules\admin\controllers\OrderController.php (168)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 16:03:58 [debug] [] 102 | luckymancvpStop Order
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\modules\admin\controllers\OrderController.php (168)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 16:04:00 [debug] [] 101 | luckymancvpStop Order
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\modules\admin\controllers\OrderController.php (168)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 16:04:03 [debug] [] 100 | luckymancvpStop Order
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\modules\admin\controllers\OrderController.php (168)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 16:06:20 [debug] [] 97 | luckymancvpStop Order
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\modules\admin\controllers\OrderController.php (168)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 16:07:22 [debug] [] 102 | luckymancvpStop Order
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\modules\admin\controllers\OrderController.php (168)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 16:07:26 [debug] [] 101 | luckymancvpStop Order
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\modules\admin\controllers\OrderController.php (168)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 16:07:30 [debug] [] 100 | luckymancvpStop Order
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\modules\admin\controllers\OrderController.php (168)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 16:09:08 [debug] [] 99 | luckymancvpStop Order
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\modules\admin\controllers\OrderController.php (168)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 16:09:22 [debug] [] 98 | luckymancvpStop Order
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\modules\admin\controllers\OrderController.php (168)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 16:09:55 [debug] [] 97 | luckymancvpStop Order
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\modules\admin\controllers\OrderController.php (168)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 16:10:33 [debug] [] 102 | luckymancvpStop Order
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\modules\admin\controllers\OrderController.php (168)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 16:10:35 [debug] [] 101 | luckymancvpStop Order
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\modules\admin\controllers\OrderController.php (168)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 16:10:36 [debug] [] 100 | luckymancvpStop Order
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\modules\admin\controllers\OrderController.php (168)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 16:10:37 [debug] [] 99 | luckymancvpStop Order
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\modules\admin\controllers\OrderController.php (168)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 16:10:38 [debug] [] 98 | luckymancvpStop Order
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\modules\admin\controllers\OrderController.php (168)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 16:10:40 [debug] [] 97 | luckymancvpStop Order
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\modules\admin\controllers\OrderController.php (168)
+in D:\xampp\htdocs\seikou\index.php (13)
