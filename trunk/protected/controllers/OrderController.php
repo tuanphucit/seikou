@@ -4,6 +4,11 @@ class OrderController extends Controller
 {
 	public function actionIndex()
 	{
+		// Breadcrumbs
+		$this->breadcrumbs = array(
+			t('Order')  => $this->createUrl('/order/index'),
+			t('Index'),
+		);
 		// Construct OrderTimeForm for containing order information
 		$orderTime      = new OrderTimeForm();
 		$orderTime->pid = request('pid');
@@ -15,6 +20,11 @@ class OrderController extends Controller
 	
 	public function actionAdd()
 	{
+		// Breadcrumbs
+		$this->breadcrumbs = array(
+			t('Order')  => $this->createUrl('/order/add'),
+			t('Index'),
+		);
 		// Check if whenever order form is submitted
 		$orderTime = new OrderTimeForm();
 		$form = request("OrderTimeForm");

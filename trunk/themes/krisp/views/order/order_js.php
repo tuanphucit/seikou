@@ -19,7 +19,7 @@ $(document).ready(function(){
 		applyAgendaTooltipCallback: myApplyTooltip,
 		agendaDragStartCallback : myAgendaDragStart,
 		agendaDragStopCallback : myAgendaDragStop,
-		dragAndDropEnabled: true
+		dragAndDropEnabled: false,
 	}).data("plugin");
 	
 	/**
@@ -458,7 +458,7 @@ $(document).ready(function(){
 		buttons: {		
 			Cancel: function() {
 				$(this).dialog('close');
-			},
+			}/*,
 			'Edit': function() {
 				alert("Make your own edit screen or dialog!");
 			},
@@ -470,7 +470,7 @@ $(document).ready(function(){
 					}
 					$(this).dialog('close');
 				}
-			}			
+			}*/			
 		},
 		open: function(event, ui){
 			if(clickAgendaItem != null){

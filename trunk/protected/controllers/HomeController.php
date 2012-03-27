@@ -22,12 +22,17 @@ class HomeController extends Controller
 				'order'     => "start_date ASC",
 			),
 			'pagination'=>array(
-				'pageSize'  => 50,
+				'pageSize'  => 20,
 			)
 		));
+		
+		// Construct OrderTimeForm for containing order information
+		$orderTime      = new OrderTimeForm();
+		
 		$this->render('index',array(
 			'products'=>$products,
 			'dataProvider' => $dataProvider,
+			'orderTime'    => $orderTime,
 		));
 	}
 	
@@ -43,7 +48,7 @@ class HomeController extends Controller
 		return array(
 			array('allow', // allow authenticated users to access all actions
 				'users'=>array('@'),
-				'actions'=>array('index',)
+				'actions'=>array('index')
 			),
 			array('deny',  // deny all users
 				'users'=>array('*'),

@@ -75,17 +75,20 @@ class OrderTimeForm extends CFormModel
 		$this->end_time = $this->convert24($this->end_hour, $this->end_minute, $this->end_ampm);
 		// Check if start_date is earlier than today
 		if ($this->start_date < date('Y-m-d')) {
-			$this->addError('Date','Start date must be in the furture');
+			logged(t('Start date must be in the furture'));
+			$this->addError('Date',t('Start date must be in the furture'));
 			return false;
 		}
 		// Check start_time < end_time
 		if ($this->start_time >= $this->end_time) {
-			$this->addError('Time','Start time must be earlier than End time');
+			logged(t('Start time must be earlier than End time'));
+			$this->addError('Time',t('Start time must be earlier than End time'));
 			return false;
 		}
 		// Check start_date < end_date
 		if ($this->start_date > $this->end_date) {
-			$this->addError('Date','Start date must be earlier than End date');
+			logged(t('Start date must be earlier than End date'));
+			$this->addError('Date',t('Start date must be earlier than End date'));
 			return false;
 		}
 		// Select all order with same pid have conflict time with this current order
@@ -119,7 +122,7 @@ class OrderTimeForm extends CFormModel
 				 	 * TODO
 				 	 * Need more information about conflict date
 				 	 */
-					$this->addError('Date','Have date conflict');
+					$this->addError('Date',t('Have date conflict'));
 					logged("Finally Failed by Order: $order->id");
 					return false;	
 				}

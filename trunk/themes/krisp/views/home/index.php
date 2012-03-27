@@ -36,8 +36,8 @@
 	?>
 </div>
         
- <div class="pageBreaker"></div>
- <h2>Your Incomming Order</h2>
+<div class="pageBreaker"></div>
+<h2>Your Incomming Order</h2>
  <?php 
 	$this->widget('bootstrap.widgets.BootGridView', array(
 		'itemsCssClass'=>'striped bordered condensed',
@@ -57,14 +57,21 @@
 	        ),
 	        array(
 	            'class'=>'bootstrap.widgets.BootButtonColumn',
-	        	'template'=>'{view}',
+	        	'template'=>'{view}{delete}',
 	            'htmlOptions'=>array('style'=>'width: 50px'),
 	        	'buttons'=>array(
-	        		t('View')=>array(
+	        		'view'=>array(
+	        			'label'=> t('view'),
 			        	'url'  => 'Yii::app()->createUrl("/history/view",array("id"=>$data->id))',
+			        ),
+			        'delete'=>array(
+	        			'label'=> t('delete'),
+			        	'url'  => 'Yii::app()->createUrl("/history/delete",array("id"=>$data->id))',
 			        ),
 			    ),
 	        ),
 	    ),
 	)); 
 ?>
+
+<?php $this->renderPartial('/search/index',array('orderTime'=>$orderTime))?>

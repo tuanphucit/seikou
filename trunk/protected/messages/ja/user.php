@@ -18,7 +18,8 @@
 	
 		// Common Use
 		'Index' => 'インデックス',
-		'View'  => 'ビュー',
+		'view'  => '表示',
+		'delete'=> '削除',
 		'Delte' => '削除',
 		'Read More' => '次へ',
 		'Order'     => '注文',
@@ -35,5 +36,12 @@
 		//プロダクト
 		'Product'=>'プロダクト',
 		' now for the best price' => ' ',
+	
+		//オーダー
+		'Start date must be in the furture' => 'スタートデーは未来ではない',
+		'Start time must be earlier than End time' => 'スタートタイムはストップタイムを超えた',
+		'Start date must be earlier than End date' => 'スタート日はストップ日を超えた',
+		'Have date conflict' => '注文したいタイムは競合された',
+		'View Order Summary' => '',
 	);
 ?>
