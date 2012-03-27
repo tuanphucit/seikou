@@ -23,6 +23,15 @@ class OrderTimeForm extends CFormModel
 
 	
 	/**
+	 * Construct function for default values
+	 */
+	function __construct(){
+		parent::__construct();
+		$this->start_date = date('Y-m-d');
+		$this->end_date = date('Y-m-d');
+	}
+	
+	/**
 	 * Declares the validation rules.
 	 */
 	public function rules()

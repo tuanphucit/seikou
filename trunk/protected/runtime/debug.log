@@ -3098,3 +3098,63 @@ in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (59)
 2012/03/27 04:49:21 [debug] [] Don't have time conflict
 2012/03/27 04:49:21 [debug] [] Validate format successed
 2012/03/27 04:49:21 [debug] [] Don't have time conflict
+2012/03/27 05:17:17 [debug] [] Validate format successed
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (79)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 05:17:17 [debug] [] スタートタイムはストップタイムを超えた
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (93)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 05:17:17 [debug] [] Validate format successed
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (79)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 05:17:17 [debug] [] スタートタイムはストップタイムを超えた
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (93)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 05:17:17 [debug] [] Validate format successed
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (79)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 05:17:17 [debug] [] スタートタイムはストップタイムを超えた
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (93)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 05:17:24 [debug] [] Validate format successed
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (79)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 05:17:24 [debug] [] Have time conflict
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (119)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 05:17:24 [debug] [] Have date conflict with Order : 98
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (126)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 05:17:24 [debug] [] Have date conflict with Order : 99
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (126)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 05:17:24 [debug] [] Validate logic success
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (140)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 05:17:24 [debug] [] Validate format successed
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (79)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 05:17:24 [debug] [] Don't have time conflict
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (115)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 05:17:24 [debug] [] Validate format successed
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (79)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 05:17:24 [debug] [] Don't have time conflict
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (115)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
