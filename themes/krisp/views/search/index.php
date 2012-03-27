@@ -1,3 +1,21 @@
+<?php 
+	// Register More Javascript file and Css file
+	// Jquery UI
+	$cs = Yii::app()->getClientScript();
+	$cs->registerCoreScript( 'jquery.ui' );
+	$cs->registerCssFile(
+		Yii::app()->assetManager->publish(
+			Yii::app()->basePath . '/vendors/jquery.ui/redmond/'
+		).
+		'/jquery-ui-1.8.18.custom.css', 'screen'
+	);
+?>
+<script>
+	$(document).ready(function(){
+		$("#OrderTimeForm_start_date").datepicker({dateFormat: "yy-mm-dd"});
+		$("#OrderTimeForm_end_date").datepicker({dateFormat: "yy-mm-dd"});
+	});
+</script>
 <div class="pageBreaker"></div>
 <h2>Quick Search</h2>
 

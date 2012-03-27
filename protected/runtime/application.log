@@ -952,3 +952,1015 @@
 2012/03/27 04:49:21 [trace] [system.CModule] Loading "widgetFactory" application component
 2012/03/27 04:49:21 [trace] [system.CModule] Loading "coreMessages" application component
 2012/03/27 04:49:21 [trace] [system.CModule] Loading "format" application component
+2012/03/27 05:11:16 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:11:16 [trace] [system.CModule] Loading "bootstrap" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:11:16 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (62)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:11:17 [trace] [system.CModule] Loading "assetManager" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (351)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (62)
+2012/03/27 05:11:17 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (351)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (62)
+2012/03/27 05:11:17 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:11:18 [trace] [system.web.filters.CFilterChain] Running filter HomeController.filteraccessControl()
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:11:18 [trace] [system.CModule] Loading "user" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:11:18 [trace] [system.CModule] Loading "session" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:11:18 [trace] [system.CModule] Loading "securityManager" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:11:18 [trace] [system.CModule] Loading "statePersister" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:11:18 [trace] [system.CModule] Loading "messages" application component
+in D:\xampp\htdocs\seikou\protected\globals.php (117)
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (9)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:11:19 [trace] [system.CModule] Loading "db" application component
+in D:\xampp\htdocs\seikou\protected\models\Products.php (32)
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (12)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:11:19 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\xampp\htdocs\seikou\protected\models\Products.php (32)
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (12)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:11:20 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `products`
+in D:\xampp\htdocs\seikou\protected\models\Products.php (32)
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (12)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:11:20 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `products`
+in D:\xampp\htdocs\seikou\protected\models\Products.php (32)
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (12)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:11:20 [trace] [system.db.ar.CActiveRecord] Products.findAllByAttributes()
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (15)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:11:20 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `products` `t` WHERE `t`.`type`=:yp0 ORDER BY price DESC LIMIT 5
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (15)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:11:20 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `orders`
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (27)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:11:21 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `orders`
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (27)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:11:21 [trace] [system.CModule] Loading "themeManager" application component
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (36)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:11:21 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\seikou\themes\krisp\views\home\index.php (74)
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (36)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:11:21 [trace] [system.db.ar.CActiveRecord] Orders.count()
+in D:\xampp\htdocs\seikou\themes\krisp\views\home\index.php (74)
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (36)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:11:21 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `orders` `t` WHERE start_date >= '2012-03-27'
+in D:\xampp\htdocs\seikou\themes\krisp\views\home\index.php (74)
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (36)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:11:21 [trace] [system.db.ar.CActiveRecord] Orders.findAll()
+in D:\xampp\htdocs\seikou\themes\krisp\views\home\index.php (74)
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (36)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:11:21 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `orders` `t` WHERE start_date >= '2012-03-27' ORDER BY start_date ASC LIMIT 20
+in D:\xampp\htdocs\seikou\themes\krisp\views\home\index.php (74)
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (36)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:11:21 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\widgets\BootButtonColumn.php (38)
+in D:\xampp\htdocs\seikou\themes\krisp\views\home\index.php (74)
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (36)
+2012/03/27 05:11:21 [trace] [system.CModule] Loading "format" application component
+in D:\xampp\htdocs\seikou\themes\krisp\views\home\index.php (74)
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (36)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:11:21 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `orders_history`
+in D:\xampp\htdocs\seikou\protected\models\OrdersHistory.php (33)
+in D:\xampp\htdocs\seikou\protected\models\Orders.php (125)
+in D:\xampp\htdocs\seikou\themes\krisp\views\home\index.php (74)
+2012/03/27 05:11:21 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `orders_history`
+in D:\xampp\htdocs\seikou\protected\models\OrdersHistory.php (33)
+in D:\xampp\htdocs\seikou\protected\models\Orders.php (125)
+in D:\xampp\htdocs\seikou\themes\krisp\views\home\index.php (74)
+2012/03/27 05:11:21 [trace] [system.db.ar.CActiveRecord] OrdersHistory.findByAttributes()
+in D:\xampp\htdocs\seikou\protected\models\Orders.php (128)
+in D:\xampp\htdocs\seikou\themes\krisp\views\home\index.php (74)
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (36)
+2012/03/27 05:11:21 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `orders_history` `t` WHERE `t`.`order_id`=:yp0 ORDER BY time DESC LIMIT 1
+in D:\xampp\htdocs\seikou\protected\models\Orders.php (128)
+in D:\xampp\htdocs\seikou\themes\krisp\views\home\index.php (74)
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (36)
+2012/03/27 05:11:21 [trace] [system.db.ar.CActiveRecord] OrdersHistory.findByAttributes()
+in D:\xampp\htdocs\seikou\protected\models\Orders.php (128)
+in D:\xampp\htdocs\seikou\themes\krisp\views\home\index.php (74)
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (36)
+2012/03/27 05:11:21 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `orders_history` `t` WHERE `t`.`order_id`=:yp0 ORDER BY time DESC LIMIT 1
+in D:\xampp\htdocs\seikou\protected\models\Orders.php (128)
+in D:\xampp\htdocs\seikou\themes\krisp\views\home\index.php (74)
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (36)
+2012/03/27 05:11:21 [trace] [system.db.ar.CActiveRecord] OrdersHistory.findByAttributes()
+in D:\xampp\htdocs\seikou\protected\models\Orders.php (128)
+in D:\xampp\htdocs\seikou\themes\krisp\views\home\index.php (74)
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (36)
+2012/03/27 05:11:21 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `orders_history` `t` WHERE `t`.`order_id`=:yp0 ORDER BY time DESC LIMIT 1
+in D:\xampp\htdocs\seikou\protected\models\Orders.php (128)
+in D:\xampp\htdocs\seikou\themes\krisp\views\home\index.php (74)
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (36)
+2012/03/27 05:11:21 [trace] [system.db.ar.CActiveRecord] OrdersHistory.findByAttributes()
+in D:\xampp\htdocs\seikou\protected\models\Orders.php (128)
+in D:\xampp\htdocs\seikou\themes\krisp\views\home\index.php (74)
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (36)
+2012/03/27 05:11:21 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `orders_history` `t` WHERE `t`.`order_id`=:yp0 ORDER BY time DESC LIMIT 1
+in D:\xampp\htdocs\seikou\protected\models\Orders.php (128)
+in D:\xampp\htdocs\seikou\themes\krisp\views\home\index.php (74)
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (36)
+2012/03/27 05:11:21 [error] [php] Undefined variable: cs (D:\xampp\htdocs\seikou\themes\krisp\views\search\index.php:4)
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CController.php(870): HomeController->renderFile()
+#1 D:\xampp\htdocs\seikou\themes\krisp\views\home\index.php(77): HomeController->renderPartial()
+#2 D:\xampp\htdocs\framework\web\CBaseController.php(127): require()
+#3 D:\xampp\htdocs\framework\web\CBaseController.php(96): HomeController->renderInternal()
+#4 D:\xampp\htdocs\framework\web\CController.php(870): HomeController->renderFile()
+#5 D:\xampp\htdocs\framework\web\CController.php(783): HomeController->renderPartial()
+#6 D:\xampp\htdocs\seikou\protected\controllers\HomeController.php(36): HomeController->render()
+#7 D:\xampp\htdocs\framework\web\actions\CInlineAction.php(50): HomeController->actionIndex()
+#8 D:\xampp\htdocs\framework\web\CController.php(309): CInlineAction->runWithParams()
+#9 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(134): HomeController->runAction()
+#10 D:\xampp\htdocs\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#11 D:\xampp\htdocs\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#12 D:\xampp\htdocs\framework\web\filters\CInlineFilter.php(59): HomeController->filterAccessControl()
+#13 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#14 D:\xampp\htdocs\framework\web\CController.php(292): CFilterChain->run()
+#15 D:\xampp\htdocs\framework\web\CController.php(266): HomeController->runActionWithFilters()
+#16 D:\xampp\htdocs\framework\web\CWebApplication.php(276): HomeController->run()
+#17 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#18 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#19 D:\xampp\htdocs\seikou\index.php(13): CWebApplication->run()
+REQUEST_URI=/seikou/
+in D:\xampp\htdocs\seikou\themes\krisp\views\search\index.php (4)
+in D:\xampp\htdocs\seikou\themes\krisp\views\home\index.php (77)
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (36)
+2012/03/27 05:11:21 [trace] [system.CModule] Loading "errorHandler" application component
+in D:\xampp\htdocs\seikou\themes\krisp\views\search\index.php (4)
+in D:\xampp\htdocs\seikou\themes\krisp\views\home\index.php (77)
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (36)
+2012/03/27 05:11:47 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:11:47 [trace] [system.CModule] Loading "bootstrap" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:11:47 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (62)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:11:47 [trace] [system.CModule] Loading "assetManager" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (351)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (62)
+2012/03/27 05:11:47 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (351)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (62)
+2012/03/27 05:11:47 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:11:47 [trace] [system.web.filters.CFilterChain] Running filter HomeController.filteraccessControl()
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:11:47 [trace] [system.CModule] Loading "user" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:11:47 [trace] [system.CModule] Loading "session" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:11:47 [trace] [system.CModule] Loading "messages" application component
+in D:\xampp\htdocs\seikou\protected\globals.php (117)
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (9)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:11:47 [trace] [system.CModule] Loading "db" application component
+in D:\xampp\htdocs\seikou\protected\models\Products.php (32)
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (12)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:11:47 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\xampp\htdocs\seikou\protected\models\Products.php (32)
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (12)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:11:47 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `products`
+in D:\xampp\htdocs\seikou\protected\models\Products.php (32)
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (12)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:11:47 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `products`
+in D:\xampp\htdocs\seikou\protected\models\Products.php (32)
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (12)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:11:47 [trace] [system.db.ar.CActiveRecord] Products.findAllByAttributes()
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (15)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:11:47 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `products` `t` WHERE `t`.`type`=:yp0 ORDER BY price DESC LIMIT 5
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (15)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:11:47 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `orders`
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (27)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:11:47 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `orders`
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (27)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:11:47 [trace] [system.CModule] Loading "themeManager" application component
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (36)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:11:47 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\seikou\themes\krisp\views\home\index.php (74)
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (36)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:11:47 [trace] [system.db.ar.CActiveRecord] Orders.count()
+in D:\xampp\htdocs\seikou\themes\krisp\views\home\index.php (74)
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (36)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:11:47 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `orders` `t` WHERE start_date >= '2012-03-27'
+in D:\xampp\htdocs\seikou\themes\krisp\views\home\index.php (74)
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (36)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:11:47 [trace] [system.db.ar.CActiveRecord] Orders.findAll()
+in D:\xampp\htdocs\seikou\themes\krisp\views\home\index.php (74)
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (36)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:11:47 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `orders` `t` WHERE start_date >= '2012-03-27' ORDER BY start_date ASC LIMIT 20
+in D:\xampp\htdocs\seikou\themes\krisp\views\home\index.php (74)
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (36)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:11:47 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\widgets\BootButtonColumn.php (38)
+in D:\xampp\htdocs\seikou\themes\krisp\views\home\index.php (74)
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (36)
+2012/03/27 05:11:47 [trace] [system.CModule] Loading "format" application component
+in D:\xampp\htdocs\seikou\themes\krisp\views\home\index.php (74)
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (36)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:11:47 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `orders_history`
+in D:\xampp\htdocs\seikou\protected\models\OrdersHistory.php (33)
+in D:\xampp\htdocs\seikou\protected\models\Orders.php (125)
+in D:\xampp\htdocs\seikou\themes\krisp\views\home\index.php (74)
+2012/03/27 05:11:48 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `orders_history`
+in D:\xampp\htdocs\seikou\protected\models\OrdersHistory.php (33)
+in D:\xampp\htdocs\seikou\protected\models\Orders.php (125)
+in D:\xampp\htdocs\seikou\themes\krisp\views\home\index.php (74)
+2012/03/27 05:11:48 [trace] [system.db.ar.CActiveRecord] OrdersHistory.findByAttributes()
+in D:\xampp\htdocs\seikou\protected\models\Orders.php (128)
+in D:\xampp\htdocs\seikou\themes\krisp\views\home\index.php (74)
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (36)
+2012/03/27 05:11:48 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `orders_history` `t` WHERE `t`.`order_id`=:yp0 ORDER BY time DESC LIMIT 1
+in D:\xampp\htdocs\seikou\protected\models\Orders.php (128)
+in D:\xampp\htdocs\seikou\themes\krisp\views\home\index.php (74)
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (36)
+2012/03/27 05:11:48 [trace] [system.db.ar.CActiveRecord] OrdersHistory.findByAttributes()
+in D:\xampp\htdocs\seikou\protected\models\Orders.php (128)
+in D:\xampp\htdocs\seikou\themes\krisp\views\home\index.php (74)
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (36)
+2012/03/27 05:11:48 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `orders_history` `t` WHERE `t`.`order_id`=:yp0 ORDER BY time DESC LIMIT 1
+in D:\xampp\htdocs\seikou\protected\models\Orders.php (128)
+in D:\xampp\htdocs\seikou\themes\krisp\views\home\index.php (74)
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (36)
+2012/03/27 05:11:48 [trace] [system.db.ar.CActiveRecord] OrdersHistory.findByAttributes()
+in D:\xampp\htdocs\seikou\protected\models\Orders.php (128)
+in D:\xampp\htdocs\seikou\themes\krisp\views\home\index.php (74)
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (36)
+2012/03/27 05:11:48 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `orders_history` `t` WHERE `t`.`order_id`=:yp0 ORDER BY time DESC LIMIT 1
+in D:\xampp\htdocs\seikou\protected\models\Orders.php (128)
+in D:\xampp\htdocs\seikou\themes\krisp\views\home\index.php (74)
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (36)
+2012/03/27 05:11:48 [trace] [system.db.ar.CActiveRecord] OrdersHistory.findByAttributes()
+in D:\xampp\htdocs\seikou\protected\models\Orders.php (128)
+in D:\xampp\htdocs\seikou\themes\krisp\views\home\index.php (74)
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (36)
+2012/03/27 05:11:48 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `orders_history` `t` WHERE `t`.`order_id`=:yp0 ORDER BY time DESC LIMIT 1
+in D:\xampp\htdocs\seikou\protected\models\Orders.php (128)
+in D:\xampp\htdocs\seikou\themes\krisp\views\home\index.php (74)
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (36)
+2012/03/27 05:12:14 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:12:14 [trace] [system.CModule] Loading "bootstrap" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:12:14 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (62)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:12:14 [trace] [system.CModule] Loading "assetManager" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (351)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (62)
+2012/03/27 05:12:14 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (351)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (62)
+2012/03/27 05:12:14 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:12:14 [trace] [system.web.filters.CFilterChain] Running filter HomeController.filteraccessControl()
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:12:14 [trace] [system.CModule] Loading "user" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:12:14 [trace] [system.CModule] Loading "session" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:12:14 [trace] [system.CModule] Loading "messages" application component
+in D:\xampp\htdocs\seikou\protected\globals.php (117)
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (9)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:12:14 [trace] [system.CModule] Loading "db" application component
+in D:\xampp\htdocs\seikou\protected\models\Products.php (32)
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (12)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:12:14 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\xampp\htdocs\seikou\protected\models\Products.php (32)
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (12)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:12:14 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `products`
+in D:\xampp\htdocs\seikou\protected\models\Products.php (32)
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (12)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:12:14 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `products`
+in D:\xampp\htdocs\seikou\protected\models\Products.php (32)
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (12)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:12:14 [trace] [system.db.ar.CActiveRecord] Products.findAllByAttributes()
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (15)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:12:15 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `products` `t` WHERE `t`.`type`=:yp0 ORDER BY price DESC LIMIT 5
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (15)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:12:15 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `orders`
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (27)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:12:15 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `orders`
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (27)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:12:15 [trace] [system.CModule] Loading "themeManager" application component
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (36)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:12:15 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\seikou\themes\krisp\views\home\index.php (74)
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (36)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:12:15 [trace] [system.db.ar.CActiveRecord] Orders.count()
+in D:\xampp\htdocs\seikou\themes\krisp\views\home\index.php (74)
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (36)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:12:15 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `orders` `t` WHERE start_date >= '2012-03-27'
+in D:\xampp\htdocs\seikou\themes\krisp\views\home\index.php (74)
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (36)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:12:15 [trace] [system.db.ar.CActiveRecord] Orders.findAll()
+in D:\xampp\htdocs\seikou\themes\krisp\views\home\index.php (74)
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (36)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:12:15 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `orders` `t` WHERE start_date >= '2012-03-27' ORDER BY start_date ASC LIMIT 20
+in D:\xampp\htdocs\seikou\themes\krisp\views\home\index.php (74)
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (36)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:12:15 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\widgets\BootButtonColumn.php (38)
+in D:\xampp\htdocs\seikou\themes\krisp\views\home\index.php (74)
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (36)
+2012/03/27 05:12:15 [trace] [system.CModule] Loading "format" application component
+in D:\xampp\htdocs\seikou\themes\krisp\views\home\index.php (74)
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (36)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:12:15 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `orders_history`
+in D:\xampp\htdocs\seikou\protected\models\OrdersHistory.php (33)
+in D:\xampp\htdocs\seikou\protected\models\Orders.php (125)
+in D:\xampp\htdocs\seikou\themes\krisp\views\home\index.php (74)
+2012/03/27 05:12:15 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `orders_history`
+in D:\xampp\htdocs\seikou\protected\models\OrdersHistory.php (33)
+in D:\xampp\htdocs\seikou\protected\models\Orders.php (125)
+in D:\xampp\htdocs\seikou\themes\krisp\views\home\index.php (74)
+2012/03/27 05:12:15 [trace] [system.db.ar.CActiveRecord] OrdersHistory.findByAttributes()
+in D:\xampp\htdocs\seikou\protected\models\Orders.php (128)
+in D:\xampp\htdocs\seikou\themes\krisp\views\home\index.php (74)
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (36)
+2012/03/27 05:12:15 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `orders_history` `t` WHERE `t`.`order_id`=:yp0 ORDER BY time DESC LIMIT 1
+in D:\xampp\htdocs\seikou\protected\models\Orders.php (128)
+in D:\xampp\htdocs\seikou\themes\krisp\views\home\index.php (74)
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (36)
+2012/03/27 05:12:15 [trace] [system.db.ar.CActiveRecord] OrdersHistory.findByAttributes()
+in D:\xampp\htdocs\seikou\protected\models\Orders.php (128)
+in D:\xampp\htdocs\seikou\themes\krisp\views\home\index.php (74)
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (36)
+2012/03/27 05:12:15 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `orders_history` `t` WHERE `t`.`order_id`=:yp0 ORDER BY time DESC LIMIT 1
+in D:\xampp\htdocs\seikou\protected\models\Orders.php (128)
+in D:\xampp\htdocs\seikou\themes\krisp\views\home\index.php (74)
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (36)
+2012/03/27 05:12:15 [trace] [system.db.ar.CActiveRecord] OrdersHistory.findByAttributes()
+in D:\xampp\htdocs\seikou\protected\models\Orders.php (128)
+in D:\xampp\htdocs\seikou\themes\krisp\views\home\index.php (74)
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (36)
+2012/03/27 05:12:15 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `orders_history` `t` WHERE `t`.`order_id`=:yp0 ORDER BY time DESC LIMIT 1
+in D:\xampp\htdocs\seikou\protected\models\Orders.php (128)
+in D:\xampp\htdocs\seikou\themes\krisp\views\home\index.php (74)
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (36)
+2012/03/27 05:12:15 [trace] [system.db.ar.CActiveRecord] OrdersHistory.findByAttributes()
+in D:\xampp\htdocs\seikou\protected\models\Orders.php (128)
+in D:\xampp\htdocs\seikou\themes\krisp\views\home\index.php (74)
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (36)
+2012/03/27 05:12:15 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `orders_history` `t` WHERE `t`.`order_id`=:yp0 ORDER BY time DESC LIMIT 1
+in D:\xampp\htdocs\seikou\protected\models\Orders.php (128)
+in D:\xampp\htdocs\seikou\themes\krisp\views\home\index.php (74)
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (36)
+2012/03/27 05:15:27 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:15:27 [trace] [system.CModule] Loading "bootstrap" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:15:27 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (62)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:15:27 [trace] [system.CModule] Loading "assetManager" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (351)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (62)
+2012/03/27 05:15:27 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (351)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (62)
+2012/03/27 05:15:27 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:15:27 [trace] [system.web.filters.CFilterChain] Running filter HomeController.filteraccessControl()
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:15:27 [trace] [system.CModule] Loading "user" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:15:27 [trace] [system.CModule] Loading "session" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:15:27 [trace] [system.CModule] Loading "messages" application component
+in D:\xampp\htdocs\seikou\protected\globals.php (117)
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (9)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:15:27 [trace] [system.CModule] Loading "db" application component
+in D:\xampp\htdocs\seikou\protected\models\Products.php (32)
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (12)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:15:27 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\xampp\htdocs\seikou\protected\models\Products.php (32)
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (12)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:15:27 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `products`
+in D:\xampp\htdocs\seikou\protected\models\Products.php (32)
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (12)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:15:27 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `products`
+in D:\xampp\htdocs\seikou\protected\models\Products.php (32)
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (12)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:15:27 [trace] [system.db.ar.CActiveRecord] Products.findAllByAttributes()
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (15)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:15:27 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `products` `t` WHERE `t`.`type`=:yp0 ORDER BY price DESC LIMIT 5
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (15)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:15:27 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `orders`
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (27)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:15:27 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `orders`
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (27)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:15:27 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (29)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (29)
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (30)
+2012/03/27 05:15:27 [error] [exception.CException] exception 'CException' with message 'OrderTimeForm and its behaviors do not have a method or closure named "construct".' in D:\xampp\htdocs\framework\base\CComponent.php:266
+Stack trace:
+#0 D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php(29): CComponent->__call('construct', Array)
+#1 D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php(29): CFormModel->construct()
+#2 D:\xampp\htdocs\seikou\protected\controllers\HomeController.php(30): OrderTimeForm->__construct()
+#3 D:\xampp\htdocs\framework\web\actions\CInlineAction.php(50): HomeController->actionIndex()
+#4 D:\xampp\htdocs\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#5 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 D:\xampp\htdocs\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#7 D:\xampp\htdocs\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#8 D:\xampp\htdocs\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#9 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 D:\xampp\htdocs\framework\web\CController.php(292): CFilterChain->run()
+#11 D:\xampp\htdocs\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 D:\xampp\htdocs\framework\web\CWebApplication.php(276): CController->run('')
+#13 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#14 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/seikou/
+---
+2012/03/27 05:15:27 [trace] [system.CModule] Loading "errorHandler" application component
+2012/03/27 05:15:27 [trace] [system.CModule] Loading "themeManager" application component
+2012/03/27 05:15:53 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:15:53 [trace] [system.CModule] Loading "bootstrap" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:15:53 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (62)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:15:53 [trace] [system.CModule] Loading "assetManager" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (351)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (62)
+2012/03/27 05:15:53 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (351)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (62)
+2012/03/27 05:15:53 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:15:53 [trace] [system.web.filters.CFilterChain] Running filter HomeController.filteraccessControl()
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:15:53 [trace] [system.CModule] Loading "user" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:15:53 [trace] [system.CModule] Loading "session" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:15:53 [trace] [system.CModule] Loading "messages" application component
+in D:\xampp\htdocs\seikou\protected\globals.php (117)
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (9)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:15:53 [trace] [system.CModule] Loading "db" application component
+in D:\xampp\htdocs\seikou\protected\models\Products.php (32)
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (12)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:15:53 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\xampp\htdocs\seikou\protected\models\Products.php (32)
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (12)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:15:53 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `products`
+in D:\xampp\htdocs\seikou\protected\models\Products.php (32)
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (12)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:15:53 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `products`
+in D:\xampp\htdocs\seikou\protected\models\Products.php (32)
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (12)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:15:53 [trace] [system.db.ar.CActiveRecord] Products.findAllByAttributes()
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (15)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:15:53 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `products` `t` WHERE `t`.`type`=:yp0 ORDER BY price DESC LIMIT 5
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (15)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:15:53 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `orders`
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (27)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:15:53 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `orders`
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (27)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:15:53 [trace] [system.CModule] Loading "themeManager" application component
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (36)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:15:53 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\seikou\themes\krisp\views\home\index.php (74)
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (36)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:15:53 [trace] [system.db.ar.CActiveRecord] Orders.count()
+in D:\xampp\htdocs\seikou\themes\krisp\views\home\index.php (74)
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (36)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:15:53 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `orders` `t` WHERE start_date >= '2012-03-27'
+in D:\xampp\htdocs\seikou\themes\krisp\views\home\index.php (74)
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (36)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:15:53 [trace] [system.db.ar.CActiveRecord] Orders.findAll()
+in D:\xampp\htdocs\seikou\themes\krisp\views\home\index.php (74)
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (36)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:15:53 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `orders` `t` WHERE start_date >= '2012-03-27' ORDER BY start_date ASC LIMIT 20
+in D:\xampp\htdocs\seikou\themes\krisp\views\home\index.php (74)
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (36)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:15:53 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\widgets\BootButtonColumn.php (38)
+in D:\xampp\htdocs\seikou\themes\krisp\views\home\index.php (74)
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (36)
+2012/03/27 05:15:53 [trace] [system.CModule] Loading "format" application component
+in D:\xampp\htdocs\seikou\themes\krisp\views\home\index.php (74)
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (36)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:15:53 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `orders_history`
+in D:\xampp\htdocs\seikou\protected\models\OrdersHistory.php (33)
+in D:\xampp\htdocs\seikou\protected\models\Orders.php (125)
+in D:\xampp\htdocs\seikou\themes\krisp\views\home\index.php (74)
+2012/03/27 05:15:53 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `orders_history`
+in D:\xampp\htdocs\seikou\protected\models\OrdersHistory.php (33)
+in D:\xampp\htdocs\seikou\protected\models\Orders.php (125)
+in D:\xampp\htdocs\seikou\themes\krisp\views\home\index.php (74)
+2012/03/27 05:15:53 [trace] [system.db.ar.CActiveRecord] OrdersHistory.findByAttributes()
+in D:\xampp\htdocs\seikou\protected\models\Orders.php (128)
+in D:\xampp\htdocs\seikou\themes\krisp\views\home\index.php (74)
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (36)
+2012/03/27 05:15:53 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `orders_history` `t` WHERE `t`.`order_id`=:yp0 ORDER BY time DESC LIMIT 1
+in D:\xampp\htdocs\seikou\protected\models\Orders.php (128)
+in D:\xampp\htdocs\seikou\themes\krisp\views\home\index.php (74)
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (36)
+2012/03/27 05:15:53 [trace] [system.db.ar.CActiveRecord] OrdersHistory.findByAttributes()
+in D:\xampp\htdocs\seikou\protected\models\Orders.php (128)
+in D:\xampp\htdocs\seikou\themes\krisp\views\home\index.php (74)
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (36)
+2012/03/27 05:15:53 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `orders_history` `t` WHERE `t`.`order_id`=:yp0 ORDER BY time DESC LIMIT 1
+in D:\xampp\htdocs\seikou\protected\models\Orders.php (128)
+in D:\xampp\htdocs\seikou\themes\krisp\views\home\index.php (74)
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (36)
+2012/03/27 05:15:53 [trace] [system.db.ar.CActiveRecord] OrdersHistory.findByAttributes()
+in D:\xampp\htdocs\seikou\protected\models\Orders.php (128)
+in D:\xampp\htdocs\seikou\themes\krisp\views\home\index.php (74)
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (36)
+2012/03/27 05:15:53 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `orders_history` `t` WHERE `t`.`order_id`=:yp0 ORDER BY time DESC LIMIT 1
+in D:\xampp\htdocs\seikou\protected\models\Orders.php (128)
+in D:\xampp\htdocs\seikou\themes\krisp\views\home\index.php (74)
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (36)
+2012/03/27 05:15:53 [trace] [system.db.ar.CActiveRecord] OrdersHistory.findByAttributes()
+in D:\xampp\htdocs\seikou\protected\models\Orders.php (128)
+in D:\xampp\htdocs\seikou\themes\krisp\views\home\index.php (74)
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (36)
+2012/03/27 05:15:53 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `orders_history` `t` WHERE `t`.`order_id`=:yp0 ORDER BY time DESC LIMIT 1
+in D:\xampp\htdocs\seikou\protected\models\Orders.php (128)
+in D:\xampp\htdocs\seikou\themes\krisp\views\home\index.php (74)
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (36)
+2012/03/27 05:17:08 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:17:08 [trace] [system.CModule] Loading "bootstrap" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:17:08 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (62)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:17:08 [trace] [system.CModule] Loading "assetManager" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (351)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (62)
+2012/03/27 05:17:08 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (351)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (62)
+2012/03/27 05:17:08 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:17:08 [trace] [system.web.filters.CFilterChain] Running filter HomeController.filteraccessControl()
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:17:08 [trace] [system.CModule] Loading "user" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:17:08 [trace] [system.CModule] Loading "session" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:17:08 [trace] [system.CModule] Loading "messages" application component
+in D:\xampp\htdocs\seikou\protected\globals.php (117)
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (9)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:17:08 [trace] [system.CModule] Loading "db" application component
+in D:\xampp\htdocs\seikou\protected\models\Products.php (32)
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (12)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:17:08 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\xampp\htdocs\seikou\protected\models\Products.php (32)
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (12)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:17:08 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `products`
+in D:\xampp\htdocs\seikou\protected\models\Products.php (32)
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (12)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:17:08 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `products`
+in D:\xampp\htdocs\seikou\protected\models\Products.php (32)
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (12)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:17:08 [trace] [system.db.ar.CActiveRecord] Products.findAllByAttributes()
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (15)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:17:08 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `products` `t` WHERE `t`.`type`=:yp0 ORDER BY price DESC LIMIT 5
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (15)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:17:08 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `orders`
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (27)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:17:08 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `orders`
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (27)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:17:08 [trace] [system.CModule] Loading "themeManager" application component
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (36)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:17:08 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\seikou\themes\krisp\views\home\index.php (74)
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (36)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:17:08 [trace] [system.db.ar.CActiveRecord] Orders.count()
+in D:\xampp\htdocs\seikou\themes\krisp\views\home\index.php (74)
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (36)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:17:08 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `orders` `t` WHERE start_date >= '2012-03-27'
+in D:\xampp\htdocs\seikou\themes\krisp\views\home\index.php (74)
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (36)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:17:08 [trace] [system.db.ar.CActiveRecord] Orders.findAll()
+in D:\xampp\htdocs\seikou\themes\krisp\views\home\index.php (74)
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (36)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:17:08 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `orders` `t` WHERE start_date >= '2012-03-27' ORDER BY start_date ASC LIMIT 20
+in D:\xampp\htdocs\seikou\themes\krisp\views\home\index.php (74)
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (36)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:17:08 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\widgets\BootButtonColumn.php (38)
+in D:\xampp\htdocs\seikou\themes\krisp\views\home\index.php (74)
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (36)
+2012/03/27 05:17:08 [trace] [system.CModule] Loading "format" application component
+in D:\xampp\htdocs\seikou\themes\krisp\views\home\index.php (74)
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (36)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:17:08 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `orders_history`
+in D:\xampp\htdocs\seikou\protected\models\OrdersHistory.php (33)
+in D:\xampp\htdocs\seikou\protected\models\Orders.php (125)
+in D:\xampp\htdocs\seikou\themes\krisp\views\home\index.php (74)
+2012/03/27 05:17:08 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `orders_history`
+in D:\xampp\htdocs\seikou\protected\models\OrdersHistory.php (33)
+in D:\xampp\htdocs\seikou\protected\models\Orders.php (125)
+in D:\xampp\htdocs\seikou\themes\krisp\views\home\index.php (74)
+2012/03/27 05:17:08 [trace] [system.db.ar.CActiveRecord] OrdersHistory.findByAttributes()
+in D:\xampp\htdocs\seikou\protected\models\Orders.php (128)
+in D:\xampp\htdocs\seikou\themes\krisp\views\home\index.php (74)
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (36)
+2012/03/27 05:17:08 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `orders_history` `t` WHERE `t`.`order_id`=:yp0 ORDER BY time DESC LIMIT 1
+in D:\xampp\htdocs\seikou\protected\models\Orders.php (128)
+in D:\xampp\htdocs\seikou\themes\krisp\views\home\index.php (74)
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (36)
+2012/03/27 05:17:08 [trace] [system.db.ar.CActiveRecord] OrdersHistory.findByAttributes()
+in D:\xampp\htdocs\seikou\protected\models\Orders.php (128)
+in D:\xampp\htdocs\seikou\themes\krisp\views\home\index.php (74)
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (36)
+2012/03/27 05:17:08 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `orders_history` `t` WHERE `t`.`order_id`=:yp0 ORDER BY time DESC LIMIT 1
+in D:\xampp\htdocs\seikou\protected\models\Orders.php (128)
+in D:\xampp\htdocs\seikou\themes\krisp\views\home\index.php (74)
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (36)
+2012/03/27 05:17:08 [trace] [system.db.ar.CActiveRecord] OrdersHistory.findByAttributes()
+in D:\xampp\htdocs\seikou\protected\models\Orders.php (128)
+in D:\xampp\htdocs\seikou\themes\krisp\views\home\index.php (74)
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (36)
+2012/03/27 05:17:08 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `orders_history` `t` WHERE `t`.`order_id`=:yp0 ORDER BY time DESC LIMIT 1
+in D:\xampp\htdocs\seikou\protected\models\Orders.php (128)
+in D:\xampp\htdocs\seikou\themes\krisp\views\home\index.php (74)
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (36)
+2012/03/27 05:17:08 [trace] [system.db.ar.CActiveRecord] OrdersHistory.findByAttributes()
+in D:\xampp\htdocs\seikou\protected\models\Orders.php (128)
+in D:\xampp\htdocs\seikou\themes\krisp\views\home\index.php (74)
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (36)
+2012/03/27 05:17:08 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `orders_history` `t` WHERE `t`.`order_id`=:yp0 ORDER BY time DESC LIMIT 1
+in D:\xampp\htdocs\seikou\protected\models\Orders.php (128)
+in D:\xampp\htdocs\seikou\themes\krisp\views\home\index.php (74)
+in D:\xampp\htdocs\seikou\protected\controllers\HomeController.php (36)
+2012/03/27 05:17:17 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:17:17 [trace] [system.CModule] Loading "bootstrap" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:17:17 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (62)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:17:17 [trace] [system.CModule] Loading "assetManager" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (351)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (62)
+2012/03/27 05:17:17 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (351)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (62)
+2012/03/27 05:17:17 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:17:17 [trace] [system.web.filters.CFilterChain] Running filter SearchController.filteraccessControl()
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:17:17 [trace] [system.CModule] Loading "user" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:17:17 [trace] [system.CModule] Loading "session" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:17:17 [trace] [system.CModule] Loading "messages" application component
+in D:\xampp\htdocs\seikou\protected\globals.php (117)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (9)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:17:17 [trace] [system.CModule] Loading "db" application component
+in D:\xampp\htdocs\seikou\protected\models\Products.php (32)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (27)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:17:17 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\xampp\htdocs\seikou\protected\models\Products.php (32)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (27)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:17:17 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `products`
+in D:\xampp\htdocs\seikou\protected\models\Products.php (32)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (27)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:17:17 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `products`
+in D:\xampp\htdocs\seikou\protected\models\Products.php (32)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (27)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:17:17 [trace] [system.db.ar.CActiveRecord] Products.findAll()
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (27)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:17:17 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `products` `t`
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (27)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:17:17 [debug] [] Validate format successed
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (79)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 05:17:17 [debug] [] スタートタイムはストップタイムを超えた
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (93)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 05:17:17 [debug] [] Validate format successed
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (79)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 05:17:17 [debug] [] スタートタイムはストップタイムを超えた
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (93)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 05:17:17 [debug] [] Validate format successed
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (79)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 05:17:17 [debug] [] スタートタイムはストップタイムを超えた
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (93)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 05:17:17 [trace] [system.CModule] Loading "themeManager" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (37)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:17:17 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\seikou\themes\krisp\views\search\_result.php (2)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (37)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:17:17 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\seikou\themes\krisp\views\search\_result.php (34)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (37)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:17:24 [trace] [system.CModule] Loading "log" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:17:24 [trace] [system.CModule] Loading "bootstrap" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:17:24 [trace] [system.CModule] Loading "clientScript" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (62)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:17:24 [trace] [system.CModule] Loading "assetManager" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (351)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (62)
+2012/03/27 05:17:24 [trace] [system.CModule] Loading "request" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (351)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (89)
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\components\Bootstrap.php (62)
+2012/03/27 05:17:24 [trace] [system.CModule] Loading "urlManager" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:17:24 [trace] [system.web.filters.CFilterChain] Running filter SearchController.filteraccessControl()
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:17:24 [trace] [system.CModule] Loading "user" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:17:24 [trace] [system.CModule] Loading "session" application component
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:17:24 [trace] [system.CModule] Loading "messages" application component
+in D:\xampp\htdocs\seikou\protected\globals.php (117)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (9)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:17:24 [trace] [system.CModule] Loading "db" application component
+in D:\xampp\htdocs\seikou\protected\models\Products.php (32)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (27)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:17:24 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\xampp\htdocs\seikou\protected\models\Products.php (32)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (27)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:17:24 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `products`
+in D:\xampp\htdocs\seikou\protected\models\Products.php (32)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (27)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:17:24 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `products`
+in D:\xampp\htdocs\seikou\protected\models\Products.php (32)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (27)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:17:24 [trace] [system.db.ar.CActiveRecord] Products.findAll()
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (27)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:17:24 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `products` `t`
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (27)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:17:24 [debug] [] Validate format successed
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (79)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 05:17:24 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `orders`
+in D:\xampp\htdocs\seikou\protected\models\Orders.php (31)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (113)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 05:17:24 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `orders`
+in D:\xampp\htdocs\seikou\protected\models\Orders.php (31)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (113)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 05:17:24 [trace] [system.db.ar.CActiveRecord] Orders.findAll()
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (113)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:17:24 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `orders` `t` WHERE (product_id = 'RM102') AND (
+			((start_time <= '1:00') and (end_time > '1:00')) 
+			or
+			((start_time < '3:00') and (end_time >= '3:00')) 
+			or
+			((start_time >= '1:00') and (end_time <= '3:00'))
+		)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (113)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:17:24 [debug] [] Have time conflict
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (119)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 05:17:24 [debug] [] Have date conflict with Order : 98
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (126)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 05:17:24 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `orders_history`
+in D:\xampp\htdocs\seikou\protected\models\OrdersHistory.php (33)
+in D:\xampp\htdocs\seikou\protected\models\Orders.php (125)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (128)
+2012/03/27 05:17:24 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `orders_history`
+in D:\xampp\htdocs\seikou\protected\models\OrdersHistory.php (33)
+in D:\xampp\htdocs\seikou\protected\models\Orders.php (125)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (128)
+2012/03/27 05:17:24 [trace] [system.db.ar.CActiveRecord] OrdersHistory.findByAttributes()
+in D:\xampp\htdocs\seikou\protected\models\Orders.php (128)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (128)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 05:17:24 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `orders_history` `t` WHERE `t`.`order_id`=:yp0 ORDER BY time DESC LIMIT 1
+in D:\xampp\htdocs\seikou\protected\models\Orders.php (128)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (128)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 05:17:24 [debug] [] Have date conflict with Order : 99
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (126)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 05:17:24 [trace] [system.db.ar.CActiveRecord] OrdersHistory.findByAttributes()
+in D:\xampp\htdocs\seikou\protected\models\Orders.php (128)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (128)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 05:17:24 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `orders_history` `t` WHERE `t`.`order_id`=:yp0 ORDER BY time DESC LIMIT 1
+in D:\xampp\htdocs\seikou\protected\models\Orders.php (128)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (128)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 05:17:24 [debug] [] Validate logic success
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (140)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 05:17:24 [debug] [] Validate format successed
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (79)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 05:17:24 [trace] [system.db.ar.CActiveRecord] Orders.findAll()
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (113)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:17:24 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `orders` `t` WHERE (product_id = 'RM110') AND (
+			((start_time <= '1:00') and (end_time > '1:00')) 
+			or
+			((start_time < '3:00') and (end_time >= '3:00')) 
+			or
+			((start_time >= '1:00') and (end_time <= '3:00'))
+		)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (113)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:17:24 [debug] [] Don't have time conflict
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (115)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 05:17:24 [debug] [] Validate format successed
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (79)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 05:17:24 [trace] [system.db.ar.CActiveRecord] Orders.findAll()
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (113)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:17:24 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `orders` `t` WHERE (product_id = 'RM119') AND (
+			((start_time <= '1:00') and (end_time > '1:00')) 
+			or
+			((start_time < '3:00') and (end_time >= '3:00')) 
+			or
+			((start_time >= '1:00') and (end_time <= '3:00'))
+		)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (113)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:17:24 [debug] [] Don't have time conflict
+in D:\xampp\htdocs\seikou\protected\globals.php (27)
+in D:\xampp\htdocs\seikou\protected\models\OrderTimeForm.php (115)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (30)
+2012/03/27 05:17:24 [trace] [system.CModule] Loading "themeManager" application component
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (37)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:17:24 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\xampp\htdocs\seikou\themes\krisp\views\search\_result.php (34)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (37)
+in D:\xampp\htdocs\seikou\index.php (13)
+2012/03/27 05:17:24 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\xampp\htdocs\seikou\protected\extensions\bootstrap\widgets\BootButtonColumn.php (38)
+in D:\xampp\htdocs\seikou\themes\krisp\views\search\_result.php (34)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (37)
+2012/03/27 05:17:24 [trace] [system.CModule] Loading "format" application component
+in D:\xampp\htdocs\seikou\themes\krisp\views\search\_result.php (34)
+in D:\xampp\htdocs\seikou\protected\controllers\SearchController.php (37)
+in D:\xampp\htdocs\seikou\index.php (13)
