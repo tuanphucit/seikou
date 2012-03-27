@@ -135,4 +135,12 @@ class Orders extends CActiveRecord
 													);
 		return $orderHistory->status;
 	}
+	
+	/**
+	 * @return Get over time (30 minutes = 1 unit) round up to 30 minutes
+	 */
+	public function overTime()
+	{
+		return OrderTimeForm::time_difference($this->end_time, $this->real_stop_time);
+	}
 }

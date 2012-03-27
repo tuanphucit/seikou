@@ -26,7 +26,8 @@ class OrdersHistory extends CActiveRecord
 	const HISTORY_FINISH = 1;
 	const HISTORY_CANCEL_USER  = 2;
 	const HISTORY_CANCEL_ADMIN = 3;
-	const HISTORY_CREATE_ADMIN = 4; 
+	const HISTORY_CREATE_ADMIN = 4;
+	const HISTORY_OVERTIME = 5; 
 	
 	public static function model($className=__CLASS__)
 	{
@@ -123,7 +124,8 @@ class OrdersHistory extends CActiveRecord
 			OrdersHistory::HISTORY_FINISH => t('Finished'),
 			OrdersHistory::HISTORY_CANCEL_USER  => t('Canceled'),
 			OrdersHistory::HISTORY_CANCEL_ADMIN => t('CANCELED'),
-			OrdersHistory::HISTORY_CREATE_ADMIN => t('Created'), 
+			OrdersHistory::HISTORY_CREATE_ADMIN => t('CREATED'),
+			OrdersHistory::HISTORY_OVERTIME     => t('OVER'), 
 		);
 		
 		return $statusList[$status];

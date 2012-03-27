@@ -155,7 +155,8 @@ class OrderTimeForm extends CFormModel
 		$order->end_date   = Html::formatDateTime($this->end_date,"yyyy-M-d","Y-m-d");
 		$order->start_time = $this->start_time;
 		$order->end_time   = $this->end_time;
-		$order->total      = $product->price * $this->date_difference($this->start_date, $this->end_date) * $this->time_difference($this->start_time, $this->end_time);
+		$fee = Fee::model()->find();
+		$order->total      = $product->price * $this->date_difference($this->start_date, $this->end_date) * $this->time_difference($this->start_time, $this->end_time) + $fee->register;
 		logged("Time: ".dump($this->time_difference($this->start_time, $this->end_time)));
 		logged("Total: ".dump($order->total));
 		if (!$order->save()) {
@@ -184,7 +185,9 @@ class OrderTimeForm extends CFormModel
 		return ceil($timestamp_diff / $date)+1;
 	}
 	
-	private function time_difference($time1,$time2) {
+	public static function time_difference($time1,$time2) {
+		if ($time1 >= $time2)
+			return 0;
 		$timestamp_diff = strtotime($time2) - strtotime($time1);
 		$half_an_hour = 30*60;
 		return ceil($timestamp_diff / $half_an_hour);

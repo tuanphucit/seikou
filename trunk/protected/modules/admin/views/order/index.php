@@ -11,9 +11,28 @@
 	Yii::app()->controller->widget("bootstrap.widgets.BootButton", 
 		array(
 			"fn"=>"ajaxButton",
-			"url" => Yii::app()->createUrl("/admin/order/stop/",array("id"=>$data->id)),
+			"url" => Yii::app()->createUrl("/admin/order/finish/",array("id"=>$data->id)),
 			"type"=>"primary",
-			"label"=>"Click me",
+			"label"=>"Normal",
+			"loadingText"=>"loading...",
+			"htmlOptions"=>array(
+				"class"=>"stop-button",
+				"onClick"=>"javascript:loading($(this))",
+			),
+	    	"ajaxOptions"=>array(
+		    	"complete"=>"function(){
+		        	$.fn.yiiGridView.update(\\"order-list\\",{});
+		        }",
+	    	),
+    	),
+    	true
+    ).
+    Yii::app()->controller->widget("bootstrap.widgets.BootButton", 
+		array(
+			"fn"=>"ajaxButton",
+			"url" => Yii::app()->createUrl("/admin/order/stop/",array("id"=>$data->id)),
+			"type"=>"danger",
+			"label"=>"Over",
 			"loadingText"=>"loading...",
 			"htmlOptions"=>array(
 				"class"=>"stop-button",
@@ -45,12 +64,6 @@
 	        array('name'=>'start_time','header'=>t('Start Time','model')),
 	        array('name'=>'end_time','header'=>t('End Time','model')),
 	        array(
-	        	'name' => 'real_stop_time',
-	        	'type' => 'raw',
-	        	'value'=> '($data->getLastestStatus() != OrdersHistory::HISTORY_CREATE) ? $data->real_stop_time :
-	        		'.$ajaxButtonStop,
-	        ),
-	        array(
 	        	'name'=>'status',
 	        	'header'=>t('Status','model'),
 	        	'type'=>'raw',
@@ -60,6 +73,12 @@
 	            'class'=>'bootstrap.widgets.BootButtonColumn',
 	        	'template'=>'{view}{delete}',
 	            'htmlOptions'=>array('style'=>'width: 50px'),
+	        ),
+	        array(
+	        	'name' => 'real_stop_time',
+	        	'type' => 'raw',
+	        	'value'=> '($data->getLastestStatus() != OrdersHistory::HISTORY_CREATE) ? $data->real_stop_time :
+	        		'.$ajaxButtonStop,
 	        ),
 	    ),
 	)); 

@@ -968,3 +968,343 @@ Stack trace:
 REQUEST_URI=/seikou/admin/order/stopp/id/97?_=1332857001695
 HTTP_REFERER=http://localhost/seikou/admin/order/index
 ---
+2012/03/27 16:13:52 [error] [exception.CException] exception 'CException' with message 'プロパティ "CActiveDataProvider.order" が定義されていません。' in D:\xampp\htdocs\framework\base\CComponent.php:174
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CActiveDataProvider.php(84): CComponent->__set('order', 'start_time DESC')
+#1 D:\xampp\htdocs\seikou\protected\models\Orders.php(123): CActiveDataProvider->__construct(Object(Orders), Array)
+#2 D:\xampp\htdocs\seikou\protected\modules\admin\views\order\index.php(34): Orders->search()
+#3 D:\xampp\htdocs\framework\web\CBaseController.php(127): require('D:\xampp\htdocs...')
+#4 D:\xampp\htdocs\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\xampp\htdocs...', Array, true)
+#5 D:\xampp\htdocs\framework\web\CController.php(870): CBaseController->renderFile('D:\xampp\htdocs...', Array, true)
+#6 D:\xampp\htdocs\framework\web\CController.php(783): CController->renderPartial('index', Array, true)
+#7 D:\xampp\htdocs\seikou\protected\modules\admin\controllers\OrderController.php(33): CController->render('index', Array)
+#8 D:\xampp\htdocs\framework\web\actions\CInlineAction.php(50): OrderController->actionIndex()
+#9 D:\xampp\htdocs\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#11 D:\xampp\htdocs\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#12 D:\xampp\htdocs\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#13 D:\xampp\htdocs\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#14 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#15 D:\xampp\htdocs\framework\web\CController.php(292): CFilterChain->run()
+#16 D:\xampp\htdocs\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 D:\xampp\htdocs\framework\web\CWebApplication.php(276): CController->run('index')
+#18 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('admin/order/ind...')
+#19 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#20 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/seikou/admin/order/index
+HTTP_REFERER=http://localhost/seikou/admin/order/index
+---
+2012/03/27 16:14:40 [error] [exception.CException] exception 'CException' with message 'プロパティ "CActiveDataProvider.order" が定義されていません。' in D:\xampp\htdocs\framework\base\CComponent.php:174
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CActiveDataProvider.php(84): CComponent->__set('order', 'start_time DESC')
+#1 D:\xampp\htdocs\seikou\protected\models\Orders.php(124): CActiveDataProvider->__construct(Object(Orders), Array)
+#2 D:\xampp\htdocs\seikou\protected\modules\admin\views\order\index.php(34): Orders->search()
+#3 D:\xampp\htdocs\framework\web\CBaseController.php(127): require('D:\xampp\htdocs...')
+#4 D:\xampp\htdocs\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\xampp\htdocs...', Array, true)
+#5 D:\xampp\htdocs\framework\web\CController.php(870): CBaseController->renderFile('D:\xampp\htdocs...', Array, true)
+#6 D:\xampp\htdocs\framework\web\CController.php(783): CController->renderPartial('index', Array, true)
+#7 D:\xampp\htdocs\seikou\protected\modules\admin\controllers\OrderController.php(33): CController->render('index', Array)
+#8 D:\xampp\htdocs\framework\web\actions\CInlineAction.php(50): OrderController->actionIndex()
+#9 D:\xampp\htdocs\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#11 D:\xampp\htdocs\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#12 D:\xampp\htdocs\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#13 D:\xampp\htdocs\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#14 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#15 D:\xampp\htdocs\framework\web\CController.php(292): CFilterChain->run()
+#16 D:\xampp\htdocs\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 D:\xampp\htdocs\framework\web\CWebApplication.php(276): CController->run('index')
+#18 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('admin/order/ind...')
+#19 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#20 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/seikou/admin/order/index
+HTTP_REFERER=http://localhost/seikou/admin/order/index
+---
+2012/03/27 16:39:29 [error] [exception.CException] exception 'CException' with message 'プロパティ "Users.order" が定義されていません。' in D:\xampp\htdocs\framework\base\CComponent.php:131
+Stack trace:
+#0 D:\xampp\htdocs\framework\db\ar\CActiveRecord.php(144): CComponent->__get('order')
+#1 D:\xampp\htdocs\seikou\protected\modules\admin\controllers\ToolController.php(50): CActiveRecord->__get('order')
+#2 D:\xampp\htdocs\framework\web\actions\CInlineAction.php(50): ToolController->actionExportcsv()
+#3 D:\xampp\htdocs\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#5 D:\xampp\htdocs\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#6 D:\xampp\htdocs\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#7 D:\xampp\htdocs\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#8 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#9 D:\xampp\htdocs\framework\web\CController.php(292): CFilterChain->run()
+#10 D:\xampp\htdocs\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\xampp\htdocs\framework\web\CWebApplication.php(276): CController->run('exportcsv')
+#12 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('admin/tool/expo...')
+#13 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#14 D:\xampp\htdocs\seikou\index-test.php(15): CApplication->run()
+#15 {main}
+REQUEST_URI=/seikou/index-test.php/admin/tool/exportcsv
+---
+2012/03/27 16:49:59 [error] [exception.Exception] exception 'Exception' with message 'Data provider must be an instance of CSqlDataProvider or an array.' in D:\xampp\htdocs\seikou\protected\extensions\CSVExport.php:135
+Stack trace:
+#0 D:\xampp\htdocs\seikou\protected\modules\admin\controllers\ToolController.php(50): CSVExport->toCSV()
+#1 D:\xampp\htdocs\framework\web\actions\CInlineAction.php(50): ToolController->actionExportcsv()
+#2 D:\xampp\htdocs\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#3 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#4 D:\xampp\htdocs\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#5 D:\xampp\htdocs\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#6 D:\xampp\htdocs\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#7 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#8 D:\xampp\htdocs\framework\web\CController.php(292): CFilterChain->run()
+#9 D:\xampp\htdocs\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 D:\xampp\htdocs\framework\web\CWebApplication.php(276): CController->run('exportcsv')
+#11 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('admin/tool/expo...')
+#12 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#13 D:\xampp\htdocs\seikou\index-test.php(15): CApplication->run()
+#14 {main}
+REQUEST_URI=/seikou/index-test.php/admin/tool/exportcsv
+---
+2012/03/27 16:58:43 [error] [php] array_keys() expects parameter 1 to be array, string given (D:\xampp\htdocs\seikou\protected\extensions\CSVExport.php:146)
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\actions\CInlineAction.php(50): ToolController->actionExportcsv()
+#1 D:\xampp\htdocs\framework\web\CController.php(309): CInlineAction->runWithParams()
+#2 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(134): ToolController->runAction()
+#3 D:\xampp\htdocs\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#4 D:\xampp\htdocs\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#5 D:\xampp\htdocs\framework\web\filters\CInlineFilter.php(59): ToolController->filterAccessControl()
+#6 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#7 D:\xampp\htdocs\framework\web\CController.php(292): CFilterChain->run()
+#8 D:\xampp\htdocs\framework\web\CController.php(266): ToolController->runActionWithFilters()
+#9 D:\xampp\htdocs\framework\web\CWebApplication.php(276): ToolController->run()
+#10 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#11 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#12 D:\xampp\htdocs\seikou\index-test.php(15): CWebApplication->run()
+REQUEST_URI=/seikou/index-test.php/admin/tool/exportcsv
+2012/03/27 16:59:29 [error] [php] fputcsv() expects parameter 2 to be array, string given (D:\xampp\htdocs\seikou\protected\extensions\CSVExport.php:172)
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\actions\CInlineAction.php(50): ToolController->actionExportcsv()
+#1 D:\xampp\htdocs\framework\web\CController.php(309): CInlineAction->runWithParams()
+#2 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(134): ToolController->runAction()
+#3 D:\xampp\htdocs\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#4 D:\xampp\htdocs\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#5 D:\xampp\htdocs\framework\web\filters\CInlineFilter.php(59): ToolController->filterAccessControl()
+#6 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#7 D:\xampp\htdocs\framework\web\CController.php(292): CFilterChain->run()
+#8 D:\xampp\htdocs\framework\web\CController.php(266): ToolController->runActionWithFilters()
+#9 D:\xampp\htdocs\framework\web\CWebApplication.php(276): ToolController->run()
+#10 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#11 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#12 D:\xampp\htdocs\seikou\index-test.php(15): CWebApplication->run()
+REQUEST_URI=/seikou/index-test.php/admin/tool/exportcsv
+2012/03/27 17:12:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Param is not enough' in D:\xampp\htdocs\seikou\protected\modules\admin\controllers\ToolController.php:47
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\actions\CInlineAction.php(50): ToolController->actionExportcsv()
+#1 D:\xampp\htdocs\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#2 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#3 D:\xampp\htdocs\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#4 D:\xampp\htdocs\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#5 D:\xampp\htdocs\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#6 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#7 D:\xampp\htdocs\framework\web\CController.php(292): CFilterChain->run()
+#8 D:\xampp\htdocs\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\xampp\htdocs\framework\web\CWebApplication.php(276): CController->run('exportcsv')
+#10 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('admin/tool/expo...')
+#11 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#12 D:\xampp\htdocs\seikou\index-test.php(15): CApplication->run()
+#13 {main}
+REQUEST_URI=/seikou/index-test.php/admin/tool/exportcsv
+---
+2012/03/27 17:12:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Param is not enough' in D:\xampp\htdocs\seikou\protected\modules\admin\controllers\ToolController.php:47
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\actions\CInlineAction.php(50): ToolController->actionExportcsv()
+#1 D:\xampp\htdocs\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#2 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#3 D:\xampp\htdocs\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#4 D:\xampp\htdocs\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#5 D:\xampp\htdocs\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#6 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#7 D:\xampp\htdocs\framework\web\CController.php(292): CFilterChain->run()
+#8 D:\xampp\htdocs\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\xampp\htdocs\framework\web\CWebApplication.php(276): CController->run('exportcsv')
+#10 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('admin/tool/expo...')
+#11 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#12 D:\xampp\htdocs\seikou\index-test.php(15): CApplication->run()
+#13 {main}
+REQUEST_URI=/seikou/index-test.php/admin/tool/exportcsv?date=2012&month=03
+---
+2012/03/27 17:13:12 [error] [exception.CException] exception 'CException' with message 'プロパティ "Users.name" が定義されていません。' in D:\xampp\htdocs\framework\base\CComponent.php:131
+Stack trace:
+#0 D:\xampp\htdocs\framework\db\ar\CActiveRecord.php(144): CComponent->__get('name')
+#1 D:\xampp\htdocs\seikou\protected\modules\admin\controllers\ToolController.php(52): CActiveRecord->__get('name')
+#2 D:\xampp\htdocs\framework\web\actions\CInlineAction.php(50): ToolController->actionExportcsv()
+#3 D:\xampp\htdocs\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#5 D:\xampp\htdocs\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#6 D:\xampp\htdocs\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#7 D:\xampp\htdocs\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#8 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#9 D:\xampp\htdocs\framework\web\CController.php(292): CFilterChain->run()
+#10 D:\xampp\htdocs\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\xampp\htdocs\framework\web\CWebApplication.php(276): CController->run('exportcsv')
+#12 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('admin/tool/expo...')
+#13 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#14 D:\xampp\htdocs\seikou\index-test.php(15): CApplication->run()
+#15 {main}
+REQUEST_URI=/seikou/index-test.php/admin/tool/exportcsv?year=2012&month=03
+---
+2012/03/27 17:50:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Param is not enough' in D:\xampp\htdocs\seikou\protected\modules\admin\controllers\ToolController.php:47
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\actions\CInlineAction.php(50): ToolController->actionExportcsv()
+#1 D:\xampp\htdocs\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#2 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#3 D:\xampp\htdocs\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#4 D:\xampp\htdocs\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#5 D:\xampp\htdocs\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#6 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#7 D:\xampp\htdocs\framework\web\CController.php(292): CFilterChain->run()
+#8 D:\xampp\htdocs\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\xampp\htdocs\framework\web\CWebApplication.php(276): CController->run('exportcsv')
+#10 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('admin/tool/expo...')
+#11 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#12 D:\xampp\htdocs\seikou\index-test.php(15): CApplication->run()
+#13 {main}
+REQUEST_URI=/seikou/index-test.php/admin/tool/exportcsv
+---
+2012/03/27 17:50:27 [error] [php] Use of undefined constant length - assumed 'length' (D:\xampp\htdocs\seikou\protected\modules\admin\controllers\ToolController.php:48)
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(134): ToolController->runAction()
+#1 D:\xampp\htdocs\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#2 D:\xampp\htdocs\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#3 D:\xampp\htdocs\framework\web\filters\CInlineFilter.php(59): ToolController->filterAccessControl()
+#4 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#5 D:\xampp\htdocs\framework\web\CController.php(292): CFilterChain->run()
+#6 D:\xampp\htdocs\framework\web\CController.php(266): ToolController->runActionWithFilters()
+#7 D:\xampp\htdocs\framework\web\CWebApplication.php(276): ToolController->run()
+#8 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#9 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\seikou\index-test.php(15): CWebApplication->run()
+REQUEST_URI=/seikou/index-test.php/admin/tool/exportcsv?year=2012&month=3
+2012/03/27 17:51:21 [error] [php] Use of undefined constant length - assumed 'length' (D:\xampp\htdocs\seikou\protected\modules\admin\controllers\ToolController.php:48)
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(134): ToolController->runAction()
+#1 D:\xampp\htdocs\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#2 D:\xampp\htdocs\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#3 D:\xampp\htdocs\framework\web\filters\CInlineFilter.php(59): ToolController->filterAccessControl()
+#4 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#5 D:\xampp\htdocs\framework\web\CController.php(292): CFilterChain->run()
+#6 D:\xampp\htdocs\framework\web\CController.php(266): ToolController->runActionWithFilters()
+#7 D:\xampp\htdocs\framework\web\CWebApplication.php(276): ToolController->run()
+#8 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#9 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\seikou\index-test.php(15): CWebApplication->run()
+REQUEST_URI=/seikou/index-test.php/admin/tool/exportcsv?year=2012&month=3
+2012/03/27 18:08:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Param is not enough' in D:\xampp\htdocs\seikou\protected\modules\admin\controllers\ToolController.php:47
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\actions\CInlineAction.php(50): ToolController->actionExportcsv()
+#1 D:\xampp\htdocs\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#2 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#3 D:\xampp\htdocs\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#4 D:\xampp\htdocs\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#5 D:\xampp\htdocs\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#6 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#7 D:\xampp\htdocs\framework\web\CController.php(292): CFilterChain->run()
+#8 D:\xampp\htdocs\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\xampp\htdocs\framework\web\CWebApplication.php(276): CController->run('exportcsv')
+#10 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('admin/tool/expo...')
+#11 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#12 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/seikou/admin/tool/exportcsv
+---
+2012/03/27 18:09:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Param is not enough' in D:\xampp\htdocs\seikou\protected\modules\admin\controllers\ToolController.php:47
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\actions\CInlineAction.php(50): ToolController->actionExportcsv()
+#1 D:\xampp\htdocs\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#2 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#3 D:\xampp\htdocs\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#4 D:\xampp\htdocs\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#5 D:\xampp\htdocs\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#6 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#7 D:\xampp\htdocs\framework\web\CController.php(292): CFilterChain->run()
+#8 D:\xampp\htdocs\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\xampp\htdocs\framework\web\CWebApplication.php(276): CController->run('exportcsv')
+#10 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('admin/tool/expo...')
+#11 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#12 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/seikou/admin/tool/exportcsv?year=2012&date=3
+---
+2012/03/27 18:10:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Param is not enough' in D:\xampp\htdocs\seikou\protected\modules\admin\controllers\ToolController.php:47
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\actions\CInlineAction.php(50): ToolController->actionExportcsv()
+#1 D:\xampp\htdocs\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#2 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#3 D:\xampp\htdocs\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#4 D:\xampp\htdocs\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#5 D:\xampp\htdocs\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#6 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#7 D:\xampp\htdocs\framework\web\CController.php(292): CFilterChain->run()
+#8 D:\xampp\htdocs\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\xampp\htdocs\framework\web\CWebApplication.php(276): CController->run('exportcsv')
+#10 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('admin/tool/expo...')
+#11 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#12 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/seikou/admin/tool/exportcsv?year=2012&date=3
+---
+2012/03/27 18:11:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'システムは要求されたアクション "google.com.vn" を見つけられません。' in D:\xampp\htdocs\framework\web\CController.php:484
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CController.php(271): CController->missingAction('google.com.vn')
+#1 D:\xampp\htdocs\framework\web\CWebApplication.php(276): CController->run('google.com.vn')
+#2 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController('admin/tool/goog...')
+#3 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\seikou\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/seikou/admin/tool/google.com.vn?_=1332864669717
+HTTP_REFERER=http://localhost/seikou/admin/tool/exportcsv?year=2012&month=3
+---
+2012/03/27 19:15:04 [error] [php] Undefined variable: gridDataProvider (D:\xampp\htdocs\seikou\protected\modules\admin\controllers\ToolController.php:100)
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(134): ToolController->runAction()
+#1 D:\xampp\htdocs\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#2 D:\xampp\htdocs\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#3 D:\xampp\htdocs\framework\web\filters\CInlineFilter.php(59): ToolController->filterAccessControl()
+#4 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#5 D:\xampp\htdocs\framework\web\CController.php(292): CFilterChain->run()
+#6 D:\xampp\htdocs\framework\web\CController.php(266): ToolController->runActionWithFilters()
+#7 D:\xampp\htdocs\framework\web\CWebApplication.php(276): ToolController->run()
+#8 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#9 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\seikou\index-test.php(15): CWebApplication->run()
+REQUEST_URI=/seikou/index-test.php/admin/tool/exportcsv?year=2012&month=03
+2012/03/27 19:16:33 [error] [php] Undefined variable: content (D:\xampp\htdocs\seikou\protected\modules\admin\views\tool\exportcsv.php:2)
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CBaseController.php(94): YiiDebugViewRenderer->renderFile()
+#1 D:\xampp\htdocs\framework\web\CController.php(870): ToolController->renderFile()
+#2 D:\xampp\htdocs\framework\web\CController.php(783): ToolController->renderPartial()
+#3 D:\xampp\htdocs\seikou\protected\modules\admin\controllers\ToolController.php(105): ToolController->render()
+#4 D:\xampp\htdocs\framework\web\actions\CInlineAction.php(50): ToolController->actionExportcsv()
+#5 D:\xampp\htdocs\framework\web\CController.php(309): CInlineAction->runWithParams()
+#6 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(134): ToolController->runAction()
+#7 D:\xampp\htdocs\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#8 D:\xampp\htdocs\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#9 D:\xampp\htdocs\framework\web\filters\CInlineFilter.php(59): ToolController->filterAccessControl()
+#10 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#11 D:\xampp\htdocs\framework\web\CController.php(292): CFilterChain->run()
+#12 D:\xampp\htdocs\framework\web\CController.php(266): ToolController->runActionWithFilters()
+#13 D:\xampp\htdocs\framework\web\CWebApplication.php(276): ToolController->run()
+#14 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#15 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 D:\xampp\htdocs\seikou\index-test.php(15): CWebApplication->run()
+REQUEST_URI=/seikou/index-test.php/admin/tool/exportcsv?year=2012&month=03
+2012/03/27 19:28:51 [error] [php] Use of undefined constant total - assumed 'total' (D:\xampp\htdocs\seikou\protected\modules\admin\controllers\ToolController.php:89)
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(134): ToolController->runAction()
+#1 D:\xampp\htdocs\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#2 D:\xampp\htdocs\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#3 D:\xampp\htdocs\framework\web\filters\CInlineFilter.php(59): ToolController->filterAccessControl()
+#4 D:\xampp\htdocs\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#5 D:\xampp\htdocs\framework\web\CController.php(292): CFilterChain->run()
+#6 D:\xampp\htdocs\framework\web\CController.php(266): ToolController->runActionWithFilters()
+#7 D:\xampp\htdocs\framework\web\CWebApplication.php(276): ToolController->run()
+#8 D:\xampp\htdocs\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#9 D:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\seikou\index-test.php(15): CWebApplication->run()
+REQUEST_URI=/seikou/index-test.php/admin/tool/exportcsv?year=2012&month=03

@@ -27,7 +27,7 @@
 class Users extends CActiveRecord
 {
 	const USER_USER  = 0;
-	const User_ADMIN = 1;
+	const USER_ADMIN = 1;
 	public $password_repeat;
 	/**
 	 * Returns the static model of the specified AR class.
