@@ -108,6 +108,7 @@ class OrderController extends Controller
 		
 		// save log
 		logged("$order->id | ".Yii::app()->user->name. "Delete Order");
+		$status = $order->getLastestStatus();
 		if (($order->getLastestStatus() == OrdersHistory::HISTORY_CANCEL_ADMIN) || 
 			($order->getLastestStatus() == OrdersHistory::HISTORY_CANCEL_USER))
 			throw new CHttpException('500',t('Your order have already deleted'));
@@ -122,6 +123,52 @@ class OrderController extends Controller
 			logged("Error when save OrderHistory model:".dump($order->errors));
 			return false;
 		}
+		return true;
+	}
+	
+	public function actionFinish()
+	{
+		// Breadcrumbs - パン粉
+		$this->breadcrumbs = array(
+			t('Order','admin')  => $this->createUrl('/admin/order/index'),
+			t('Finish','admin'),
+		);
+		
+		//  要求からIDをとる。もしIDがないと４０４ページを表示
+		$id = Yii::app()->request->getParam('id');
+		if ($id == NULL)
+			throw new CHttpException('404','Param is not enough');
+		// IDからModelをみつける。もし見つけません、４０４ページを表示する
+		$order = Orders::model()->findByPk($id);
+		if ($order == NULL)
+			throw new CHttpException('500',Yii::t('user','Object not found'));
+		
+		$status = $order->getLastestStatus(); 
+		if (( $status != OrdersHistory::HISTORY_CREATE) && 
+			( $status != OrdersHistory::HISTORY_CREATE_ADMIN))
+			throw new CHttpException('500',t('Your order have already deleted or stopped'));
+		
+		// Save order history
+		$orderHistory = new OrdersHistory();
+		$orderHistory->order_id = $order->id;
+		$orderHistory->user_id  = Yii::app()->user->id;
+		$orderHistory->status   = OrdersHistory::HISTORY_FINISH;
+		$orderHistory->time     = new CDbExpression('NOW()');
+		if (!$orderHistory->save()) {
+			logged("Error when save OrderHistory model:".dump($orderHistory->errors));
+			return false;
+		}
+		// Save real stop time
+		if ($order->end_time > date('H:i'))
+			$order->real_stop_time = date('H:i');
+		else 
+			$order->real_stop_time = $order->end_time; 
+		if (!$order->save()) {
+			logged("Error when save Order model:".dump($order->errors));
+			return false;
+		}
+		// save log
+		logged("$order->id | ".Yii::app()->user->name. "Finish Order");
 		return true;
 	}
 	
@@ -143,16 +190,15 @@ class OrderController extends Controller
 			throw new CHttpException('500',Yii::t('user','Object not found'));
 		
 		$status = $order->getLastestStatus(); 
-		if (( $status == OrdersHistory::HISTORY_CANCEL_ADMIN) || 
-			( $status == OrdersHistory::HISTORY_CANCEL_USER)   ||
-			( $status == OrdersHistory::HISTORY_FINISH))
+		if (( $status != OrdersHistory::HISTORY_CREATE) && 
+			( $status != OrdersHistory::HISTORY_CREATE_ADMIN))
 			throw new CHttpException('500',t('Your order have already deleted or stopped'));
 		
 		// Save order history
 		$orderHistory = new OrdersHistory();
 		$orderHistory->order_id = $order->id;
 		$orderHistory->user_id  = Yii::app()->user->id;
-		$orderHistory->status   = OrdersHistory::HISTORY_FINISH;
+		$orderHistory->status   = OrdersHistory::HISTORY_OVERTIME;
 		$orderHistory->time     = new CDbExpression('NOW()');
 		if (!$orderHistory->save()) {
 			logged("Error when save OrderHistory model:".dump($orderHistory->errors));

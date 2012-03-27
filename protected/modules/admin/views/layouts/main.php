@@ -14,6 +14,7 @@
 			$title .= " - ". t(Yii::app()->name);
 			echo $title;
 		?></title>
+		<link type="image/gif" rel="shortcut icon" href="<?php echo Html::imageThemeUrl('favicon.ico') ?>" />
 		
 		<!--                       CSS                       -->
   
