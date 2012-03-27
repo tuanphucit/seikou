@@ -65,7 +65,7 @@
 		</style>
 		<?php $this->renderPartial('order_form',array('orderTime'=>$orderTime,))?>
 		
-		<div id="display-event-form" title="View Agenda Item">
+		<div id="display-event-form" title="<?php echo t('View Order Summary')?>">
 			
 		</div>		
 
