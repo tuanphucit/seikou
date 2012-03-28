@@ -143,10 +143,13 @@ class Users extends CActiveRecord
 	}
 	
 	/**
+	 * @param $role value
 	 * @return ロールの名前
 	 */
-	public function getRoleName() {
-		return ($this->role == 1)? Yii::t('user','admin'):Yii::t('user','user');
+	public function getRoleName($role = "") {
+		if ($role == "")
+			$role = $this->role;
+		return ($role == 1)? Yii::t('model','admin'):Yii::t('model','user');
 	}
 	
 	/**

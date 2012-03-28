@@ -90,7 +90,25 @@ class UserController extends Controller
 			else 
 				Yii::app()->user->setFlash('error',Yii::t('admin','Update user failed'));
 		}
-		$this->render('add',array('user'=>$user));
+		$this->render('update',array('user'=>$user));
+	}
+	
+	public function actionView()
+	{
+		// Breadcrumbs - パン粉
+		$this->breadcrumbs = array(
+			t('User','admin')  => $this->createUrl('/admin/user/index'),
+			t('View','admin'),
+		);
+		//  要求からIDをとる。もしIDがないと４０４ページを表示
+		$id = Yii::app()->request->getParam('id');
+		if ($id == NULL)
+			throw new CHttpException('404','Param is not enough');
+		// IDからModelをみつける。もし見つけません、４０４ページを表示する
+		$user = Users::model()->findByPk($id);
+		if ($user == NULL)
+			throw new CHttpException('404',Yii::t('admin','Object not found'));
+		$this->render('view',array('user'=>$user));
 	}
 	
 	public function actionDelete()
