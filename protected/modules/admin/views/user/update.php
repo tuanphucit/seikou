@@ -10,7 +10,7 @@
 				echo $form->label($user,'id');
 			echo "</td>";
 			echo "<td>";
-				echo $form->textField($user,'id',array('placeholder'=>'USXXX'));
+				echo $form->textField($user,'id',array('placeholder'=>'USXXX','disabled'=>true));
 			echo "</td>";
 			echo "<td>";
 				echo $form->error($user,'id');

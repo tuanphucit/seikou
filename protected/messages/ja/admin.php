@@ -32,6 +32,7 @@
 		'Order'     => '注文',
 		'Submit'    => '更新',
 		'Reset'     => 'リセット',
+		'Save'      => '格納',
 	
 		// ** Layout
 		'Welcome' => 'ようこそ',
