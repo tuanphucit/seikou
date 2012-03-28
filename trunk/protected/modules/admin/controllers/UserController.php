@@ -5,17 +5,17 @@ class UserController extends Controller
 	public function filters()
 	{
 		return array(
-			'accessControl', // perform access control for CRUD operations
+			'accessControl', // perform access control for CRUD operations　　（　RUD操作のためのアクセス制御を実行します　）
 		);
 	}
 	
 	public function accessRules()
 	{
 		return array(
-			array('allow', // allow authenticated users to access all actions
+			array('allow', // allow authenticated users to access all actions　（　されたユーザーはすべてのアクションへのアクセスを許可する　）
 				'users'=>array('@'),
 			),
-			array('deny',  // deny all users
+			array('deny',  // deny all users　(すべてのユーザーを拒否する。)
 				'users'=>array('*'),
 			),
 		);
@@ -28,7 +28,7 @@ class UserController extends Controller
 			t('User','admin')  => $this->createUrl('/admin/user/index'),
 			t('Index','admin'),
 		);
-		// Get model contains users's information
+		// Get model contains users's information　　（ユーザの情報が含まれているモデルをうける。）
 		$users = new Users();
 		$this->render('index',array('users'=>$users));
 	}

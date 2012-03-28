@@ -5,17 +5,17 @@ class OrderController extends Controller
 	public function filters()
 	{
 		return array(
-			'accessControl', // perform access control for CRUD operations
+			'accessControl', // perform access control for CRUD operations　（　RUD操作のためのアクセス制御を実行します　）
 		);
 	}
 	
 	public function accessRules()
 	{
 		return array(
-			array('allow', // allow authenticated users to access all actions
+			array('allow', // allow authenticated users to access all actions　　（　されたユーザーはすべてのアクションへのアクセスを許可する　）
 				'users'=>array('@'),
 			),
-			array('deny',  // deny all users
+			array('deny',  // deny all users　(すべてのユーザーを拒否する。)
 				'users'=>array('*'),
 			),
 		);
@@ -28,7 +28,7 @@ class OrderController extends Controller
 			t('Order','admin')  => $this->createUrl('/admin/user/index'),
 			t('Index','admin'),
 		);
-		// Get model contains users's information
+		// Get model contains users's information　　　（ユーザの情報が含まれているモデルをうける。）
 		$orders = new Orders();
 		$this->render('index',array('orders'=>$orders));
 	}
@@ -49,7 +49,7 @@ class OrderController extends Controller
 		$order = Orders::model()->findByPk($id);
 		if ($order == NULL)
 			throw new CHttpException('404',Yii::t('user','Object not found'));
-		// Load all data history about this order
+		// Load all data history about this order　（　この注文に関するすべてのデータの履歴をロードする　）
 		$dataProvider = new CActiveDataProvider('OrdersHistory',array(
 			'criteria'=>array(
 				'condition'=>"order_id = $order->id",
@@ -106,14 +106,14 @@ class OrderController extends Controller
 		if ($order == NULL)
 			throw new CHttpException('500',Yii::t('user','Object not found'));
 		
-		// save log
+		// save log　　（ログを保存する。）
 		logged("$order->id | ".Yii::app()->user->name. "Delete Order");
 		$status = $order->getLastestStatus();
 		if (($order->getLastestStatus() == OrdersHistory::HISTORY_CANCEL_ADMIN) || 
 			($order->getLastestStatus() == OrdersHistory::HISTORY_CANCEL_USER))
 			throw new CHttpException('500',t('Your order have already deleted'));
 		
-		// Save order history
+		// Save order history　　（　注文の履歴を保存する。）
 		$orderHistory = new OrdersHistory();
 		$orderHistory->order_id = $order->id;
 		$orderHistory->user_id  = Yii::app()->user->id;
@@ -148,7 +148,7 @@ class OrderController extends Controller
 			( $status != OrdersHistory::HISTORY_CREATE_ADMIN))
 			throw new CHttpException('500',t('Your order have already deleted or stopped'));
 		
-		// Save order history
+		// Save order history　（　注文の履歴を保存する。）
 		$orderHistory = new OrdersHistory();
 		$orderHistory->order_id = $order->id;
 		$orderHistory->user_id  = Yii::app()->user->id;
@@ -158,7 +158,7 @@ class OrderController extends Controller
 			logged("Error when save OrderHistory model:".dump($orderHistory->errors));
 			return false;
 		}
-		// Save real stop time
+		// Save real stop time　　　（　実際のストップタイムを格納する　）
 		if ($order->end_time > date('H:i'))
 			$order->real_stop_time = date('H:i');
 		else 
@@ -167,7 +167,7 @@ class OrderController extends Controller
 			logged("Error when save Order model:".dump($order->errors));
 			return false;
 		}
-		// save log
+		// save log　　（ログを保存する。）
 		logged("$order->id | ".Yii::app()->user->name. "Finish Order");
 		return true;
 	}
@@ -194,7 +194,7 @@ class OrderController extends Controller
 			( $status != OrdersHistory::HISTORY_CREATE_ADMIN))
 			throw new CHttpException('500',t('Your order have already deleted or stopped'));
 		
-		// Save order history
+		// Save order history　　　　（　注文の履歴を保存する。）
 		$orderHistory = new OrdersHistory();
 		$orderHistory->order_id = $order->id;
 		$orderHistory->user_id  = Yii::app()->user->id;
@@ -204,13 +204,13 @@ class OrderController extends Controller
 			logged("Error when save OrderHistory model:".dump($orderHistory->errors));
 			return false;
 		}
-		// Save real stop time
+		// Save real stop time　　　（　実際のストップタイムを格納する　）
 		$order->real_stop_time = new CDbExpression("NOW()");
 		if (!$order->save()) {
 			logged("Error when save Order model:".dump($order->errors));
 			return false;
 		}
-		// save log
+		// save log　　　（ログを保存する。）
 		logged("$order->id | ".Yii::app()->user->name. "Stop Order");
 		return true;
 	}

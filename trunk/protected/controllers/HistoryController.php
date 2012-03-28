@@ -10,7 +10,7 @@ class HistoryController extends Controller
 			t('Index'),
 		);
 		
-		// Look for order created by current user
+		// Look for order created by current user　　（在のユーザーによって作成されたオーダーを検索する　）
 		$dataProvider = new CActiveDataProvider('Orders',array(
 			'criteria'=>array(
 				'condition' => "user_id = '".Yii::app()->user->id."' and visible = 1",
@@ -69,14 +69,14 @@ class HistoryController extends Controller
 		if ($order == NULL)
 			throw new CHttpException('500',Yii::t('user','Object not found'));
 		
-		// save log
+		// save log　　（ログを保存する。）
 		logged("$order->id | ".Yii::app()->user->name. "Delete Order");
 		$status = $order->getLastestStatus();
 		if (( $status != OrdersHistory::HISTORY_CREATE) && 
 			( $status != OrdersHistory::HISTORY_CREATE_ADMIN))
 			throw new CHttpException('500',t('Your order have already deleted or stopped'));
 		
-		// Save order history
+		// Save order history　（　注文の履歴を保存する。）
 		$orderHistory = new OrdersHistory();
 		$orderHistory->order_id = $order->id;
 		$orderHistory->user_id  = Yii::app()->user->id;
@@ -99,11 +99,11 @@ class HistoryController extends Controller
 	public function accessRules()
 	{
 		return array(
-			array('allow', // allow authenticated users to access all actions
+			array('allow', // allow authenticated users to access all actions　　（　されたユーザーはすべてのアクションへのアクセスを許可する　）
 				'users'=>array('@'),
 				'actions'=>array('index','view','delete')
 			),
-			array('deny',  // deny all users
+			array('deny',  // deny all users　(すべてのユーザーを拒否する。)
 				'users'=>array('*'),
 			),
 		);

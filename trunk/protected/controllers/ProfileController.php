@@ -12,11 +12,11 @@ class ProfileController extends Controller
 	public function accessRules()
 	{
 		return array(
-			array('allow', // allow authenticated users to access all actions
+			array('allow', // allow authenticated users to access all actions　　（されたユーザーはすべてのアクションへのアクセスを許可する）
 				'users'=>array('@'),
 				'actions'=>array('index',)
 			),
-			array('deny',  // deny all users
+			array('deny',  // deny all users　　(すべてのユーザーを拒否する。)
 				'users'=>array('*'),
 			),
 		);

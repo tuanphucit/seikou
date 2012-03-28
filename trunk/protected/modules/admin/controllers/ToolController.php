@@ -5,17 +5,17 @@ class ToolController extends Controller
 	public function filters()
 	{
 		return array(
-			'accessControl', // perform access control for CRUD operations
+			'accessControl', // perform access control for CRUD operations　　（　RUD操作のためのアクセス制御を実行します　）
 		);
 	}
 	
 	public function accessRules()
 	{
 		return array(
-			array('allow', // allow authenticated users to access all actions
+			array('allow', // allow authenticated users to access all actions　（　されたユーザーはすべてのアクションへのアクセスを許可する　）
 				'users'=>array('@'),
 			),
-			array('deny',  // deny all users
+			array('deny',  // deny all users　(すべてのユーザーを拒否する。)
 				'users'=>array('*'),
 			),
 		);
@@ -39,7 +39,7 @@ class ToolController extends Controller
 			t('Export CSV'),
 		);
 		
-		// STEP0 : init data
+		// STEP0 : init data　　　（ステップ０：初期データ　）
 		$systemCode = "CSY-RVR-GWK52M78";
 		$year  = request('year');
 		$month = request('month');
@@ -50,7 +50,7 @@ class ToolController extends Controller
 		}
 		$month = $month + 0;
 		if ($month < '10') $month = '0'.$month;
-		// Get current user
+		// Get current user　（現在のユーザーを取得する）
 		$user = Users::model()->findByPk(Yii::app()->user->id); 
 		$csvData = array(
 			array(
@@ -58,22 +58,22 @@ class ToolController extends Controller
 			)
 		);
 		logged("First row:".dump($csvData));
-		// Init total price for all user
+		// Init total price for all user　（すべてのユーザーの初期総額　）
 		$users = Users::model()->findAll("role != ".Users::USER_ADMIN,array("order"=>"full_name ASC"));
 		$total = array();
 		foreach ($users as $user){
 			$total[$user->id] = 0;
 		}
 
-		// STEP1 : load all fee
+		// STEP1 : load all fee　（すべての手数料を読み込む）
 		$fee = Fee::model()->find();
 		
-		// STEP2 : load all order in month
+		// STEP2 : load all order in month　（　月にすべての順序を読み込む　）
 		$thisMonth = "$year-$month";
 		$nextMonth = "$year-{$month}9";
 		$orders = Orders::model()->findAll("(end_date > '$thisMonth') and (end_date < '$nextMonth')"); 
 		
-		// STEP3 : with each order , calc total price for users
+		// STEP3 : with each order , calc total price for users　（ユーザのトータルを計算する）
 		foreach($orders as $order){
 			$status = $order->getLastestStatus();
 			logged("{$order->id}:".OrdersHistory::getStatusTypeLabel($status));
@@ -91,7 +91,7 @@ class ToolController extends Controller
 		}
 		
 		logged(dump($total));
-		// STEP4: Join all users'sdata
+		// STEP4: Join all users'sdata　（ユーザーのすべてのデータを結合する）
 		foreach ($users as $user)
 			if ($total[$user->id] != 0) {
 				$csvData[] = array(
@@ -99,7 +99,7 @@ class ToolController extends Controller
 				);
 			}
 		
-		// Final export
+		// Final export　（最後に出力）
 		Yii::import('ext.CSVExport');
 		$csv = new CSVExport($csvData);
 		$content = $csv->toCSV();
@@ -154,13 +154,13 @@ class ToolController extends Controller
 		if ($order == NULL)
 			throw new CHttpException('500',Yii::t('user','Object not found'));
 		
-		// save log
+		// save log　　（ログを保存する。）
 		logged("$order->id | ".Yii::app()->user->name. "Delete Order");
 		if (($order->getLastestStatus() == OrdersHistory::HISTORY_CANCEL_ADMIN) || 
 			($order->getLastestStatus() == OrdersHistory::HISTORY_CANCEL_USER))
 			throw new CHttpException('500',t('Your order have already deleted'));
 		
-		// Save order history
+		// Save order history　　（　注文の履歴を保存する。）
 		$orderHistory = new OrdersHistory();
 		$orderHistory->order_id = $order->id;
 		$orderHistory->user_id  = Yii::app()->user->id;
@@ -196,7 +196,7 @@ class ToolController extends Controller
 			( $status == OrdersHistory::HISTORY_FINISH))
 			throw new CHttpException('500',t('Your order have already deleted or stopped'));
 		
-		// Save order history
+		// Save order history　（　注文の履歴を保存する。）
 		$orderHistory = new OrdersHistory();
 		$orderHistory->order_id = $order->id;
 		$orderHistory->user_id  = Yii::app()->user->id;
@@ -206,13 +206,13 @@ class ToolController extends Controller
 			logged("Error when save OrderHistory model:".dump($orderHistory->errors));
 			return false;
 		}
-		// Save real stop time
+		// Save real stop time　（　実際のストップタイムを格納する　）
 		$order->real_stop_time = new CDbExpression("NOW()");
 		if (!$order->save()) {
 			logged("Error when save Order model:".dump($order->errors));
 			return false;
 		}
-		// save log
+		// save log　　（ログを保存する。）
 		logged("$order->id | ".Yii::app()->user->name. "Stop Order");
 		return true;
 	}
