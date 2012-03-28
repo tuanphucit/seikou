@@ -8,7 +8,7 @@ class SiteController extends Controller
 	public function actions()
 	{
 		return array(
-			// captcha action renders the CAPTCHA image displayed on the contact page
+			// captcha action renders the CAPTCHA image displayed on the contact page　　（captchaアクションは、コンタクトページに表示されるCAPTCHA画像をレンダリング　）
 			'captcha'=>array(
 				'class'=>'CCaptchaAction',
 				'backColor'=>0xFFFFFF,
@@ -73,22 +73,22 @@ class SiteController extends Controller
 	{
 		$model=new LoginForm;
 
-		// if it is ajax validation request
+		// if it is ajax validation request　　　Ajaxの検証要求である場合
 		if(isset($_POST['ajax']) && $_POST['ajax']==='login-form')
 		{
 			echo CActiveForm::validate($model);
 			Yii::app()->end();
 		}
 
-		// collect user input data
+		// collect user input data　　ユーザー入力データを収集
 		if(isset($_POST['LoginForm']))
 		{
 			$model->attributes=$_POST['LoginForm'];
-			// validate user input and redirect to the previous page if valid
+			// validate user input and redirect to the previous page if valid　　（ユーザー入力を検証し、前のページにリダイレクトする有効な場合）
 			if($model->validate() && $model->login())
 				$this->redirect(Yii::app()->user->returnUrl);
 		}
-		// display the login form
+		// display the login form　　ログインフォームを表示する
 		$this->renderPartial('login',array('model'=>$model));
 	}
 

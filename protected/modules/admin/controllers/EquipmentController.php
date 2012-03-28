@@ -5,17 +5,17 @@ class EquipmentController extends Controller
 	public function filters()
 	{
 		return array(
-			'accessControl', // perform access control for CRUD operations
+			'accessControl', // perform access control for CRUD operations　(CRUD操作のためのアクセス制御を実行します。)
 		);
 	}
 	
 	public function accessRules()
 	{
 		return array(
-			array('allow', // allow authenticated users to access all actions
+			array('allow', // allow authenticated users to access all actions　（されたユーザーはすべてのアクションへのアクセスを許可する）
 				'users'=>array('@'),
 			),
-			array('deny',  // deny all users
+			array('deny',  // deny all users (すべてのユーザーを拒否する。)
 				'users'=>array('*'),
 			),
 		);
