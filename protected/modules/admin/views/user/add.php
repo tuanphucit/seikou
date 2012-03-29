@@ -1,4 +1,21 @@
 <?php 
+	// Register More Javascript file and Css file
+	// Jquery UI
+	$cs = Yii::app()->getClientScript();
+	$cs->registerCoreScript( 'jquery.ui' );
+	$cs->registerCssFile(
+		Yii::app()->assetManager->publish(
+			Yii::app()->basePath . '/vendors/jquery.ui/redmond/'
+		).
+		'/jquery-ui-1.8.18.custom.css', 'screen'
+	);
+?>
+<script>
+	$(document).ready(function(){
+		$("#Users_birthday").datepicker({dateFormat: "yy-mm-dd"});
+	});
+</script>
+<?php 
 	$form = $this->beginWidget('bootstrap.widgets.BootActiveForm',array(
 		'id'=>'add-user-form',
 		'enableClientValidation'=>true,
@@ -11,8 +28,7 @@
 			echo "</td>";
 			echo "<td>";
 				echo $form->textField($user,'id',array('placeholder'=>'USXXX'));
-			echo "</td>";
-			echo "<td>";
+				echo "<br>";
 				echo $form->error($user,'id');
 			echo "</td>";	
 		echo "</tr>";
@@ -23,8 +39,7 @@
 			echo "</td>";
 			echo "<td>";
 				echo $form->textField($user,'username');
-			echo "</td>";
-			echo "<td>";
+				echo "<br>";
 				echo $form->error($user,'username');
 			echo "</td>";
 		echo "</tr>";
@@ -35,8 +50,7 @@
 			echo "</td>";
 			echo "<td>";
 				echo $form->passwordField($user,'password');
-			echo "</td>";
-			echo "<td>";
+				echo "<br>";
 				echo $form->error($user,'password');
 			echo "</td>";
 		echo "</tr>";
@@ -47,8 +61,7 @@
 			echo "</td>";
 			echo "<td>";
 				echo $form->passwordField($user,'password_repeat',array('value'=>$user->password));
-			echo "</td>";
-			echo "<td>";
+				echo "<br>";
 				echo $form->error($user,'password_repeat');
 			echo "</td>";
 		echo "</tr>";
@@ -62,8 +75,7 @@
 					Users::USER_USER  => t('user','model'),
 					Users::USER_ADMIN => t('admin','model'),
 				));
-			echo "</td>";
-			echo "<td>";
+				echo "<br>";
 				echo $form->error($user,'role');
 			echo "</td>";
 		echo "</tr>";
@@ -74,8 +86,7 @@
 			echo "</td>";
 			echo "<td>";
 				echo $form->textField($user,'full_name');
-			echo "</td>";
-			echo "<td>";
+				echo "<br>";
 				echo $form->error($user,'full_name');
 			echo "</td>";
 		echo "</tr>";
@@ -86,8 +97,7 @@
 			echo "</td>";
 			echo "<td>";
 				echo $form->textField($user,'birthday');
-			echo "</td>";
-			echo "<td>";
+				echo "<br>";
 				echo $form->error($user,'birthday');
 			echo "</td>";
 		echo "</tr>";
@@ -98,8 +108,7 @@
 			echo "</td>";
 			echo "<td>";
 				echo $form->textField($user,'idcard');
-			echo "</td>";
-			echo "<td>";
+				echo "<br>";
 				echo $form->error($user,'idcard');
 			echo "</td>";
 		echo "</tr>";
@@ -110,8 +119,7 @@
 			echo "</td>";
 			echo "<td>";
 				echo $form->textArea($user,'work');
-			echo "</td>";
-			echo "<td>";
+				echo "<br>";
 				echo $form->error($user,'work');
 			echo "</td>";
 		echo "</tr>";
@@ -122,8 +130,7 @@
 			echo "</td>";
 			echo "<td>";
 				echo $form->textArea($user,'address1');
-			echo "</td>";
-			echo "<td>";
+				echo "<br>";
 				echo $form->error($user,'address1');
 			echo "</td>";
 		echo "</tr>";
@@ -134,8 +141,7 @@
 			echo "</td>";
 			echo "<td>";
 				echo $form->textArea($user,'address2');
-			echo "</td>";
-			echo "<td>";
+				echo "<br>";
 				echo $form->error($user,'address2');
 			echo "</td>";
 		echo "</tr>";
@@ -146,8 +152,7 @@
 			echo "</td>";
 			echo "<td>";
 				echo $form->textField($user,'email');
-			echo "</td>";
-			echo "<td>";
+				echo "<br>";
 				echo $form->error($user,'email');
 			echo "</td>";
 		echo "</tr>";
@@ -158,8 +163,7 @@
 			echo "</td>";
 			echo "<td>";
 				echo $form->textField($user,'tel');
-			echo "</td>";
-			echo "<td>";
+				echo "<br>";
 				echo $form->error($user,'tel');
 			echo "</td>";
 		echo "</tr>";
@@ -170,8 +174,7 @@
 			echo "</td>";
 			echo "<td>";
 				echo $form->textField($user,'yahoo');
-			echo "</td>";
-			echo "<td>";
+				echo "<br>";
 				echo $form->error($user,'yahoo');
 			echo "</td>";
 		echo "</tr>";
@@ -182,8 +185,7 @@
 			echo "</td>";
 			echo "<td>";
 				echo $form->textField($user,'skype');
-			echo "</td>";
-			echo "<td>";
+				echo "<br>";
 				echo $form->error($user,'skype');
 			echo "</td>";
 		echo "</tr>";
@@ -194,8 +196,7 @@
 			echo "</td>";
 			echo "<td>";
 				echo $form->textField($user,'last_login',array('disabled'=>true));
-			echo "</td>";
-			echo "<td>";
+				echo "<br>";
 				echo $form->error($user,'last_login');
 			echo "</td>";
 		echo "</tr>";
