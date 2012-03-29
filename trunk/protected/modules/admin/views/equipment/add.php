@@ -29,14 +29,19 @@
 	
 	$form = $this->beginWidget('bootstrap.widgets.BootActiveForm',array(
 		'id'=>'add-post-form',
+		'enableClientValidation'=>true,
+		'clientOptions'=>array('validateOnSubmit'=>true),
 	));
 	echo "<table>";	
+		echo $form->hiddenField($product,'type',array('value'=>1));
 		echo "<tr>";
 			echo "<td>";
 				echo $form->label($product,'id');
 			echo "</td>";
 			echo "<td>";
-				echo $form->textField($product,'id',array('placeholder'=>'EQXYY'));
+				echo $form->textField($product,'id',array('placeholder'=>'PRXX'));
+				echo "<br>";
+				echo $form->error($product,'id');
 			echo "</td>";
 		echo "</tr>";
 		
@@ -46,6 +51,8 @@
 			echo "</td>";
 			echo "<td>";
 				echo $form->textField($product,'name');
+				echo "<br>";
+				echo $form->error($product,'name');
 			echo "</td>";
 		echo "</tr>";
 		
@@ -56,6 +63,8 @@
 			echo "<td>";
 				echo $form->textField($product,'price');
 				echo Yii::t('admin',' .000 VND / 0.5 hour');
+				echo "<br>";
+				echo $form->error($product,'price');
 			echo "</td>";
 		echo "</tr>";
 		echo "<tr>";
@@ -64,6 +73,8 @@
 			echo "</td>";
 			echo "<td>";
 				echo $form->textField($product,'image');
+				echo "<br>";
+				echo $form->error($product,'image');
 			echo "</td>";
 		echo "</tr>";
 		echo "<tr>";
@@ -72,6 +83,8 @@
 			echo "</td>";
 			echo "<td>";
 				echo $form->textArea($product,'description');
+				echo "<br>";
+				echo $form->error($product,'description');
 			echo "</td>";
 		echo "</tr>";
 		echo "<tr>";
@@ -80,16 +93,13 @@
 			echo "</td>";
 			echo "<td>";
 				echo $form->textField($product,'option');
+				echo "<br>";
+				echo $form->error($product,'option');
 			echo "</td>";
 		echo "</tr>";
-		echo "<tfoot>";
-			echo $form->errorSummary($product);
-			echo "<tr>";
-				echo "<td>";
-					echo Html::submitButton("Lưu",array('class'=>'button'));
-				echo "</td>";
-			echo "</tr>";
-		echo "</tfoot>";
 	echo "</table>";
+	echo $form->errorSummary($product);
+	echo "<br>";
+	echo Html::submitButton(t("Save",'admin'),array('class'=>'button'));
 	$this->endWidget();
 ?>
