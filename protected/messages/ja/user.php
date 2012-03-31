@@ -27,6 +27,7 @@
 		'Order'     => '注文',
 		'Submit'    => '更新',
 		'Reset'     => 'リセット',
+		'Close'     => '閉じる',
 				
 		
 		// ホームページ
@@ -50,6 +51,10 @@
 		'Start date must be earlier than End date' => 'スタート日はストップ日を超えた',
 		'Have date conflict' => '注文したいタイムは競合された',
 		'View Order Summary' => '',
+		'Your Order' => 'あなたのオーダー',
+		'Total' => '合計',
+		'Please Choose Product' => 'プロダクトを選んでください',
+		'Please Choose Time' => '時間を選んでください',
 	
 		//オーダーヒストリ
 		'Date'  => '年月日',

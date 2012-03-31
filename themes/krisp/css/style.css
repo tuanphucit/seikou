@@ -21,7 +21,8 @@ Tags: clean, minimal
 body {
 	font-family: Arial, Helvetica, Verdana;
 	font-size:12px;
-	line-height:22px;
+	/* modded
+	line-height:22px; */
 	color:#555;
 	background:#fff url(../images/default/bgPat-1.png);
 }
@@ -1786,9 +1787,21 @@ td a{
 /** For order **/
 .block *{
 	display: inline-block;
-	overflow: show;
+	overflow: visible;
 }
 
 .oneHalf select {
 	width: 120px;
+}
+
+#time-chooser select {
+	width: 50px;
+}
+
+#time-chooser select option{
+	display: block;
+}
+
+#time-chooser, #date-chooser {
+	display: none;
 }

@@ -3,8 +3,12 @@
 class OrderController extends Controller
 {
 	public function actionGetOrders(){
+		// get param
+		$start = date("Y-m-d",request('start'));
+		$end   = date("Y-m-d",request('end'));
+		
 		// List all order
-		$orders = Orders::model()->findAllByAttributes(array('visible'=>1));
+		$orders = Orders::model()->findAll("visible and ('$start' <= end_date) and ( end_date <= '$end') ");
 		$jsonData = array();
 		foreach ($orders as $order) 
 			if (($order->getLastestStatus() == OrdersHistory::HISTORY_CREATE_ADMIN) ||
@@ -15,8 +19,8 @@ class OrderController extends Controller
 				$jsonData[] = array(
 						'id'=>$order->id,
 						'title'=>$order->product->name,
-						'start'=>date('Y-m-d'). " $order->start_time",
-						'end'  =>date('Y-m-d'). " $order->end_time",
+						'start'=>date('Y-m-d',$date). " $order->start_time",
+						'end'  =>date('Y-m-d',$date). " $order->end_time",
 						'allDay'=>false,
 				);
 		}
@@ -57,13 +61,13 @@ class OrderController extends Controller
 			if ($orderTime->validateTime()){
 				if ($orderTime->save()){
 					echo "Save successed";
-					//return;
+					return;
 				}
 			};
 		}
 		echo Html::errorSummary($orderTime,null,null,array("class"=>"alert-error"));
 		//For debug only　（デバッグのみ）
-		$this->render('order_form',array('orderTime'=>$orderTime));
+		//$this->render('order_form',array('orderTime'=>$orderTime));
 	}
 	
 	public function filters()
