@@ -166,3 +166,12 @@ function param($name) {
 function intStr($str) {
 	return !!preg_match('/^\d+$/', $str);
 }
+
+/**
+ * Pulish assets : js or css
+ * a shorten function by Yii
+ * @param string $str
+ */
+function publish($str){
+	return Yii::app()->assetManager->publish($str);
+}

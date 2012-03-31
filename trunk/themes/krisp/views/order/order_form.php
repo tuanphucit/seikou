@@ -1,4 +1,5 @@
 <?php 
+	// For calc price
 	$products = Products::model()->findAll('',array('order'=>'name ASC'));
 	foreach ($products as $product){
 		echo "<div id='price-$product->id' style='display:none'>$product->price</div>";
@@ -15,7 +16,24 @@
 		changePrice();
 	});
 </script>
-<div id="add-event-form" title="Add New Order">
+
+
+<?php $this->beginWidget('bootstrap.widgets.BootModal', array(
+    'id'=>'modal',
+    'htmlOptions'=>array('class'=>'hide'),
+    'events'=>array(
+        'show'=>"js:function() { console.log('modal show.'); }",
+        'shown'=>"js:function() { console.log('modal shown.'); }",
+        'hide'=>"js:function() { console.log('modal hide.'); }",
+        'hidden'=>"js:function() { console.log('modal hidden.'); }",
+    ),
+)); ?>
+
+<div class="modal-header">
+    <a class="close" data-dismiss="modal">&times;</a>
+    <h2>Your Order</h2>
+</div>
+<div class="modal-body">
 	<p class="validateTips">Please complete your order.</p>
 	<?php 
 		$form = $this->beginWidget('CActiveForm',array(
@@ -128,3 +146,23 @@
 	</fieldset>
 	<?php $this->endWidget()?>
 </div>
+<div class="modal-footer">
+    <?php echo CHtml::ajaxLink(
+    		'Save changes', 
+    		$this->createUrl('order/add'), 
+    		array(
+    			'data'=>'js:$("form#order-form").serialize()',
+    			'success'=>'function(data){
+					if (data=="success"){
+    					$("#modal").modal("hide");
+    					$("#calendar").fullCalendar( "rerenderEvents" );
+    					return;
+    				}
+    				else $("#order-error").html(data);
+				}',
+    		),
+    		array('class'=>'btn btn-primary')); 
+    ?>
+    <?php echo CHtml::link('Close', '#', array('class'=>'btn', 'data-dismiss'=>'modal')); ?>
+</div>
+<?php $this->endWidget(); ?>
