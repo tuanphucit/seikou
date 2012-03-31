@@ -15,8 +15,6 @@ class OrderTimeForm extends CFormModel
 	public $end_hour;
 	public $start_minute;
 	public $end_minute;
-	public $start_ampm;
-	public $end_ampm;
 	
 	public $start_time;
 	public $end_time;
@@ -29,6 +27,18 @@ class OrderTimeForm extends CFormModel
 		parent::__construct();
 		$this->start_date = date('Y-m-d');
 		$this->end_date = date('Y-m-d');
+		
+		$time     = date('H:i');
+		$this->start_time = $time;
+		$this->end_time   = $time;
+		$time             = explode(":", $time);
+		$this->start_hour   = $time[0];
+		logged(dump($time));
+		$this->start_minute = ceil($time[1] / 10) * 10;
+		$this->end_hour     = $time[0];
+		$this->end_minute   = $this->start_minute;
+		
+		$this->end_time = date('H:m');
 	}
 	
 	/**
@@ -38,7 +48,7 @@ class OrderTimeForm extends CFormModel
 	{
 		return array(
 			// date and start_time and end_time are required
-			array('pid, start_date, end_date, start_hour, end_hour, start_minute, end_minute, start_ampm, end_ampm', 'required'),
+			array('pid, start_date, end_date, start_hour, end_hour, start_minute, end_minute', 'required'),
 			array('start_date, end_date', 'date',
 				'format'=>array(
 					"yyyy-M-d",
@@ -53,15 +63,13 @@ class OrderTimeForm extends CFormModel
 	public function attributeLabels()
 	{
 		return array(
-			'pid'=>t('Please choose your product', 'model'),
+			'pid'=>t('Product Name', 'model'),
 			'start_date' => t('Start Date', 'model'),
 			'end_date' => t('End Date', 'model'),
 			'start_hour' => t('Start Hour', 'model'),
 			'end_hour' => t('End Hour', 'model'),
 			'start_minute' => t('Start Minute', 'model'),
 			'end_minute' => t('End Minute', 'model'),
-			'start_ampm' => t('Start AM/PM', 'model'),
-			'end_ampm' => t('End AM/PM', 'model'),
 		);
 	}
 	
@@ -80,8 +88,8 @@ class OrderTimeForm extends CFormModel
 		
 		// STEP2: Validate Logic
 		// Convert time format
-		$this->start_time = $this->convert24($this->start_hour, $this->start_minute, $this->start_ampm);
-		$this->end_time = $this->convert24($this->end_hour, $this->end_minute, $this->end_ampm);
+		$this->start_time = $this->convert24($this->start_hour, $this->start_minute);
+		$this->end_time = $this->convert24($this->end_hour, $this->end_minute);
 		// Check if start_date is earlier than today
 		if ($this->start_date < date('Y-m-d')) {
 			logged(t('Start date must be in the furture'));
@@ -91,6 +99,7 @@ class OrderTimeForm extends CFormModel
 		// Check start_time < end_time
 		if ($this->start_time >= $this->end_time) {
 			logged(t('Start time must be earlier than End time'));
+			logged(dump($this));
 			$this->addError('Time',t('Start time must be earlier than End time'));
 			return false;
 		}
@@ -213,7 +222,9 @@ class OrderTimeForm extends CFormModel
 	public function getListHours()
 	{
 		$hours = array();
-		for ($i = 1; $i<13; $i++)
+		for ($i = 0; $i<10; $i++)
+			$hours[$i] = '0'.$i;
+		for ($i = 10; $i<25; $i++)
 			$hours[$i] = $i;
 		return $hours;
 	}
@@ -234,24 +245,13 @@ class OrderTimeForm extends CFormModel
 	}
 	
 	/**
-	 * @return List am/pm
-	 */
-	public function getListAmPm()
-	{
-		return array(
-			'AM'=>'AM',
-			'PM'=>'PM',
-		);
-	}
-	
-	/**
 	 * Convert from am/pm to 24 hours format
 	 * @param hour,minute,am/pm
 	 * @return 24hours format
 	 */
-	public function convert24($hour,$minute,$ampm){
-		if ($ampm == 'PM')
-			$hour += 12;
+	public function convert24($hour,$minute){
+		if ($hour < 10)
+			$hour = '0' . $hour;
 		return $hour.":".$minute; 
 	}
 }

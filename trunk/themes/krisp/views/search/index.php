@@ -39,9 +39,6 @@
 			<td>
 				<?php echo $form->dropDownListRow($orderTime,'start_minute',$orderTime->getListMinutes());?>
 			</td>
-			<td>
-				<?php echo $form->dropDownListRow($orderTime,'start_ampm',$orderTime->getListAmPm());?>
-			</td>
 		</tr>
 		<tr>
 			<td>
@@ -52,9 +49,6 @@
 			</td>
 			<td>
 				<?php echo $form->dropDownListRow($orderTime,'end_minute',$orderTime->getListMinutes());?>
-			</td>
-			<td>
-				<?php echo $form->dropDownListRow($orderTime,'end_ampm',$orderTime->getListAmPm());?>
 			</td>
 		</tr>
 	</table>

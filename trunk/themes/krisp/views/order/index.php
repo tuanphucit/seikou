@@ -15,7 +15,7 @@
 	$cs->registerCssFile(Html::cssThemeUrl('fullcalendar/fullcalendar.print.css'),'print');
 	$cs->registerScriptFile(Html::jsThemeUrl('fullcalendar/fullcalendar.min.js'));
 	$this->renderPartial('order_js');
-	$this->renderPartial('order_form2',array(
+	$this->renderPartial('order_form',array(
 			'orderTime'=>$orderTime,
 	));
 ?>
