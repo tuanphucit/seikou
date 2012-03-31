@@ -20,7 +20,7 @@
 	
 		// OrderTimeForm
 		'Start Date' => 'スタート·日',
-		'End Date' => 'エンド·日',
+		'End Date' => 'エンド· 日',
 		'Product ID' => 'プロダクト ID',
 		'Start Time' => 'スタート·タイム',
 		'End Time' => 'エンド·タイム',
@@ -51,5 +51,12 @@
 		'Type' => 'タイプ',
 		'Number of seats' => '椅子の数',
 		''=>'',
+		
+		// Contact Form
+		'Name'      => '名前',
+		'Email'     => 'メール',
+		'Subject'   => 'タイトル',
+		'Body'      => '内容',
+		'Verification Code'=> '確認するコード',
 	);
 ?>

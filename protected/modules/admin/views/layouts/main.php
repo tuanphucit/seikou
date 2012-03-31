@@ -150,7 +150,7 @@
 					echo "</li>";
 					/**********          Quản lý dữ liệu                    **********/
 					echo "<li>";
-						echo Html::link(Yii::t('admin',"Order Management"),"#",$htmlTop['data']);
+						echo Html::link(Yii::t('admin',"Order Management"),$this->createUrl('/admin/order/index'),$htmlTop['data']);
 					echo "</li>";
 					/**********          Công cụ                    **********/
 					echo "<li>";
