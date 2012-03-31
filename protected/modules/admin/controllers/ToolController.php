@@ -100,10 +100,11 @@ class ToolController extends Controller
 			}
 		
 		// Final export　（最後に出力）
+		$csvData[] = array ("END___END___END",$year,$month);
 		Yii::import('ext.CSVExport');
 		$csv = new CSVExport($csvData);
 		$content = $csv->toCSV();
-		$filename = 'produse.csv';
+		$filename = "RVR-$year-$month.csv";
 		//$content = $csv->toCSV($filename, ",", "\"");           
 		Yii::app()->getRequest()->sendFile($filename, $content, "text/csv", false);
 		exit();
