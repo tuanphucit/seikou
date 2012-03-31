@@ -1692,6 +1692,9 @@ input.contactButton:hover {
 /* Additional style*/
 
 /* loading css*/
+.contact-form label {
+	display:block;
+}
 .loading {
 	opacity:.2;
 }

@@ -35,7 +35,7 @@
 <!-- website wrap starts -->
 <div class="mainWrap">
   <!-- header wrap starts -->
-  <div class="headerWrap"> <a href="" class="mainLogo"><img src="<?php echo Html::imageThemeUrl('default/mainLogo.png') ?>" alt=""/></a> 
+  <div class="headerWrap"> <a href="<?php echo $this->createUrl('/home/index')?>" class="mainLogo"><img src="<?php echo Html::imageThemeUrl('default/mainLogo.png') ?>" alt=""/></a> 
   <!-- Uncomment this for header Ads
   <a href="" class="headerAd">
   	<img src="<?php echo Html::imageThemeUrl('default/ad1-top.jpg') ?>" alt=""/>
@@ -52,7 +52,7 @@
         <li><?php echo Html::link(t('Conference Room'),$this->createUrl('/room/index'),array())?></li>
         <li><?php echo Html::link(t('Equipment'),$this->createUrl('/equipment/index'),array())?></li>
         <li><?php echo Html::link(t('Order Now'),$this->createUrl('/order/index'),array())?></li>
-        <li><?php echo Html::link(t('Contact Us'),$this->createUrl('/contact/index'),array())?></li>
+        <li><?php echo Html::link(t('Contact Us'),$this->createUrl('/site/contact'),array())?></li>
         <li><?php echo Html::link(t('Your Account'),"#",array())?>
           <ul>
             <li><?php echo Html::link(t('History'),$this->createUrl('/history/index'),array())?></li>
