@@ -120,6 +120,7 @@
 						case 'order':
 							$htmlTop['data'] = array("class"=>"nav-top-item current");
 							break;
+						case 'report':
 						case 'tool':
 							$htmlTop['tool'] = array("class"=>"nav-top-item current");
 							break;
@@ -157,11 +158,12 @@
 						echo Html::link(Yii::t('admin',"Tool"),"#",$htmlTop['tool']);
 						echo "<ul>";
 							echo "<li>";
-								echo Html::link("Export CSV",$this->createUrl('/admin/tool/exportcsv'),($controllerId == 'tool')?$htmlItem:null);
+								echo Html::link(t("Export CSV",'admin'),$this->createUrl('/admin/tool/exportcsv'),($controllerId == 'tool')?$htmlItem:null);
 							echo "</li>";
-							/*echo "<li>";
-								echo Html::link("HDSD",'https://docs.google.com/document/d/1MoJokttxx32f3Bf24mWmmfgJFB-ccXYcIfBFCNLgARQ/edit',array("target"=>"_blank"));
+							echo "<li>";
+								echo Html::link(t("Report",'admin'),$this->createUrl('/admin/report/index'),($controllerId == 'report')?$htmlItem:null);
 							echo "</li>";
+							/*
 							echo "<li>";
 								echo Html::link("Xóa sim lỗi",$this->createUrl('/admin/tool/delSim'),array());
 							echo "</li>";*/
