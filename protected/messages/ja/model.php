@@ -27,7 +27,7 @@
 		'Start Hour' => 'スタート·アワー',
 		'End Hour' => 'エンド·アワー',
 		'Start Minute' => 'スタート·ミニッツ',
-		'End Minute' => 'エンド·ミニッツ',
+		'End Minute' => 'エンド · ミニッツ',
 		'Start AM/PM' => 'スタート·午前/午後',
 		'End AM/PM' => 'エンド·午前/午後',
 		

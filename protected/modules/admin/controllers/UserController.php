@@ -13,7 +13,7 @@ class UserController extends Controller
 	{
 		return array(
 			array('allow', // allow authenticated users to access all actions　（　されたユーザーはすべてのアクションへのアクセスを許可する　）
-				'users'=>array('@'),
+				'roles'=>array('admin'),
 			),
 			array('deny',  // deny all users　(すべてのユーザーを拒否する。)
 				'users'=>array('*'),

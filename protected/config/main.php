@@ -10,6 +10,7 @@ require dirname(__FILE__).DIRECTORY_SEPARATOR.'..'.DIRECTORY_SEPARATOR.'globals.
 return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
 	'name'=>'会議室予約システム',
+	'id'=>'Conference Room Reservation System',
 
 	// preloading 'log' component
 	'preload'=>array(
@@ -33,6 +34,12 @@ return array(
 			'generatorPaths'=> array('bootstrap.gii'),
 		),
 		'admin'=>array(),
+		'rbam'=>array(
+			'initialise'=>true,
+			'development'=>true,
+			'userClass'=>'Users',
+			'authenticatedRole'=>'customer',
+		),
 	),
 
 	// application components
@@ -67,7 +74,7 @@ return array(
 			'routes'=>array(
 				// エラーが発信したらすぐにADMINにメールで報告する。
 					array(
-						'class'=>'CEmailLogRoute',
+						'class'=>'CPhpMailerLogRoute',
 						'levels'=>'error',
 						'emails'=>'luckymancvp@gmail.com',
 					),
@@ -89,6 +96,9 @@ return array(
 						'logFile'=>'application.log',
 					),
 			),
+		),
+		'authManager' => array(
+			'class'=>'CDbAuthManager',
 		),
 		'bootstrap'=>array(
 			'class'=>'ext.bootstrap.components.Bootstrap', // assuming you extracted bootstrap under extensions
