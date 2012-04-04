@@ -20,6 +20,7 @@
 		// Common Use
 		'User'  => 'ユーザー',
 		'Index' => 'インデックス',
+		'View'  => 'ビュー',
 		'view'  => '表示',
 		'delete'=> '削除',
 		'Delte' => '削除',
@@ -33,6 +34,12 @@
 		// ホームページ
 		'We provide high quality products with lowest cost' => 'お客様に低コスト・高品質の製品を提供することです。',
 		'All rooms here are design by many famous architect around the world with high tech equipment' => 'すべての会議室には、世界中の多くの有名な建築家によるデザインです。',
+		'Your Incoming Order' => 'あなたの将来の受注',
+			
+		//　検出
+		'Quick Search' => 'クイック検索',
+		'Search' => '検索',
+		
 		
 	
 		//プロファイル

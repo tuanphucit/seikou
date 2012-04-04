@@ -35,6 +35,12 @@
 		'User' => 'ユーザー',
 		'Status' => '状態',
 		'Description' => 'デスクリプション ',
+		'Created'=>'作成した',
+		'Finished'=>'完成した',
+		'Canceled'=>'削除した',
+		'CANCELED'=>'キャンセル',
+		'CREATED'=>'作成',
+		'OVER'=>'',
 		
 		// Order Model
 		'Real Stop Time' => '実のストップタイム',

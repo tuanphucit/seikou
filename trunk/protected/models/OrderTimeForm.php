@@ -33,7 +33,7 @@ class OrderTimeForm extends CFormModel
 		$this->end_time   = $time;
 		$time             = explode(":", $time);
 		$this->start_hour   = $time[0];
-		logged(dump($time));
+		logged('Current Time'.dump($time));
 		$this->start_minute = ceil($time[1] / 10) * 10;
 		$this->end_hour     = $time[0];
 		$this->end_minute   = $this->start_minute;

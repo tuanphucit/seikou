@@ -17,7 +17,7 @@
 	});
 </script>
 <div class="pageBreaker"></div>
-<h2>Quick Search</h2>
+<h2><?php echo t('Quick Search')?></h2>
 
 	<div id="loading" style="display:none">
 		<div class="ball"></div>
