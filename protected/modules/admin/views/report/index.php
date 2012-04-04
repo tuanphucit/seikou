@@ -11,17 +11,18 @@ $(document).ready(function() {
       chart = new Highcharts.Chart({
          chart: {
             renderTo: 'container',
-            type: 'bar'
+            type: 'column'
          },
          title: {
-            text: 'Fruit Consumption'
+            text: 'Monthly Room Sales'
          },
          xAxis: {
-            categories: ['Apples', 'Bananas', 'Oranges']
+        	 categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun',
+      					'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
          },
          yAxis: {
             title: {
-               text: 'Fruit eaten'
+               text: 'Number of orders'
             }
          },
       });

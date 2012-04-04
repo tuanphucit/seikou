@@ -85,7 +85,51 @@
 </div>
 <!-- website wrap ends -->
 <!-- background switch starts -->
-<div class="bgSwitch"> <img src="<?php echo Html::imageThemeUrl('default/plus.png') ?>" alt="" class="plus"/> <a href="<?php echo Html::imageThemeUrl('default/bgPat-1.png') ?>" class="bgSw"><img src="<?php echo Html::imageThemeUrl('default/bgs1.png') ?>" alt=""/></a> <a href="<?php echo Html::imageThemeUrl('default/bgPat-2.png') ?>" class="bgSw"><img src="<?php echo Html::imageThemeUrl('default/bgs2.png') ?>" alt=""/></a> <a href="<?php echo Html::imageThemeUrl('default/bgPat-3.png') ?>" class="bgSw"><img src="<?php echo Html::imageThemeUrl('default/bgs3.png') ?>" alt=""/></a> </div>
+<div class="bgSwitch"> 
+	
+	<?php 
+	
+		echo Html::link(
+			Html::image(
+				Html::imageUrl('flags/en.png'),
+				"lang",
+				array()
+			),
+			$this->createUrl('',array('lang'=>'en'))		
+		);
+	
+		echo Html::link(
+			Html::image(
+				Html::imageUrl('flags/ja.png'),
+				"lang",
+				array()
+			),
+			$this->createUrl('',array('lang'=>'ja'))		
+		);
+		
+		echo Html::link(
+			Html::image(
+				Html::imageUrl('flags/vi.png'),
+				"lang",
+				array()
+			),
+			$this->createUrl('',array('lang'=>'vi'))	
+		);
+		
+		echo "<hr>";
+	?>
+	
+	<img src="<?php echo Html::imageThemeUrl('default/plus.png') ?>" alt="" class="plus"/> 
+	<a href="<?php echo Html::imageThemeUrl('default/bgPat-1.png') ?>" class="bgSw">
+		<img src="<?php echo Html::imageThemeUrl('default/bgs1.png') ?>" alt=""/>
+	</a> 
+	<a href="<?php echo Html::imageThemeUrl('default/bgPat-2.png') ?>" class="bgSw">
+		<img src="<?php echo Html::imageThemeUrl('default/bgs2.png') ?>" alt=""/>
+	</a> 
+	<a href="<?php echo Html::imageThemeUrl('default/bgPat-3.png') ?>" class="bgSw">
+		<img src="<?php echo Html::imageThemeUrl('default/bgs3.png') ?>" alt=""/>
+	</a>
+</div>
 <!-- background switch ends -->
 </body>
 </html>

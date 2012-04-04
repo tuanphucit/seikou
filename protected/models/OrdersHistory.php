@@ -120,12 +120,12 @@ class OrdersHistory extends CActiveRecord
 	public static function getStatusTypeLabel($status)
 	{
 		$statusList = array(
-			OrdersHistory::HISTORY_CREATE => t('Created'),
-			OrdersHistory::HISTORY_FINISH => t('Finished'),
-			OrdersHistory::HISTORY_CANCEL_USER  => t('Canceled'),
-			OrdersHistory::HISTORY_CANCEL_ADMIN => t('CANCELED'),
-			OrdersHistory::HISTORY_CREATE_ADMIN => t('CREATED'),
-			OrdersHistory::HISTORY_OVERTIME     => t('OVER'), 
+			OrdersHistory::HISTORY_CREATE => t('Created','model'),
+			OrdersHistory::HISTORY_FINISH => t('Finished','model'),
+			OrdersHistory::HISTORY_CANCEL_USER  => t('Canceled','model'),
+			OrdersHistory::HISTORY_CANCEL_ADMIN => t('CANCELED','model'),
+			OrdersHistory::HISTORY_CREATE_ADMIN => t('CREATED','model'),
+			OrdersHistory::HISTORY_OVERTIME     => t('OVER','model'), 
 		);
 		
 		return $statusList[$status];

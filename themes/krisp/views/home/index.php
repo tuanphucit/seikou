@@ -11,11 +11,11 @@
 				);
 			*/
 		?>
-		<a href=""><img src="/seikou/uploads/homepage/home1.jpg" alt="" /></a>
-		<a href=""><img src="/seikou/uploads/homepage/home2.jpg" alt="" /></a>
-		<a href=""><img src="/seikou/uploads/homepage/home3.jpg" alt="" /></a>
-		<a href=""><img src="/seikou/uploads/homepage/home4.jpg" alt="" /></a>
-		<a href=""><img src="/seikou/uploads/homepage/home5.jpg" alt="" /></a> 
+		<a href=""><img src="<?php echo Html::url('uploads/homepage/home1.jpg')?>" alt="" /></a>
+		<a href=""><img src="<?php echo Html::url('uploads/homepage/home2.jpg')?>" alt="" /></a>
+		<a href=""><img src="<?php echo Html::url('uploads/homepage/home3.jpg')?>" alt="" /></a>
+		<a href=""><img src="<?php echo Html::url('uploads/homepage/home4.jpg')?>" alt="" /></a>
+		<a href=""><img src="<?php echo Html::url('uploads/homepage/home5.jpg')?>" alt="" /></a> 
 	</div>
 	<div class="sliderBottomLine"></div>
 </div>
@@ -37,7 +37,7 @@
 </div>
         
 <div class="pageBreaker"></div>
-<h2>Your Incomming Order</h2>
+<h2><?php echo t('Your Incoming Order')?></h2>
  <?php 
 	$this->widget('bootstrap.widgets.BootGridView', array(
 		'itemsCssClass'=>'striped bordered condensed',
@@ -51,7 +51,7 @@
 	        array('name'=>'start_time'),
 	        array('name'=>'end_time'),
 	        array(
-	        	'header'=>t('Status'),
+	        	'header'=>t('Status','model'),
 	        	'type'=>'raw',
 	        	'value'=>'OrdersHistory::getStatusTypeLabel($data->getLastestStatus())',
 	        ),

@@ -127,7 +127,6 @@ return array(
 		'adminEmail'=>'luckymancvp@gmail.com',
 	),
 	'sourceLanguage'=>'en',
-	'language'=>'ja',
 	'defaultController'=>'home',
 	'homeUrl'=>array('/home/index/'),
 	'theme'=>'krisp',

@@ -20,4 +20,22 @@ class Controller extends CController
 	 * for more details on how to specify this property.
 	 */
 	public $breadcrumbs=array();
+	
+	public function init() {
+		parent::init();
+        $app  = Yii::app();
+        $lang = request('lang'); 
+        logged("request language");
+        if ($lang)
+        {
+            $app->language = $lang;
+            $app->session['lang'] = $app->language;
+            logged("Have request language");
+        }
+        else if (isset($app->session['lang']))
+        {
+            $app->language = $app->session['lang'];
+            logged("Don't request language");
+        }
+	}
 }
