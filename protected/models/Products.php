@@ -207,18 +207,38 @@ class Products extends CActiveRecord
 	public static function getStatusLabel($status,$onHTML = true)
 	{
 		// List all status
-		if (!$onHTML)
-		$statusLabels = array(
-			Products::STATUS_FREE  =>t('Free ','admin'),
-			Products::STATUS_USING =>t('Using','admin'),
-			Products::STATUS_OVER  =>t('Over ','admin'),
-		);
-		else
-		$statusLabels = array(
-			Products::STATUS_FREE  =>t('Free ','admin'),
-			Products::STATUS_USING =>t('Using','admin'),
-			Products::STATUS_OVER  =>t('Over ','admin'),
-		); 
-		return $statusLabels[$status];
+		if (!$onHTML){
+			$statusLabels = array(
+				Products::STATUS_FREE  =>t('Free ','admin'),
+				Products::STATUS_USING =>t('Using','admin'),
+				Products::STATUS_OVER  =>t('Over ','admin'),
+			);
+			return $statusLabels[$status];
+		}
+		
+		switch ($status){
+			case Products::STATUS_FREE:
+				$type = "primary";
+				$label = t('Free','admin');
+				break;
+			case Products::STATUS_USING:
+				$type = "warning";
+				$label = t('Using','admin');
+				break;
+			case Products::STATUS_OVER:
+				$type = "danger";
+				$label = t('Over','admin');
+				break;
+		}
+		$ajaxButton = 
+		Yii::app()->controller->widget('bootstrap.widgets.BootButton', 
+			array(
+				'url' => '#',
+				'type'=> $type,
+				'label'=>$label,
+	    	),
+	    	true
+	    ); 
+		return $ajaxButton;
 	}
 }

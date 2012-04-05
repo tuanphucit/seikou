@@ -39,9 +39,9 @@
 		<?php echo Html::image(Html::imageThemeUrl('default/analyticsIcon.png'),"servicesIcon",array('class'=>'servicesIcon'))?>
 		<h3><?php echo t('Make Sure That');?></h3>
 		<ul class="customList">
-	          <li class="checked"><?php echo t('Date format: yyyy-mm-dd')?></li>
-	          <li class="checked"><?php echo t('You must order start time in the future')?></li>
-	          <li class="checked"><?php echo t('Start time must be earlier than end time')?></li>
+	          <li class="checked"><strong><?php echo t('Date format: yyyy-mm-dd')?></strong></li>
+	          <li class="checked"><strong><?php echo t('You must order start time in the future')?></strong></li>
+	          <li class="checked"><strong><?php echo t('Start time must be earlier than end time')?></strong></li>
 	        </ul>
 	</div>
 	<div class="clear"></div>

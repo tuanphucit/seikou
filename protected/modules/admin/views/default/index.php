@@ -1,6 +1,6 @@
 <div class="content-box column-left" id="room-wrapper">
 <?php 
-	$ajaxButtonStop = '
+	$ajaxButton = '
 	Yii::app()->controller->widget("bootstrap.widgets.BootButton", 
 		array(
 			"fn"=>"ajaxButton",
@@ -80,11 +80,6 @@
 			        	'type'=>'raw', 
 			        	'value'=>'Products::getStatusLabel($data->getStatus())',
 			        ),
-			        array(
-						'class'=>'bootstrap.widgets.BootButtonColumn',
-			            'template'=>'action',
-			        	
-			        ),
 			    ),
 			)); 
 		
@@ -102,4 +97,47 @@
 				
 </div>
 
+<div class="content-box column-right" id="room-wrapper">
+	
+	<div class="content-box-header">
+		
+		<h3 style="cursor: s-resize; "><?php echo t('Users List','admin')?></h3>
+		
+	</div> <!-- End .content-box-header -->
+	
+	<div class="content-box-content">
+		
+		<div class="tab-content default-tab" style="display: block; ">
+		
+			<?php $this->renderPartial('/user/_quick',array('users'=>$users))?>
+			
+			
+		</div> <!-- End #tab3 -->        
+		
+	</div> <!-- End .content-box-content -->
+				
+</div>
+<div class="clear"></div>
+
+<div class="content-box" id="room-wrapper">
+	
+	<div class="content-box-header">
+		
+		<h3 style="cursor: s-resize; "><?php echo t('Products List','admin')?></h3>
+		
+	</div> <!-- End .content-box-header -->
+	
+	<div class="content-box-content">
+		
+		<div class="tab-content default-tab" style="display: block; ">
+		
+			
+			<?php $this->renderPartial('/order/_quick',array('orders'=>$orders))?>		
+			
+			
+		</div> <!-- End #tab3 -->        
+		
+	</div> <!-- End .content-box-content -->
+				
+</div>
 <div class="clear"></div>

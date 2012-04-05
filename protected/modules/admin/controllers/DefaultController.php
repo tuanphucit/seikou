@@ -10,6 +10,7 @@ class DefaultController extends Controller
 			t('Index','admin'),
 		);
 		
+		// Search for in use product
 		$criteria = new CDbCriteria();
 		$criteria->join = 'LEFT JOIN orders ON t.id = orders.product_id';
 		$today  = date('Y-m-d');
@@ -22,8 +23,31 @@ class DefaultController extends Controller
 		        'pageSize'=>20,
 		    ),
 		));
+		
+		// Get model contains users's information　　　（ユーザの情報が含まれているモデルをうける。）
+		$users = new CActiveDataProvider('Users', array(
+			'criteria'=>array(
+				'order'   =>'last_login DESC',
+			),
+			'pagination'=>array(
+				'pageSize'  => 10,
+			)
+		)); 
+		
+		// Get model contains orders's information　　　（ユーザの情報が含まれているモデルをうける。）
+		$orders = new CActiveDataProvider('Orders', array(
+			'criteria'=>array(
+				'order'   =>'start_date DESC',
+			),
+			'pagination'=>array(
+				'pageSize'  => 10,
+			)
+		));
+		
 		$this->render('index',array(
-			'products'=>$products
+			'products'=>$products,
+			'users'   =>$users,
+			'orders'  =>$orders,
 		));
 	}
 	

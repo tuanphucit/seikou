@@ -21,10 +21,6 @@ return CMap::mergeArray(
 					array(
 						'class'=>'ext.yii-debug-toolbar.YiiDebugToolbarRoute',
 					),
-					array(
-						'class'=>'CWebLogRoute',
-						'showInFireBug'=>true,
-					),
 				),
 			),
 			/* uncomment the following to provide test database connection

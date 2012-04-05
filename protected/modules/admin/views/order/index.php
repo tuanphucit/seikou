@@ -7,7 +7,7 @@
 	};
 </script>
 <?php 
-	$ajaxButtonStop = '
+	$ajaxButton = '
 	Yii::app()->controller->widget("bootstrap.widgets.BootButton", 
 		array(
 			"fn"=>"ajaxButton",
@@ -78,7 +78,7 @@
 	        	'name' => 'real_stop_time',
 	        	'type' => 'raw',
 	        	'value'=> '($data->getLastestStatus() != OrdersHistory::HISTORY_CREATE) ? $data->real_stop_time :
-	        		'.$ajaxButtonStop,
+	        		'.$ajaxButton,
 	        ),
 	    ),
 	)); 
