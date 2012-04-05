@@ -6,7 +6,7 @@ class HistoryController extends Controller
 	{
 		// Breadcrumbs
 		$this->breadcrumbs = array(
-			t('History')  => $this->createUrl('/profile/index'),
+			t('History')  => $this->createUrl('/history/index'),
 			t('Index'),
 		);
 		
@@ -27,7 +27,7 @@ class HistoryController extends Controller
 	{
 		// Breadcrumbs
 		$this->breadcrumbs = array(
-			t('History')  => $this->createUrl('/profile/index'),
+			t('History')  => $this->createUrl('/history/index'),
 			t('View'),
 		);
 		

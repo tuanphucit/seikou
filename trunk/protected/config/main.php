@@ -23,6 +23,7 @@ return array(
 		'application.models.*',
 		'application.components.*',
 		'application.components.helpers.*',
+		'application.extensions.quicktip.*',
 	),
 
 	'modules'=>array(
