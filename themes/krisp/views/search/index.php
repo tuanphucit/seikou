@@ -18,6 +18,8 @@
 </script>
 <div class="pageBreaker"></div>
 <h2><?php echo t('Quick Search')?></h2>
+<?php $this->widget('QuickTipWidget',array('header'=>'Nothing','content'=>'todo'))?>
+
 
 	<div id="loading" style="display:none">
 		<div class="ball"></div>

@@ -85,8 +85,11 @@ class SiteController extends Controller
 		{
 			$model->attributes=$_POST['LoginForm'];
 			// validate user input and redirect to the previous page if valid　　（ユーザー入力を検証し、前のページにリダイレクトする有効な場合）
-			if($model->validate() && $model->login())
-				$this->redirect(Yii::app()->user->returnUrl);
+			if($model->validate() && $model->login()){
+				if ( ! Yii::app()->authManager->isAssigned('admin',Yii::app()->user->id))
+					$this->redirect(Yii::app()->user->returnUrl);
+				$this->redirect(array('/admin'));
+			}
 		}
 		// display the login form　　ログインフォームを表示する
 		$this->renderPartial('login',array('model'=>$model));

@@ -57,7 +57,7 @@
           <ul>
             <li><?php echo Html::link(t('History'),$this->createUrl('/history/index'),array())?></li>
             <li><?php echo Html::link(t('Profile'),$this->createUrl('/profile/index'),array())?></li>
-            <li><?php echo Html::link(t('Log Out'),$this->createUrl('/site/logout'),array())?></li>
+            <li><?php echo Html::link(t('Log Out')." (".Yii::app()->user->name.")",$this->createUrl('/site/logout'),array())?></li>
           </ul>
         </li>
       </ul>

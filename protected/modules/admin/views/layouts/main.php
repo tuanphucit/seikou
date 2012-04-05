@@ -152,6 +152,11 @@
 					/**********          Quản lý dữ liệu                    **********/
 					echo "<li>";
 						echo Html::link(Yii::t('admin',"Order Management"),$this->createUrl('/admin/order/index'),$htmlTop['data']);
+						echo "<ul>";
+							echo "<li>";
+								echo Html::link(t("Order",'admin'),$this->createUrl('/admin/order/index'),($controllerId == 'order')?$htmlItem:null);
+							echo "</li>";
+						echo "</ul>";
 					echo "</li>";
 					/**********          Công cụ                    **********/
 					echo "<li>";

@@ -18,7 +18,7 @@ class HomeController extends Controller
 		$today = date('Y-m-d');
 		$dataProvider = new CActiveDataProvider('Orders',array(
 			'criteria'=>array(
-				'condition' => "end_date >= '$today'",
+				'condition' => "end_date >= '$today' and user_id ='".Yii::app()->user->id."'",
 				'order'     => "start_date ASC",
 			),
 			'pagination'=>array(
