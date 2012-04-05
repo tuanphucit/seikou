@@ -2,8 +2,8 @@
 <?php 
 	// Add highcharts library
 	$cs = Yii::app()->clientScript;
-	$cs->registerScriptFile(Html::jsUrl('highcharts.js'));
-	$cs->registerScriptFile(Html::jsUrl('themesforchart/gray.js'));
+	$cs->registerScriptFile(Html::jsUrl('highcharts/highcharts.js'));
+	$cs->registerScriptFile(Html::jsUrl('highcharts/themes/gray.js'));
 ?>
 <script>
 var chart1; // globally available
