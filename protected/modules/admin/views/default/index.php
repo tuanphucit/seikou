@@ -1,3 +1,4 @@
+<h2>Dash Board</h2>
 <div class="content-box column-left" id="room-wrapper">
 <?php 
 	$ajaxButton = '
