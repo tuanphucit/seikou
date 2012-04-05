@@ -109,6 +109,14 @@ class OrderTimeForm extends CFormModel
 			$this->addError('Date',t('Start date must be earlier than End date'));
 			return false;
 		}
+		// Check start_date before one year
+		$start = $this->start_date + " " + $this->start_time;
+		$oneyear = 60*60*24*365;
+		if ( strtotime("+1 year") -  $start < $oneyear){
+			logged(t("Can't reserve before 1 year"));
+			$this->addError('Date',t("Can't reserve before 1 year"));
+			return false;
+		}
 		// Select all order with same pid have conflict time with this current order
 		$criteria=new CDbCriteria;
 		$criteria->addCondition("product_id = '$this->pid'");
