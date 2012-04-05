@@ -24,8 +24,12 @@ class Products extends CActiveRecord
 	 */
 	
 	// Define two types of product
-	const TYPE_ROOM = 0;
+	const TYPE_ROOM      = 0;
 	const TYPE_EQUIPMENT = 1;
+	
+	const STATUS_FREE    = 2;
+	const STATUS_USING   = 3;
+	const STATUS_OVER    = 4;
 	
 	public static function model($className=__CLASS__)
 	{
@@ -112,6 +116,9 @@ class Products extends CActiveRecord
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
+			'pagination'=>array(
+		        'pageSize'=>20,
+		    ),
 		));
 	}
 	
@@ -164,5 +171,54 @@ class Products extends CActiveRecord
 		return $string;
 	}
 
+	/**
+	 * Get Room Status
+	 */
+	public function getStatus() 
+	{
+		$criteria = new CDbCriteria();
+		$criteria->condition = "product_id = '$this->id'";
+		$today  = date('Y-m-d');
+		$criteria->addCondition("start_date <= '$today' and '$today' <= end_date");
+		$now    = date('H-i');
+		$criteria->addCondition("start_time <= '$now'");
+		$orders = Orders::model()->findAll($criteria);
+		foreach ($orders as $order){
+			// check order status
+			$order_status = $order->getLastestStatus();
+			switch ($order_status) {
+				case OrdersHistory::HISTORY_CREATE:
+				case OrdersHistory::HISTORY_CREATE_ADMIN:
+					if ($order->end_time < $now)
+						return Products::STATUS_OVER;
+					return Products::STATUS_USING;
+				break;
+			}
+		}
+		return Products::STATUS_FREE;
+	}
 	
+	/**
+	 * Get product status label
+	 * @param int $status : Product status value
+	 * @param boolean $onHTML : whenever export to HTML or not
+	 * @return label of this value
+	 */
+	public static function getStatusLabel($status,$onHTML = true)
+	{
+		// List all status
+		if (!$onHTML)
+		$statusLabels = array(
+			Products::STATUS_FREE  =>t('Free ','admin'),
+			Products::STATUS_USING =>t('Using','admin'),
+			Products::STATUS_OVER  =>t('Over ','admin'),
+		);
+		else
+		$statusLabels = array(
+			Products::STATUS_FREE  =>t('Free ','admin'),
+			Products::STATUS_USING =>t('Using','admin'),
+			Products::STATUS_OVER  =>t('Over ','admin'),
+		); 
+		return $statusLabels[$status];
+	}
 }
