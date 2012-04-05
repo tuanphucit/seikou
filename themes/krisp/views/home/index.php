@@ -38,6 +38,27 @@
         
 <div class="pageBreaker"></div>
 <h2><?php echo t('Your Incoming Order')?></h2>
+<?php 
+	$this->beginWidget('QuickTipWidget',array())
+?>
+	<div class="oneHalf">
+		<?php echo Html::image(Html::imageThemeUrl('default/supportIcon.png'),"servicesIcon",array('class'=>'servicesIcon'))?>
+		<h3><?php echo t('Function')?></h3>
+		<ul class="unorderedList">
+			<li><strong><?php echo t('Quick manage all orders have end date from today');?></strong></li>
+			<li><strong><?php echo t('Delete and View detail each orders')?></strong></li>
+		</ul>
+	</div>
+	<div class="oneHalf lastColumn">
+		<?php echo Html::image(Html::imageThemeUrl('default/clockIcon.png'),"servicesIcon",array('class'=>'servicesIcon'))?>
+		<h3><?php echo t('Quick Tips')?></h3>
+		<ul class="unorderedList">
+			<li><strong><?php echo t('You can sort list by click in header of table');?></strong></li>
+			<li><strong><?php echo t('You can resever room in a specific time (in a day) for many days')?></strong></li>
+		</ul>
+	</div>
+	<div class="clear"></div>
+<?php $this->endWidget()?>
  <?php 
 	$this->widget('bootstrap.widgets.BootGridView', array(
 		'itemsCssClass'=>'striped bordered condensed',
