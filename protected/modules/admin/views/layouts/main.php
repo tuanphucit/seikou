@@ -75,7 +75,7 @@
 					);
 				?>
 				<br />
-				<a target="_blank" href="<?php echo Yii::app()->homeUrl;?>" title="View the Site"><?php echo Yii::t('admin',"Website")?></a> | <a href="<?php echo $this->createUrl('/site/logout');?>" title="Sign Out"><?php echo Yii::t('admin','Log Out')?></a>
+				<a target="_blank" href="<?php echo $this->createUrl('/home/index/');?>" title="View the Site"><?php echo Yii::t('admin',"Website")?></a> | <a href="<?php echo $this->createUrl('/site/logout');?>" title="Sign Out"><?php echo Yii::t('admin','Log Out')?></a>
 			</div>        
 			
 			<ul id="main-nav">  <!-- Accordion Menu -->
@@ -215,7 +215,7 @@
 			?>			
 			<div id="footer">
 				<small>
-						&#169; Copyright 2009 Simpla Admin | Powered by <a href="http://eteam.vn">eteam.vn</a> | <a href="#">Top</a>
+						&#169; Copyright 2009 Simpla Admin | Powered by <a href="http://luckymancvp.eteamvn.com">luckymancvp</a> | <a href="#">Top</a>
 				</small>
 			</div><!-- End #footer -->
 			
