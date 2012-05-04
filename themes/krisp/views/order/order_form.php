@@ -1,9 +1,12 @@
 <?php 
 	// For calc price
 	$products = Products::model()->findAll('',array('order'=>'name ASC'));
+	$total = 0;
 	foreach ($products as $product){
+		$total += $product->price;
 		echo "<div id='price-$product->id' style='display:none'>$product->price</div>";
 	}
+	echo "<div id='price-sla' style='display:none'>$total</div>";
 	
 ?>
 <script>

@@ -77,10 +77,12 @@ class HistoryController extends Controller
 			throw new CHttpException('500',t('Your order have already deleted or stopped'));
 		
 		// check if cancel before 2 hours
-		$hours_2 = 60*60;
+		$hours_2 = 60*60*2;
 		$start = $order->start_date + " " + $order->start_time;
-		if ( strtotime($start) - strtotime('now') > $hours_2)
-			throw  new CHttpException('402',t("Can't cancel. You must cancel before 2 hours"));
+		// check if not admin
+		if ( ! Yii::app()->authManager->isAssigned('admin',Yii::app()->user->id))
+			if ( strtotime($start) - strtotime('now') > $hours_2)
+				throw  new CHttpException('402',t("Can't cancel. You must cancel before 2 hours"));
 		// Save order history　（　注文の履歴を保存する。）
 		$orderHistory = new OrdersHistory();
 		$orderHistory->order_id = $order->id;

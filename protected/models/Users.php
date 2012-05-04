@@ -152,14 +152,4 @@ class Users extends CActiveRecord
 			$role = $this->role;
 		return ($role == 1)? Yii::t('model','admin'):Yii::t('model','user');
 	}
-	
-	/**
-	 * perform one-way encryption on the password before we store it in the database
-	 *
-	 */
-	protected function afterValidate() 
-	{
-		parent::afterValidate();
-		$this->password = sha1(md5($this->password));
-	}
 }

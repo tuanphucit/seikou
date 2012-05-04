@@ -105,116 +105,31 @@ class ToolController extends Controller
 		$csv = new CSVExport($csvData);
 		$content = $csv->toCSV();
 		$filename = "RVR-$year-$month.csv";
-		//$content = $csv->toCSV($filename, ",", "\"");           
+		$folder   = YiiBase::getPathOfAlias('webroot').DIRECTORY_SEPARATOR."csv".DIRECTORY_SEPARATOR;
+		$saveToFile = $csv->toCSV($folder.$filename, ",", "\"");           
 		Yii::app()->getRequest()->sendFile($filename, $content, "text/csv", false);
 		exit();
 		$this->render('exportcsv',array('content'=>$content));
 	}
 	
-	public function actionAdd()
+	/**
+	 * Manage database
+	 * - Import
+	 * - Export
+	 */
+	public function actionDatabase()
 	{
-		// Breadcrumbs - パン粉
+		// Breadcrumbs
 		$this->breadcrumbs = array(
-			t('Order','admin')  => $this->createUrl('/admin/user/index'),
-			t('Add','admin'),
+				t('Tool','admin')  => $this->createUrl('/admin/tool/index'),
+				t('Database'),
 		);
-		$user = new Users();
-		if(isset($_POST['Users']))
-		{
-			logged("Have user submit".dump($_POST['Users']));
-			// パラメータ をとる
-			$currentPassword  = $_POST['Users']['password'];
-			$user->attributes = $_POST['Users'];
-			if ($user->password != $currentPassword)
-				$user->password = sha1(md5($user->password));
-			// 保存と検証する
-			if($user->save()){
-				Yii::app()->user->setFlash('success',Yii::t('admin','Add user successful'));
-				$this->redirect(array('view','id'=>$user->id));
-			}
-			else 
-				Yii::app()->user->setFlash('error',Yii::t('admin','Add user failed'));
-		}
-		$this->render('add',array('user'=>$user));
+		$this->render('database');
 	}
 	
-	public function actionDelete()
+	public function actionExport()
 	{
-		// Breadcrumbs - パン粉
-		$this->breadcrumbs = array(
-			t('Order','admin')  => $this->createUrl('/admin/order/index'),
-			t('Delete','admin'),
-		);
-		
-		//  要求からIDをとる。もしIDがないと４０４ページを表示
-		$id = Yii::app()->request->getParam('id');
-		if ($id == NULL)
-			throw new CHttpException('404','Param is not enough');
-		// IDからModelをみつける。もし見つけません、４０４ページを表示する
-		$order = Orders::model()->findByPk($id);
-		if ($order == NULL)
-			throw new CHttpException('500',Yii::t('user','Object not found'));
-		
-		// save log　　（ログを保存する。）
-		logged("$order->id | ".Yii::app()->user->name. "Delete Order");
-		if (($order->getLastestStatus() == OrdersHistory::HISTORY_CANCEL_ADMIN) || 
-			($order->getLastestStatus() == OrdersHistory::HISTORY_CANCEL_USER))
-			throw new CHttpException('500',t('Your order have already deleted'));
-		
-		// Save order history　　（　注文の履歴を保存する。）
-		$orderHistory = new OrdersHistory();
-		$orderHistory->order_id = $order->id;
-		$orderHistory->user_id  = Yii::app()->user->id;
-		$orderHistory->status   = OrdersHistory::HISTORY_CANCEL_ADMIN;
-		$orderHistory->time     = new CDbExpression('NOW()');
-		if (!$orderHistory->save()) {
-			logged("Error when save OrderHistory model:".dump($order->errors));
-			return false;
-		}
-		return true;
-	}
-	
-	public function actionStop()
-	{
-		// Breadcrumbs - パン粉
-		$this->breadcrumbs = array(
-			t('Order','admin')  => $this->createUrl('/admin/order/index'),
-			t('Stop','admin'),
-		);
-		
-		//  要求からIDをとる。もしIDがないと４０４ページを表示
-		$id = Yii::app()->request->getParam('id');
-		if ($id == NULL)
-			throw new CHttpException('404','Param is not enough');
-		// IDからModelをみつける。もし見つけません、４０４ページを表示する
-		$order = Orders::model()->findByPk($id);
-		if ($order == NULL)
-			throw new CHttpException('500',Yii::t('user','Object not found'));
-		
-		$status = $order->getLastestStatus(); 
-		if (( $status == OrdersHistory::HISTORY_CANCEL_ADMIN) || 
-			( $status == OrdersHistory::HISTORY_CANCEL_USER)   ||
-			( $status == OrdersHistory::HISTORY_FINISH))
-			throw new CHttpException('500',t('Your order have already deleted or stopped'));
-		
-		// Save order history　（　注文の履歴を保存する。）
-		$orderHistory = new OrdersHistory();
-		$orderHistory->order_id = $order->id;
-		$orderHistory->user_id  = Yii::app()->user->id;
-		$orderHistory->status   = OrdersHistory::HISTORY_FINISH;
-		$orderHistory->time     = new CDbExpression('NOW()');
-		if (!$orderHistory->save()) {
-			logged("Error when save OrderHistory model:".dump($orderHistory->errors));
-			return false;
-		}
-		// Save real stop time　（　実際のストップタイムを格納する　）
-		$order->real_stop_time = new CDbExpression("NOW()");
-		if (!$order->save()) {
-			logged("Error when save Order model:".dump($order->errors));
-			return false;
-		}
-		// save log　　（ログを保存する。）
-		logged("$order->id | ".Yii::app()->user->name. "Stop Order");
-		return true;
+		Yii::import('ext.DLDatabaseHelper');
+		DLDatabaseHelper::export();
 	}
 }

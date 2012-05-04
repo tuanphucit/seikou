@@ -37,8 +37,8 @@ class Fee extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('id', 'required'),
-			array('id, register, penalty, cancel', 'numerical', 'integerOnly'=>true),
+			array('id, register, penalty, cancel', 'required'),
+			array('id, register, penalty, cancel', 'numerical', 'integerOnly'=>true,'max'=>100000),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
 			array('id, register, penalty, cancel', 'safe', 'on'=>'search'),

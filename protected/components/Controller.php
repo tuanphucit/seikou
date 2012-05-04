@@ -37,5 +37,13 @@ class Controller extends CController
             $app->language = $app->session['lang'];
             logged("Don't request language");
         }
+        $this->changeLayoutForMobile();
+	}
+	
+	private function changeLayoutForMobile()
+	{
+	 	if (Yii::app()->detectMobileBrowser->showMobile) {
+        	Yii::app()->theme = 'cupcake_mobile';
+        }      
 	}
 }

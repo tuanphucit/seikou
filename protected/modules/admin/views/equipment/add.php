@@ -1,4 +1,3 @@
-<!-- 
 <link href="<?php echo Html::url('uploadify/uploadify.css');?>" type="text/css" rel="stylesheet" />
 <script type="text/javascript" src="<?php echo Html::url('uploadify/swfobject.js');?>"></script>
 <script type="text/javascript" src="<?php echo Html::url('uploadify/jquery.uploadify.v2.1.4.min.js');?>"></script>
@@ -11,13 +10,12 @@
 		'folder'    : '<?php echo Html::url('uploads/products')?>',
 		'auto'      : true,
 		'onComplete': function (event, queueID, fileObj, response, data) {
-			$("#avatar").html('<img src="' + response + '"/>');
-			$("#Post_avatar").val(response);
+			$("#image").html('<img src="' + response + '" width="300px" height="200px"/>');
+			$("#Products_image").val(response);
 			}
 	  });
 	});
 </script>
- -->
 <script type="text/javascript" src="<?php echo Html::url('ckeditor/ckeditor.js')?>"></script>
 <script type="text/javascript" src="<?php echo Html::url('ckfinder/ckfinder.js')?>"></script>
 <?php 
@@ -39,7 +37,7 @@
 				echo $form->label($product,'id');
 			echo "</td>";
 			echo "<td>";
-				echo $form->textField($product,'id',array('placeholder'=>'PRXX'));
+				echo $form->textField($product,'id',array('placeholder'=>'EQXX'));
 				echo "<br>";
 				echo $form->error($product,'id');
 			echo "</td>";
@@ -72,7 +70,13 @@
 				echo $form->label($product,'image');
 			echo "</td>";
 			echo "<td>";
-				echo $form->textField($product,'image');
+				echo "<div id='image'>";
+				if ($product->image != null){
+					echo Html::image($product->image,$product->name,array('width'=>'300px','height'=>'200px'));
+				}
+				echo "</div>";
+				echo "<div id='file_upload'></div>";
+				echo $form->hiddenField($product,'image');
 				echo "<br>";
 				echo $form->error($product,'image');
 			echo "</td>";

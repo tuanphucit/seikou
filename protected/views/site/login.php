@@ -27,6 +27,18 @@
 	</head>
   
 	<body id="login">
+		
+		<?php 
+			$cs = Yii::app()->getClientScript();
+			$cs->registerCoreScript('jquery');
+			$loading = '$(document).ready(function(){
+				$(".submit").click(function(){
+					$("#loading").show();
+				});
+			});';
+			$cs->registerScript('loading', $loading,CClientScript::POS_READY);
+		?>
+		
 		<?php $form=$this->beginWidget('CActiveForm', array(
 			'id'=>'login-form',
 			'enableClientValidation'=>true,
@@ -43,6 +55,10 @@
 				<img id="logo" src="<?php echo Html::imageUrl('logo.png')?>" alt="Simpla Admin logo" />
 			</div> <!-- End #logn-top -->
 			
+			<div id="loading" style="display:none">
+				<div class="ball"></div>
+				<div class="ball1"></div>
+			</div>
 			<div id="login-content">
 				
 				<form action="index.html">

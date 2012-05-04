@@ -87,7 +87,7 @@ $this->widget('rbam.extensions.alphapager.ApGridView', array(
 			'template'=>'{update}{revoke}',
 			'header'=>Yii::t('RbamModule.rbam','Assignment Actions'),
 			'headerHtmlOptions'=>array('scope'=>'col'),
-			'footer'=>CHtml::link(CHtml::image("{$module->baseScriptUrl}/images/assignmentAdd.png",Yii::t('RbamModule.rbam','Assign Role(s)')), array('assign','uid'=>$user->{$module->userIdAttribute}), array('class'=>'add', 'title'=>Yii::t('RbamModule.rbam','Assign role(s) to this user'))),
+			'footer'=>CHtml::link(CHtml::image("{$module->baseScriptUrl}/images/assignmentAdd.png",Yii::t('RbamModule.rbam','Assign Role(s)')), array('assign','uid'=>$fee->{$module->userIdAttribute}), array('class'=>'add', 'title'=>Yii::t('RbamModule.rbam','Assign role(s) to this user'))),
 			'updateButtonUrl'=>'array("update", "role"=>$data->itemName, "uid"=>$data->userId)',
 			'updateButtonOptions'=>array('class'=>'update','title'=>Yii::t('RbamModule.rbam','Update this assignment')),
 			'updateButtonImageUrl'=>"{$module->baseScriptUrl}/images/assignmentUpdate.png",
@@ -99,7 +99,7 @@ $this->widget('rbam.extensions.alphapager.ApGridView', array(
 						var jThis = jQuery(this);
 						var jRow = jThis.parents("tr:first");
 						jRow.addClass("selected");
-						jDialog.html(jDialog.html().replace(/(.+? ").+?(::).+?(")/i,"$1"+"'.$user->rbamName.'"+"$2"+jQuery("td:first",jRow).text()+"$3"));
+						jDialog.html(jDialog.html().replace(/(.+? ").+?(::).+?(")/i,"$1"+"'.$fee->rbamName.'"+"$2"+jQuery("td:first",jRow).text()+"$3"));
 						jDialog.data("url", jThis.attr("href"));
 						jDialog.dialog("open");
 						return false;
@@ -113,7 +113,7 @@ $this->widget('rbam.extensions.alphapager.ApGridView', array(
 						var jRow = jThis.parents("tr:first");
 						var strHref = jThis.attr("href");
 						jRow.addClass("selected");
-						jQuery("#AuthAssignment_userName").val("'.$user->rbamName.'");
+						jQuery("#AuthAssignment_userName").val("'.$fee->rbamName.'");
 						jQuery("#AuthAssignment_itemName").val(jQuery("td:first",jRow).text());
 						jQuery("#AuthAssignment_bizrule").html(jQuery.trim(jQuery("td:eq(6)",jRow).text()));
 						jQuery("#AuthAssignment_data").html(jQuery.trim(jQuery("td:eq(7)",jRow).text()));

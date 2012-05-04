@@ -29,7 +29,6 @@ If you have business inquiries or other questions, please fill out the following
 		<?php echo $form->textFieldRow($model,'name')?>
 		<?php echo $form->textFieldRow($model,'email')?>
 		<?php echo $form->textFieldRow($model,'subject')?>
-		<?php echo $form->textFieldRow($model,'subject')?>
 		<?php echo $form->textAreaRow($model,'body')?>
 
 	<?php if(CCaptcha::checkRequirements()): ?>

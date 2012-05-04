@@ -24,8 +24,7 @@
 						$data->image,
 						"",
 						array(
-							'height'=>230,
-							'width'=>430,
+							'class'=>'img-product',
 						)
 					),
 					$this->createUrl('/room/view',array('pid'=>$data->id))

@@ -55,6 +55,7 @@ class RoomController extends Controller
 		{
 			// パラメータ をとる
 			$product->attributes=$_POST['Products'];
+			$product->price *= 1000;
 			// 保存と検証する
 			if($product->save()){
 				Yii::app()->user->setFlash('success',Yii::t('admin','Add room successful'));
@@ -108,6 +109,6 @@ class RoomController extends Controller
 		}
 		else 
 			Yii::app()->user->setFlash('error',Yii::t('admin','Del room failed'));
-		$this->redirect(array('/admin/product'));
+		$this->redirect(array('/admin/room'));
 	}
 }
