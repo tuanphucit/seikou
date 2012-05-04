@@ -110,6 +110,7 @@
 							);
 							break;
 						case 'setting':
+						case 'fee':
 						case 'user':
 							$htmlTop['setting'] = array("class"=>"nav-top-item current");
 							break;
@@ -135,6 +136,9 @@
 							echo "<li>";
 								echo Html::link(t('User','admin'),$this->createUrl('/admin/user/index'),($controllerId == 'user')?$htmlItem:null);
 							echo "</li>";
+							echo "<li>";
+								echo Html::link(t('Fee','admin'),$this->createUrl('/admin/fee/index'),($controllerId == 'fee')?$htmlItem:null);
+							echo "</li>";
 						echo "</ul>";
 					echo "</li>";
 					/**********          プロダクトを管理する                    **********/
@@ -156,6 +160,9 @@
 							echo "<li>";
 								echo Html::link(t("Order",'admin'),$this->createUrl('/admin/order/index'),($controllerId == 'order')?$htmlItem:null);
 							echo "</li>";
+							echo "<li>";
+							echo Html::link(t("Transaction",'admin'),$this->createUrl('/admin/order/transaction'),($controllerId == 'order')?$htmlItem:null);
+							echo "</li>";
 						echo "</ul>";
 					echo "</li>";
 					/**********          Công cụ                    **********/
@@ -167,6 +174,9 @@
 							echo "</li>";
 							echo "<li>";
 								echo Html::link(t("Report",'admin'),$this->createUrl('/admin/report/index'),($controllerId == 'report')?$htmlItem:null);
+							echo "</li>";
+							echo "<li>";
+								echo Html::link(t("Database",'admin'),$this->createUrl('/admin/tool/database'),($controllerId == 'tool')?$htmlItem:null);
 							echo "</li>";
 							/*
 							echo "<li>";

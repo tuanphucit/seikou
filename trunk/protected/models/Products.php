@@ -56,11 +56,11 @@ class Products extends CActiveRecord
 			array('price, type, option', 'numerical', 'integerOnly'=>true),
 			array('id', 'length', 'max'=>5),
 			array('id', 'unique'),
-			array('id', 'match', 'pattern'=>'/[(^[(RM)(PR)]\d{3}$/)'),
+			array('id', 'match', 'pattern'=>'/^(EQ|RM)\d{3}$/'),
 			array('name', 'length', 'max'=>50),
 			array('image', 'length', 'max'=>255),
 			array('description', 'length', 'max'=>20000),
-			array('price','numerical','min'=>1,'max'=>'10000'),
+			array('price','numerical','min'=>1,'max'=>'10000000'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
 			array('id, name, image, description, price, type, option', 'safe', 'on'=>'search'),

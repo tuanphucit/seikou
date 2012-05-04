@@ -29,12 +29,13 @@
 		'Submit'    => '更新',
 		'Reset'     => 'リセット',
 		'Close'     => '閉じる',
+		'Login Successful' => 'ログインしたことは成功だった',
 				
 		
 		// ホームページ
 		'We provide high quality products with lowest cost' => 'お客様に低コスト・高品質の製品を提供することです。',
-		'All rooms here are design by many famous architect around the world with high tech equipment' => 'すべての会議室には、世界中の多くの有名な建築家によるデザインです。',
-		'Your Incoming Order' => 'あなたの将来の受注',
+		'All rooms here are designed by many famous architects around the world with high tech equipments' => 'すべての会議室には、世界中の多くの有名な建築家によるデザインです。',
+		'Your Incoming Order' => 'あなたの将来の注文',
 			
 		//　検出
 		'Quick Search' => 'クイック検索',
@@ -46,7 +47,8 @@
 		'Basic Information'=>'基本情報',
 		'Additional Information'=>'追加情報',
 		'Personal Details' => '詳細情報',
-		'' => '',
+		'Editting profile successed' => 'プロファイルを修正したことが成功だった',
+		'Editting profile failed' => 'プロファイルを修正したことが失敗だった',
 	
 		//プロダクト
 		'Product'=>'プロダクト',

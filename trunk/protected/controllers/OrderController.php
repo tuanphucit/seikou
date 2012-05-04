@@ -58,7 +58,17 @@ class OrderController extends Controller
 		$form = request("OrderTimeForm");
 		if (isset($form)){
 			$orderTime->attributes = $form;
-			if ($orderTime->validateTime()){
+			// Check if order all room
+			if ($form['pid'] == 'sla'){
+				// validate each room
+				if ($orderTime->validateTimeAll()){
+					if ($orderTime->saveAll()){
+						echo "Save successed";
+						return;
+					}
+				}
+			}
+			else if ($orderTime->validateTime()){
 				if ($orderTime->save()){
 					echo "Save successed";
 					return;

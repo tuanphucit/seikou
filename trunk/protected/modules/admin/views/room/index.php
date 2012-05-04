@@ -9,7 +9,7 @@
 	        array(
 	        	'name'=>'price', 
 	        	'header'=>$users->getAttributeLabel('price'),
-	        	'value'=>'number_format($data->price).",000"',
+	        	'value'=>'number_format($data->price)',
 	        ),
 	        array(
 				'class'=>'bootstrap.widgets.BootButtonColumn',

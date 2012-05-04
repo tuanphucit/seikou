@@ -7,7 +7,7 @@
 	        array('name'=>'name', 'label'=>$product->getAttributeLabel('name')),
 	        array('name'=>'price', 
 	        	'label'=>$product->getAttributeLabel('price'),
-	        	'value'=>number_format($product->price)." ,000 VND",
+	        	'value'=>number_format($product->price)." VND",
 	        ),
 	        array(
 	        	'name'=>'description', 
@@ -19,11 +19,6 @@
 	        	'label'=>$product->getAttributeLabel('image'),
 	        	'type'=>'html',
 	        	'value'=>Html::image($product->image,$product->name),
-	        ),
-	        array(
-	        	'header'=>t('Status'),
-	        	'type'=>'raw',
-	        	'value'=>'OrdersHistory::getStatusTypeLabel($order->getLastestStatus())',
 	        ),
 	    ),
 	)); 

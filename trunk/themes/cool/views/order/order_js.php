@@ -347,7 +347,7 @@ $(document).ready(function(){
 									endDateObj,
 									false,
 									{
-										'User':'<?php $user= Users::model()->findByPk(Yii::app()->user->id); echo $user->full_name?>'
+										'User':'<?php $fee= Users::model()->findByPk(Yii::app()->user->id); echo $fee->full_name?>'
 									},
 									{
 										backgroundColor: $("#colorBackground").val(),

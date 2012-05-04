@@ -23,7 +23,7 @@
 <div class="homeMessageWrap">
 	<div class="homeMessage">
 		<h1>"<?php echo t('We provide high quality products with lowest cost')?>"</h1>
-       	  <p><?php echo t('All rooms here are design by many famous architect around the world with high tech equipment')?></p>
+       	  <p><?php echo t('All rooms here are designed by many famous architects around the world with high tech equipments')?></p>
 	</div>
 	<?php 
 		echo Html::link(

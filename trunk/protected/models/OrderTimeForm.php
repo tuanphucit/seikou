@@ -148,13 +148,30 @@ class OrderTimeForm extends CFormModel
 				 	 * TODO
 				 	 * Need more information about conflict date
 				 	 */
-					$this->addError('Date',t('Have date conflict'));
+					$errorDetail  = "<br> Order ID: $order->id";
+					$errorDetail .= "<br> Date: $order->start_date -> $order->end_date";
+					$errorDetail .= "<br> Time: $order->start_time -> $order->end_time";
+					$errorDetail .= "<br> Room: {$order->product->name}";
+					$this->addError('Date',t('Have date conflict').$errorDetail);
 					logged("Finally Failed by Order: $order->id");
 					return false;	
 				}
 			}
 		}
 		logged("Validate logic success");
+		return true;
+	}
+	
+	/** Validate All Product
+	 * this function run if pid parameter is 'sla'
+	 */
+	public function validateTimeAll(){
+		$products = Products::model()->findAll();
+		foreach ($products as $product){
+			$this->pid = $product->id;
+			if (!$this->validateTime())
+				return false;
+		}
 		return true;
 	}
 	
@@ -194,6 +211,18 @@ class OrderTimeForm extends CFormModel
 		return true;
 	}
 	
+	/** Save All
+	 */
+	public function saveAll(){
+		$products = Products::model()->findAll();
+		foreach ($products as $product){
+			$this->pid = $product->id;
+			if (!$this->save())
+				return false;
+		}
+		return true;
+	}
+	
 	private function date_difference($date1,$date2) {
 		if ($date2 == null)
 			return 1;
@@ -221,6 +250,7 @@ class OrderTimeForm extends CFormModel
 		foreach ($products as $product){
 			$list[$product->id] = $product->name;
 		}
+		$list['sla'] = t('Select all','model'); 
 		return $list;
 	}
 	

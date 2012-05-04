@@ -61,9 +61,20 @@
 	
 		// User Management
 		'User' => 'ユーザー',
+		'Add user successful'=>'ユーザーを加えたことが成功だった',
+		'Add user failed'=>'ユーザーを加えたことが失敗だった',
+		'Edit user successful'=>'ユーザーを修正したことが成功だった',
+		'Edit user failed'=>'ユーザーを修正したことが失敗だった',
+		'Delete user successful'=>'ユーザーを削除したことが成功だった',
+		'Delete user failed'=>'ユーザーを削除したことが失敗だった',
 	
 		// Product Management
-		
+		'Add room successful'=>'会議室を追加したことは成功だった',
+		'Add room failed'=>'会議室を追加したことは失敗だった',
+		'Edit room successful'=>'会議室を更新したことは成功だった',
+		'Edit room failed'=>'会議室を更新したことは失敗だった',
+		'Del room successful'=>'会議室を削除したことは成功だった',
+		'Del room failed'=>'会議室を削除したことは失敗だった',
 		
 		// Equipment
 		'Add equipment successful' => 'プロダクトを追加したのはせいこうした',

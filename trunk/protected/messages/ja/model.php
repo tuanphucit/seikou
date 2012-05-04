@@ -30,6 +30,7 @@
 		'End Minute' => 'エンド · ミニッツ',
 		'Start AM/PM' => 'スタート·午前/午後',
 		'End AM/PM' => 'エンド·午前/午後',
+		'Select all'=> 'すべて',
 		
 		// OrdersHistory Model
 		'User' => 'ユーザー',

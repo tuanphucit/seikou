@@ -33,6 +33,25 @@ class OrderController extends Controller
 		$this->render('index',array('orders'=>$orders));
 	}
 	
+	/**
+	 * Show and Edit Transaction status
+	 * @name Money
+	 * @author luckymancvp
+	 * @version 15
+	 * @copyright team12
+	 */
+	public function actionTransaction()
+	{
+		// Breadcrumbs - パン粉
+		$this->breadcrumbs = array(
+				t('Order','admin')  => $this->createUrl('/admin/user/index'),
+				t('Transaction','admin'),
+		);
+		// Get model contains users's transaction　　　（ユーザの情報が含まれているモデルをうける。）
+		$orders = new Orders();
+		$this->render('transaction',array('orders'=>$orders));
+	}
+	
 	public function actionView()
 	{
 		// Breadcrumbs
