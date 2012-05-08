@@ -8,6 +8,6 @@
 	echo Html::form();
 		echo Html::dropDownList("year", NULL, $yearList);
 		echo Html::dropDownList("month", NULL, $monthList);
-		echo Html::submitButton();
+		echo Html::submitButton(t('Submit','admin'));
 	echo Html::endForm();
 ?>

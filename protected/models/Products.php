@@ -91,7 +91,7 @@ class Products extends CActiveRecord
 			'description' => t('Description','model'),
 			'price' => t('Price / 0.5 hour','model'),
 			'type' => t('Type','model'),
-			'option' => t('Option','model'),
+			'option' => t('Number of seats','model'),
 		);
 	}
 
@@ -185,10 +185,9 @@ class Products extends CActiveRecord
 		$orders = Orders::model()->findAll($criteria);
 		foreach ($orders as $order){
 			// check order status
-			$order_status = $order->getLastestStatus();
+			$order_status = $order->status;
 			switch ($order_status) {
-				case OrdersHistory::HISTORY_CREATE:
-				case OrdersHistory::HISTORY_CREATE_ADMIN:
+				case Orders::ORDER_CREATED:
 					if ($order->end_time < $now)
 						return Products::STATUS_OVER;
 					return Products::STATUS_USING;
@@ -240,5 +239,21 @@ class Products extends CActiveRecord
 	    	true
 	    ); 
 		return $ajaxButton;
+	}
+	
+
+	/**
+	 * Get list product name with id
+	 * @return array product
+	 */
+	public static function getListProduct($select = true){
+		$list = array();
+		if ($select) 
+			$list['0'] = t('Select ...','admin');
+		$products = Products::model()->findAll('',array('order'=>'name ASC'));
+		foreach ($products as $product){
+			$list[$product->id] = $product->name;
+		}
+		return $list;
 	}
 }

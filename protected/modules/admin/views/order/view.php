@@ -7,6 +7,10 @@
 	    'attributes'=>array(
 	        array('name'=>'id'),
 	        array(
+	        	'name'=>t('User'),
+	        	'value'=>$order->user->full_name,
+	        ),
+	        array(
 	        	'name'=>t('Product'),
 	        	'value'=>$order->product->name,
 	        ),
@@ -18,7 +22,14 @@
 	        	'name'=>t('Time'),
 	        	'value'=>$order->start_time." => ".$order->end_time,
 	        ),
-	        array('name'=>'total'),
+	        array(
+	        	'name'=>'status',
+	        	'value'=>$order->getStatusLabel(),
+	        ),
+	        array(
+	        	'name'=>'total',
+	        	'value'=>number_format($order->total),
+	        ),
 	        
 	    ),
 	)); 
@@ -35,7 +46,7 @@
 	        array(
 	        	'name'=>'status',
 	        	'type'=>'raw',
-	        	'value'=>'OrdersHistory::getStatusTypeLabel($data->status)',
+	        	'value'=>'OrdersHistory::getStatusLabel($data->status)',
 	        ),
 	        array(
 	        	'header'=>t('User'),
@@ -44,4 +55,12 @@
 	        array('name'=>'description'),
 	    ),
 	)); 
+	
+	echo "<br>";
+	$this->widget('bootstrap.widgets.BootButton', array(
+			'label'=>Yii::t('admin','Back'),
+			'size'=>'small',
+			'type'=>'success',
+			'url'=>$this->createUrl('/admin/order/index'),
+	));
 ?>

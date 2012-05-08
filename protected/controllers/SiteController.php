@@ -89,7 +89,7 @@ class SiteController extends Controller
 				Yii::app()->user->setFlash('success',t('Login Successful'));
 				logged("User {$model->username} Login Success");
 				if ( ! Yii::app()->authManager->isAssigned('admin',Yii::app()->user->id))
-					$this->redirect(Yii::app()->user->returnUrl);
+					$this->redirect(Yii::app()->homeUrl);
 				$this->redirect(array('/admin'));
 			}
 		}

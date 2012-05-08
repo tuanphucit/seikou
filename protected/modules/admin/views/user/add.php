@@ -68,20 +68,6 @@
 		
 		echo "<tr>";
 			echo "<td>";
-				echo $form->label($user,'role');
-			echo "</td>";
-			echo "<td>";
-				echo $form->dropDownList($user,'role',array(
-					Users::USER_USER  => t('user','model'),
-					Users::USER_ADMIN => t('admin','model'),
-				));
-				echo "<br>";
-				echo $form->error($user,'role');
-			echo "</td>";
-		echo "</tr>";
-		
-		echo "<tr>";
-			echo "<td>";
 				echo $form->label($user,'full_name');
 			echo "</td>";
 			echo "<td>";

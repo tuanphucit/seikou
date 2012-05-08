@@ -37,8 +37,6 @@ class OrderTimeForm extends CFormModel
 		$this->start_minute = ceil($time[1] / 10) * 10;
 		$this->end_hour     = $time[0];
 		$this->end_minute   = $this->start_minute;
-		
-		$this->end_time = date('H:m');
 	}
 	
 	/**
@@ -54,6 +52,7 @@ class OrderTimeForm extends CFormModel
 					"yyyy-M-d",
 				),
 			),
+			array('start_time, end_time','safe'),
 		);
 	}
 
@@ -70,6 +69,8 @@ class OrderTimeForm extends CFormModel
 			'end_hour' => t('End Hour', 'model'),
 			'start_minute' => t('Start Minute', 'model'),
 			'end_minute' => t('End Minute', 'model'),
+			'start_time' => t('Start Time', 'model'),
+			'end_time' => t('End Time', 'model'),
 		);
 	}
 	
@@ -88,14 +89,24 @@ class OrderTimeForm extends CFormModel
 		
 		// STEP2: Validate Logic
 		// Convert time format
-		$this->start_time = $this->convert24($this->start_hour, $this->start_minute);
-		$this->end_time = $this->convert24($this->end_hour, $this->end_minute);
+		//dev $this->start_time = $this->convert24($this->start_hour, $this->start_minute);
+		//dev $this->end_time = $this->convert24($this->end_hour, $this->end_minute);
 		// Check if start_date is earlier than today
 		if ($this->start_date < date('Y-m-d')) {
 			logged(t('Start date must be in the furture'));
 			$this->addError('Date',t('Start date must be in the furture'));
 			return false;
 		}
+		
+		$start = $this->start_date . " " . $this->start_time;
+		$end   = $this->end_date   . " " . $this->end_time;
+		if ($start >= $end){
+			logged(t('Start time must be earlier than End time'));
+			logged(dump($this));
+			$this->addError('Time',t('Start time must be earlier than End time'));
+			return false;
+		}
+		/** Dev
 		// Check start_time < end_time
 		if ($this->start_time >= $this->end_time) {
 			logged(t('Start time must be earlier than End time'));
@@ -117,6 +128,7 @@ class OrderTimeForm extends CFormModel
 			$this->addError('Date',t("Can't reserve before 1 year"));
 			return false;
 		}
+		*/
 		// Select all order with same pid have conflict time with this current order
 		$criteria=new CDbCriteria;
 		$criteria->addCondition("product_id = '$this->pid'");
@@ -142,16 +154,15 @@ class OrderTimeForm extends CFormModel
 			 ) {
 			 	logged("Have date conflict with Order : $order->id");
 			 	// Check if this conflict order have been cancel ??
-				$lastStatus = $order->getLastestStatus();
-				if (($lastStatus == OrdersHistory::HISTORY_CREATE) || ($lastStatus == OrdersHistory::HISTORY_CREATE_ADMIN)) {
+				$lastStatus = $order->status;
+				if ($lastStatus == Orders::ORDER_CREATED) {
 				 	/**
 				 	 * TODO
 				 	 * Need more information about conflict date
 				 	 */
-					$errorDetail  = "<br> Order ID: $order->id";
-					$errorDetail .= "<br> Date: $order->start_date -> $order->end_date";
-					$errorDetail .= "<br> Time: $order->start_time -> $order->end_time";
-					$errorDetail .= "<br> Room: {$order->product->name}";
+					$errorDetail = "<br> 日: $order->start_date -> $order->end_date";
+					$errorDetail .= "<br> 時間: $order->start_time -> $order->end_time";
+					$errorDetail .= "<br> ルーム: {$order->product->name}";
 					$this->addError('Date',t('Have date conflict').$errorDetail);
 					logged("Finally Failed by Order: $order->id");
 					return false;	
@@ -190,7 +201,12 @@ class OrderTimeForm extends CFormModel
 		$order->start_time = $this->start_time;
 		$order->end_time   = $this->end_time;
 		$fee = Fee::model()->find();
-		$order->total      = $product->price * $this->date_difference($this->start_date, $this->end_date) * $this->time_difference($this->start_time, $this->end_time) + $fee->register;
+		
+		$start = strtotime($order->start_date . " " . $order->start_time);
+		$end   = strtotime($order->end_date   . " " . $order->end_time);
+		$diff  = ceil(($end - $start) / 30 / 60 );
+		$order->total      = $product->price * $diff + $fee->register;
+		// dev $order->total      = $product->price * $this->date_difference($this->start_date, $this->end_date) * $this->time_difference($this->start_time, $this->end_time) + $fee->register;
 		logged("Time: ".dump($this->time_difference($this->start_time, $this->end_time)));
 		logged("Total: ".dump($order->total));
 		if (!$order->save()) {
@@ -202,7 +218,7 @@ class OrderTimeForm extends CFormModel
 		$orderHistory = new OrdersHistory();
 		$orderHistory->order_id = $order->id;
 		$orderHistory->user_id  = Yii::app()->user->id;
-		$orderHistory->status   = OrdersHistory::HISTORY_CREATE;
+		$orderHistory->status   = OrdersHistory::HISTORY_CREATE_USER;
 		$orderHistory->time     = new CDbExpression('NOW()');
 		if (!$orderHistory->save()) {
 			logged("Error when save OrderHistory model:".dump($order->errors));

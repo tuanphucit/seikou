@@ -1,5 +1,5 @@
 <?php 
-	$products = Products::model()->findAll('',array('order'=>'name ASC'));
+	$products = Users::model()->findAll('',array('order'=>'name ASC'));
 	foreach ($products as $product){
 		echo "<div id='price-$product->id' style='display:none'>$product->price</div>";
 	}

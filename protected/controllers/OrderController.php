@@ -8,11 +8,10 @@ class OrderController extends Controller
 		$end   = date("Y-m-d",request('end'));
 		
 		// List all order
-		$orders = Orders::model()->findAll("visible and ('$start' <= end_date) and ( end_date <= '$end') ");
+		$orders = Orders::model()->findAll();
 		$jsonData = array();
-		foreach ($orders as $order) 
-			if (($order->getLastestStatus() == OrdersHistory::HISTORY_CREATE_ADMIN) ||
-					($order->getLastestStatus() == OrdersHistory::HISTORY_CREATE)){
+		foreach ($orders as $order) {
+			if ($order->status == Orders::ORDER_CREATED)
 			$start_date = strtotime($order->start_date);
 			$end_date = strtotime($order->end_date);
 			for ($date = $start_date; $date <= $end_date; $date = strtotime("+1 day", $date))
@@ -29,7 +28,7 @@ class OrderController extends Controller
 		Yii::app()->end();
 	}
 	
-	public function actionIndex()
+	public function actionIndexDev()
 	{
 		// Breadcrumbs
 		$this->breadcrumbs = array(
@@ -43,6 +42,56 @@ class OrderController extends Controller
 		
 		$this->render('index',array(
 			'orderTime'=>$orderTime,
+		));
+	}
+	
+	public function actionIndex()
+	{
+		// Breadcrumbs
+		$this->breadcrumbs = array(
+			t('Order')  => $this->createUrl('/order/index'),
+			t('Index'),
+		);
+		// Construct OrderTimeForm for containing order information　　（注文情報を含むためにご注文時のフォームを構築する）
+		$orderTime      = new OrderTimeForm();
+		$orderTime->pid = request('pid');
+		logged('OrderTime model:'.dump($orderTime));
+		
+		// Check if whenever order form is submitted　（オーダーフォームがサブミットされれば、チェックする）
+		$form = request("OrderTimeForm");
+		if (isset($form)){
+			$orderTime->attributes = $form;
+			logged("abc".dump($orderTime));
+			// Check if order all room
+			if ($form['pid'] == 'sla'){
+				// validate each room
+				if ($orderTime->validateTimeAll()){
+					if ($orderTime->saveAll()){
+						Yii::app()->user->setFlash('success',t('Your order is saved'));
+					}
+				}
+			}
+			else if ($orderTime->validateTime()){
+				if ($orderTime->save()){
+					Yii::app()->user->setFlash('success',t('Your order is saved'));
+				}
+			}
+			else Yii::app()->user->setFlash('error',t("Your order isn't saved"));
+		}
+		
+		// get all order
+		
+		$criteria = new CDbCriteria();
+		$criteria->order = 'start_date DESC';
+		$orders   = new CActiveDataProvider('Orders', array(
+				'criteria'=>$criteria,
+				'pagination'=>array(
+						'pageSize'  => 50,
+				)
+		));
+		$this->render('index',array(
+			'orderTime'=>$orderTime,
+			'orders'   =>$orders,
 		));
 	}
 	

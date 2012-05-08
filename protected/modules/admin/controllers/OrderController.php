@@ -30,26 +30,65 @@ class OrderController extends Controller
 		);
 		// Get model contains users's information　　　（ユーザの情報が含まれているモデルをうける。）
 		$orders = new Orders();
-		$this->render('index',array('orders'=>$orders));
+		
+		// Construct order search form
+		$searchOrder = new SearchOrderForm();
+		if (isset($_GET['SearchOrderForm'])){
+			$searchOrder->attributes = $_GET['SearchOrderForm'];
+			// After get params must unset these params
+			unset($_GET['SearchOrderForm']);
+		}
+		$this->render('index',array(
+				'orders'=>$orders,
+				'searchOrder'=>$searchOrder,
+		));
 	}
 	
-	/**
-	 * Show and Edit Transaction status
-	 * @name Money
-	 * @author luckymancvp
-	 * @version 15
-	 * @copyright team12
-	 */
-	public function actionTransaction()
+	public function actionUpdate()
 	{
-		// Breadcrumbs - パン粉
+		// Breadcrumbs
 		$this->breadcrumbs = array(
-				t('Order','admin')  => $this->createUrl('/admin/user/index'),
-				t('Transaction','admin'),
+			t('Order','admin')  => $this->createUrl('/admin/order/index'),
+			t('Update'),
 		);
-		// Get model contains users's transaction　　　（ユーザの情報が含まれているモデルをうける。）
-		$orders = new Orders();
-		$this->render('transaction',array('orders'=>$orders));
+		
+		//  要求からIDをとる。もしIDがないと４０４ページを表示
+		$id = Yii::app()->request->getParam('id');
+		if ($id == NULL)
+			throw new CHttpException('404','Param is not enough');
+		// IDからModelをみつける。もし見つけません、４０４ページを表示する
+		$order = Orders::model()->findByPk($id);
+		if ($order == NULL)
+			throw new CHttpException('404',Yii::t('user','Object not found'));
+		// Load all data history about this order　（　この注文に関するすべてのデータの履歴をロードする　）
+		$dataProvider = new CActiveDataProvider('OrdersHistory',array(
+			'criteria'=>array(
+				'condition'=>"order_id = $order->id",
+				'order'    =>"time ASC",
+			),
+		));
+		// Update Order Information
+		if (isset($_POST['Orders'])){
+			$order->attributes = $_POST['Orders'];
+			if ($order->save()){
+				Yii::app()->user->setFlash('success',Yii::t('admin','Edit order successful'));
+				// Save new log for this order
+				$orderHistory = new OrdersHistory();
+				$orderHistory->time     = new CDbExpression('NOW()');
+				$orderHistory->order_id = $order->id;
+				$orderHistory->user_id  = Yii::app()->user->id;
+				$orderHistory->status   = OrdersHistory::HISTORY_EDIT_ADMIN; 
+				$orderHistory->save();
+				$this->redirect(array('view','id'=>$order->id));
+			}
+			else
+				Yii::app()->user->setFlash('error',Yii::t('admin','Edit order failed'));
+			
+		}
+		$this->render('update',array(
+			'order'=>$order,
+			'dataProvider'=>$dataProvider,
+		));
 	}
 	
 	public function actionView()
@@ -81,33 +120,6 @@ class OrderController extends Controller
 		));
 	}
 	
-	public function actionAdd()
-	{
-		// Breadcrumbs - パン粉
-		$this->breadcrumbs = array(
-			t('Order','admin')  => $this->createUrl('/admin/user/index'),
-			t('Add','admin'),
-		);
-		$user = new Users();
-		if(isset($_POST['Users']))
-		{
-			logged("Have user submit".dump($_POST['Users']));
-			// パラメータ をとる
-			$currentPassword  = $_POST['Users']['password'];
-			$user->attributes = $_POST['Users'];
-			if ($user->password != $currentPassword)
-				$user->password = sha1(md5($user->password));
-			// 保存と検証する
-			if($user->save()){
-				Yii::app()->user->setFlash('success',Yii::t('admin','Add user successful'));
-				$this->redirect(array('view','id'=>$user->id));
-			}
-			else 
-				Yii::app()->user->setFlash('error',Yii::t('admin','Add user failed'));
-		}
-		$this->render('add',array('user'=>$user));
-	}
-	
 	public function actionDelete()
 	{
 		// Breadcrumbs - パン粉
@@ -127,20 +139,23 @@ class OrderController extends Controller
 		
 		// save log　　（ログを保存する。）
 		logged("$order->id | ".Yii::app()->user->name. "Delete Order");
-		$status = $order->getLastestStatus();
-		if (($order->getLastestStatus() == OrdersHistory::HISTORY_CANCEL_ADMIN) || 
-			($order->getLastestStatus() == OrdersHistory::HISTORY_CANCEL_USER))
-			throw new CHttpException('500',t('Your order have already deleted'));
-		
-		// Save order history　　（　注文の履歴を保存する。）
-		$orderHistory = new OrdersHistory();
-		$orderHistory->order_id = $order->id;
-		$orderHistory->user_id  = Yii::app()->user->id;
-		$orderHistory->status   = OrdersHistory::HISTORY_CANCEL_ADMIN;
-		$orderHistory->time     = new CDbExpression('NOW()');
-		if (!$orderHistory->save()) {
-			logged("Error when save OrderHistory model:".dump($order->errors));
-			return false;
+		if ($order->status != Orders::ORDER_CREATED) 
+			throw new CHttpException('500',t('Your order have already been deleted'));
+		// save new order information
+		$order->status = Orders::ORDER_CANCELED;
+		$fee = Fee::model()->find();
+		$order->total  = $fee->cancel + $fee->register;
+		if ($order->save()){
+			// Save order history　　（　注文の履歴を保存する。）
+			$orderHistory = new OrdersHistory();
+			$orderHistory->order_id = $order->id;
+			$orderHistory->user_id  = Yii::app()->user->id;
+			$orderHistory->status   = OrdersHistory::HISTORY_CANCEL_ADMIN;
+			$orderHistory->time     = new CDbExpression('NOW()');
+			if (!$orderHistory->save()) {
+				logged("Error when save OrderHistory model:".dump($order->errors));
+				return false;
+			}
 		}
 		return true;
 	}
@@ -162,9 +177,8 @@ class OrderController extends Controller
 		if ($order == NULL)
 			throw new CHttpException('500',Yii::t('user','Object not found'));
 		
-		$status = $order->getLastestStatus(); 
-		if (( $status != OrdersHistory::HISTORY_CREATE) && 
-			( $status != OrdersHistory::HISTORY_CREATE_ADMIN))
+		$status = $order->status; 
+		if ( $status != Orders::ORDER_CREATED) 
 			throw new CHttpException('500',t('Your order have already deleted or stopped'));
 		
 		// Save order history　（　注文の履歴を保存する。）
@@ -208,9 +222,8 @@ class OrderController extends Controller
 		if ($order == NULL)
 			throw new CHttpException('500',Yii::t('user','Object not found'));
 		
-		$status = $order->getLastestStatus(); 
-		if (( $status != OrdersHistory::HISTORY_CREATE) && 
-			( $status != OrdersHistory::HISTORY_CREATE_ADMIN))
+		$status = $order->status; 
+		if ( $status != Orders::ORDER_CREATED)  
 			throw new CHttpException('500',t('Your order have already deleted or stopped'));
 		
 		// Save order history　　　　（　注文の履歴を保存する。）

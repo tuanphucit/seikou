@@ -30,27 +30,44 @@
 	<div class="clear"></div>
 <?php $this->endWidget()?>
 <?php 
+	$this->renderPartial('search',array(
+		'orders'=>$orders,
+		'searchOrder'=>$searchOrder,
+	));
+	
+	
 	$this->widget('bootstrap.widgets.BootGridView', array(
 		'itemsCssClass'=>'striped bordered condensed',
-	    'dataProvider'=>$dataProvider,
+		'id'=>'order-list',
+	    'dataProvider'=>$orders->advancedSearch($searchOrder),
 	    'template'=>"{items}{pager}",
 	    'columns'=>array(
-	        array('name'=>'id', 'header'=>'#'),
-	        array('name'=>'product_id'),
-	        array('name'=>'start_date'),
-	        array('name'=>'end_date'),
-	        array('name'=>'start_time'),
+	        array(
+	        	'header'=>'#',
+	        	'value'=>'$this->grid->dataProvider->pagination->currentPage * $this->grid->dataProvider->pagination->pageSize + ($row+1)',
+	        ),
+	        array(
+	        	'name'=>'product_id',
+	        	'value'=>'$data->product->name',
+	        ),
+	        array('name'=>'start_date','header'=>t('Start Date','model')),
+	        array('name'=>'end_date','header'=>t('End Date','model')),
+	        array('name'=>'start_time','header'=>t('Start Time','model')),
 	        array('name'=>'end_time'),
 	        array(
 	        	'name'=>'status',
-	        	'header'=>t('Status','model'),
 	        	'type'=>'raw',
-	        	'value'=>'OrdersHistory::getStatusTypeLabel($data->getLastestStatus())',
+	        	'value'=>'$data->getStatusLabel()',
 	        ),
+	    	array(
+	    		'name'=>'total',
+	    		'value'=>'number_format($data->total)',
+	    		'footer'=>number_format($orders->totalSum($searchOrder)),
+	    	),
 	        array(
 	            'class'=>'bootstrap.widgets.BootButtonColumn',
 	        	'template'=>'{view}{delete}',
-	            'htmlOptions'=>array('style'=>'width: 50px'),
+	        	'deleteConfirmation'=>t('Are you sure to cancel this?'),
 	        ),
 	    ),
 	)); 

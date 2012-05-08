@@ -62,10 +62,10 @@ class Fee extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'id' => 'ID',
-			'register' => 'Register',
-			'penalty' => 'Penalty',
-			'cancel' => 'Cancel',
+			'id' => t('ID','model'),
+			'register' => t('Register','model'),
+			'penalty' => t('Penalty','model'),
+			'cancel' => t('Cancel','model'),
 		);
 	}
 

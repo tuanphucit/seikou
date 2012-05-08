@@ -1,15 +1,15 @@
 <?php
 $this->pageTitle=Yii::app()->name . ' - Contact Us';
 $this->breadcrumbs=array(
-	'Contact',
+	t('Contact Us'),
 );
 ?>
 
-<h1>Contact Us</h1>
+<h1><?php echo t('Contact Us')?></h1>
 
 
 <p>
-If you have business inquiries or other questions, please fill out the following form to contact us. Thank you.
+<?php echo t('If you have business inquiries or other questions, please fill out the following form to contact us. Thank you.');?>
 </p>
 
 <div class="contact-form">
@@ -37,12 +37,10 @@ If you have business inquiries or other questions, please fill out the following
 		<?php $this->widget('CCaptcha'); ?>
 		<?php echo $form->textField($model,'verifyCode'); ?>
 		</div>
-		<div class="hint">Please enter the letters as they are shown in the image above.
-		<br/>Letters are not case-sensitive.</div>
 		<?php echo $form->error($model,'verifyCode'); ?>
 	<?php endif; ?>
 		<br>
-		<?php echo CHtml::submitButton('Submit'); ?>
+		<?php echo CHtml::submitButton(t('Submit')); ?>
 
 	<?php $this->endWidget(); ?>
 

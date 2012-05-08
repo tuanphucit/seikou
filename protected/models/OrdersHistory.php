@@ -22,12 +22,17 @@ class OrdersHistory extends CActiveRecord
 	 * @param string $className active record class name.
 	 * @return OrdersHistory the static model class
 	 */
-	const HISTORY_CREATE = 0;
-	const HISTORY_FINISH = 1;
+	const HISTORY_NONE         = 0;
+	const HISTORY_CREATE_USER  = 1;
 	const HISTORY_CANCEL_USER  = 2;
-	const HISTORY_CANCEL_ADMIN = 3;
-	const HISTORY_CREATE_ADMIN = 4;
-	const HISTORY_OVERTIME = 5; 
+	const HISTORY_FINSIH_USER  = 3;
+	
+	const HISTORY_CREATE_ADMIN  = 4;
+	const HISTORY_CANCEL_ADMIN  = 5;
+	const HISTORY_FINSIH_ADMIN  = 6;
+	const HISTORY_OVER_ADMIN    = 7;
+	const HISTORY_EDIT_ADMIN    = 8;
+	
 	
 	public static function model($className=__CLASS__)
 	{
@@ -117,17 +122,28 @@ class OrdersHistory extends CActiveRecord
 	 * @param status value
 	 * @return The name of status
 	 */
-	public static function getStatusTypeLabel($status)
+	public static function getStatusList()
 	{
 		$statusList = array(
-			OrdersHistory::HISTORY_CREATE => t('Created','model'),
-			OrdersHistory::HISTORY_FINISH => t('Finished','model'),
-			OrdersHistory::HISTORY_CANCEL_USER  => t('Canceled','model'),
-			OrdersHistory::HISTORY_CANCEL_ADMIN => t('CANCELED','model'),
-			OrdersHistory::HISTORY_CREATE_ADMIN => t('CREATED','model'),
-			OrdersHistory::HISTORY_OVERTIME     => t('OVER','model'), 
+				OrdersHistory::HISTORY_NONE         => t('Select ...','model'),
+				OrdersHistory::HISTORY_CREATE_USER  => t('CREATE','model'),
+				OrdersHistory::HISTORY_CANCEL_USER  => t('CANCEL','model'),
+				OrdersHistory::HISTORY_FINSIH_USER  => t('FINISH','model'),
+				
+				OrdersHistory::HISTORY_CREATE_ADMIN  => t('ADMIN CREATE','model'),
+				OrdersHistory::HISTORY_CANCEL_ADMIN  => t('ADMIN CANCEL','model'),
+				OrdersHistory::HISTORY_FINSIH_ADMIN  => t('ADMIN FINISH','model'),
+				OrdersHistory::HISTORY_OVER_ADMIN    => t('ADMIN OVER','model'),
+				OrdersHistory::HISTORY_EDIT_ADMIN    => t('ADMIN EDIT','model'),
+				
 		);
-		
+	
+		return $statusList;
+	}
+	
+	public static function getStatusLabel($status)
+	{
+		$statusList = OrdersHistory::getStatusList();
 		return $statusList[$status];
 	}
 }

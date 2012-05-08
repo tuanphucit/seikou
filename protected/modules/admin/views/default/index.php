@@ -1,4 +1,4 @@
-<h2>Dash Board</h2>
+<h2><?php echo t('Dashboard','admin')?></h2>
 <div class="content-box column-left" id="room-wrapper">
 <?php 
 	$ajaxButton = '
@@ -124,7 +124,7 @@
 	
 	<div class="content-box-header">
 		
-		<h3 style="cursor: s-resize; "><?php echo t('Products List','admin')?></h3>
+		<h3 style="cursor: s-resize; "><?php echo t('Orders List','admin')?></h3>
 		
 	</div> <!-- End .content-box-header -->
 	

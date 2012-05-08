@@ -46,8 +46,8 @@ class ReportController extends Controller
 				and (end_date <  '$nextYear')
 		");
 		foreach ($orders as $order){
-			$status = $order->getLastestStatus();
-			if (($status != OrdersHistory::HISTORY_CANCEL_USER) && ($status != OrdersHistory::HISTORY_CREATE_ADMIN))
+			$status = $order->status;
+			if ($status != Orders::ORDER_CANCELED)
 			{
 				$end_date = explode("-", $order->end_date);
 				$numberOrdersMonth[$end_date[1]]++;

@@ -12,6 +12,7 @@
  * @property string $start_time
  * @property string $end_time
  * @property string $real_stop_time
+ * @property integer $status
  * @property integer $total
  * @property integer $visible
  *
@@ -22,6 +23,14 @@
  */
 class Orders extends CActiveRecord
 {
+	const ORDER_NONE     = 0;
+	const ORDER_CREATED  = 1;
+	const ORDER_CANCELED = 2;
+	const ORDER_FINISHED = 3;
+	const ORDER_OVERTIME     = 4;
+	
+	// This property for sum all total
+	
 	/**
 	 * Returns the static model of the specified AR class.
 	 * @param string $className active record class name.
@@ -49,13 +58,13 @@ class Orders extends CActiveRecord
 		// will receive user inputs.
 		return array(
 			array('user_id, product_id, start_date, end_date, start_time, total', 'required'),
-			array('total, visible', 'numerical', 'integerOnly'=>true),
+			array('status ,total, visible', 'numerical', 'integerOnly'=>true),
 			array('user_id', 'length', 'max'=>8),
 			array('product_id', 'length', 'max'=>5),
 			array('end_time, real_stop_time', 'safe'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('id, user_id, product_id, start_date, end_date, real_stop_time, start_time, end_time, total, visible', 'safe', 'on'=>'search'),
+			array('id, user_id, product_id, start_date, end_date, status, real_stop_time, start_time, end_time, total, visible', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -87,6 +96,7 @@ class Orders extends CActiveRecord
 			'start_time' => t('Start Time','model'),
 			'end_time' => t('End Time','model'),
 			'real_stop_time' => t('Real Stop Time','model'),
+			'status' => t('Status','model'),
 			'total' => t('Total','model'),
 			'visible' => t('Visible','model'),
 		);
@@ -115,25 +125,75 @@ class Orders extends CActiveRecord
 		$criteria->compare('total',$this->total);
 		$criteria->compare('visible',$this->visible);
 
+		//Get pager size
+		if (request('pagerSize') != null){
+			Yii::app()->user->setState('pagerSize',(int)request('pagerSize'));
+			unset($_GET['pagerSize']);
+		}
+		
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
 			'pagination'=>array(
-				'pageSize'  => 30,
+				'pageSize'  => Yii::app()->user->getState('pagerSize',Yii::app()->params['defaultPagerSize']),
 			)
 		));
 	}
 	
 	/**
-	 * Get lastest status of an order
-	 * @param int order_id
+	 * Retrieves a list of models based on the current search/filter conditions from model.
+	 * @param SearchOrderForm $searchOrder
+	 * @return CActiveDataProvider the data provider that can return the models based on the search/filter conditions.
 	 */
-	public function getLastestStatus()
+	public function advancedSearch($searchOrder)
 	{
-		$orderHistory = OrdersHistory::model()->findByAttributes(
-													array('order_id'=>$this->id),
-													array('order'=>'time DESC')
-													);
-		return $orderHistory->status;
+		// Warning: Please modify the following code to remove attributes that
+		// should not be searched.
+	
+		$criteria=new CDbCriteria;
+		$criteria->order  = "start_date DESC";
+		$criteria->compare('id',$this->id);
+		
+		if ($searchOrder->user_id != '0')
+			$criteria->compare('t.user_id',$searchOrder->user_id);
+		if ($searchOrder->product_id != '0')
+			$criteria->compare('product_id',"$searchOrder->product_id");
+		if ($searchOrder->start_date != ''){
+			// check if date is too old ( 2 years)
+			$thisYear     = date('Y');
+			$previousYear = $thisYear - 1;
+			$previousDate = $previousYear."-01-01";
+			if ($searchOrder->start_date < $previousYear)
+				$criteria->condition = '1=0'; 		
+			$criteria->compare('end_date',">=$searchOrder->start_date");	
+		}
+		if ($searchOrder->end_date != ''){
+			// check if date is too old ( 2 years)
+			$thisYear     = date('Y');
+			$previousYear = $thisYear - 1;
+			$previousDate = $previousYear."-01-01";
+			if ($searchOrder->end_date < $previousYear)
+				$criteria->condition = '1=0';
+			$criteria->compare('end_date',"<=$searchOrder->end_date");
+		}
+		if ($searchOrder->start_time != '')
+			$criteria->compare('end_time',">=$searchOrder->start_time");
+		if ($searchOrder->end_time != '')
+			$criteria->compare('end_time',"<=$searchOrder->end_time");
+		if ($searchOrder->order_status != Orders::ORDER_NONE)
+			$criteria->compare('status',"$searchOrder->order_status");
+		$criteria->compare('real_stop_time',$this->real_stop_time,true);
+		$criteria->compare('total',$this->total);
+		//Get pager size
+		if (request('pagerSize') != null){
+			Yii::app()->user->setState('pagerSize',(int)request('pagerSize'));
+			unset($_GET['pagerSize']);
+		}
+		return new CActiveDataProvider($this, array(
+				'criteria'=>$criteria,
+				'pagination'=>array(
+						'pageSize'  => Yii::app()->user->getState('pagerSize',Yii::app()->params['defaultPagerSize']),
+				)
+		));
 	}
 	
 	/**
@@ -142,5 +202,42 @@ class Orders extends CActiveRecord
 	public function overTime()
 	{
 		return OrderTimeForm::time_difference($this->end_time, $this->real_stop_time);
+	}
+	
+	/**
+	 * Get order status list
+	 * @return array list status with label
+	 */
+	public static function getListStatus(){
+		return array(
+			ORDERS::ORDER_NONE    => t('Select ...','model'),
+			ORDERS::ORDER_CREATED => t('Created','model'),
+			ORDERS::ORDER_CANCELED => t('Canceled','model'),
+			ORDERS::ORDER_FINISHED => t('Finished','model'),
+			ORDERS::ORDER_OVERTIME => t('Over Time','model'),
+		);
+	}
+	
+	/**
+	 * Get status label
+	 * @return label <string>
+	 */
+	public function getStatusLabel(){
+		$list = $this->getListStatus();
+		return $list[$this->status];
+	}
+	
+	/**
+	 * Get total with current search
+	 * @param $searchOrder
+	 * @return int
+	 */
+	public function totalSum($searchOrder)
+	{
+		$dataItems = $this->advancedSearch($searchOrder)->data;
+		$total     = 0;
+		foreach ($dataItems as $order)
+			$total += $order->total;
+		return $total;
 	}
 }

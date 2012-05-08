@@ -29,6 +29,7 @@
 		'Submit'    => '更新',
 		'Reset'     => 'リセット',
 		'Close'     => '閉じる',
+		'Update'    => '更新',
 		'Login Successful' => 'ログインしたことは成功だった',
 				
 		
@@ -64,12 +65,28 @@
 		'Total' => '合計',
 		'Please Choose Product' => 'プロダクトを選んでください',
 		'Please Choose Time' => '時間を選んでください',
-	
+		'Quick Order' 	=> 'クイックオーダー',
+		'Quick'			=>'クイック',
+		'Select' => '選ぶ',
+		'Your order is saved'    => 'あなたのオーダーは保存されます。',
+		"Your order isn't saved" => 'あなたのオーダーは保存されません。',
+		'Are you sure to cancel this?' => 'このオーダーをキャーセルよろしですか　？',
+		'If you want to order through night (23:00 -> 1:00) please order 2 times (23:00 -> 24:00) and (24:00 -> 1:00)' => 'あなたが夜を通じて注文する場合(11::00pm -> 1:00am)はオーダー2回をご覧ください (23:00 -> 24:00) と (24:00 -> 1:00)',
+			
 		//オーダーヒストリ
 		'Date'  => '年月日',
 		'Time'  => 'タイム',
 		'Description' => 'デスクリプション ',
 		'Order Detail' => '詳細オーダー',
 		'Order History' => 'オーダーヒストリ',
+		"Can't cancel. You must cancel before 2 hours" => 'キャンセルすることはできません。あなたは2時間前にキャンセルする必要があります',
+		"Can't cancel. You must cancel before 1 hours" => 'キャンセルすることはできません。あなたは1時間前にキャンセルする必要があります',
+		
+		//User
+		'Register' => '登録',
+			
+		//Contact Us
+		'If you have business inquiries or other questions, please fill out the following form to contact us. Thank you.' => 'あなたがビジネスのお問い合わせまたは他の質問を有したら、私達に連絡するには、以下のフォームに記入してください。ありがとうございます。',
+		'Fields with * are required.' => '*のフィールドは必須です。',
 	);
 ?>

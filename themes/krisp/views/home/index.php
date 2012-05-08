@@ -74,7 +74,7 @@
 	        array(
 	        	'header'=>t('Status','model'),
 	        	'type'=>'raw',
-	        	'value'=>'OrdersHistory::getStatusTypeLabel($data->getLastestStatus())',
+	        	'value'=>'$data->getStatusLabel()',
 	        ),
 	        array(
 	            'class'=>'bootstrap.widgets.BootButtonColumn',

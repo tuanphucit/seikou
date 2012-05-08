@@ -7,7 +7,6 @@
  * @property string $id
  * @property string $username
  * @property string $password
- * @property integer $role
  * @property string $full_name
  * @property string $birthday
  * @property integer $idcard
@@ -18,6 +17,7 @@
  * @property string $tel
  * @property string $yahoo
  * @property string $skype
+ * @property integer $status
  * @property string $last_login
  *
  * The followings are the available model relations:
@@ -26,9 +26,13 @@
  */
 class Users extends CActiveRecord
 {
-	const USER_USER  = 0;
-	const USER_ADMIN = 1;
+	const USER_NONE    = 0;
+	const USER_WAITING = 1;
+	const USER_REJECT  = 2;
+	const USER_ACTIVE  = 3;
+	
 	public $password_repeat;
+	
 	/**
 	 * Returns the static model of the specified AR class.
 	 * @param string $className active record class name.
@@ -55,8 +59,8 @@ class Users extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('id, username, password, role, full_name, birthday, idcard, work, address2, email, tel', 'required'),
-			array('role, idcard', 'numerical', 'integerOnly'=>true),
+			array('id, username, password, full_name, birthday, idcard, work, address2, email, tel', 'required'),
+			array('idcard, status', 'numerical', 'integerOnly'=>true),
 			array('id', 'length', 'max'=>8),
 			array('id, username', 'unique'),
 			array('id', 'match', 'pattern'=>'/^US\d{3}$/'),
@@ -69,7 +73,7 @@ class Users extends CActiveRecord
 			array('password_repeat', 'compare', 'compareAttribute'=>'password'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('id, username, password, role, full_name, birthday, idcard, work, address1, address2, email, tel, yahoo, skype, last_login', 'safe', 'on'=>'search'),
+			array('id, username, password, full_name, birthday, idcard, work, address1, address2, email, tel, yahoo, skype, status, last_login', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -96,7 +100,6 @@ class Users extends CActiveRecord
 			'username' => Yii::t('model','Username'),
 			'password' => Yii::t('model','Password'),
 			'password_repeat' => Yii::t('model','Password Repeat'),
-			'role' => Yii::t('model','Role'),
 			'full_name' => Yii::t('model','Full Name'),
 			'birthday' => Yii::t('model','Birthday'),
 			'idcard' => Yii::t('model','Idcard'),
@@ -107,6 +110,7 @@ class Users extends CActiveRecord
 			'tel' => Yii::t('model','Tel'),
 			'yahoo' => Yii::t('model','Yahoo'),
 			'skype' => Yii::t('model','Skype'),
+			'status' => Yii::t('model','Status'),
 			'last_login' => Yii::t('model','Last Login'),
 		);
 	}
@@ -125,7 +129,6 @@ class Users extends CActiveRecord
 		$criteria->compare('id',$this->id,true);
 		$criteria->compare('username',$this->username,true);
 		$criteria->compare('password',$this->password,true);
-		$criteria->compare('role',$this->role);
 		$criteria->compare('full_name',$this->full_name,true);
 		$criteria->compare('birthday',$this->birthday,true);
 		$criteria->compare('idcard',$this->idcard);
@@ -136,6 +139,9 @@ class Users extends CActiveRecord
 		$criteria->compare('tel',$this->tel,true);
 		$criteria->compare('yahoo',$this->yahoo,true);
 		$criteria->compare('skype',$this->skype,true);
+		if (request('status') != 0)
+			$criteria->compare('status',request('status'));
+		unset($_GET['status']);
 		$criteria->compare('last_login',$this->last_login,true);
 
 		return new CActiveDataProvider($this, array(
@@ -144,12 +150,42 @@ class Users extends CActiveRecord
 	}
 	
 	/**
-	 * @param $role value
-	 * @return ロールの名前
+	 * Fetch User id from Full name
+	 * @param string $full_name
 	 */
-	public function getRoleName($role = "") {
-		if ($role == "")
-			$role = $this->role;
-		return ($role == 1)? Yii::t('model','admin'):Yii::t('model','user');
+	public static function getUserID($full_name){
+		$user = Users::model()->findByAttributes(array('full_name'=>$full_name));
+		if ($user != null)
+			return $user->id;
+		return null;
+	}
+	
+	/**
+	 * Get list user name with id
+	 * @return array user
+	 */
+	public static function getListUserName(){
+		$list = array();
+		$list['0'] = t('Select ...','admin');
+		$users = Users::model()->findAll('',array('order'=>'full_name ASC'));
+		foreach ($users as $user){
+			$list[$user->id] = $user->full_name;
+		}
+		return $list;
+	}
+	
+	public static function getListStatus()
+	{
+		return array(
+			Users::USER_NONE     => t('Select ...','admin'),
+			Users::USER_WAITING  => t('Waiting','model'),
+			Users::USER_REJECT   => t('Reject','model'),
+			Users::USER_ACTIVE   => t('Active','model'),
+		);
+	}
+	
+	public function getStatusLabel(){
+		$list = $this->getListStatus();
+		return $list[$this->status];
 	}
 }

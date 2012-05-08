@@ -102,7 +102,9 @@
 		<h3><?php echo t('Please Choose Time')?></h3>
 		<div class="block">
 			<div id="start-date">2012-03-26</div> ~
-			<div id="end-date">2012-03-28</div> <br>
+			<div id="end-date">2012-03-28</div>
+			<?php echo Html::link(t('Select'),'#',array('id'=>'show-date-chooser'))?>
+			 <br>
 			<div id="date-chooser">
 				<?php 
 					echo $form->textField($orderTime,'start_date');
@@ -111,6 +113,7 @@
 			</div>
 			<div id="start-time">00:00</div> ~
 			<div id="end-time">00:00</div>
+			<?php echo Html::link(t('Select'),'#',array('id'=>'show-time-chooser'))?>
 			<div id="time-chooser">
 				<?php 
 					logged(dump($orderTime));

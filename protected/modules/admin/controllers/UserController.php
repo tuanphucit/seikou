@@ -15,6 +15,10 @@ class UserController extends Controller
 			array('allow', // allow authenticated users to access all actions　（　されたユーザーはすべてのアクションへのアクセスを許可する　）
 				'roles'=>array('admin'),
 			),
+			array('allow',
+				'actions'=>array('add'),
+				'users'  =>array('?'),	
+			),
 			array('deny',  // deny all users　(すべてのユーザーを拒否する。)
 				'users'=>array('*'),
 			),
@@ -42,15 +46,18 @@ class UserController extends Controller
 		);
 		$user = new Users();
 		if(isset($_POST['Users']))
-		{
+		{	
+			$user->attributes = $_POST['Users'];
 			logged("Have user submit".dump($_POST['Users']));
 			// パラメータ をとる
-			$currentPassword  = $_POST['Users']['password'];
-			$user->attributes = $_POST['Users'];
-			if ($user->password != $currentPassword)
-				$user->password = sha1(md5($user->password));
+			$user->password        = sha1(md5($user->password));
+			$user->password_repeat = sha1(md5($user->password_repeat));
 			// 保存と検証する
 			if($user->save()){
+				if ( ! Yii::app()->authManager->isAssigned('admin',Yii::app()->user->id)){
+					Yii::app()->user->setFlash('success',Yii::t('admin','Thanks you. Please wait to active'));
+					$this->redirect(array('/site/login'));
+				}
 				Yii::app()->user->setFlash('success',Yii::t('admin','Add user successful'));
 				$this->redirect(array('view','id'=>$user->id));
 			}
@@ -78,17 +85,20 @@ class UserController extends Controller
 		{
 			logged("Have user submit".dump($_POST['Users']));
 			// パラメータ をとる
-			$currentPassword  = $_POST['Users']['password'];
+			$currentPassword  = $user->password;
 			$user->attributes = $_POST['Users'];
-			if ($user->password != $currentPassword)
+			// Only save new password - 新しいパースワードだけ更新する。
+			if ($user->password != $currentPassword){
 				$user->password = sha1(md5($user->password));
+				$user->password_repeat = $user->password;
+			}
 			// 保存と検証する
 			if($user->save()){
-				Yii::app()->user->setFlash('success',Yii::t('admin','Update user successful'));
+				Yii::app()->user->setFlash('success',Yii::t('admin','Edit user successful'));
 				$this->redirect(array('view','id'=>$user->id));
 			}
 			else 
-				Yii::app()->user->setFlash('error',Yii::t('admin','Update user failed'));
+				Yii::app()->user->setFlash('error',Yii::t('admin','Edit user failed'));
 		}
 		$this->render('update',array('user'=>$user));
 	}

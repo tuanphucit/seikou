@@ -869,3 +869,41 @@ div.wysiwyg iframe { border: 0; margin: 5px 0 0 0; clear: left; width: 97.5% !im
 	0% { -webkit-transform:rotate(0deg); }
 	100% { -webkit-transform:rotate(-360deg); }
 }
+
+/** For Quick Tips*/
+.oneHalf {
+    float: left;
+    margin-bottom: 25px;
+    margin-right: 4%;
+    width: 48%;
+}
+.oneThird {
+    float: left;
+    margin-bottom: 25px;
+    margin-right: 4%;
+    width: 30.66%;
+}
+.oneFourth {
+    float: left;
+    margin-bottom: 25px;
+    margin-right: 4%;
+    width: 22%;
+}
+.oneFifth {
+    float: left;
+    margin-bottom: 25px;
+    margin-right: 4%;
+    width: 16.8%;
+}
+.oneSixth {
+    float: left;
+    margin-bottom: 25px;
+    margin-right: 4%;
+    width: 13.33%;
+}
+.oneHalf p:last-child, .oneThird p:last-child, .oneFourth p:last-child, .oneFifth p:last-child, .oneSixth p:last-child {
+    margin-bottom: 0;
+}
+.lastColumn {
+    margin-right: 0;
+}

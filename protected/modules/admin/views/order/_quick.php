@@ -90,27 +90,21 @@
 	        array('name'=>'end_time','header'=>t('End Time','model')),
 	        array(
 	        	'name'=>'status',
-	        	'header'=>t('Status','model'),
-	        	'type'=>'raw',
-	        	'value'=>'OrdersHistory::getStatusTypeLabel($data->getLastestStatus())',
+	        	'value'=>'$data->getStatusLabel()',
 	        ),
 	        array(
 	            'class'=>'bootstrap.widgets.BootButtonColumn',
-	        	'template'=>'{view}{delete}',
 	        	'buttons'=>array(
 					'view'=>array(
 	        			'url'=>'Yii::app()->createUrl("/admin/order/view",array("id"=>$data->id))',
 	        		), 
+					'update'=>array(
+	        			'url'=>'Yii::app()->createUrl("/admin/order/update",array("id"=>$data->id))',
+	        		),
 	        		'delete'=>array(
 	        			'url'=>'Yii::app()->createUrl("/admin/order/delete",array("id"=>$data->id))',
 	        		),	      
 	        	),
-	        ),
-	        array(
-	        	'name' => 'real_stop_time',
-	        	'type' => 'raw',
-	        	'value'=> '($data->getLastestStatus() != OrdersHistory::HISTORY_CREATE) ? $data->real_stop_time :
-	        		'.$ajaxButton,
 	        ),
 	    ),
 	)); 
