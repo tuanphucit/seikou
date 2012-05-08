@@ -6,7 +6,7 @@ class DefaultController extends Controller
 	{
 		// Breadcrumbs - パン粉
 		$this->breadcrumbs = array(
-			t('User','admin')  => $this->createUrl('/admin/user/index'),
+			t('Dashboard','admin')  => $this->createUrl('/admin/default/index'),
 			t('Index','admin'),
 		);
 		

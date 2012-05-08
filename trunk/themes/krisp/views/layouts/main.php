@@ -12,7 +12,7 @@
 	$cs->registerCssFile(Html::cssThemeUrl('custom-cycle.css'), 'screen');
 	$cs->registerCssFile(Html::cssThemeUrl('colorbox.css'), 'screen');
 	$cs->registerCssFile(Html::cssThemeUrl('style-1.css'), 'screen');
-	if (Yii::app()->controller->id != 'order')
+	//if (Yii::app()->controller->id != 'order')
 		$cs->registerCssFile(Html::cssThemeUrl('table.css'), 'screen');
 	
 	// JS

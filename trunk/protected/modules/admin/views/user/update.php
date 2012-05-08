@@ -1,4 +1,24 @@
 <?php 
+	// Register More Javascript file and Css file
+	// Jquery UI
+	$cs = Yii::app()->getClientScript();
+	$cs->registerCoreScript( 'jquery.ui' );
+	$cs->registerCssFile(
+		Yii::app()->assetManager->publish(
+			Yii::app()->basePath . '/vendors/jquery.ui/redmond/'
+		).
+		'/jquery-ui-1.8.18.custom.css', 'screen'
+	);
+?>
+
+<script>
+	$(document).ready(function(){
+		$("#Users_birthday").datepicker({dateFormat: "yy-mm-dd"});
+
+	});
+</script>
+
+<?php 
 	$form = $this->beginWidget('bootstrap.widgets.BootActiveForm',array(
 		'id'=>'add-user-form',
 		'enableClientValidation'=>true,
@@ -50,21 +70,6 @@
 			echo "</td>";
 			echo "<td>";
 				echo $form->error($user,'password_repeat');
-			echo "</td>";
-		echo "</tr>";
-		
-		echo "<tr>";
-			echo "<td>";
-				echo $form->label($user,'role');
-			echo "</td>";
-			echo "<td>";
-				echo $form->dropDownList($user,'role',array(
-					Users::USER_USER  => t('user','model'),
-					Users::USER_ADMIN => t('admin','model'),
-				));
-			echo "</td>";
-			echo "<td>";
-				echo $form->error($user,'role');
 			echo "</td>";
 		echo "</tr>";
 		
@@ -185,6 +190,18 @@
 			echo "</td>";
 			echo "<td>";
 				echo $form->error($user,'skype');
+			echo "</td>";
+		echo "</tr>";
+		
+		echo "<tr>";
+			echo "<td>";
+				echo $form->label($user,'status');
+			echo "</td>";
+			echo "<td>";
+				echo $form->dropDownList($user,'status',Users::getListStatus());
+			echo "</td>";
+			echo "<td>";
+				echo $form->error($user,'status');
 			echo "</td>";
 		echo "</tr>";
 		

@@ -75,6 +75,12 @@ class LoginForm extends CFormModel
 			case UserIdentity::ERROR_PASSWORD_INVALID:
 				$this->addError('invalid',Yii::t('admin','{attribute} is invalid',array('{attribute}'=>Users::model()->getAttributeLabel('password'))));
 				return false;
+			case UserIdentity::ERROR_REJECT:
+				$this->addError('invalid',Yii::t('admin','Your information is rejected by admin'));
+				return false;
+			case UserIdentity::ERROR_WAITING:
+				$this->addError('invalid',Yii::t('admin','Please wait until admin accept'));
+				return false;
 		}
 		if($this->_identity->errorCode===UserIdentity::ERROR_NONE)
 		{

@@ -1,5 +1,5 @@
 <?php 
-	echo "<h2>".t('List Fee')." (VND)</h2>";
+	echo "<h2>".t('List Fee','admin')." (VND)</h2>";
 	// プロダクトが一覧に表示される。
 	$this->widget('bootstrap.widgets.BootDetailView', array(
 	    'data'=>$fee,

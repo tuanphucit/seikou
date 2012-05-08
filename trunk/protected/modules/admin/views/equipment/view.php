@@ -7,14 +7,14 @@
 	        array('name'=>'name', 'label'=>$product->getAttributeLabel('name')),
 	        array('name'=>'price', 
 	        	'label'=>$product->getAttributeLabel('price'),
-	        	'value'=>number_format($product->price)." ,000 VND",
+	        	'value'=>number_format($product->price)." VND",
 	        ),
 	        array(
 	        	'name'=>'description', 
 	        	'type'=>'html',
 	        	'label'=>$product->getAttributeLabel('description'),
 	        ),
-	        array('name'=>'option', 'label'=>$product->getOptionLabel()),
+	        array('name'=>'option'),
 	        array(
 	        	'label'=>$product->getAttributeLabel('image'),
 	        	'type'=>'html',
@@ -25,10 +25,10 @@
 	
 	//二つのボタンを表示
 	$this->widget('bootstrap.widgets.BootButton', array(
-        'label'=>Yii::t('admin','Edit'),
+        'label'=>Yii::t('admin','Update'),
         'type'=>'primary', // '', 'primary', 'info', 'success', 'warning', 'danger' or 'inverse'
         'size'=>'small', // '', 'small' or 'large'
-		'url'=>$this->createUrl('/admin/equipment/update/',array('id'=>$product->id)),
+		'url'=>$this->createUrl('/admin/room/update/',array('id'=>$product->id)),
     ));
     
     echo " | ";
@@ -36,6 +36,6 @@
     $this->widget('bootstrap.widgets.BootButton',array(
     	'label'=>Yii::t('admin','Back'),
     	'size'=>'small',
-    	'url'=>$this->createUrl('/admin/equipment/'),
+    	'url'=>$this->createUrl('/admin/room/'),
     ))
 ?>

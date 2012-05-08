@@ -36,7 +36,7 @@ $(document).ready(function(){
 			$("#OrderTimeForm_start_date").val(startDate);
 			$("#OrderTimeForm_end_date").val(endDate);
 			if (startTime == "00:00"){
-				$("#time-chooser").show();
+				$("#date-chooser").show();
 			}
 			else {
 				$("#start-time").text(startTime);
@@ -65,6 +65,15 @@ $(document).ready(function(){
 		    week:     '<?php echo t('week','calendar')?>',
 		    day:      '<?php echo t('day','calendar')?>'
 		},
+	});
+
+	$("#show-date-chooser").click(function(){
+		$('#date-chooser').show();
+		return false;
+	});
+	$("#show-time-chooser").click(function(){
+		$('#time-chooser').show();
+		return false;
 	});
 });
 </script>

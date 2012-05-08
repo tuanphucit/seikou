@@ -36,7 +36,7 @@ class ToolController extends Controller
 		// Breadcrumbs
 		$this->breadcrumbs = array(
 			t('Tool','admin')  => $this->createUrl('/admin/tool/index'),
-			t('Export CSV'),
+			t('Export CSV','admin'),
 		);
 		
 		// STEP0 : init data　　　（ステップ０：初期データ　）
@@ -59,7 +59,7 @@ class ToolController extends Controller
 		);
 		logged("First row:".dump($csvData));
 		// Init total price for all user　（すべてのユーザーの初期総額　）
-		$users = Users::model()->findAll("role != ".Users::USER_ADMIN,array("order"=>"full_name ASC"));
+		$users = Users::model()->findAll("",array("order"=>"full_name ASC"));
 		$total = array();
 		foreach ($users as $user){
 			$total[$user->id] = 0;
@@ -75,19 +75,7 @@ class ToolController extends Controller
 		
 		// STEP3 : with each order , calc total price for users　（ユーザのトータルを計算する）
 		foreach($orders as $order){
-			$status = $order->getLastestStatus();
-			logged("{$order->id}:".OrdersHistory::getStatusTypeLabel($status));
-			switch ($status) {
-				case OrdersHistory::HISTORY_CANCEL_USER : 
-					$total[$order->user_id] += $fee->cancel;
-					break;
-				case OrdersHistory::HISTORY_FINISH : 
-					$total[$order->user_id] += $order->total;
-					break;				
-				case OrdersHistory::HISTORY_OVERTIME : 
-					$total[$order->user_id] += ($order->total + $fee->penalty*$order->overTime());
-					break;
-			}
+			$total[$order->user_id] += $order->total;
 		}
 		
 		logged(dump($total));
@@ -122,7 +110,7 @@ class ToolController extends Controller
 		// Breadcrumbs
 		$this->breadcrumbs = array(
 				t('Tool','admin')  => $this->createUrl('/admin/tool/index'),
-				t('Database'),
+				t('Database','admin'),
 		);
 		$this->render('database');
 	}

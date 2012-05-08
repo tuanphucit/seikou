@@ -13,11 +13,9 @@
 	        ),
 	        array(
 	        	'name'=>'name',
-	        	'header'=>Products::model()->getAttributeLabel('name'),
 	        ),
 	        array(
 	        	'name'=>'price',
-	        	'header'=>Products::model()->getAttributeLabel('price'),
 	        ),
 	        array(
 	            'class'=>'bootstrap.widgets.BootButtonColumn',

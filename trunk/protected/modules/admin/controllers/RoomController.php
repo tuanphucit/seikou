@@ -15,7 +15,7 @@ class RoomController extends Controller
 			array('allow', // allow authenticated users to access all actions　（　されたユーザーはすべてのアクションへのアクセスを許可する　）
 				'roles'=>array('admin'),
 			),
-			array('deny',  // deny all users　　(すべてのユーザーを拒否する。)
+			array('deny',  // deny all users　(すべてのユーザーを拒否する。)
 				'users'=>array('*'),
 			),
 		);
@@ -25,10 +25,10 @@ class RoomController extends Controller
 	{
 		$this->breadcrumbs = array(Yii::t('admin',"Room")=>$this->createUrl('/admin/room/'),Yii::t('admin',"List"));
 		$this->pageTitle   = "Room Management - List Product";
-		$product = new Products();
-		// タイプは１ならルームです。 Setting 1 for attribute 0 means it is room
-		$product->type = 0;
-		$this->render('index',array('users'=>$product));
+		$products = new Products();
+		// タイプは１ならルームです。 Setting 1 for equipment 0 means it is room
+		$products->type = 0;
+		$this->render('index',array('products'=>$products));
 	}
 	
 	public function actionView()
@@ -55,7 +55,6 @@ class RoomController extends Controller
 		{
 			// パラメータ をとる
 			$product->attributes=$_POST['Products'];
-			$product->price *= 1000;
 			// 保存と検証する
 			if($product->save()){
 				Yii::app()->user->setFlash('success',Yii::t('admin','Add room successful'));

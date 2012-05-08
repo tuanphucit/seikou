@@ -33,7 +33,10 @@
 		'Submit'    => '更新',
 		'Reset'     => 'リセット',
 		'Save'      => '格納',
-	
+		'Update'    => '更新',
+		'Page Size' => 'ページサイズ',
+		'Select ...' => '選ぶ　。。。', 
+			
 		// ** Layout
 		'Welcome' => 'ようこそ',
 		'Website' => 'ウェブサイト',
@@ -58,6 +61,7 @@
 		'Update' => '更新',
 		'Delete' => '削除',
 		'Back' => '戻る',
+		'Submit' => '提出する',
 	
 		// User Management
 		'User' => 'ユーザー',
@@ -67,6 +71,9 @@
 		'Edit user failed'=>'ユーザーを修正したことが失敗だった',
 		'Delete user successful'=>'ユーザーを削除したことが成功だった',
 		'Delete user failed'=>'ユーザーを削除したことが失敗だった',
+		'Thanks you. Please wait to active' => 'ありがとうございます！アクティブにお待ちください。',
+		'Your information is rejected by admin' => 'あなたの情報は管理者によって拒否され',
+		'Please wait until admin accept' => '管理者が承認するまでお待ちください。',
 	
 		// Product Management
 		'Add room successful'=>'会議室を追加したことは成功だった',
@@ -79,6 +86,28 @@
 		// Equipment
 		'Add equipment successful' => 'プロダクトを追加したのはせいこうした',
 		'Add equipment failed' => 'プロダクトを追加すしたのは成功した',
+		
+		// Order
+		'Advanced Search' => '高度な検索',
+		'Search'          => '検索',
+		'New Order'		  => '新しいオーダー',
+		
+		// Fee
+		'Fee'                => '手数料',
+		'List Fee'           => '手数料リスト',
+		'Update Fee'         => '手数料を更新',
+		'Updated fee successful'=>'手数料リストを更新したことは成功だった',
+		'Updated fee failed'    =>'手数料リストを更新したことは失敗だった',
+		
+		// Tool
+		'Export CSV' => 'CSVをエクスポート',
+		'Report' => 'レポート',
+		'Database' => 'データベース',
+		
+		// Dashboard
+		'Products List' => 'プロダクトリスト',
+		'Users List'    => 'ユーザーリスト',
+		'Orders List'   => 'オーダーリスト',
 		
 	);
 ?>

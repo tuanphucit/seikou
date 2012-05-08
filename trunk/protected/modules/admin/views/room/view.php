@@ -14,7 +14,7 @@
 	        	'type'=>'html',
 	        	'label'=>$product->getAttributeLabel('description'),
 	        ),
-	        array('name'=>'option', 'label'=>$product->getOptionLabel()),
+	        array('name'=>'option'),
 	        array(
 	        	'label'=>$product->getAttributeLabel('image'),
 	        	'type'=>'html',
@@ -25,7 +25,7 @@
 	
 	//二つのボタンを表示
 	$this->widget('bootstrap.widgets.BootButton', array(
-        'label'=>Yii::t('admin','Edit'),
+        'label'=>Yii::t('admin','Update'),
         'type'=>'primary', // '', 'primary', 'info', 'success', 'warning', 'danger' or 'inverse'
         'size'=>'small', // '', 'small' or 'large'
 		'url'=>$this->createUrl('/admin/room/update/',array('id'=>$product->id)),

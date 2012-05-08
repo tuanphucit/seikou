@@ -10,17 +10,21 @@ class HistoryController extends Controller
 			t('Index'),
 		);
 		
-		// Look for order created by current user　　（在のユーザーによって作成されたオーダーを検索する　）
-		$dataProvider = new CActiveDataProvider('Orders',array(
-			'criteria'=>array(
-				'condition' => "user_id = '".Yii::app()->user->id."' and visible = 1",
-				'order' => 'start_date DESC',
-			),
-			'pagination'=>array(
-				'pageSize'=>20,
-			)
+		// Get model contains users's information　　　（ユーザの情報が含まれているモデルをうける。）
+		$orders = new Orders();
+		
+		// Construct order search form
+		$searchOrder = new SearchOrderForm();
+		$searchOrder->user_id = Yii::app()->user->id;
+		if (isset($_GET['SearchOrderForm'])){
+			$searchOrder->attributes = $_GET['SearchOrderForm'];
+			// After get params must unset these params
+			unset($_GET['SearchOrderForm']);
+		}
+		$this->render('index',array(
+				'orders'=>$orders,
+				'searchOrder'=>$searchOrder,
 		));
-		$this->render('index',array('dataProvider'=>$dataProvider));
 	}
 	
 	public function actionView()
@@ -71,19 +75,22 @@ class HistoryController extends Controller
 		
 		// save log　　（ログを保存する。）
 		logged("$order->id | ".Yii::app()->user->name. "Delete Order");
-		$status = $order->getLastestStatus();
-		if (( $status != OrdersHistory::HISTORY_CREATE) && 
-			( $status != OrdersHistory::HISTORY_CREATE_ADMIN))
+		$status = $order->status;
+		if ( $status != Orders::ORDER_CREATED) 
 			throw new CHttpException('500',t('Your order have already deleted or stopped'));
 		
 		// check if cancel before 2 hours
 		$hours_2 = 60*60*2;
-		$start = $order->start_date + " " + $order->start_time;
+		$start = $order->start_date . " " . $order->start_time;
 		// check if not admin
 		if ( ! Yii::app()->authManager->isAssigned('admin',Yii::app()->user->id))
-			if ( strtotime($start) - strtotime('now') > $hours_2)
+			if ( strtotime($start) - strtotime('now') < $hours_2)
 				throw  new CHttpException('402',t("Can't cancel. You must cancel before 2 hours"));
 		// Save order history　（　注文の履歴を保存する。）
+		$fee = Fee::model()->find();
+		$order->status = Orders::ORDER_CANCELED;
+		$order->total  = $fee->cancel + $fee->register;
+		$order->save();
 		$orderHistory = new OrdersHistory();
 		$orderHistory->order_id = $order->id;
 		$orderHistory->user_id  = Yii::app()->user->id;

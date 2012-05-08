@@ -46,7 +46,6 @@
 				'validateOnSubmit'=>true,
 			),
 		)); ?>
-		
 		<div id="login-wrapper" class="png_bg">
 			<div id="login-top">
 			
@@ -63,6 +62,7 @@
 				
 				<form action="index.html">
 					
+					<?php $this->widget('bootstrap.widgets.BootAlert');?>
 					<p>
 						<?php echo $form->label($model,'username')?>
 						<?php echo $form->textField($model,'username',array('class'=>'text-input'))?>						
@@ -76,6 +76,8 @@
 					<p id="remember-password">
 						<?php echo $form->checkBox($model,'rememberMe')?>
 						<?php echo $model->getAttributeLabel('rememberMe')?>
+						 | 
+						<?php echo Html::link(t('Register'),array('/admin/user/add'))?>
 					</p>
 					<div class="clear"></div>
 					<p>

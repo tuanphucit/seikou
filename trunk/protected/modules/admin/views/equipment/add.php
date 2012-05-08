@@ -31,13 +31,13 @@
 		'clientOptions'=>array('validateOnSubmit'=>true),
 	));
 	echo "<table>";	
-		echo $form->hiddenField($product,'type',array('value'=>1));
+		echo $form->hiddenField($product,'type',array('value'=>0));
 		echo "<tr>";
 			echo "<td>";
 				echo $form->label($product,'id');
 			echo "</td>";
 			echo "<td>";
-				echo $form->textField($product,'id',array('placeholder'=>'EQXX'));
+				echo $form->textField($product,'id',array('placeholder'=>'RMXXX'));
 				echo "<br>";
 				echo $form->error($product,'id');
 			echo "</td>";
@@ -60,7 +60,7 @@
 			echo "</td>";
 			echo "<td>";
 				echo $form->textField($product,'price');
-				echo Yii::t('admin',' .000 VND / 0.5 hour');
+				echo Yii::t('admin',' VND / 0.5 hour');
 				echo "<br>";
 				echo $form->error($product,'price');
 			echo "</td>";

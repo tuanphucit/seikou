@@ -160,9 +160,6 @@
 							echo "<li>";
 								echo Html::link(t("Order",'admin'),$this->createUrl('/admin/order/index'),($controllerId == 'order')?$htmlItem:null);
 							echo "</li>";
-							echo "<li>";
-							echo Html::link(t("Transaction",'admin'),$this->createUrl('/admin/order/transaction'),($controllerId == 'order')?$htmlItem:null);
-							echo "</li>";
 						echo "</ul>";
 					echo "</li>";
 					/**********          Công cụ                    **********/

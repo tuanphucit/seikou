@@ -129,6 +129,7 @@ return array(
 	'params'=>array(
 		// this is used in contact page
 		'adminEmail'=>'luckymancvp@gmail.com',
+		'defaultPagerSize'=>'50',
 	),
 	'sourceLanguage'=>'en',
 	'language'=>'ja',

@@ -15,6 +15,10 @@ class UserIdentity extends CUserIdentity
 	 * against some persistent user identity storage (e.g. database).
 	 * @return boolean whether authentication succeeds.
 	 */
+	
+	const ERROR_REJECT  = 10;
+	const ERROR_WAITING = 11;
+
 	private $_id;
 	public function authenticate()
 	{
@@ -28,6 +32,10 @@ class UserIdentity extends CUserIdentity
 			$record->last_login = new CDbExpression('NOW()');
 			$record->save();
 			$this->errorCode = self::ERROR_NONE;
+			if ($record->status == Users::USER_REJECT)
+				$this->errorCode = self::ERROR_REJECT;
+			if ($record->status == Users::USER_WAITING)
+				$this->errorCode = self::ERROR_WAITING;
 		}
 		return $this->errorCode;
 	}

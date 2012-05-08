@@ -1,5 +1,5 @@
 <?php 
-	echo "<h2>".t('Update Fee')." (VND)</h2>";
+	echo "<h2>".t('Update Fee','admin')." (VND)</h2>";
 	$form = $this->beginWidget('bootstrap.widgets.BootActiveForm',array(
 		'id'=>'edit-fee-form',
 		'enableClientValidation'=>true,

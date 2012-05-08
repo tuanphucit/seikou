@@ -7,14 +7,14 @@
 	        array('name'=>'name', 'label'=>$product->getAttributeLabel('name')),
 	        array('name'=>'price', 
 	        	'label'=>$product->getAttributeLabel('price'),
-	        	'value'=>number_format($product->price)." ,000 VND",
+	        	'value'=>number_format($product->price)." VND",
 	        ),
 	        array(
 	        	'name'=>'description', 
 	        	'type'=>'html',
 	        	'label'=>$product->getAttributeLabel('description'),
 	        ),
-	        array('name'=>'option', 'label'=>$product->getOptionLabel()),
+	        array('name'=>'option'),
 	        array(
 	        	'label'=>$product->getAttributeLabel('image'),
 	        	'type'=>'html',

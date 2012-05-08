@@ -25,7 +25,7 @@
 		'Start Time' => 'スタート·タイム',
 		'End Time' => 'エンド·タイム',
 		'Start Hour' => 'スタート·アワー',
-		'End Hour' => 'エンド·アワー',
+		'End Hour' => 'エンド· アワー',
 		'Start Minute' => 'スタート·ミニッツ',
 		'End Minute' => 'エンド · ミニッツ',
 		'Start AM/PM' => 'スタート·午前/午後',
@@ -38,14 +38,14 @@
 		'Description' => 'デスクリプション ',
 		'Created'=>'作成した',
 		'Finished'=>'完成した',
-		'Canceled'=>'削除した',
+		'Canceled'=>'キャンセルした',
 		'CANCELED'=>'キャンセル',
 		'CREATED'=>'作成',
-		'OVER'=>'',
 		
 		// Order Model
 		'Real Stop Time' => '実のストップタイム',
 		'Total' => '合計',
+		'Over Time' => 'オーバータイム',
 	
 		// Product Model
 		// Room
@@ -65,5 +65,27 @@
 		'Subject'   => 'タイトル',
 		'Body'      => '内容',
 		'Verification Code'=> '確認するコード',
+		
+		// Fee
+		'Register' => '登録',
+		'Penalty' => '課徴金',
+		'Cancel' => 'キャンセル',
+		
+		// User
+		'Select ...' => '選ぶ　。。。',
+		'Waiting' => '待っている',
+		'Reject' => '拒否',
+		'Active' => 'アクティブ',
+		
+		// Orders History
+		'CREATE'=>'作成した',
+		'CANCEL'=>'キャンセル',
+		'FINISH'=>'完成した',
+				
+		'ADMIN CREATE'=>'管理者が作成した',
+		'ADMIN CANCEL'=>'管理者がキャンセル',
+		'ADMIN FINISH'=>'管理者が完成した',
+		'ADMIN OVER'=>'管理者がオーバータイム',
+		'ADMIN EDIT'=>'管理者が修正した',
 	);
 ?>
