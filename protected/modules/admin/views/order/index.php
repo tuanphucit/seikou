@@ -77,6 +77,7 @@
 	        array('name'=>'end_date','header'=>t('End Date','model')),
 	        array('name'=>'start_time','header'=>t('Start Time','model')),
 	        array('name'=>'end_time'),
+	    	array('name'=>'time'),
 	        array(
 	        	'name'=>'status',
 	        	'type'=>'raw',
