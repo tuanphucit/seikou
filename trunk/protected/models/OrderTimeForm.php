@@ -200,6 +200,7 @@ class OrderTimeForm extends CFormModel
 		$order->end_date   = Html::formatDateTime($this->end_date,"yyyy-M-d","Y-m-d");
 		$order->start_time = $this->start_time;
 		$order->end_time   = $this->end_time;
+		$order->time       = new CDbExpression('NOW()');
 		$fee = Fee::model()->find();
 		
 		$start = strtotime($order->start_date . " " . $order->start_time);

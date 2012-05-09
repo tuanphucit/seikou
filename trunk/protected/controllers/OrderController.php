@@ -82,7 +82,7 @@ class OrderController extends Controller
 		// get all order
 		
 		$criteria = new CDbCriteria();
-		$criteria->order = 'start_date DESC';
+		$criteria->order = 'time DESC';
 		$orders   = new CActiveDataProvider('Orders', array(
 				'criteria'=>$criteria,
 				'pagination'=>array(

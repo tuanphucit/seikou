@@ -12,6 +12,7 @@
  * @property string $start_time
  * @property string $end_time
  * @property string $real_stop_time
+ * @property string $time
  * @property integer $status
  * @property integer $total
  * @property integer $visible
@@ -57,14 +58,14 @@ class Orders extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('user_id, product_id, start_date, end_date, start_time, total', 'required'),
+			array('user_id, product_id, start_date, end_date, start_time, time, total', 'required'),
 			array('status ,total, visible', 'numerical', 'integerOnly'=>true),
 			array('user_id', 'length', 'max'=>8),
 			array('product_id', 'length', 'max'=>5),
 			array('end_time, real_stop_time', 'safe'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('id, user_id, product_id, start_date, end_date, status, real_stop_time, start_time, end_time, total, visible', 'safe', 'on'=>'search'),
+			array('id, user_id, product_id, start_date, end_date, status, real_stop_time, start_time, end_time, time, total, visible', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -96,6 +97,7 @@ class Orders extends CActiveRecord
 			'start_time' => t('Start Time','model'),
 			'end_time' => t('End Time','model'),
 			'real_stop_time' => t('Real Stop Time','model'),
+			'time'   => t('Time','model'),
 			'status' => t('Status','model'),
 			'total' => t('Total','model'),
 			'visible' => t('Visible','model'),
@@ -176,13 +178,14 @@ class Orders extends CActiveRecord
 			$criteria->compare('end_date',"<=$searchOrder->end_date");
 		}
 		if ($searchOrder->start_time != '')
-			$criteria->compare('end_time',">=$searchOrder->start_time");
+			$criteria->compare('time',">=$searchOrder->start_time");
 		if ($searchOrder->end_time != '')
-			$criteria->compare('end_time',"<=$searchOrder->end_time");
+			$criteria->compare('time',"<=$searchOrder->end_time");
 		if ($searchOrder->order_status != Orders::ORDER_NONE)
 			$criteria->compare('status',"$searchOrder->order_status");
 		$criteria->compare('real_stop_time',$this->real_stop_time,true);
 		$criteria->compare('total',$this->total);
+		$criteria->order = 'time DESC';
 		//Get pager size
 		if (request('pagerSize') != null){
 			Yii::app()->user->setState('pagerSize',(int)request('pagerSize'));

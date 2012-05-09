@@ -28,12 +28,12 @@
 		penalty = <?php echo $fee->penalty;?>;
 		overClicked = false;
 		$("#over-time").click(function(){
-			if (overClicked) return;
+			//if (overClicked) return;
 			overClicked = true;
 			start_time = $("#Orders_end_time").val().split(":");
 			end_time   = $("#Orders_real_stop_time").val().split(":");
 			time_diff  = (end_time[0] - start_time[0])*2 + Math.ceil(((end_time[1] - start_time[1]))/30);
-			if (time_diff <= 0){
+			if (time_diff >= 0){
 				$('#Orders_total').val(parseInt($('#Orders_total').val()) + time_diff*penalty);
 				$('#Orders_status').val(4);
 			}
@@ -81,7 +81,6 @@
 							'label'=>t('Over Time','model'),
 							'type'=>'danger',
 							'size'=>'medium',
-							'toggle'=>true,
 							'htmlOptions'=>array('id'=>'over-time'),
 					));
 				?>

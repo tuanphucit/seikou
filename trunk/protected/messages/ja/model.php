@@ -46,6 +46,7 @@
 		'Real Stop Time' => '実のストップタイム',
 		'Total' => '合計',
 		'Over Time' => 'オーバータイム',
+		'Time' => '作成した時間',
 	
 		// Product Model
 		// Room
