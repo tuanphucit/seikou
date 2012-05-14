@@ -95,6 +95,8 @@
 		<tr>
 			<td><?php echo $form->label($order,'total')?></td>
 			<td><?php echo $form->textField($order,'total')?></td>
+			<td><?php echo $form->label($order,'time')?></td>
+			<td><?php echo $form->textField($order,'time')?></td>
 		</tr>
 	</table>
 	<?php 

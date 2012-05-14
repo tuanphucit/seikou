@@ -67,12 +67,14 @@
 			<!-- Sidebar Profile links -->
 			<div id="profile-links">
 				<?php
+					echo '<br><h2 style="color:red">管理者 画面</h2>';
 					echo Yii::t('admin','Welcome');
 					echo ", ";
 					echo Html::link(
 						Yii::app()->user->name,
 						"#"
 					);
+
 				?>
 				<br />
 				<a target="_blank" href="<?php echo $this->createUrl('/home/index/');?>" title="View the Site"><?php echo Yii::t('admin',"Website")?></a> | <a href="<?php echo $this->createUrl('/site/logout');?>" title="Sign Out"><?php echo Yii::t('admin','Log Out')?></a>

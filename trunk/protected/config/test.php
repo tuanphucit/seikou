@@ -23,6 +23,16 @@ return CMap::mergeArray(
 					),
 				),
 			),
+			'cache'=>array(
+				'class'=>'system.caching.CMemCache',
+				'servers'=>array(
+					array(
+						'host'=>'localhost',
+						'port'=>11211,
+						'weight'=>60,
+					),
+				),
+			),
 			/* uncomment the following to provide test database connection
 			'db'=>array(
 				'connectionString'=>'DSN for test database',

@@ -155,34 +155,29 @@ class Orders extends CActiveRecord
 		$criteria->order  = "start_date DESC";
 		$criteria->compare('id',$this->id);
 		
+		$thisYear     = date('Y');
+		$previousYear = $thisYear - 1;
+		$previousDate = $previousYear."-01-01";
+		$criteria->compare('time',">=$previousDate");
+		
 		if ($searchOrder->user_id != '0')
 			$criteria->compare('t.user_id',$searchOrder->user_id);
 		if ($searchOrder->product_id != '0')
 			$criteria->compare('product_id',"$searchOrder->product_id");
-		if ($searchOrder->start_date != ''){
-			// check if date is too old ( 2 years)
-			$thisYear     = date('Y');
-			$previousYear = $thisYear - 1;
-			$previousDate = $previousYear."-01-01";
-			if ($searchOrder->start_date < $previousYear)
-				$criteria->condition = '1=0'; 		
-			$criteria->compare('end_date',">=$searchOrder->start_date");	
+		if ($searchOrder->start_date != ''){	
+			$criteria->compare('time',">=$searchOrder->start_date");	
 		}
 		if ($searchOrder->end_date != ''){
-			// check if date is too old ( 2 years)
-			$thisYear     = date('Y');
-			$previousYear = $thisYear - 1;
-			$previousDate = $previousYear."-01-01";
-			if ($searchOrder->end_date < $previousYear)
-				$criteria->condition = '1=0';
-			$criteria->compare('end_date',"<=$searchOrder->end_date");
+			$criteria->compare('time',"<=$searchOrder->end_date");
 		}
+		
+		/** dev
 		if ($searchOrder->start_time != '')
 			$criteria->compare('time',">=$searchOrder->start_time");
 		if ($searchOrder->end_time != '')
 			$criteria->compare('time',"<=$searchOrder->end_time");
 		if ($searchOrder->order_status != Orders::ORDER_NONE)
-			$criteria->compare('status',"$searchOrder->order_status");
+			$criteria->compare('status',"$searchOrder->order_status");*/
 		$criteria->compare('real_stop_time',$this->real_stop_time,true);
 		$criteria->compare('total',$this->total);
 		$criteria->order = 'time DESC';

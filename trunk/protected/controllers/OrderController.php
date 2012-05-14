@@ -40,7 +40,7 @@ class OrderController extends Controller
 		$orderTime->pid = request('pid');
 		logged('OrderTime model:'.dump($orderTime));
 		
-		$this->render('index',array(
+		$this->render('indexDev',array(
 			'orderTime'=>$orderTime,
 		));
 	}

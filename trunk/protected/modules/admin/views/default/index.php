@@ -73,7 +73,7 @@
 			        array('name'=>'name'),
 			        array(
 			        	'name'=>'price', 
-			        	'value'=>'number_format($data->price).",000"',
+			        	'value'=>'number_format($data->price)',
 			        ),
 			        array(
 			        	'name'=>'status',

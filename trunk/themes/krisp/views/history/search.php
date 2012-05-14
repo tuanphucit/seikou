@@ -18,8 +18,6 @@
 		$("#SearchOrderForm_start_date").datepicker({dateFormat: "yy-mm-dd"});
 		$("#SearchOrderForm_end_date").datepicker({dateFormat: "yy-mm-dd"});
 
-		$('#SearchOrderForm_start_time').timepicker();
-		$('#SearchOrderForm_end_time').timepicker();
 	});
 </script>
 
@@ -71,12 +69,6 @@
 			<td><?php echo $form->textField($searchOrder,'start_date')?></td>
 			<td><?php echo $form->label($searchOrder,'end_date')?></td>
 			<td><?php echo $form->textField($searchOrder,'end_date')?></td>
-		</tr>
-		<tr>
-			<td><?php echo $form->label($searchOrder,'start_time')?></td>
-			<td><?php echo $form->textField($searchOrder,'start_time')?></td>
-			<td><?php echo $form->label($searchOrder,'end_time')?></td>
-			<td><?php echo $form->textField($searchOrder,'end_time')?></td>
 		</tr>
 		
 		<tr>

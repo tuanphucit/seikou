@@ -69,6 +69,9 @@
 	            'class'=>'bootstrap.widgets.BootButtonColumn',
 	        	'template'=>'{view}{delete}',
 	        	'deleteConfirmation'=>t('Are you sure to cancel this?'),
+	        	'buttons'=>array(
+	        		'delete'=>array('label'=>t('Cancel')),
+	        	),
 	        ),
 	    ),
 	)); 

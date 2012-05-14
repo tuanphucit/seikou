@@ -52,6 +52,11 @@ class OrderTimeForm extends CFormModel
 					"yyyy-M-d",
 				),
 			),
+			array('start_time, end_time', 'date',
+					'format'=>array(
+						"HH:mm",
+					),
+			),
 			array('start_time, end_time','safe'),
 		);
 	}
@@ -132,19 +137,32 @@ class OrderTimeForm extends CFormModel
 		// Select all order with same pid have conflict time with this current order
 		$criteria=new CDbCriteria;
 		$criteria->addCondition("product_id = '$this->pid'");
+		/** dev
 		$criteria->addCondition("
 			((start_time <= '$this->start_time') and (end_time > '$this->start_time')) 
 			or
 			((start_time < '$this->end_time') and (end_time >= '$this->end_time')) 
 			or
 			((start_time >= '$this->start_time') and (end_time <= '$this->end_time'))
-		");
+		");*/
+		
+		$criteria->addCondition("
+				((concat(start_date,start_time)  > '{$this->start_date}{$this->start_time}:00') and (concat(start_date,start_time)  < '{$this->end_date}{$this->end_time}:00'))
+				or
+				((concat(end_date,end_time)  > '{$this->start_date}{$this->start_time}:00') and (concat(end_date,end_time)  <= '{$this->end_date}{$this->end_time}:00'))
+				or
+				((concat(start_date,start_time)  >= '{$this->start_date}{$this->start_time}:00') and (concat(end_date,end_time)  <= '{$this->end_date}{$this->end_time}:00'))
+				or
+				((concat(start_date,start_time)  <= '{$this->start_date}{$this->start_time}:00') and (concat(end_date,end_time)  >= '{$this->end_date}{$this->end_time}:00'))
+				");
+		$criteria->addCondition("status = 1");
 		$orders = Orders::model()->findAll($criteria);
 		if ($orders == NULL) {
 			logged("Don't have time conflict");
 			return true;
 		}
-		
+		$this->addError('Date',t('Have date conflict'));
+		return false;
 		logged('Have time conflict');
 		foreach ($orders as $order){
 			// Check if have date conflict

@@ -79,7 +79,7 @@
 	    'template'=>"{items}{pager}",
 	    'columns'=>array(
 	        array('name'=>'id', 'header'=>'#'),
-	        array('name'=>'product_id','header'=>t('Product ID','model')),
+	        array('value'=>'$data->product->name','header'=>t('Product','model')),
 	        array(
 	        	'name'=>'user_id',
 	        	'value'=>'$data->user->full_name',
@@ -94,6 +94,7 @@
 	        ),
 	        array(
 	            'class'=>'bootstrap.widgets.BootButtonColumn',
+        		'deleteConfirmation'=>t('Are you sure to cancel this?'),
 	        	'buttons'=>array(
 					'view'=>array(
 	        			'url'=>'Yii::app()->createUrl("/admin/order/view",array("id"=>$data->id))',
@@ -103,6 +104,7 @@
 	        		),
 	        		'delete'=>array(
 	        			'url'=>'Yii::app()->createUrl("/admin/order/delete",array("id"=>$data->id))',
+        				'label'=>t('Cancel'),
 	        		),	      
 	        	),
 	        ),
