@@ -12,9 +12,8 @@
 	$cs->registerCssFile(Html::cssThemeUrl('custom-cycle.css'), 'screen');
 	$cs->registerCssFile(Html::cssThemeUrl('colorbox.css'), 'screen');
 	$cs->registerCssFile(Html::cssThemeUrl('style-1.css'), 'screen');
-	//if (Yii::app()->controller->id != 'order')
+	if (Yii::app()->controller->action->id != 'indexdev')
 		$cs->registerCssFile(Html::cssThemeUrl('table.css'), 'screen');
-	
 	// JS
 	$cs->registerCoreScript('jquery');
 	$cs->registerScriptFile(Html::jsThemeUrl('jquery.easing.1.3.js'));
@@ -53,7 +52,7 @@
         <li><?php echo Html::link(t('Equipment'),$this->createUrl('/equipment/index'),array())?></li>
         <li><?php echo Html::link(t('Order Now'),$this->createUrl('/order/index'),array())?></li>
         <li><?php echo Html::link(t('Contact Us'),$this->createUrl('/site/contact'),array())?></li>
-        <li><?php echo Html::link(t('Your Account'),"#",array())?>
+        <li><?php echo Html::link(t('Your Account')." (".Yii::app()->user->name.")","#",array())?>
           <ul>
             <li><?php echo Html::link(t('History'),$this->createUrl('/history/index'),array())?></li>
             <li><?php echo Html::link(t('Profile'),$this->createUrl('/profile/index'),array())?></li>

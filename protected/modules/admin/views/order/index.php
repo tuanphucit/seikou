@@ -74,8 +74,8 @@
 	        	'value'=>'$data->product->name',
 	        ),
 	        array('name'=>'start_date','header'=>t('Start Date','model')),
-	        array('name'=>'end_date','header'=>t('End Date','model')),
 	        array('name'=>'start_time','header'=>t('Start Time','model')),
+	        array('name'=>'end_date','header'=>t('End Date','model')),
 	        array('name'=>'end_time'),
 	    	array('name'=>'time'),
 	        array(
@@ -92,6 +92,9 @@
 	            'class'=>'bootstrap.widgets.BootButtonColumn',
 	        	'template'=>'{view}{update}{delete}',
         		'deleteConfirmation'=>t('Are you sure to cancel this?'),
+        		'buttons'=>array(
+        			'delete'=>array('label'=>t('Cancel')),
+        		),
 	        ),
 	    ),
 	)); 

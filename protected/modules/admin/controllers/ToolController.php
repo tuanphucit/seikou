@@ -71,7 +71,7 @@ class ToolController extends Controller
 		// STEP2 : load all order in month　（　月にすべての順序を読み込む　）
 		$thisMonth = "$year-$month";
 		$nextMonth = "$year-{$month}9";
-		$orders = Orders::model()->findAll("(end_date > '$thisMonth') and (end_date < '$nextMonth')"); 
+		$orders = Orders::model()->findAll("(time > '$thisMonth') and (time < '$nextMonth')"); 
 		
 		// STEP3 : with each order , calc total price for users　（ユーザのトータルを計算する）
 		foreach($orders as $order){

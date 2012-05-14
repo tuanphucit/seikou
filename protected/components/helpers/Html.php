@@ -106,7 +106,12 @@ EOD;
 		return self::activeTextField ( $model, $attributeD, array ('style' => 'width:100px' ) ) . ' ' . self::activeDropDownList ( $model, $attribute . 'H', $hours ) . ':' . self::activeDropDownList ( $model, $attribute . 'M', $minutes ) . ' ' . self::activeDropDownList ( $model, $attribute . 'PM', array (0 => 'am', 1 => 'pm' ) );
 	}
         
-		
+	/**
+	 * 
+	 * @param string $data
+	 * @param yyyy/MM/dd HH:mm:ss $inputPattern
+	 * @param Y-m-d H:m:i $outputPattern
+	 */	
 	public static function formatDateTime($data,$inputPattern,$outputPattern){
 		if ($data == null)
 			return null;

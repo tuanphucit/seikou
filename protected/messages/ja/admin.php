@@ -91,6 +91,8 @@
 		'Advanced Search' => '高度な検索',
 		'Search'          => '検索',
 		'New Order'		  => '新しいオーダー',
+		'Edit room successful'=>'オーダーを更新したことは成功だった',
+		'Edit room failed'    =>'オーダーを更新したことは失敗だった',
 		
 		// Fee
 		'Fee'                => '手数料',

@@ -84,6 +84,7 @@
 		
 		//User
 		'Register' => '登録',
+		'Cancel' => 'キャンセル',
 			
 		//Contact Us
 		'If you have business inquiries or other questions, please fill out the following form to contact us. Thank you.' => 'あなたがビジネスのお問い合わせまたは他の質問を有したら、私達に連絡するには、以下のフォームに記入してください。ありがとうございます。',
