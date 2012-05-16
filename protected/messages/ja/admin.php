@@ -43,6 +43,7 @@
 		'Log Out'  => 'ログアウト',
 		'Dashboard' => 'ダッシュボード',
 		'System Management' => 'システムマネジメント',
+		'Money Management' => 'お金マネジメント',
 			'User' => 'ユーザ',
 		'Product Management' => 'プロダクトマネジメント',
 			'Room' => 'ルーム',
@@ -93,6 +94,7 @@
 		'New Order'		  => '新しいオーダー',
 		'Edit room successful'=>'オーダーを更新したことは成功だった',
 		'Edit room failed'    =>'オーダーを更新したことは失敗だった',
+		'Over Time' =>'オーバータイム',
 		
 		// Fee
 		'Fee'                => '手数料',
